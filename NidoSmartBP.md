@@ -10,8 +10,9 @@
 
 ## Granja modular y automatizada de gallinas ponedoras en México
 
-**Versión:** 1.0
+**Versión:** 1.1
 **Fecha:** Julio de 2026
+**Ubicación inicial:** San Francisco Acatepec, municipio de San Andrés Cholula, Puebla
 **Etapa inicial:** 100 gallinas ponedoras
 **Escala de diseño inicial:** 300 aves
 **Escala objetivo de largo plazo:** 5,000 aves
@@ -20,7 +21,7 @@
 
 # 1. Resumen ejecutivo
 
-El proyecto propone desarrollar una granja mexicana de gallinas ponedoras basada en tres principios:
+El proyecto propone desarrollar una granja de gallinas ponedoras en **San Francisco Acatepec, municipio de San Andrés Cholula, Puebla**, basada en tres principios:
 
 1. **Inicio controlado:** comenzar con aproximadamente 100 gallinas para adquirir experiencia técnica, sanitaria, operativa y comercial sin asumir el riesgo de una explotación de miles de aves.
 2. **Automatización intensiva:** automatizar más del 90% de las operaciones repetitivas, incluyendo alimentación, agua, iluminación, ventilación, control ambiental, recolección de huevo, retiro de gallinaza, monitoreo y generación de alertas.
@@ -28,7 +29,7 @@ El proyecto propone desarrollar una granja mexicana de gallinas ponedoras basada
 
 La recomendación es comenzar con **gallinas ponedoras y no con pollo de engorda**. Las ponedoras ofrecen flujo de ingresos diario, permiten validar gradualmente el canal comercial y tienen menores necesidades de procesamiento y sacrificio. También permiten corregir rápidamente problemas de precio, calidad, empaque, distribución y productividad.
 
-El módulo inicial deberá alojar entre **96 y 120 aves**, pero los servicios compartidos —electricidad, agua, comunicaciones, control ambiental, almacenamiento, empaque y respaldo energético— deberán dimensionarse para aproximadamente **300 aves**. De esta manera, el segundo y tercer módulo podrán conectarse sin sustituir la infraestructura principal.
+El mdulo inicial deberá alojar entre **96 y 120 aves**, pero los servicios compartidos —electricidad, agua, comunicaciones, control ambiental, almacenamiento, empaque y respaldo energético— deberán dimensionarse para aproximadamente **300 aves**. De esta manera, el segundo y tercer módulo podrán conectarse sin sustituir la infraestructura principal.
 
 La estrategia comercial no debe basarse en competir con productores industriales mediante precio y volumen. A una escala pequeña, el negocio depende de:
 
@@ -118,6 +119,8 @@ Los atributos diferenciadores serán:
 ## 3.1 Mercado mexicano
 
 México presenta una demanda profunda y estable de huevo. El consumo nacional se encuentra entre los más altos del mundo y el producto forma parte de la alimentación cotidiana de prácticamente todos los segmentos socioeconómicos.
+
+La granja se ubicará en San Francisco Acatepec, municipio de San Andrés Cholula, Puebla, dentro de la zona metropolitana Puebla-Cholula. Esta ubicación ofrece cercanía a mercados urbanos de alto tránsito (Puebla capital, San Andrés Cholula, San Pedro Cholula), una amplia base de restaurantes, cafeterías, hoteles y comunidad universitaria, además de corredores turísticos y comerciales que favorecen la venta directa y la entrega a domicilio en distancias cortas.
 
 El proyecto no necesita crear una nueva necesidad de consumo. El reto principal consiste en:
 
@@ -304,6 +307,16 @@ Esto permite:
 * Realizar mantenimiento parcial.
 * Identificar consumo por subgrupo.
 * Facilitar futuras pruebas de alimentación o manejo.
+
+### Condiciones climáticas del sitio
+
+El predio en San Francisco Acatepec se ubica en el altiplano poblano, a una altitud aproximada de 2,150 metros sobre el nivel del mar, con clima templado subhúmedo, temperaturas moderadas la mayor parte del año, noches frescas y una temporada de lluvias en verano que puede incluir granizadas. Estas condiciones deberán considerarse en el diseño:
+
+* Menor riesgo de estrés calórico que en climas cálidos, lo que reduce la dependencia de enfriamiento evaporativo intensivo.
+* Necesidad de protección contra descensos nocturnos de temperatura y heladas, particularmente en invierno.
+* Estructura y techumbre resistentes a granizo.
+* Buen drenaje pluvial durante la temporada de lluvias.
+* Posible necesidad de calefacción auxiliar puntual, en lugar de un sistema de enfriamiento como prioridad principal.
 
 ## 7.2 Áreas generales del predio
 
@@ -586,6 +599,26 @@ flowchart TB
 * ERPNext, Odoo u otro ERP ligero.
 * Hermes Agent.
 * Paperclip en fases posteriores.
+
+## 10.4 Nota metodológica: Precision Livestock Farming (PLF)
+
+El diseño de monitoreo y automatización de este proyecto deberá fundamentarse en la literatura técnica y científica sobre **Precision Livestock Farming (PLF)**, y no limitarse a búsquedas bajo términos genéricos como "smart chicken coop" o "gallinero inteligente".
+
+PLF es un campo de investigación y desarrollo tecnológico establecido que utiliza sensores, cámaras, micrófonos y software para monitorear de forma continua:
+
+* Productividad (postura, consumo, crecimiento).
+* Salud individual y de lote.
+* Bienestar animal.
+* Variables ambientales (temperatura, humedad, calidad del aire, ruido).
+
+En avicultura, a diferencia de otras ramas ganaderas con identificación individual del animal, el análisis PLF suele realizarse principalmente **a nivel de lote o nave**, mediante:
+
+* Análisis de sonido colectivo (vocalización) para detectar estrés, enfermedad o comportamiento anormal.
+* Visión artificial sobre el grupo (conteo, distribución espacial, actividad, cojera) en lugar de seguimiento individual de cada ave.
+* Sensores ambientales distribuidos por zona dentro de la nave.
+* Correlación de variables ambientales con indicadores agregados de producción y consumo.
+
+Esta nota deberá guiar la investigación técnica adicional, la selección de proveedores de sensores y software, y el diseño de los algoritmos de Hermes Agent, priorizando fuentes académicas y comerciales que empleen específicamente el término PLF.
 
 ---
 
@@ -1069,7 +1102,17 @@ Referencias principales:
 * Requisitos estatales y municipales.
 * Reglas de CONAGUA cuando se utilicen aguas nacionales.
 
-La ubicación definitiva deberá elegirse sólo después de confirmar la viabilidad regulatoria del predio.
+## 18.1 Trámites específicos para San Francisco Acatepec, San Andrés Cholula, Puebla
+
+Con la ubicación ya definida, deberán gestionarse en particular:
+
+* Uso de suelo y licencia de construcción ante el H. Ayuntamiento de San Andrés Cholula.
+* Verificación de compatibilidad con el Programa de Desarrollo Urbano municipal vigente y con cualquier restricción aplicable por cercanía a zonas de valor patrimonial, dado que San Francisco Acatepec es reconocida por su patrimonio arquitectónico.
+* Registro de la unidad de producción ante la delegación estatal de SENASICA en Puebla.
+* Trámites de agua potable, alcantarillado y, en su caso, descarga de aguas residuales ante la autoridad estatal de agua de Puebla y, si aplica, ante CONAGUA cuando se utilicen aguas nacionales o se requiera permiso de descarga.
+* Confirmación de la disponibilidad y capacidad de suministro eléctrico de CFE en la zona específica del predio.
+
+La viabilidad regulatoria del predio en San Francisco Acatepec deberá confirmarse formalmente antes de iniciar cualquier obra.
 
 ---
 
@@ -1142,10 +1185,10 @@ Duración orientativa: 1 a 3 meses.
 
 Actividades:
 
-* Definir ubicación.
-* Investigar uso de suelo.
-* Cotizar agua y electricidad.
-* Analizar mercado local.
+* Confirmar el predio específico dentro de San Francisco Acatepec, municipio de San Andrés Cholula, Puebla.
+* Investigar uso de suelo y compatibilidad con el Programa de Desarrollo Urbano municipal.
+* Cotizar agua y electricidad con base en la disponibilidad real en el predio.
+* Analizar mercado local en la zona metropolitana Puebla-Cholula.
 * Entrevistar clientes.
 * Identificar proveedores.
 * Solicitar cotizaciones.
@@ -1157,7 +1200,7 @@ Actividades:
 Resultado requerido:
 
 * Decisión de inversión sustentada.
-* Predio viable.
+* Predio viable en San Francisco Acatepec, San Andrés Cholula, Puebla.
 * Presupuesto.
 * Lista preliminar de clientes.
 * Arquitectura definida.
@@ -1452,10 +1495,10 @@ Se recomienda continuar con el proyecto bajo las siguientes condiciones:
 
 # 27. Próximos pasos
 
-1. Seleccionar estado y municipio.
+1. Confirmar el predio específico dentro de San Francisco Acatepec, municipio de San Andrés Cholula, Puebla (superficie, accesos y colindancias).
 2. Definir si se cuenta con terreno propio, arrendado o por adquirir.
-3. Confirmar agua, electricidad y conectividad.
-4. Verificar uso de suelo y restricciones sanitarias.
+3. Confirmar agua, electricidad y conectividad en el predio elegido.
+4. Verificar uso de suelo, restricciones sanitarias y, en su caso, restricciones patrimoniales aplicables en San Andrés Cholula.
 5. Solicitar al menos tres cotizaciones de alojamiento.
 6. Cotizar control ambiental y respaldo eléctrico.
 7. Consultar a un veterinario avícola.
