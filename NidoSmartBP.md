@@ -40,7 +40,7 @@ La estrategia comercial no debe basarse en competir con productores industriales
 * Tiendas especializadas.
 * Diferenciación por frescura, trazabilidad y producción local.
 
-La inversión preliminar para un módulo automatizado de 100 aves se estima entre **$326,000 y $740,000 MXN**, sin considerar terreno. El rango depende principalmente del nivel de automatización, condiciones climáticas, obra civil, respaldo energético y origen de los equipos.
+La inversión preliminar para un módulo automatizado de 100 aves se estima entre **$334,000 y $765,000 MXN**, sin considerar terreno. El rango depende principalmente del nivel de automatización, condiciones climáticas, obra civil, respaldo energético, conectividad a internet (incluyendo respaldo satelital) y origen de los equipos.
 
 Una instalación altamente automatizada no tendrá una recuperación rápida si permanece indefinidamente en 100 gallinas. El primer módulo debe entenderse como una fase de validación que genera:
 
@@ -216,11 +216,13 @@ Construir una granja de gallinas ponedoras automatizada, rentable y modular que 
 * Mantener registros digitales completos por lote.
 * Minimizar mortalidad y pérdidas por estrés térmico.
 * Monitorear alimento, agua, ambiente y postura diariamente.
-* Mantener capacidad de operación local aun sin internet.
+* Mantener el control crítico (agua, ventilación, alarmas) operando de forma local aun sin internet, como respaldo de seguridad.
+* Garantizar conectividad a internet permanente para la capa de datos e inteligencia (telemetría, Hermes Agent, Paperclip y monitoreo remoto), utilizando enlace satelital (Starlink u otra tecnología) como respaldo o solución principal en sitios remotos.
 * Construir procedimientos estandarizados.
 * Incorporar inteligencia artificial sin entregar a la IA el control crítico de las aves.
 * Reinvertir parte del flujo operativo en módulos adicionales.
 * Alcanzar una escala comercial de 1,000 aves antes de evaluar una segunda ubicación.
+* Cubrir el OPEX directo normalizado y validar el modelo productivo, tecnológico y comercial durante el primer ciclo, sin exigir al piloto la recuperación del CAPEX (véase sección 17.6).
 
 ---
 
@@ -252,7 +254,7 @@ Los servicios principales deberán compartirse:
 * Respaldo energético.
 * Zona de compostaje.
 * Filtro sanitario.
-* Sistema de comunicaciones.
+* Sistema de comunicaciones, incluyendo el enlace de internet primario y su respaldo satelital.
 
 ## 6.2 Escala recomendada
 
@@ -521,7 +523,19 @@ La arquitectura recomendada es:
 * Red separada para administración e internet.
 * VPN para acceso remoto.
 * Grabación local de cámaras.
-* Operación local durante fallas de internet.
+* Red de control con operación local autónoma durante fallas de internet (agua, ventilación, alarmas).
+
+### 9.3.1 Conectividad a internet como requisito permanente
+
+La granja generará datos de forma continua para su análisis y operación asistida por Hermes Agent y, en etapas posteriores, por Paperclip. Por ello, la conectividad a internet deja de ser un elemento opcional y se convierte en un requisito permanente de la capa de datos e inteligencia:
+
+* Enlace primario de banda ancha fija (fibra, cable o equivalente disponible en el predio).
+* Enlace satelital de respaldo, como **Starlink u otra tecnología equivalente**, para garantizar continuidad cuando falle el enlace primario.
+* En módulos o ubicaciones futuras instaladas en zonas remotas sin cobertura de banda ancha fija, Starlink u otra tecnología satelital podrá utilizarse como enlace principal.
+* Monitoreo del estado del enlace de internet como una variable operativa más, con alerta cuando se pierda conectividad.
+* Buffer local de datos en el gateway y la base de datos local durante interrupciones de internet, para sincronizar la información con Hermes Agent, Paperclip y los paneles remotos en cuanto se restablezca la conexión.
+
+Esta dependencia de internet aplica a la capa de datos, análisis, IA y monitoreo remoto. **No aplica al control crítico**, que debe seguir funcionando de forma local y autónoma a través del PLC, conforme al principio establecido en la sección 10.1.
 
 ---
 
@@ -531,6 +545,8 @@ La arquitectura recomendada es:
 
 El control crítico no debe depender de inteligencia artificial, servicios externos ni conexión a internet.
 
+Este principio aplica específicamente a la capa de control físico y seguridad (agua, ventilación, alarmas), que debe operar de forma local y autónoma bajo el PLC. En cambio, la capa de datos, análisis e inteligencia (telemetría, Hermes Agent, Paperclip, monitoreo remoto) sí depende de una conexión a internet permanente, ya que la granja genera datos de forma continua para su operación asistida (véase sección 9.3.1). Una falla de internet puede interrumpir el análisis, las alertas remotas y la interacción con Hermes Agent o Paperclip, pero no debe interrumpir el control físico de agua, ventilación ni alarmas.
+
 La jerarquía será:
 
 1. Control físico y seguridad.
@@ -539,6 +555,8 @@ La jerarquía será:
 4. Base de datos y visualización.
 5. Agente inteligente.
 6. Sistemas administrativos.
+
+Los niveles 1 a 3 deben poder operar sin conexión a internet. Los niveles 4 a 6 requieren conectividad a internet permanente para cumplir su función.
 
 ## 10.2 Arquitectura propuesta
 
@@ -619,6 +637,22 @@ En avicultura, a diferencia de otras ramas ganaderas con identificación individ
 * Correlación de variables ambientales con indicadores agregados de producción y consumo.
 
 Esta nota deberá guiar la investigación técnica adicional, la selección de proveedores de sensores y software, y el diseño de los algoritmos de Hermes Agent, priorizando fuentes académicas y comerciales que empleen específicamente el término PLF.
+
+## 10.5 Grafana: panel operativo
+
+Grafana permite consultar, visualizar y generar alertas sobre métricas almacenadas en bases SQL y de series de tiempo.
+
+Uso dentro del plan: construir el tablero operativo de la granja, integrando:
+
+* Producción (postura diaria, huevos comercializables, huevo roto y sucio).
+* Agua (consumo, presión, fugas).
+* Alimento (consumo, nivel de tolva, días restantes).
+* Temperatura y demás variables ambientales.
+* Energía (consumo eléctrico por módulo, estado del respaldo).
+* Postura (porcentaje de postura por lote, comparación contra curva esperada).
+* Mantenimiento (horas de operación de equipos, alarmas, órdenes pendientes).
+
+Grafana se conectará tanto a la base de datos de series de tiempo como a PostgreSQL, y alimentará las consultas de Hermes Agent además de la visualización directa para el operador.
 
 ---
 
@@ -828,6 +862,7 @@ No deberá modificar libremente:
 ## 13.4 Controles requeridos
 
 * Segmentación de red.
+* Enlace de internet redundante (primario más respaldo satelital, por ejemplo Starlink).
 * VPN.
 * Autenticación.
 * Roles.
@@ -989,11 +1024,12 @@ La cartera comercial inicial debe construirse antes de que las aves alcancen su 
 | Agua, filtrado y medición                   |       $15,000–$30,000 |
 | Ventilación y control térmico               |       $45,000–$95,000 |
 | Controlador, sensores y comunicaciones      |       $25,000–$65,000 |
+| Conectividad a internet y respaldo satelital (Starlink u otro, sólo equipo) |        $8,000–$25,000 |
 | Recolección automática de huevo             |       $20,000–$55,000 |
 | Retiro de gallinaza                         |       $18,000–$40,000 |
 | UPS y respaldo energético                   |      $35,000–$110,000 |
 | Bioseguridad y contingencias                |       $20,000–$55,000 |
-| **Total estimado**                          | **$326,000–$740,000** |
+| **Total estimado**                          | **$334,000–$765,000** |
 
 No se incluyen:
 
@@ -1072,6 +1108,152 @@ Antes de invertir deberá prepararse un modelo financiero con tres escenarios:
 * Alto aprovechamiento de equipos.
 * Venta de gallinaza.
 * Crecimiento acelerado.
+
+## 17.6 Objetivo financiero y de validación del piloto
+
+En la etapa inicial de NidoSmart, el objetivo no debe ser recuperar toda la inversión ni generar una utilidad alta, sino demostrar que el sistema puede operar de forma estable, vender su producción y cubrir sus gastos operativos.
+
+### 17.6.1 Razonamiento
+
+Un módulo de 100 aves no tiene la escala suficiente para absorber eficientemente una infraestructura altamente automatizada. Equipos como PLC, sensores, respaldo eléctrico, servidores, bandas y sistemas de control tienen un costo fijo que podría utilizarse casi igual para 100, 300 o incluso más aves.
+
+Por ello, exigir al primer módulo que recupere también el CAPEX podría producir una conclusión equivocada: que el negocio no es rentable, cuando en realidad lo que no es rentable es repartir una infraestructura escalable entre sólo 100 aves.
+
+La primera etapa debe entenderse como una combinación de:
+
+* Piloto productivo.
+* Prueba tecnológica.
+* Validación comercial.
+* Periodo de aprendizaje.
+* Generación de datos reales.
+
+### 17.6.2 Qué debe cubrir el módulo inicial
+
+El objetivo financiero mínimo del piloto es cubrir el **OPEX directo normalizado**, principalmente:
+
+* Alimento.
+* Agua.
+* Electricidad.
+* Empaque.
+* Transporte y entregas.
+* Medicamentos y atención veterinaria ordinaria.
+* Limpieza y desinfección.
+* Mantenimiento menor.
+* Reposición de consumibles.
+* Conectividad a internet (enlace primario y, en su caso, servicio satelital de respaldo).
+* Pérdidas por mortalidad, huevos rotos y descartes.
+* Una reserva proporcional para la reposición futura de la parvada.
+
+Debe asignarse también un costo teórico al tiempo del propietario u operador, aunque inicialmente no se pague un sueldo completo. De lo contrario, la operación podría parecer rentable únicamente porque la mano de obra aparece de forma artificial como gratuita.
+
+### 17.6.3 Qué no se exige en la primera etapa
+
+No debe imponerse como condición inicial:
+
+* Recuperar totalmente la obra civil.
+* Amortizar todos los equipos de automatización.
+* Pagar un salario completo al propietario.
+* Obtener márgenes equivalentes a una granja industrial.
+* Financiar inmediatamente otro módulo sólo con las primeras 100 aves.
+
+La infraestructura inicial es parcialmente una inversión en aprendizaje y parcialmente una inversión anticipada para la expansión.
+
+### 17.6.4 Qué significa validar el modelo
+
+La idea no queda validada sólo porque las gallinas produzcan huevos. Deben probarse simultáneamente cuatro hipótesis.
+
+**1. Validación productiva.** Comprobar que puede mantenerse:
+
+* Postura cercana a la curva genética esperada.
+* Mortalidad controlada.
+* Consumo normal de alimento y agua.
+* Bajo porcentaje de huevo roto o descartado.
+* Condiciones ambientales estables.
+* Operación sanitaria consistente.
+
+**2. Validación tecnológica.** Demostrar que la automatización:
+
+* Reduce realmente el tiempo de trabajo.
+* Funciona sin interrupciones frecuentes.
+* Detecta fallas antes de que causen pérdidas.
+* Puede operarse manualmente durante contingencias.
+* Produce datos confiables.
+* Puede replicarse en un segundo módulo.
+
+Automatizar no significa simplemente añadir sensores, sino conseguir que la tecnología disminuya costos, riesgos o errores.
+
+**3. Validación comercial.** Comprobar que existe un grupo de clientes dispuesto a:
+
+* Comprar recurrentemente.
+* Pagar el precio necesario.
+* Aceptar las presentaciones.
+* Mantener una frecuencia predecible.
+* Recomendar el producto.
+* Comprar suficiente volumen para absorber la producción.
+
+Idealmente, al menos **80–90% de la producción semanal** debe estar comprometida mediante clientes recurrentes o suscripciones antes de ampliar la granja.
+
+**4. Validación económica.** Demostrar que:
+
+> Ingresos ≥ OPEX operativo
+
+El análisis debe realizarse también a escala proyectada, tomando los datos de las 100 aves para responder qué ocurriría si el mismo sistema operara con 300, 500 o 1,000 aves. El piloto debe confirmar que los costos fijos se diluyen y que el margen mejora al agregar módulos.
+
+### 17.6.5 Métrica clave: margen de contribución
+
+Más que evaluar únicamente la utilidad neta, conviene calcular el margen de contribución:
+
+> Margen de contribución = Ingresos − Costos variables
+
+Si cada huevo adicional vendido deja un margen positivo después de alimento, empaque, reparto y pérdidas, entonces ampliar la operación puede tener sentido, porque cada módulo ayuda a cubrir los costos fijos compartidos. Por ejemplo, si producir y entregar un huevo cuesta $3.20 y se vende en promedio a $4.20, el margen de contribución es de $1.00 por huevo. Ese margen puede utilizarse para cubrir mantenimiento, administración, depreciación y expansión. Si el margen de contribución fuera negativo, aumentar el número de aves sólo multiplicaría las pérdidas.
+
+### 17.6.6 Objetivo recomendado para el piloto
+
+> Validar durante un ciclo productivo que NidoSmart puede vender de manera recurrente al menos 85% de su producción, cubrir sus costos operativos directos y mantener indicadores productivos, sanitarios y tecnológicos dentro de los rangos definidos, generando información suficiente para decidir una expansión a 200 o 300 aves.
+
+### 17.6.7 Criterios de éxito antes de crecer
+
+El segundo módulo deberá autorizarse sólo si se cumplen condiciones como:
+
+| Área          | Criterio preliminar                                                |
+| ------------- | -------------------------------------------------------------------|
+| Comercial     | 85% o más de la producción vendida recurrentemente                 |
+| Financiera    | OPEX directo cubierto durante varios meses                         |
+| Producto      | Bajo porcentaje de huevos rotos, sucios o no vendidos              |
+| Producción    | Postura razonablemente cercana al estándar genético                |
+| Sanidad       | Mortalidad y enfermedades bajo control                             |
+| Tecnología    | Disponibilidad del sistema superior a 95%                          |
+| Operación     | Menos horas de trabajo por ave conforme se estabiliza el sistema   |
+| Clientes      | Cartera diversificada, sin dependencia excesiva de uno solo        |
+| Escalabilidad | Segundo módulo conectable sin reconstruir los servicios centrales  |
+
+### 17.6.8 Validación multiperiodo y reservas
+
+No basta con obtener resultados favorables durante un solo mes. La validación debe cubrir varios meses y, preferentemente, distintas condiciones climáticas y productivas.
+
+Un módulo podría cubrir gastos durante el pico de postura, pero perder dinero cuando:
+
+* Desciende la producción.
+* Sube el alimento.
+* Aumenta la temperatura.
+* Fallan clientes.
+* Se incrementan huevos descartados.
+* Se aproxima la reposición de la parvada.
+
+Por ello, además del flujo mensual, debe separarse una provisión para:
+
+* Reposición de las gallinas.
+* Mantenimiento mayor.
+* Contingencias sanitarias.
+* Sustitución de equipos.
+
+### 17.6.9 Conclusión
+
+Cubrir los gastos operativos y validar el modelo es el objetivo correcto para las primeras 100 aves: suficientemente exigente para comprobar que existe un negocio real, pero sin castigar al piloto por cargar una infraestructura diseñada para crecer.
+
+La primera etapa no tiene que demostrar que 100 gallinas producen una gran rentabilidad. Debe demostrar algo más importante:
+
+> Que existe una unidad productiva, comercial y tecnológica repetible, y que al agregar módulos los ingresos crecerán más rápido que los costos compartidos.
 
 ---
 
@@ -1168,6 +1350,7 @@ El sistema deberá alertar cuando exista:
 | Dependencia de un cliente | Riesgo de caja                     | Diversificación                          |
 | Falla de agua             | Emergencia inmediata               | Tanque, alarmas y redundancia            |
 | Falla eléctrica           | Riesgo ambiental                   | UPS y generador                          |
+| Falla de conectividad a internet | Pérdida de telemetría, alertas remotas e interacción con Hermes Agent/Paperclip | Enlace satelital de respaldo (Starlink u otro); control crítico local independiente de internet |
 | Falla de automatización   | Interrupción operativa             | Modo manual y refacciones                |
 | Sobreautomatización       | Retorno demasiado largo            | Implementación por etapas                |
 | Error del agente de IA    | Acción incorrecta                  | Accesos limitados y aprobación humana    |
@@ -1221,6 +1404,7 @@ Instalar:
 * Respaldo.
 * Bioseguridad.
 * Gateway.
+* Enlace de internet primario y respaldo satelital (Starlink u otro).
 * Base de datos.
 * Panel operativo.
 
@@ -1341,6 +1525,7 @@ Incorporar:
 ## 22.5 Técnicos
 
 * Disponibilidad del sistema.
+* Disponibilidad del enlace de internet (primario y de respaldo).
 * Horas de falla.
 * Alarmas falsas.
 * Mantenimiento pendiente.
@@ -1424,6 +1609,7 @@ A medida que la granja crezca deberán separarse:
 * Operación manual de emergencia.
 * Diseño modular.
 * Capacidad de registrar datos.
+* Conectividad a internet permanente para la capa de datos e IA, con respaldo satelital en sitios remotos.
 
 ## 24.2 Elementos que pueden aplazarse
 
