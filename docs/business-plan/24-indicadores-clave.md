@@ -5,7 +5,6 @@ document_type: "business-plan"
 status: "draft"
 version: "1.0"
 last_updated: "2026-07-12"
-source: "NidoSmartBP.md"
 ---
 
 # Indicadores clave

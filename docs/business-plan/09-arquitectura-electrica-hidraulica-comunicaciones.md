@@ -4,8 +4,7 @@ project: "NidoSmart"
 document_type: "business-plan"
 status: "draft"
 version: "1.0"
-last_updated: "2026-07-12"
-source: "NidoSmartBP.md"
+last_updated: "2026-07-25"
 ---
 
 # Arquitectura eléctrica, hidráulica y de comunicaciones
@@ -52,6 +51,8 @@ Se deberá instalar:
 * Puntos de muestreo.
 * Drenajes y purgas.
 * Sensor de presión.
+
+**Parámetros de calidad de agua a verificar (revisión julio 2026):** antes de construir, el agua del predio (pozo o red municipal) debe analizarse contra los umbrales de referencia de la industria (Bell & Weaver, capítulo 22): pH 6.5–8.0 (ideal 7.0–7.2), dureza máxima 100 ppm, hierro y manganeso máximo 0.3 ppm cada uno, nitratos máximo 20 ppm, sodio máximo 20 ppm, y **0 UFC/mL de bacterias coliformes** (cualquier presencia indica contaminación fecal y riesgo sanitario). Pendiente: realizar un análisis de agua del predio y definir tratamiento si no cumple estos parámetros.
 
 ## 9.3 Comunicaciones
 

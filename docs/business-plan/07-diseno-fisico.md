@@ -4,8 +4,7 @@ project: "NidoSmart"
 document_type: "business-plan"
 status: "draft"
 version: "1.0"
-last_updated: "2026-07-12"
-source: "NidoSmartBP.md"
+last_updated: "2026-07-25"
 ---
 
 # Diseño físico preliminar
@@ -44,6 +43,12 @@ El predio en San Francisco Acatepec se ubica en el altiplano poblano, a una alti
 * Estructura y techumbre resistentes a granizo.
 * Buen drenaje pluvial durante la temporada de lluvias.
 * Posible necesidad de calefacción auxiliar puntual, en lugar de un sistema de enfriamiento como prioridad principal.
+
+**Nota técnica (revisión julio 2026):** la literatura de la industria (Bell & Weaver, *Commercial Chicken Meat and Egg Production*) no utiliza calefacción suplementaria para gallinas ponedoras adultas — ese recurso se reserva para la crianza de pollitas. Para clima frío en aves adultas, la estrategia estándar es **aislamiento térmico de la nave** (valores de referencia: aislante R-20 en techo y R-14 en paredes para diferencias de temperatura interior/exterior mayores a 28°C) combinado con **ventilación mínima reducida** (hasta 0.5 cfm/ave si existe sistema de enfriamiento tipo túnel para el verano), aprovechando el calor metabólico propio de las aves (~40–45 BTU/hora/ave). El clima del predio (altiplano poblano, templado subhúmedo) se ubica en la categoría media-fría de esta clasificación. En consecuencia, la calefacción auxiliar debe tratarse como **contingencia secundaria para eventos extremos**, y la prioridad de diseño debe recaer en la especificación de aislamiento térmico de techo y paredes y en el control de ventilación mínima — pendiente de solicitar al proveedor de la nave/jaula la especificación de aislamiento (valor R o equivalente) de la construcción propuesta.
+
+### Densidad de jaula (pendiente de verificación con proveedor)
+
+Los estándares de la industria para gallinas ponedoras en jaula (Bell & Weaver, tabla 52-2) sitúan el espacio mínimo recomendado entre **60 y 70 pulgadas² por ave (387–452 cm²)**, con un rango mundial de 48–72 in² (310–465 cm²) y el estándar europeo en 70 in² (450 cm²). La cotización vigente del proveedor (FamTECH, ver [registro de cotizaciones](../../cotizaciones/README.md)) — nave de 17×4×4.2 m, 5 sets tipo H, 4 niveles, 640 aves — no incluye todavía las dimensiones exactas de cada jaula individual. **Pendiente:** solicitar al proveedor el ancho, fondo y alto por nivel de cada jaula para confirmar que la densidad cumple con el mínimo de 387 cm²/ave antes de confirmar la compra.
 
 ## 7.2 Áreas generales del predio
 

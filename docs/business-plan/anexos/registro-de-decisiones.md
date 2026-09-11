@@ -4,8 +4,7 @@ project: "NidoSmart"
 document_type: "business-plan-annex"
 status: "draft"
 version: "1.0"
-last_updated: "2026-07-12"
-source: "NidoSmartBP.md"
+last_updated: "2026-07-25"
 ---
 
 # Registro de decisiones
@@ -152,6 +151,8 @@ Este registro centraliza las decisiones estratégicas explícitas identificadas 
 ## Decisiones candidatas no confirmadas en el documento fuente
 
 Durante el análisis se evaluó si el plan original establece una decisión explícita sobre la **futura incorporación de pollo de engorda (broilers)** como línea adicional de negocio. El documento fuente compara ponedoras contra pollo de engorda únicamente para justificar el inicio con ponedoras (sección 4.1–4.2) y no contiene ninguna declaración explícita sobre incorporar broilers en una etapa posterior. Por lo tanto, **no se registra como decisión** para evitar inventar contenido no presente en el original. Se deja anotado como punto de revisión humana pendiente.
+
+Como parte de la investigación técnica de julio de 2026 (contraste del BP contra Bell & Weaver, *Commercial Chicken Meat and Egg Production*), se identificó que el plan tampoco establece una decisión explícita sobre **reemplazo total de la parvada vs. muda/reciclaje de parvada (flock recycling)**. La industria trata esto como una decisión de primer orden: reemplazo total tras un ciclo (~75–80 semanas) frente a inducir la muda para extender la vida productiva de la parvada a un segundo ciclo (92–110 semanas, con un pico de producción 7–10% menor) o incluso un tercer ciclo. La decisión [DEC-002](#dec-002--inicio-con-gallinas-ponedoras-y-no-con-pollo-de-engorda) (comprar siempre pollitas de prepostura de 16–18 semanas) sugiere de forma implícita un modelo de reemplazo total sin muda, pero el documento fuente no lo declara explícitamente. **No se registra como decisión formal** por la misma razón que el punto anterior; queda anotado como punto de revisión humana pendiente, relevante para el modelo operativo ([14-modelo-operativo.md](../14-modelo-operativo.md)) y el plan financiero ([17-plan-financiero.md](../17-plan-financiero.md)).
 
 ---
 

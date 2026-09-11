@@ -4,8 +4,7 @@ project: "NidoSmart"
 document_type: "business-plan"
 status: "draft"
 version: "1.0"
-last_updated: "2026-07-12"
-source: "NidoSmartBP.md"
+last_updated: "2026-07-25"
 ---
 
 # Plan financiero preliminar
@@ -50,6 +49,8 @@ Para el escenario base:
 * Producción comercializable año 1: 30,660 huevos.
 * Consumo: 110–120 gramos de alimento por ave al día.
 * Precio preliminar del alimento: $14.80 por kilogramo.
+
+*(Contraste julio 2026: la industria reporta un consumo pico de referencia de 98–110 g/ave/día y una conversión alimenticia de 1.46–1.62 kg de alimento por docena de huevo (Bell & Weaver, capítulo 18). El supuesto de 110–120 g/ave/día de este documento queda ligeramente por encima de ese rango, lo que aporta un margen conservador razonable para el modelo preliminar.)*
 * Venta directa o semidirecta.
 * Expansión anual de 100 aves durante los primeros tres años.
 
@@ -68,6 +69,8 @@ Estas cifras son un ejercicio preliminar, no una cotización ni una garantía de
 ## 17.4 Interpretación
 
 El módulo de 100 aves puede sostener buena parte de su operación, pero no recuperará rápidamente una instalación industrial sobredimensionada.
+
+**Referencia de economía de escala (julio 2026):** un complejo industrial de referencia de un millón de aves (Bell & Weaver, capítulo 50) reporta un costo de capital total de aproximadamente **$15 USD/ave** (terreno, nave, equipo, edificio de empaque, molino de alimento y transporte incluidos). En contraste, la cotización vigente de jaula y automatización para el piloto de NidoSmart (ver [registro de cotizaciones](../cotizaciones/README.md)) equivale a **$27.73 USD/ave** (solo jaula + automatización, sin control ambiental, empaque, molino ni terreno). Esta comparación cuantifica directamente por qué la automatización industrial completa no es económicamente accesible a la escala de 100–5,000 aves: el costo fijo de los equipos de manejo de huevo y clasificación (hasta 140,000 huevos/hora) solo se diluye lo suficiente a escala de cientos de miles o millones de aves.
 
 La inversión mejora cuando:
 

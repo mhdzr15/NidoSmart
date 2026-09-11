@@ -5,7 +5,6 @@ document_type: "business-plan"
 status: "draft"
 version: "1.1"
 last_updated: "2026-07-12"
-source: "NidoSmartBP.md"
 ---
 
 # NidoSmart — Plan de negocios
@@ -20,7 +19,7 @@ source: "NidoSmartBP.md"
 
 ## Propósito de esta documentación modular
 
-Este directorio reorganiza el plan de negocios original (`NidoSmartBP.md`, un único archivo Markdown) en documentos independientes agrupados por tema, para facilitar:
+Este directorio organiza el plan de negocios en documentos independientes agrupados por tema, para facilitar:
 
 * Mantenimiento y actualización de cifras y supuestos sin editar todo el plan.
 * Revisión y control de versiones por área (comercial, financiera, tecnológica, operativa).
@@ -28,11 +27,11 @@ Este directorio reorganiza el plan de negocios original (`NidoSmartBP.md`, un ú
 * Incorporación futura de nuevas etapas del negocio (por ejemplo, nuevas ubicaciones o líneas de producción) sin reestructurar el plan completo.
 * Trabajo de agentes de IA sobre secciones concretas del plan.
 
-La reorganización se realizó mediante análisis de contenido: no se partió de una plantilla genérica, sino de la estructura, temas, tablas, diagramas y decisiones realmente presentes en el archivo original. El detalle de ese análisis y de la validación de integridad se documentó en la entrega de la reorganización (ver historial de conversación / commit correspondiente).
+La estructura documental se definió mediante análisis de contenido: no se partió de una plantilla genérica, sino de los temas, tablas, diagramas y decisiones propios del plan de negocios.
 
 ## Estado del documento
 
-Borrador (`draft`), versión 1.1, reorganizado el **2026-07-12** a partir de `NidoSmartBP.md` versión 1.1 (julio de 2026). El contenido sustantivo es idéntico al original; ver la sección [Revisión humana pendiente](#revisión-humana-pendiente) para los puntos señalados durante la migración.
+Borrador (`draft`), versión 1.1, actualizado el **2026-07-12**. Ver la sección [Revisión humana pendiente](#revisión-humana-pendiente) para los puntos señalados que aún requieren validación.
 
 ## Orden recomendado de lectura
 
@@ -68,10 +67,6 @@ Borrador (`draft`), versión 1.1, reorganizado el **2026-07-12** a partir de `Ni
 
 * [Registro de decisiones](./anexos/registro-de-decisiones.md) — decisiones estratégicas explícitas del plan, en formato DEC-XXX, con referencias cruzadas a los documentos donde se desarrollan.
 * [Fuentes técnicas de referencia](./anexos/fuentes-de-referencia.md) — instituciones, normas, marcas y desarrolladores considerados en la investigación.
-
-### Archivo
-
-* [`NidoSmartBP-original.md`](./archive/NidoSmartBP-original.md) — copia exacta e inalterada del archivo fuente `NidoSmartBP.md`, conservada como referencia para comparar la migración. No editar este archivo.
 
 ## Descripción breve de cada documento
 
@@ -117,14 +112,10 @@ Borrador (`draft`), versión 1.1, reorganizado el **2026-07-12** a partir de `Ni
 ## Instrucciones para agregar nuevos documentos
 
 1. Usa nombres de archivo en `kebab-case`, con prefijo numérico de dos dígitos si el documento forma parte de la secuencia principal de lectura (por ejemplo, `28-nueva-seccion.md`), o colócalo en `anexos/` si es material de referencia, técnico o de detalle.
-2. Agrega el bloque de metadatos YAML al inicio, con `source` apuntando a este directorio o a `NidoSmartBP.md` si el contenido proviene del plan original.
+2. Agrega el bloque de metadatos YAML al inicio, con `source` apuntando al documento o proceso del que proviene el contenido.
 3. Añade el documento a la lista de "Orden recomendado de lectura" y a la tabla de "Descripción breve" de este README, en la posición que corresponda.
 4. Actualiza la sección `## Navegación` del documento anterior y del documento siguiente en la secuencia para mantener los enlaces `anterior`/`siguiente` correctos.
 5. Si el documento introduce una decisión estratégica nueva, regístrala en el [registro de decisiones](./anexos/registro-de-decisiones.md).
-
-## Archivo original
-
-El archivo fuente completo, sin modificaciones, se conserva en [`archive/NidoSmartBP-original.md`](./archive/NidoSmartBP-original.md). Es una copia byte a byte del `NidoSmartBP.md` original en la raíz del repositorio (verificada por hash SHA-256 al momento de la reorganización). El archivo original en la raíz del repositorio (`NidoSmartBP.md`) tampoco fue modificado ni eliminado.
 
 ## Fecha de reorganización
 
