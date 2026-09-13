@@ -39,7 +39,7 @@ Esta estrategia evita que el primer ciclo incluya simultáneamente:
 
 La compra de pollitas de prepostura reduce el tiempo hasta los primeros ingresos y permite concentrarse en la operación de postura.
 
-Esta decisión se encuentra registrada como [DEC-002 en el registro de decisiones](./anexos/registro-de-decisiones.md#dec-002--inicio-con-gallinas-ponedoras-y-no-con-pollo-de-engorda).
+Esta decisión se encuentra registrada como [DEC-002 en el registro de decisiones](../governance/registro-de-decisiones.md#dec-002--inicio-con-gallinas-ponedoras-y-no-con-pollo-de-engorda).
 
 ---
 

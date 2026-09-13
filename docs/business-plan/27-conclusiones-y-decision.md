@@ -46,7 +46,7 @@ Se recomienda continuar con el proyecto bajo las siguientes condiciones:
 11. Incorporar Paperclip sólo cuando existan varios módulos, agentes o áreas administrativas.
 12. No ampliar la capacidad hasta validar la venta recurrente de la producción actual.
 
-Estas doce condiciones resumen las decisiones estratégicas detalladas en el [registro de decisiones](./anexos/registro-de-decisiones.md).
+Estas doce condiciones resumen las decisiones estratégicas detalladas en el [registro de decisiones](../governance/registro-de-decisiones.md).
 
 ## Conclusión
 
@@ -66,4 +66,4 @@ La ventaja competitiva no será producir más barato que las grandes empresas, s
 
 - [Índice general](./README.md)
 - [Documento anterior: Estrategia de inversión](./26-estrategia-de-inversion.md)
-- [Anexo: Registro de decisiones](./anexos/registro-de-decisiones.md)
+- [Anexo: Registro de decisiones](../governance/registro-de-decisiones.md)

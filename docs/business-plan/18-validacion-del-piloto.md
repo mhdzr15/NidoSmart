@@ -157,7 +157,7 @@ La primera etapa no tiene que demostrar que 100 gallinas producen una gran renta
 
 > Que existe una unidad productiva, comercial y tecnológica repetible, y que al agregar módulos los ingresos crecerán más rápido que los costos compartidos.
 
-Este objetivo de validación es una decisión estratégica registrada como [DEC-005 en el registro de decisiones](./anexos/registro-de-decisiones.md#dec-005--objetivo-de-cubrir-el-opex-directo-durante-la-validación-del-piloto-sin-exigir-recuperación-del-capex).
+Este objetivo de validación es una decisión estratégica registrada como [DEC-005 en el registro de decisiones](../governance/registro-de-decisiones.md#dec-005--objetivo-de-cubrir-el-opex-directo-durante-la-validación-del-piloto-sin-exigir-recuperación-del-capex).
 
 ---
 

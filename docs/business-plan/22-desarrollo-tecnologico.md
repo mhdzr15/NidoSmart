@@ -248,7 +248,7 @@ La primera meta no es "crear una granja autónoma". Es:
 
 Conviene iniciar por la tecnología, porque define la modularidad y la capacidad futura de NidoSmart. Pero debe desarrollarse como infraestructura mínima orientada a problemas reales, no como una plataforma completa creada en aislamiento. El proyecto deberá avanzar con un enfoque **technology-first, but business-validated**: tecnología primero en la secuencia técnica, y mercado, sanidad y operación en paralelo.
 
-Este enfoque de desarrollo tecnológico previo al ingreso de las aves es una decisión estratégica registrada como [DEC-011 en el registro de decisiones](./anexos/registro-de-decisiones.md#dec-011--desarrollo-tecnológico-previo-al-ingreso-de-las-aves).
+Este enfoque de desarrollo tecnológico previo al ingreso de las aves es una decisión estratégica registrada como [DEC-011 en el registro de decisiones](../governance/registro-de-decisiones.md#dec-011--desarrollo-tecnológico-previo-al-ingreso-de-las-aves).
 
 ---
 

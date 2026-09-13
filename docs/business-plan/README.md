@@ -63,10 +63,10 @@ Borrador (`draft`), versión 1.1, actualizado el **2026-07-12**. Ver la sección
 26. [Estrategia de inversión](./26-estrategia-de-inversion.md)
 27. [Conclusiones y decisión recomendada](./27-conclusiones-y-decision.md)
 
-### Anexos
+### Documentos relacionados fuera de este directorio
 
-* [Registro de decisiones](./anexos/registro-de-decisiones.md) — decisiones estratégicas explícitas del plan, en formato DEC-XXX, con referencias cruzadas a los documentos donde se desarrollan.
-* [Fuentes técnicas de referencia](./anexos/fuentes-de-referencia.md) — instituciones, normas, marcas y desarrolladores considerados en la investigación.
+* [Registro de decisiones](../governance/registro-de-decisiones.md) — decisiones estratégicas explícitas del plan, en formato DEC-XXX, con referencias cruzadas a los documentos donde se desarrollan.
+* [Bibliografía](../../knowledge-base/bibliography.md) — instituciones, normas, marcas y desarrolladores considerados en la investigación.
 
 ## Descripción breve de cada documento
 
@@ -107,15 +107,15 @@ Borrador (`draft`), versión 1.1, actualizado el **2026-07-12**. Ver la sección
 * Cuando una cifra, tabla o criterio sea utilizado por más de un documento, colócalo en el documento más apropiado (su fuente única) y enlaza desde los demás en lugar de duplicarlo. Ejemplos ya aplicados: los criterios de éxito del piloto viven en [Validación del piloto](./18-validacion-del-piloto.md) y se enlazan desde [Modelo modular de crecimiento](./06-crecimiento-modular.md).
 * Usa enlaces relativos explícitos (`[texto](./archivo.md#ancla)`) en lugar de referencias vagas como "véase más adelante".
 * Cada documento termina con una sección `## Navegación` con enlaces al índice y, cuando existan, al documento anterior y siguiente en el orden de lectura.
-* No dupliques contenido del [registro de decisiones](./anexos/registro-de-decisiones.md); si tomas una nueva decisión estratégica, agrégala ahí con el formato `DEC-XXX` y enlázala desde el documento temático correspondiente.
+* No dupliques contenido del [registro de decisiones](../governance/registro-de-decisiones.md); si tomas una nueva decisión estratégica, agrégala ahí con el formato `DEC-XXX` y enlázala desde el documento temático correspondiente.
 
 ## Instrucciones para agregar nuevos documentos
 
-1. Usa nombres de archivo en `kebab-case`, con prefijo numérico de dos dígitos si el documento forma parte de la secuencia principal de lectura (por ejemplo, `28-nueva-seccion.md`), o colócalo en `anexos/` si es material de referencia, técnico o de detalle.
+1. Usa nombres de archivo en `kebab-case`, con prefijo numérico de dos dígitos si el documento forma parte de la secuencia principal de lectura (por ejemplo, `28-nueva-seccion.md`). Si es material de referencia, técnico o de detalle que no pertenece a la secuencia principal, colócalo en [`docs/governance/`](../governance/) (decisiones, glosario, trazabilidad) o en [`knowledge-base/`](../../knowledge-base/) (bibliografía y fuentes técnicas) según corresponda.
 2. Agrega el bloque de metadatos YAML al inicio, con `source` apuntando al documento o proceso del que proviene el contenido.
 3. Añade el documento a la lista de "Orden recomendado de lectura" y a la tabla de "Descripción breve" de este README, en la posición que corresponda.
 4. Actualiza la sección `## Navegación` del documento anterior y del documento siguiente en la secuencia para mantener los enlaces `anterior`/`siguiente` correctos.
-5. Si el documento introduce una decisión estratégica nueva, regístrala en el [registro de decisiones](./anexos/registro-de-decisiones.md).
+5. Si el documento introduce una decisión estratégica nueva, regístrala en el [registro de decisiones](../governance/registro-de-decisiones.md).
 
 ## Fecha de reorganización
 
@@ -123,10 +123,10 @@ Borrador (`draft`), versión 1.1, actualizado el **2026-07-12**. Ver la sección
 
 ## Revisión humana pendiente
 
-* **Futura incorporación de pollo de engorda (broilers):** el documento original no contiene una decisión explícita sobre incorporar broilers como línea futura; sólo compara ponedoras contra engorda para justificar el inicio con ponedoras. No se registró como decisión para evitar inventar contenido. Ver nota en el [registro de decisiones](./anexos/registro-de-decisiones.md#decisiones-candidatas-no-confirmadas-en-el-documento-fuente).
+* **Futura incorporación de pollo de engorda (broilers):** el documento original no contiene una decisión explícita sobre incorporar broilers como línea futura; sólo compara ponedoras contra engorda para justificar el inicio con ponedoras. No se registró como decisión para evitar inventar contenido. Ver nota en el [registro de decisiones](../governance/registro-de-decisiones.md#decisiones-candidatas-no-confirmadas-en-el-documento-fuente).
 * **Numeración de subsecciones corregida:** en el original, la sección 23 ("Indicadores clave") tenía subsecciones numeradas 22.1–22.5, y la sección 25 ("Estrategia de inversión") tenía subsecciones numeradas 24.1–24.3. Se trata de un desfase tipográfico evidente (probablemente por una inserción o eliminación de sección durante la edición del documento original) y se corrigió a 23.1–23.5 y 25.1–25.3 respectivamente en [Indicadores clave](./24-indicadores-clave.md) y [Estrategia de inversión](./26-estrategia-de-inversion.md). El contenido no fue alterado, sólo la numeración de los encabezados.
 * **Precisión de la producción comercializable año 1:** el plan usa dos niveles de precisión para la misma cifra —un rango de 30,000–31,000 huevos/año en [Producción y capacidad comercial](./16-produccion-y-capacidad-comercial.md) y un valor puntual de 30,660 huevos en los supuestos y la proyección de [Plan financiero preliminar](./17-plan-financiero.md)—. El valor puntual cae dentro del rango, por lo que no se trata de una contradicción, pero ambos niveles de precisión se conservaron intactos y se anotaron para que una revisión financiera confirme cuál debe tratarse como cifra de referencia.
-* **Fuentes técnicas de referencia:** la lista en [Fuentes técnicas de referencia](./anexos/fuentes-de-referencia.md) identifica instituciones, normas y marcas, pero no tiene formato de bibliografía con fecha de consulta o edición específica. Queda pendiente completarla si se requiere una bibliografía formal.
+* **Fuentes técnicas de referencia:** la lista en [Fuentes técnicas de referencia](../../knowledge-base/bibliography.md) identifica instituciones, normas y marcas, pero no tiene formato de bibliografía con fecha de consulta o edición específica. Queda pendiente completarla si se requiere una bibliografía formal.
 * **Cifras de inversión y financieras:** todas las cifras de CAPEX, OPEX, precios y proyecciones están marcadas en el plan original como estimaciones preliminares, no cotizaciones. Requieren validación con proveedores y con un modelo financiero detallado antes de tomar decisiones de inversión, tal como señala el propio plan en [Plan financiero preliminar](./17-plan-financiero.md).
 * **Viabilidad regulatoria del predio:** [Regulación y cumplimiento](./19-regulacion-y-cumplimiento.md) señala que la viabilidad regulatoria del predio en San Francisco Acatepec debe confirmarse formalmente antes de iniciar cualquier obra; esto sigue pendiente de validación local.
 

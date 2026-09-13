@@ -26,7 +26,7 @@ La jerarquía será:
 
 Los niveles 1 a 3 deben poder operar sin conexión a internet. Los niveles 4 a 6 requieren conectividad a internet permanente para cumplir su función.
 
-Esta separación entre control crítico y capa de inteligencia es una decisión estratégica registrada como [DEC-007 y DEC-008 en el registro de decisiones](./anexos/registro-de-decisiones.md).
+Esta separación entre control crítico y capa de inteligencia es una decisión estratégica registrada como [DEC-007 y DEC-008 en el registro de decisiones](../governance/registro-de-decisiones.md).
 
 ## 10.2 Arquitectura propuesta
 

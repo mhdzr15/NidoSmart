@@ -109,7 +109,7 @@ Paperclip se incorporará cuando existan:
 * Procesos administrativos complejos.
 * Necesidad formal de auditoría multiagente.
 
-Esta decisión se encuentra registrada como [DEC-009 en el registro de decisiones](./anexos/registro-de-decisiones.md#dec-009--elección-entre-hermes-agent-y-paperclip).
+Esta decisión se encuentra registrada como [DEC-009 en el registro de decisiones](../governance/registro-de-decisiones.md#dec-009--elección-entre-hermes-agent-y-paperclip).
 
 ---
 
