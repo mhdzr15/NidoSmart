@@ -17,6 +17,8 @@ last_updated: "2026-07-12"
 
 **NidoSmart** es un proyecto de granja modular y automatizada de gallinas ponedoras en San Francisco Acatepec, municipio de San Andrés Cholula, Puebla, México. El plan propone iniciar con un módulo piloto de aproximadamente 100 aves, con automatización intensiva y una arquitectura modular que permita crecer progresivamente hasta 5,000 aves.
 
+Este plan de negocios describe **cómo funciona el negocio**. Es complementario a otros dos conjuntos de documentos dentro de [`docs/`](../): el [proyecto de inversión](../investment-project/README.md), que describe cómo se financia la primera unidad, y la [estrategia de innovación](../innovation/README.md), que describe qué se investigará y desarrollará. Las decisiones estratégicas que afectan a más de uno de estos tres documentos se registran en [`docs/governance/registro-de-decisiones.md`](../governance/registro-de-decisiones.md).
+
 ## Propósito de esta documentación modular
 
 Este directorio organiza el plan de negocios en documentos independientes agrupados por tema, para facilitar:
