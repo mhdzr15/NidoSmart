@@ -3,7 +3,7 @@ title: "Proyecto de inversión"
 project: "NidoSmart"
 document_type: "investment-project"
 status: "draft"
-version: "1.2"
+version: "1.3"
 last_updated: "2026-09-14"
 ---
 
@@ -50,6 +50,8 @@ La lógica original (empezar con una escala controlada, validar antes de crecer,
 
 Desarrollo completo, metodología y tipo de cambio de referencia en [Plan financiero — 17.1 Inversión inicial](../business-plan/17-plan-financiero.md#171-inversión-inicial).
 
+**Presupuesto consolidado (2026-09-14):** esta tabla se desarrolla partida por partida —incluyendo nave, obra civil, infraestructura eléctrica/hidráulica, vehículo de distribución, aves, permisos, capital de trabajo y contingencia diferenciada— en el [Presupuesto consolidado de inversión inicial](./07-presupuesto-consolidado-inversion-inicial.md), con una inversión total estimada de **≈$1,239,000–$2,152,000 MXN** (sin transporte final Puebla→sitio ni instalación de la jaula, ambos sin cotizar). La especificación técnica previa de la nave, requisito antes de cotizarla formalmente, se desarrolla en la [Ficha técnica — Nave avícola](./05-ficha-tecnica-nave.md). Ver [DEC-013](../governance/registro-de-decisiones.md#dec-013--presupuesto-consolidado-de-inversión-inicial-con-vehículo-de-distribución-fuera-del-crédito).
+
 **Partida opcional en pausa:** control ambiental (ventiladores, cooling pads, sensores) — cotización FamTECH v3, USD $6,348 adicionales (≈$117,400 MXN) sobre la jaula base. Se decidió no incluirla hasta definir el diseño de la nave (ver [decisión vigente](../../evidence/quotations/README.md#decisión-vigente-2026-07-22)).
 
 ## 4. Lo que el crédito NO cubre
@@ -65,7 +67,8 @@ Terreno, vehículo, impuestos, permisos locales, estudios ambientales, obra mayo
 ## 6. Pendientes antes de formalizar el expediente
 
 * **Cotizar el flete final** de la ciudad de Puebla al sitio del proyecto en San Francisco Acatepec — no incluido en los $17,747 USD ya cotizados (aclarado por el proveedor el 2026-08-03).
-* Cotización formal de obra civil para la nave específica (17×4×4.2 m).
+* **Confirmar con el proveedor si el precio cotizado incluye instalación en sitio** o si es una partida aparte (sin especificar en la cotización ni en el correo revisado).
+* **Cerrar los pendientes críticos de la [ficha técnica de la nave](./05-ficha-tecnica-nave.md#estado-de-la-ficha-técnica)** (tipo estructural, materiales, altura libre, orientación, resistencia a viento/granizo, estudio de sitio) antes de solicitar cotización formal de obra civil — hoy solo 2 de 19 parámetros están confirmados.
 * Estudio de carga eléctrica para dimensionar UPS y respaldo energético.
 * Confirmación del tipo de cambio vigente al momento de contratar (se usó $18.50 MXN/USD como referencia de trabajo).
 * Definir si se incluye o no el paquete de control ambiental antes de solicitar el crédito.

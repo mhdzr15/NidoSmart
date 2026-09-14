@@ -15,6 +15,9 @@ Cómo se financia la primera unidad de NidoSmart. Mientras el [plan de negocios]
 2. [Estructura financiera](./02-estructura-financiera.md)
 3. [Viabilidad financiera](./03-viabilidad-financiera.md)
 4. [Impacto y expediente de financiamiento](./04-impacto-y-expediente-financiamiento.md)
+5. [Ficha técnica — Nave avícola](./05-ficha-tecnica-nave.md)
+6. [Vehículo de distribución](./06-vehiculo-de-distribucion.md)
+7. [Presupuesto consolidado de inversión inicial](./07-presupuesto-consolidado-inversion-inicial.md)
 
 ## Fuentes que consume este documento
 

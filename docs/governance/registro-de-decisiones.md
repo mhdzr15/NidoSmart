@@ -3,8 +3,8 @@ title: "Registro de decisiones"
 project: "NidoSmart"
 document_type: "business-plan-annex"
 status: "draft"
-version: "1.1"
-last_updated: "2026-09-13"
+version: "1.2"
+last_updated: "2026-09-14"
 ---
 
 # Registro de decisiones
@@ -174,6 +174,29 @@ Este registro centraliza las decisiones estratégicas explícitas identificadas 
 - [Validación del piloto](../business-plan/18-validacion-del-piloto.md)
 - [Hoja de ruta](../business-plan/23-hoja-de-ruta.md)
 - [Proyecto de inversión](../investment-project/README.md)
+- [Registro de cotizaciones](../../evidence/quotations/README.md)
+
+## DEC-013 — Presupuesto consolidado de inversión inicial, con vehículo de distribución fuera del crédito
+
+**Estado:** Aprobada
+**Fecha:** 2026-09-14
+**Decisión:** Se construye un presupuesto consolidado y trazable para llevar la unidad de 640 aves ([DEC-012](#dec-012--congelamiento-del-alcance-de-la-inversión-inicial-en-una-unidad-productiva-de-640-aves)) a condiciones reales de producción y comercialización, cubriendo las 18 categorías de partidas (jaulas/automatización, nave, obra civil, infraestructura eléctrica/hidráulica, ventilación, iluminación, respaldo energético, sensores, importación/logística, instalación, aves, bioseguridad, almacenamiento, vehículo, permisos, capital de trabajo y contingencia). Se decide además que, para esta etapa, **no se incluye la compra de un vehículo de distribución dedicado dentro del CAPEX financiado por crédito**: el volumen a distribuir (≈32 kg/día) no lo justifica y se cubre con capital propio.
+**Justificación:** Antes de cotizar formalmente la obra civil de la nave, el objetivo exige contar con una ficha técnica estable; al construirla se encontró que 15 de 19 parámetros técnicos de la nave siguen sin definir (tipo estructural, materiales, altura libre, orientación, cubierta, muros, drenaje, resistencia a viento/granizo, piso, integración con la jaula, espacios de servicio, accesos, bioseguridad física, expansión futura e instalaciones eléctricas/hidráulicas asociadas) — ver [Ficha técnica — Nave avícola](../investment-project/05-ficha-tecnica-nave.md). Por lo tanto, la partida de obra civil ($227,000–$421,000 MXN) sigue siendo una estimación por huella, no una cotización comparable. Sobre el vehículo, el volumen de producción de la unidad de 640 aves (≈526–543 huevos/día, ≈32 kg/día) es demasiado bajo para justificar inmovilizar capital de crédito en una unidad dedicada, consistente con que la [hoja de ruta](../business-plan/23-hoja-de-ruta.md#fase-4-expansión-a-19202560-aves-3-4-unidades) ya ubicaba el "vehículo de reparto" hasta la Fase 4 (1,920–2,560 aves) — ver [Vehículo de distribución](../investment-project/06-vehiculo-de-distribucion.md).
+**Consecuencias:**
+
+- La inversión total estimada para la unidad de 640 aves, sin vehículo dedicado, sin transporte final Puebla→sitio (sin cotizar) y sin instalación de la jaula en sitio (alcance no confirmado con el proveedor), es de **≈$1,239,000–$2,152,000 MXN** — ver [Presupuesto consolidado de inversión inicial](../investment-project/07-presupuesto-consolidado-inversion-inicial.md).
+- No deben solicitarse cotizaciones formales de obra civil hasta cerrar los pendientes críticos de la ficha técnica de la nave (decisión de tipo estructural, estudio estructural local, estudio de sitio, altura libre confirmada con el proveedor de jaula, distribución de espacios de servicio, estudio de carga eléctrica).
+- Se agrega un nuevo pendiente al [registro de cotizaciones](../../evidence/quotations/README.md): confirmar con el proveedor si el precio cotizado incluye instalación en sitio o si es una partida aparte.
+- La decisión de no comprar vehículo se revisa cuando la [validación del piloto](../business-plan/18-validacion-del-piloto.md) confirme una cartera de clientes real con rutas y distancias conocidas.
+- Se identifica orientación preliminar (sujeta a confirmar con la institución financiera) sobre qué partidas califican para crédito refaccionario (CAPEX productivo y de infraestructura) frente a crédito de avío (preoperativos y capital de trabajo), y cuáles quedan fuera del crédito (vehículo, permisos, contingencia).
+
+**Documentos relacionados:**
+
+- [Ficha técnica — Nave avícola](../investment-project/05-ficha-tecnica-nave.md)
+- [Vehículo de distribución](../investment-project/06-vehiculo-de-distribucion.md)
+- [Presupuesto consolidado de inversión inicial](../investment-project/07-presupuesto-consolidado-inversion-inicial.md)
+- [Proyecto de inversión](../investment-project/01-proyecto-de-inversion.md)
+- [Plan financiero preliminar](../business-plan/17-plan-financiero.md)
 - [Registro de cotizaciones](../../evidence/quotations/README.md)
 
 ## Decisiones candidatas no confirmadas en el documento fuente
