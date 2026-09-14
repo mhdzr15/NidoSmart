@@ -3,8 +3,8 @@ title: "Estrategia de desarrollo tecnológico"
 project: "NidoSmart"
 document_type: "business-plan"
 status: "draft"
-version: "1.0"
-last_updated: "2026-07-12"
+version: "1.1"
+last_updated: "2026-09-13"
 ---
 
 # Estrategia de desarrollo tecnológico
@@ -242,7 +242,7 @@ Ninguna función deberá desarrollarse si no reduce un riesgo, una tarea, un cos
 
 La primera meta no es "crear una granja autónoma". Es:
 
-> Construir una plataforma confiable que opere un módulo de 100 aves, registre datos verificables y pueda replicarse sin cambios estructurales.
+> Construir una plataforma confiable que opere una unidad de 640 aves, registre datos verificables y pueda replicarse sin cambios estructurales.
 
 ## 21.9 Conclusión
 

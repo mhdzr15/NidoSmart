@@ -3,8 +3,8 @@ title: "Justificación de la oportunidad"
 project: "NidoSmart"
 document_type: "business-plan"
 status: "draft"
-version: "1.0"
-last_updated: "2026-07-12"
+version: "1.1"
+last_updated: "2026-09-13"
 ---
 
 # Justificación de la oportunidad
@@ -35,7 +35,7 @@ El mercado industrial está dominado por grandes empresas con:
 * Economías de escala.
 * Poder de negociación sobre alimento, transporte y empaque.
 
-Una granja de 100 a 300 gallinas no puede competir eficientemente con estos operadores en centrales de abasto o mayoreo.
+Una granja de 640 gallinas —la primera unidad financiable de NidoSmart— no puede competir eficientemente con estos operadores en centrales de abasto o mayoreo.
 
 El posicionamiento correcto será:
 

@@ -3,13 +3,13 @@ title: "Organización inicial"
 project: "NidoSmart"
 document_type: "business-plan"
 status: "draft"
-version: "1.0"
-last_updated: "2026-07-12"
+version: "1.1"
+last_updated: "2026-09-13"
 ---
 
 # Organización inicial
 
-Durante la etapa de 100 aves, el negocio puede operar con una estructura ligera.
+Durante la etapa de la primera unidad (640 aves), el negocio puede operar con una estructura ligera, dado el alto grado de automatización de la alimentación, el agua, la recolección de huevo y el retiro de gallinaza (ver [Sistema de automatización](./08-automatizacion.md)).
 
 ## Dirección
 

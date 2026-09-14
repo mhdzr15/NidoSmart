@@ -3,8 +3,8 @@ title: "Hoja de ruta"
 project: "NidoSmart"
 document_type: "business-plan"
 status: "draft"
-version: "1.0"
-last_updated: "2026-07-12"
+version: "1.1"
+last_updated: "2026-09-13"
 ---
 
 # Hoja de ruta
@@ -37,7 +37,7 @@ Resultado requerido:
 
 ## Fase 1. Infraestructura base
 
-Capacidad: 100 aves, servicios dimensionados para 300.
+Capacidad: 640 aves (primera unidad financiable — nave 17×4×4.2 m, jaula tipo H, 5 sets, 4 niveles), servicios dimensionados con margen para una segunda unidad (1,280 aves). *(Actualizado septiembre 2026; sustituye la referencia anterior de "100 aves, servicios dimensionados para 300", basada en una nave genérica sin cotización real.)*
 
 El desarrollo tecnológico de esta fase deberá seguir la secuencia detallada en [Estrategia de desarrollo tecnológico](./22-desarrollo-tecnologico.md) (especificación funcional, banco de pruebas, instalación sin aves e ingreso de la parvada piloto).
 
@@ -72,7 +72,9 @@ Objetivos:
 * Comparar costos reales.
 * Ajustar automatización.
 
-## Fase 3. Expansión a 200–300 aves
+## Fase 3. Expansión a una segunda unidad (1,280 aves)
+
+*(Actualizado septiembre 2026: sustituye la referencia anterior de "200–300 aves", un rango por debajo de la unidad mínima real de 640 aves que hoy define el proveedor. La expansión ya no ocurre en incrementos pequeños, sino agregando una unidad completa de 640 aves, y requiere financiamiento adicional — ver [Plan financiero — 17.3](./17-plan-financiero.md#173-proyección-preliminar--primera-unidad-640-aves) y [proyecto de inversión](../investment-project/README.md).)*
 
 Condición:
 
@@ -80,10 +82,11 @@ Condición:
 * Operación estable.
 * Flujo suficiente.
 * Infraestructura sin fallas críticas.
+* Financiamiento asegurado para la segunda unidad (el flujo de la primera unidad no alcanza a cubrir su CAPEX).
 
 Incorporar:
 
-* Segundo y tercer módulo.
+* Segunda unidad de jaula automatizada tipo H (640 aves adicionales).
 * Mayor tolva.
 * Mejor almacenamiento.
 * Automatización de reparto.
@@ -91,7 +94,9 @@ Incorporar:
 * Hermes Agent.
 * Mantenimiento preventivo automatizado.
 
-## Fase 4. Expansión a 500–1,000 aves
+## Fase 4. Expansión a 1,920–2,560 aves (3–4 unidades)
+
+*(Actualizado septiembre 2026: sustituye la referencia anterior de "500–1,000 aves" para alinearse a incrementos de unidades completas de 640 aves.)*
 
 Incorporar:
 
@@ -105,7 +110,9 @@ Incorporar:
 * Indicadores financieros por módulo.
 * Agentes especializados.
 
-## Fase 5. Expansión a 2,500–5,000 aves
+## Fase 5. Expansión a 2,560–5,120 aves (4–8 unidades)
+
+*(Actualizado septiembre 2026: equivalente a la referencia anterior de "2,500–5,000 aves", expresada ahora en unidades completas de 640 aves.)*
 
 Incorporar:
 
@@ -133,7 +140,7 @@ Incorporar:
 9. Levantar una encuesta comercial local.
 10. Conseguir clientes piloto.
 11. Preparar el modelo financiero detallado.
-12. Diseñar el layout para 300, 1,000 y 5,000 aves.
+12. Diseñar el layout para 640, 1,280 y 5,000 aves.
 13. Crear los primeros procedimientos de bioseguridad.
 14. Definir la arquitectura de automatización.
 15. Construir un prototipo de tablero y sensado antes de recibir las aves.

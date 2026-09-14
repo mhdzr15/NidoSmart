@@ -3,8 +3,8 @@ title: "Evaluación técnica de Hermes Agent y Paperclip"
 project: "NidoSmart"
 document_type: "business-plan"
 status: "draft"
-version: "1.0"
-last_updated: "2026-07-12"
+version: "1.1"
+last_updated: "2026-09-13"
 ---
 
 # Evaluación técnica de Hermes Agent y Paperclip
@@ -72,7 +72,7 @@ Ventajas:
 
 Limitaciones:
 
-* Es excesivo para una granja inicial de 100 aves.
+* Es excesivo para una granja inicial de 640 aves.
 * No está diseñado como controlador industrial.
 * No debe actuar directamente sobre equipos críticos.
 * Su valor aparece principalmente cuando existen varios agentes, áreas o ubicaciones.
@@ -88,7 +88,7 @@ Limitaciones:
 | Integración documental        | Alta                  | Alta                                 |
 | Tareas programadas            | Alta                  | Alta                                 |
 | Gobierno y auditoría          | Media                 | Alta                                 |
-| Uso en 100 aves               | Recomendado           | Prematuro                            |
+| Uso en 640 aves               | Recomendado           | Prematuro                            |
 | Uso en 5,000 aves             | Recomendado en edge   | Recomendado como capa empresarial   |
 | Prioridad                     | Primera etapa         | Etapa posterior                     |
 

@@ -3,8 +3,8 @@ title: "Índice general del plan de negocios"
 project: "NidoSmart"
 document_type: "business-plan"
 status: "draft"
-version: "1.1"
-last_updated: "2026-07-12"
+version: "1.2"
+last_updated: "2026-09-13"
 ---
 
 # NidoSmart — Plan de negocios
@@ -15,7 +15,7 @@ last_updated: "2026-07-12"
 
 *Granja modular y automatizada de gallinas ponedoras en México*
 
-**NidoSmart** es un proyecto de granja modular y automatizada de gallinas ponedoras en San Francisco Acatepec, municipio de San Andrés Cholula, Puebla, México. El plan propone iniciar con un módulo piloto de aproximadamente 100 aves, con automatización intensiva y una arquitectura modular que permita crecer progresivamente hasta 5,000 aves.
+**NidoSmart** es un proyecto de granja modular y automatizada de gallinas ponedoras en San Francisco Acatepec, municipio de San Andrés Cholula, Puebla, México. El plan propone iniciar con una primera unidad financiable de 640 aves —definida por la cotización vigente de jaula automatizada tipo H (ver [registro de cotizaciones](../../evidence/quotations/README.md))—, con automatización intensiva y una arquitectura modular que permita crecer progresivamente, por unidades completas de 640 aves, hasta 5,000 aves.
 
 Este plan de negocios describe **cómo funciona el negocio**. Es complementario a otros dos conjuntos de documentos dentro de [`docs/`](../): el [proyecto de inversión](../investment-project/README.md), que describe cómo se financia la primera unidad, y la [estrategia de innovación](../innovation/README.md), que describe qué se investigará y desarrollará. Las decisiones estratégicas que afectan a más de uno de estos tres documentos se registran en [`docs/governance/registro-de-decisiones.md`](../governance/registro-de-decisiones.md).
 
@@ -33,7 +33,7 @@ La estructura documental se definió mediante análisis de contenido: no se part
 
 ## Estado del documento
 
-Borrador (`draft`), versión 1.1, actualizado el **2026-07-12**. Ver la sección [Revisión humana pendiente](#revisión-humana-pendiente) para los puntos señalados que aún requieren validación.
+Borrador (`draft`), versión 1.2, actualizado el **2026-09-13**. Ver la sección [Revisión humana pendiente](#revisión-humana-pendiente) para los puntos señalados que aún requieren validación.
 
 ## Orden recomendado de lectura
 
@@ -98,7 +98,7 @@ Borrador (`draft`), versión 1.1, actualizado el **2026-07-12**. Ver la sección
 | 22 | [Estrategia de desarrollo tecnológico](./22-desarrollo-tecnologico.md) | Enfoque technology-first business-validated, tecnología previa al ingreso de las aves, MVP tecnológico (NidoSmart Core) y secuencia de desarrollo en cinco etapas. |
 | 23 | [Hoja de ruta](./23-hoja-de-ruta.md) | Fases 0 a 5 del proyecto, desde prefactibilidad hasta la escala de 2,500–5,000 aves, y próximos pasos inmediatos. |
 | 24 | [Indicadores clave](./24-indicadores-clave.md) | Indicadores productivos, ambientales, comerciales, financieros y técnicos. |
-| 25 | [Organización inicial](./25-organizacion-inicial.md) | Estructura ligera de dirección, operación, veterinario externo y soporte técnico durante la etapa de 100 aves. |
+| 25 | [Organización inicial](./25-organizacion-inicial.md) | Estructura ligera de dirección, operación, veterinario externo y soporte técnico durante la etapa de la primera unidad (640 aves). |
 | 26 | [Estrategia de inversión](./26-estrategia-de-inversion.md) | Elementos que no deben sacrificarse, elementos que pueden aplazarse y prioridad de automatización por riesgo. |
 | 27 | [Conclusiones y decisión recomendada](./27-conclusiones-y-decision.md) | Factores críticos de éxito, decisión recomendada de doce puntos y conclusión general del plan. |
 

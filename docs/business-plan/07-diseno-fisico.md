@@ -3,30 +3,17 @@ title: "Diseño físico preliminar"
 project: "NidoSmart"
 document_type: "business-plan"
 status: "draft"
-version: "1.0"
-last_updated: "2026-07-25"
+version: "1.2"
+last_updated: "2026-09-14"
 ---
 
 # Diseño físico preliminar
 
 ## 7.1 Módulo inicial
 
-Se propone una nave cerrada o semicerrada de aproximadamente **18 a 24 m²**, ajustable según:
+**Actualización (septiembre 2026):** el módulo inicial queda congelado como una **primera unidad financiable de 640 aves**. Esto no es una estimación propia: la cotización del proveedor (FamTECH — ver [registro de cotizaciones](../../evidence/quotations/README.md)) especifica textualmente "Advised chicken coop size: 17m×4m×4.2m / Total number: 640 birds" — nave de **17 × 4 × 4.2 m** (≈68 m² de huella), con jaula automatizada tipo H de **4 niveles, 5 sets** de **128 aves cada uno** (equivalencia "1 set = 1 grupo de jaula = 128 aves" confirmada por el proveedor por escrito el 2026-07-23). Esto sustituye la referencia anterior de una nave genérica de 18–24 m² con alojamiento en piso o jaula sin especificar, que correspondía a un sistema de menor densidad y ya no es una referencia válida una vez que existe una cotización real.
 
-* Clima.
-* Sistema de alojamiento.
-* Espacio de servicio.
-* Flujo de personal.
-* Equipos instalados.
-* Requerimientos municipales.
-
-El módulo deberá dividirse en subgrupos, por ejemplo:
-
-* Cuatro grupos de 25 aves.
-* Cinco grupos de 20 aves.
-* Seis grupos de entre 16 y 18 aves.
-
-Esto permite:
+La subdivisión en subgrupos ya no es una decisión de diseño abierta: queda definida por la propia jaula tipo H (5 sets independientes, 4 niveles cada uno), lo que de forma natural permite:
 
 * Aislar problemas.
 * Comparar desempeño.
@@ -48,7 +35,7 @@ El predio en San Francisco Acatepec se ubica en el altiplano poblano, a una alti
 
 ### Densidad de jaula (pendiente de verificación con proveedor)
 
-Los estándares de la industria para gallinas ponedoras en jaula (Bell & Weaver, tabla 52-2) sitúan el espacio mínimo recomendado entre **60 y 70 pulgadas² por ave (387–452 cm²)**, con un rango mundial de 48–72 in² (310–465 cm²) y el estándar europeo en 70 in² (450 cm²). La cotización vigente del proveedor (FamTECH, ver [registro de cotizaciones](../../cotizaciones/README.md)) — nave de 17×4×4.2 m, 5 sets tipo H, 4 niveles, 640 aves — no incluye todavía las dimensiones exactas de cada jaula individual. **Pendiente:** solicitar al proveedor el ancho, fondo y alto por nivel de cada jaula para confirmar que la densidad cumple con el mínimo de 387 cm²/ave antes de confirmar la compra.
+Los estándares de la industria para gallinas ponedoras en jaula (Bell & Weaver, tabla 52-2) sitúan el espacio mínimo recomendado entre **60 y 70 pulgadas² por ave (387–452 cm²)**, con un rango mundial de 48–72 in² (310–465 cm²) y el estándar europeo en 70 in² (450 cm²). La cotización vigente del proveedor (FamTECH, ver [registro de cotizaciones](../../evidence/quotations/README.md)) confirma la nave completa (17×4×4.2 m, 5 sets tipo H, 4 niveles, 640 aves) pero no incluye las dimensiones exactas de cada jaula individual (ancho, fondo y alto por nivel). NidoSmart redactó estas preguntas específicas el 2026-07-25, pero — según el hilo de correo completo revisado — no llegaron a enviarse al proveedor. **Pendiente real, aún sin resolver:** enviar al proveedor (FamTECH) las preguntas sobre dimensiones internas por jaula, espacio de comedero por ave, relación aves/níple, diseño de luminarias para 4 niveles y aislamiento térmico de la nave, para confirmar que la densidad cumple con el mínimo de 387 cm²/ave antes de confirmar la compra.
 
 ## 7.2 Áreas generales del predio
 

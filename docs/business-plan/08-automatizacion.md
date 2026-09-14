@@ -3,8 +3,8 @@ title: "Sistema de automatización"
 project: "NidoSmart"
 document_type: "business-plan"
 status: "draft"
-version: "1.0"
-last_updated: "2026-07-25"
+version: "1.1"
+last_updated: "2026-09-13"
 ---
 
 # Sistema de automatización
@@ -83,7 +83,7 @@ Actuadores:
 
 ### Recolección de huevo
 
-Para 100 aves se recomienda:
+Para la primera unidad de 640 aves se recomienda:
 
 * Banda corta.
 * Transporte hasta una mesa final.

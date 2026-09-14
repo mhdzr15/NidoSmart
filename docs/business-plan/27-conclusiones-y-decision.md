@@ -3,8 +3,8 @@ title: "Conclusiones y decisión recomendada"
 project: "NidoSmart"
 document_type: "business-plan"
 status: "draft"
-version: "1.0"
-last_updated: "2026-07-12"
+version: "1.1"
+last_updated: "2026-09-13"
 ---
 
 # Conclusiones y decisión recomendada
@@ -33,9 +33,9 @@ El proyecto tendrá mejores probabilidades de éxito cuando:
 
 Se recomienda continuar con el proyecto bajo las siguientes condiciones:
 
-1. Comenzar con **100 gallinas ponedoras de prepostura**.
-2. Construir un primer módulo automatizado de entre 96 y 120 plazas.
-3. Dimensionar los servicios principales para aproximadamente 300 aves.
+1. Comenzar con una primera unidad de **640 gallinas ponedoras de prepostura** (5 sets tipo H, 4 niveles — ver cotización FamTECH en el [registro de cotizaciones](../../evidence/quotations/README.md)).
+2. Construir un primer módulo automatizado de 640 plazas (nave de 17×4×4.2 m).
+3. Dimensionar los servicios principales con margen para una segunda unidad (1,280 aves en total).
 4. Priorizar venta directa y suscripciones.
 5. Automatizar agua, alimentación, ambiente, iluminación, alertas y registros desde el inicio.
 6. Utilizar una banda corta para recolección de huevo.
@@ -50,7 +50,7 @@ Estas doce condiciones resumen las decisiones estratégicas detalladas en el [re
 
 ## Conclusión
 
-El proyecto de 100 ponedoras es adecuado como punto de entrada, siempre que no se evalúe como una unidad aislada que debe pagar inmediatamente toda la automatización.
+El proyecto de 640 ponedoras es adecuado como punto de entrada, siempre que no se evalúe como una unidad aislada que debe pagar inmediatamente toda la automatización.
 
 Su verdadero valor consiste en funcionar como el primer módulo de una plataforma productiva mayor. El módulo inicial permitirá aprender, reunir datos, construir una cartera de clientes, ajustar la automatización y establecer una operación sanitaria disciplinada.
 

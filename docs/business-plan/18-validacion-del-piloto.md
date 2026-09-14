@@ -3,8 +3,8 @@ title: "Validación del piloto"
 project: "NidoSmart"
 document_type: "business-plan"
 status: "draft"
-version: "1.0"
-last_updated: "2026-07-12"
+version: "1.1"
+last_updated: "2026-09-13"
 ---
 
 # Validación del piloto
@@ -15,9 +15,9 @@ En la etapa inicial de NidoSmart, el objetivo no debe ser recuperar toda la inve
 
 ## 17.6.1 Razonamiento
 
-Un módulo de 100 aves no tiene la escala suficiente para absorber eficientemente una infraestructura altamente automatizada. Equipos como PLC, sensores, respaldo eléctrico, servidores, bandas y sistemas de control tienen un costo fijo que podría utilizarse casi igual para 100, 300 o incluso más aves.
+Un módulo de 640 aves no tiene por sí solo la escala de una operación industrial y no debe evaluarse exigiéndole que recupere de inmediato una infraestructura pensada para crecer por varias unidades más. Equipos como PLC, sensores, respaldo eléctrico, servidores, bandas y sistemas de control tienen un costo fijo que podría utilizarse casi igual para 640, 1,280 o más aves.
 
-Por ello, exigir al primer módulo que recupere también el CAPEX podría producir una conclusión equivocada: que el negocio no es rentable, cuando en realidad lo que no es rentable es repartir una infraestructura escalable entre sólo 100 aves.
+Por ello, exigir al primer módulo que recupere también el CAPEX podría producir una conclusión equivocada: que el negocio no es rentable, cuando en realidad lo que no es rentable es repartir una infraestructura escalable entre una sola unidad de 640 aves.
 
 La primera etapa debe entenderse como una combinación de:
 
@@ -54,7 +54,7 @@ No debe imponerse como condición inicial:
 * Amortizar todos los equipos de automatización.
 * Pagar un salario completo al propietario.
 * Obtener márgenes equivalentes a una granja industrial.
-* Financiar inmediatamente otro módulo sólo con las primeras 100 aves.
+* Financiar inmediatamente una segunda unidad sólo con el flujo de la primera unidad de 640 aves.
 
 La infraestructura inicial es parcialmente una inversión en aprendizaje y parcialmente una inversión anticipada para la expansión.
 
@@ -97,7 +97,7 @@ Idealmente, al menos **80–90% de la producción semanal** debe estar compromet
 
 > Ingresos ≥ OPEX operativo
 
-El análisis debe realizarse también a escala proyectada, tomando los datos de las 100 aves para responder qué ocurriría si el mismo sistema operara con 300, 500 o 1,000 aves. El piloto debe confirmar que los costos fijos se diluyen y que el margen mejora al agregar módulos.
+El análisis debe realizarse también a escala proyectada, tomando los datos de las 640 aves para responder qué ocurriría si el mismo sistema operara con 1,280, 1,920 o 2,560 aves (2, 3 o 4 unidades). El piloto debe confirmar que los costos fijos se diluyen y que el margen mejora al agregar módulos.
 
 ## 17.6.5 Métrica clave: margen de contribución
 
@@ -109,7 +109,7 @@ Si cada huevo adicional vendido deja un margen positivo después de alimento, em
 
 ## 17.6.6 Objetivo recomendado para el piloto
 
-> Validar durante un ciclo productivo que NidoSmart puede vender de manera recurrente al menos 85% de su producción, cubrir sus costos operativos directos y mantener indicadores productivos, sanitarios y tecnológicos dentro de los rangos definidos, generando información suficiente para decidir una expansión a 200 o 300 aves.
+> Validar durante un ciclo productivo que NidoSmart puede vender de manera recurrente al menos 85% de su producción, cubrir sus costos operativos directos y mantener indicadores productivos, sanitarios y tecnológicos dentro de los rangos definidos, generando información suficiente para decidir la construcción de una segunda unidad de 640 aves (1,280 aves en total) y para sustentar la solicitud de financiamiento correspondiente.
 
 ## 17.6.7 Criterios de éxito antes de crecer
 
@@ -151,9 +151,9 @@ Por ello, además del flujo mensual, debe separarse una provisión para:
 
 ## 17.6.9 Conclusión
 
-Cubrir los gastos operativos y validar el modelo es el objetivo correcto para las primeras 100 aves: suficientemente exigente para comprobar que existe un negocio real, pero sin castigar al piloto por cargar una infraestructura diseñada para crecer.
+Cubrir los gastos operativos y validar el modelo es el objetivo correcto para la primera unidad de 640 aves: suficientemente exigente para comprobar que existe un negocio real, pero sin castigar al piloto por cargar una infraestructura diseñada para crecer.
 
-La primera etapa no tiene que demostrar que 100 gallinas producen una gran rentabilidad. Debe demostrar algo más importante:
+La primera etapa no tiene que demostrar que 640 gallinas producen una gran rentabilidad. Debe demostrar algo más importante:
 
 > Que existe una unidad productiva, comercial y tecnológica repetible, y que al agregar módulos los ingresos crecerán más rápido que los costos compartidos.
 
