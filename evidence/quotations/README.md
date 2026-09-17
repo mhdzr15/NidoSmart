@@ -42,3 +42,9 @@ Se continúa **solo con el alcance de jaula + automatización** (v1/v2, $17,747)
 - Especificación de aislamiento térmico (valor R o equivalente) para techo y paredes de la nave de 17×4×4.2 m.
 
 Estas cinco preguntas fueron redactadas por NidoSmart el 2026-07-25 pero, según el hilo de correo revisado, no llegaron a enviarse al proveedor (quedaron en un correo dirigido a una cuenta propia) — siguen sin respuesta del proveedor.
+
+**Nuevos pendientes de layout (2026-09-16, identificados al resolver las especificaciones de layout de la nave — ver [Diseño físico — 7.1.1](../../docs/business-plan/07-diseno-fisico.md#711-layout-funcional-recomendado-dentro-de-la-nave-17×4×42-m)):**
+
+- Altura libre real requerida por el sistema completo instalado (stack de 4 niveles + riel del skip-hoist feeder + máquina recolectora de huevo sobre el nivel superior) — para confirmar que 4.2 m de altura total son suficientes.
+- Footprint longitudinal real de cada uno de los 5 sets, incluyendo "front-end components" y "backend components and driver system", para confirmar que caben en los 17 m con espacio de circulación en ambas cabeceras.
+- Footprint transversal (profundidad de jaula + pasillo central) del arreglo "double-sided" de 4 niveles, para confirmar que los 4 m de ancho son suficientes.
