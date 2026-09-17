@@ -56,10 +56,12 @@ Este registro centraliza las decisiones estratégicas explícitas identificadas 
 **Decisión:** La infraestructura se construye como una plataforma ampliable por módulos independientes, en lugar de rediseñarse por completo cada vez que aumente el número de aves.
 **Justificación:** Evita rediseñar la granja en cada etapa de crecimiento y permite que el segundo y tercer módulo se conecten sin sustituir la infraestructura principal.
 **Consecuencias:** Cada módulo mantiene alojamiento, línea de agua, alimentación, recolección de huevo y sensores propios, mientras que los servicios principales (almacenamiento, silo, agua, cuarto eléctrico, servidor, comunicaciones) se comparten entre módulos.
+**Actualización (2026-09-17, corrige [DEC-014](#dec-014--expansión-lineal-de-la-nave-con-equipo-de-alimentaciónrecolección-compartido-hasta-el-techo-declarado-por-el-proveedor)):** la frase anterior ("cada módulo mantiene... alimentación, recolección de huevo... propios") queda **corregida**: según el proveedor (FamTECH), la alimentación y la recolección de huevo/gallinaza son sistemas de **una sola unidad de arrastre compartida**, que da servicio de forma lineal a hasta 90 sets (~11,520 aves) extendiendo la misma nave — no un sistema independiente que se repite por módulo. Lo que sí sigue siendo modular e independiente por set/etapa es: la jaula misma, la línea de bebederos, y la posibilidad de aislar fallas y medir consumo por subgrupo (la razón original de tener 5 sets, ver [Diseño físico — 7.1](../business-plan/07-diseno-fisico.md#71-módulo-inicial)). El principio general de DEC-004 (plataforma ampliable sin rediseño completo en cada etapa) se mantiene, pero su aplicación al sistema de alimentación/recolección se corrige por la de DEC-014.
 **Documentos relacionados:**
 
 - [Modelo modular de crecimiento](../business-plan/06-crecimiento-modular.md)
 - [Hoja de ruta](../business-plan/23-hoja-de-ruta.md)
+- [DEC-014](#dec-014--expansión-lineal-de-la-nave-con-equipo-de-alimentaciónrecolección-compartido-hasta-el-techo-declarado-por-el-proveedor)
 
 ## DEC-005 — Objetivo de cubrir el OPEX directo durante la validación del piloto, sin exigir recuperación del CAPEX
 
@@ -197,6 +199,29 @@ Este registro centraliza las decisiones estratégicas explícitas identificadas 
 - [Presupuesto consolidado de inversión inicial](../investment-project/07-presupuesto-consolidado-inversion-inicial.md)
 - [Proyecto de inversión](../investment-project/01-proyecto-de-inversion.md)
 - [Plan financiero preliminar](../business-plan/17-plan-financiero.md)
+- [Registro de cotizaciones](../../evidence/quotations/README.md)
+
+## DEC-014 — Expansión lineal de la nave, con equipo de alimentación/recolección compartido hasta el techo declarado por el proveedor
+
+**Estado:** Aprobada
+**Fecha:** 2026-09-17 (corrige la versión inicial de esta decisión, redactada el 2026-09-16 con la conclusión opuesta — ver nota de corrección al final)
+**Decisión:** El crecimiento hacia la escala máxima declarada por el proveedor (FamTECH: hasta 90 "grupos de jaula" ≈11,520 aves) se realiza mediante **expansión lineal de la misma nave física**: una sola unidad de arrastre de alimentación, recolección de huevo y retiro de gallinaza da servicio a todos los sets, agregando jaula y línea de bebederos por cada set adicional, sin duplicar el equipo compartido hasta llegar al techo declarado por el proveedor. Esto corrige [DEC-004](#dec-004--arquitectura-modular-de-crecimiento) en lo referente específicamente a alimentación y recolección de huevo (ver actualización en esa decisión).
+**Justificación:** Así es como el proveedor (FamTECH) diseña y vende el sistema — un "grupo de jaula"/set (128 aves) es una unidad que se agrega a la MISMA línea de arrastre, no un sistema autónomo. Construir naves independientes, cada una con su propio equipo de alimentación/recolección, implicaría duplicar innecesariamente el equipo más caro del sistema (jaula + automatización, $328,300 MXN confirmados) cada vez que se alcance la unidad mínima de 640 aves, en lugar de aprovechar el headroom de hasta 90 sets que la misma línea ya admite.
+**Consecuencias:**
+
+- **Ventilación debe planearse por etapas, no fijarse una sola vez:** el sistema recomendado para la unidad actual (transversal/presión negativa, 3,600–10,000 cfm — ver [Automatización — Control ambiental](../business-plan/08-automatizacion.md#control-ambiental)) es correcto para 5 sets/17 m, pero deja de serlo conforme la nave se alarga; a la escala del techo declarado (~120 m de referencia del proveedor), el modo túnel se vuelve la opción técnicamente correcta. La tabla de caudales por set (720 cfm mínimo / 1,600–1,800 cfm máximo por set) ya documentada debe tratarse como una **hoja de ruta de escalamiento real**, no como un ejercicio ilustrativo — es necesario definir en qué umbral de longitud/número de sets conviene migrar de un sistema a otro.
+- **La cimentación y estructura civil deben planearse extensibles desde el diseño inicial**, aunque solo se construyan los primeros 17 m ahora — ver [Ficha técnica — Nave avícola, fila "Expansión futura"](../investment-project/05-ficha-tecnica-nave.md). No debe fijarse un tipo estructural que impida alargar la nave linealmente sin reconstruir cimentación.
+- El footprint real por set (17 m/5 sets ≈ 3.4 m/set en nuestra cotización, frente a 120 m/90 grupos ≈ 1.33 m/grupo en la referencia del proveedor) sigue sin conciliarse del todo — si la proporción de 3.4 m/set se mantiene para toda la expansión, el techo de 90 sets implicaría una nave de ≈306 m. Sin embargo, la cotización confirma un límite técnico independiente: el "Skip hoist feeder" (alimentador, item I.1 de la cotización) especifica textualmente **"a travel path of up to 100 meters"** — un dato confirmado, no estimado, que acerca la longitud máxima real a los ~120 m de referencia del proveedor y sugiere que 306 m no sería alcanzable con este equipo sin una segunda línea de alimentación. Pendiente confirmar con el proveedor si esos 100 m son el límite de nuestro equipo específico o de una versión distinta.
+- Se corrige [DEC-004](#dec-004--arquitectura-modular-de-crecimiento): el principio de "plataforma ampliable sin rediseño completo" se mantiene, pero ya no aplica un sistema de alimentación/recolección independiente por módulo — ese sistema específico es compartido y lineal.
+
+**Nota de corrección (2026-09-17):** la versión original de esta decisión, redactada el día anterior, concluía lo contrario (unidades independientes de 640 aves, cada una con su propio equipo) por una lectura incorrecta de cómo el proveedor comparte su infraestructura. El usuario corrigió esto directamente: "la expansión es lineal, un solo equipo va a soportar las 11,500 aves." Este documento reemplaza esa conclusión.
+
+**Documentos relacionados:**
+
+- [Modelo modular de crecimiento](../business-plan/06-crecimiento-modular.md)
+- [Diseño físico preliminar](../business-plan/07-diseno-fisico.md)
+- [Ficha técnica — Nave avícola](../investment-project/05-ficha-tecnica-nave.md)
+- [Sistema de automatización](../business-plan/08-automatizacion.md)
 - [Registro de cotizaciones](../../evidence/quotations/README.md)
 
 ## Decisiones candidatas no confirmadas en el documento fuente

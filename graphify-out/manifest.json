@@ -380,9 +380,9 @@
     "semantic_hash": ""
   },
   "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/.claude/CLAUDE.md": {
-    "mtime": 1789502289.0830572,
-    "ast_hash": "0c6f359fbce44a9b36cd66dbbca2ae96",
-    "semantic_hash": "0c6f359fbce44a9b36cd66dbbca2ae96"
+    "mtime": 1789621345.4614344,
+    "ast_hash": "9ccf914ecfbc89e42f8e92e874e4a901",
+    "semantic_hash": "9ccf914ecfbc89e42f8e92e874e4a901"
   },
   "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/README.md": {
     "mtime": 1789282234.2416,
@@ -420,19 +420,19 @@
     "semantic_hash": "04f6aab9e7f6a31254eb57720a8a2ba0"
   },
   "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/business-plan/06-crecimiento-modular.md": {
-    "mtime": 1789414589.9767787,
-    "ast_hash": "7650a3ffb8434d51c54d0dee30c93d46",
-    "semantic_hash": "7650a3ffb8434d51c54d0dee30c93d46"
+    "mtime": 1789665980.8956084,
+    "ast_hash": "6161f776ccf5a58b73136acc4abba154",
+    "semantic_hash": "6161f776ccf5a58b73136acc4abba154"
   },
   "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/business-plan/07-diseno-fisico.md": {
-    "mtime": 1789586462.8168263,
-    "ast_hash": "dc950a9d9e6a5dcb0c5a70353f3a04f7",
-    "semantic_hash": "dc950a9d9e6a5dcb0c5a70353f3a04f7"
+    "mtime": 1789670177.6164465,
+    "ast_hash": "fda70fc60f9f8125b296301b0e5ed276",
+    "semantic_hash": "fda70fc60f9f8125b296301b0e5ed276"
   },
   "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/business-plan/08-automatizacion.md": {
-    "mtime": 1789284017.1551077,
-    "ast_hash": "7b96646bf8f1b9b13358ce7eed5fa647",
-    "semantic_hash": "7b96646bf8f1b9b13358ce7eed5fa647"
+    "mtime": 1789671032.0863233,
+    "ast_hash": "3c2c8f1b4ec10837e67d8b16a06972eb",
+    "semantic_hash": "3c2c8f1b4ec10837e67d8b16a06972eb"
   },
   "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/business-plan/09-arquitectura-electrica-hidraulica-comunicaciones.md": {
     "mtime": 1785008376.8682778,
@@ -540,9 +540,9 @@
     "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
   },
   "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/governance/registro-de-decisiones.md": {
-    "mtime": 1789420768.7393258,
-    "ast_hash": "114003be3f571762d0b7e29afb6e79bd",
-    "semantic_hash": "114003be3f571762d0b7e29afb6e79bd"
+    "mtime": 1789666051.329118,
+    "ast_hash": "50f3b6db8a9c37201b7563c323100356",
+    "semantic_hash": "50f3b6db8a9c37201b7563c323100356"
   },
   "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/governance/trazabilidad.md": {
     "mtime": 1789281770.2760124,
@@ -610,9 +610,9 @@
     "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
   },
   "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/investment-project/05-ficha-tecnica-nave.md": {
-    "mtime": 1789586472.4466362,
-    "ast_hash": "2efc12f445096db57795811acd892350",
-    "semantic_hash": "2efc12f445096db57795811acd892350"
+    "mtime": 1789666023.8304052,
+    "ast_hash": "225079b572ce914c9e30d3f695d27c83",
+    "semantic_hash": "225079b572ce914c9e30d3f695d27c83"
   },
   "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/investment-project/06-vehiculo-de-distribucion.md": {
     "mtime": 1789420550.3579395,
@@ -620,9 +620,9 @@
     "semantic_hash": "a1782ef05b9aa48d70cbfdeeea5a9c13"
   },
   "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/investment-project/07-presupuesto-consolidado-inversion-inicial.md": {
-    "mtime": 1789420737.2605655,
-    "ast_hash": "774f480874419fdf89b60179ec9e8a6e",
-    "semantic_hash": "774f480874419fdf89b60179ec9e8a6e"
+    "mtime": 1789670684.8456092,
+    "ast_hash": "cb6e8de79c192c3d41bd414f0ec31eec",
+    "semantic_hash": "cb6e8de79c192c3d41bd414f0ec31eec"
   },
   "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/investment-project/README.md": {
     "mtime": 1789420743.1629033,
@@ -630,9 +630,9 @@
     "semantic_hash": "86ef2887a6ff6f2e20d8da6d69ffb3d7"
   },
   "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/evidence/quotations/README.md": {
-    "mtime": 1789585048.9952762,
-    "ast_hash": "fc5f2baad8d75edc9e6d5fd4d1d5a341",
-    "semantic_hash": "fc5f2baad8d75edc9e6d5fd4d1d5a341"
+    "mtime": 1789670218.6294982,
+    "ast_hash": "9d5910e0a816d80b41349da09ee2143f",
+    "semantic_hash": "9d5910e0a816d80b41349da09ee2143f"
   },
   "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/knowledge-base/README.md": {
     "mtime": 1789282190.8150854,

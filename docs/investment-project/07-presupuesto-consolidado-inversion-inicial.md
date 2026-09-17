@@ -72,7 +72,7 @@ Pendiente: análisis de calidad de agua del predio (pH, dureza, coliformes) señ
 
 | Concepto | Especificación | Fuente | Costo total (MXN) | Estado |
 |---|---|---|---|---|
-| Controlador (PLC/gateway), sensores adicionales, Node-RED | Capa NidoSmart, no depende directamente del número de aves | Conservado de la versión anterior del plan financiero | **$25,000–$65,000** | **Estimado (conservado)** |
+| Controlador (PLC/gateway), sensores adicionales, Node-RED | Capa NidoSmart, no depende directamente del número de aves. Incluye ahora, de forma explícita (2026-09-17): sensor de amoníaco (NH₃, obligatorio — dispara el umbral de ventilación de 30 ppm), sensor de CO₂ (obligatorio, umbral de alarma aún pendiente), y 4 sensores de lux (uno por nivel de jaula) — ninguno incluido en la cotización FamTECH. Ver [Automatización — Control ambiental](../business-plan/08-automatizacion.md#control-ambiental) e [Iluminación](../business-plan/08-automatizacion.md#iluminación) | Conservado de la versión anterior del plan financiero; monto sin verificar contra estas partidas ahora explícitas | **$25,000–$65,000** | **Estimado (conservado, pendiente re-verificar rango)** |
 | Conectividad a internet y respaldo satelital (Starlink u otro, sólo equipo) | Ver [Arquitectura — 9.3.1](../business-plan/09-arquitectura-electrica-hidraulica-comunicaciones.md#931-conectividad-a-internet-como-requisito-permanente) | Conservado | **$8,000–$25,000** | **Estimado (conservado)** |
 | **Subtotal sensores y control** | | | **$33,000–$90,000** | |
 
