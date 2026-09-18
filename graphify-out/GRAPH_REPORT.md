@@ -1,13 +1,18 @@
-# Graph Report - .  (2026-09-17)
+# Graph Report - NidoSmart  (2026-09-18)
 
 ## Corpus Check
-- 1 files · ~443,343 words
+- 62 files · ~444,110 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 792 nodes · 1014 edges · 74 communities (59 shown, 15 thin omitted)
-- Extraction: 88% EXTRACTED · 12% INFERRED · 0% AMBIGUOUS · INFERRED: 117 edges (avg confidence: 0.8)
-- Token cost: 59,059 input · 0 output
+- 814 nodes · 1033 edges · 85 communities (69 shown, 16 thin omitted)
+- Extraction: 88% EXTRACTED · 11% INFERRED · 0% AMBIGUOUS · INFERRED: 117 edges (avg confidence: 0.8)
+- Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `03e64123`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - [[_COMMUNITY_Bell & Weaver Farm Operations Chapters|Bell & Weaver: Farm Operations Chapters]]
@@ -79,12 +84,22 @@
 - [[_COMMUNITY_Community 66|Community 66]]
 - [[_COMMUNITY_Community 68|Community 68]]
 - [[_COMMUNITY_Community 70|Community 70]]
+- [[_COMMUNITY_Community 74|Community 74]]
+- [[_COMMUNITY_Community 75|Community 75]]
+- [[_COMMUNITY_Community 76|Community 76]]
+- [[_COMMUNITY_Community 77|Community 77]]
+- [[_COMMUNITY_Community 78|Community 78]]
+- [[_COMMUNITY_Community 79|Community 79]]
+- [[_COMMUNITY_Community 80|Community 80]]
+- [[_COMMUNITY_Community 81|Community 81]]
+- [[_COMMUNITY_Community 82|Community 82]]
+- [[_COMMUNITY_Community 83|Community 83]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `Presupuesto consolidado de inversión inicial — unidad de 640 aves` - 30 edges
+1. `Presupuesto consolidado de inversión inicial — unidad de 640 aves` - 32 edges
 2. `FamTECH / ABC Machinery / Anyang Best Complete Machinery Engineering Co., Ltd` - 26 edges
-3. `Chapter 52: Cage Management for Layers` - 18 edges
-4. `Registro de decisiones` - 17 edges
+3. `Registro de decisiones` - 22 edges
+4. `Chapter 52: Cage Management for Layers` - 18 edges
 5. `Hermes Agent` - 17 edges
 6. `Manual de Buenas Practicas Pecuarias en la Produccion de Huevo para Plato (SENASICA, 3a Ed. 2019)` - 17 edges
 7. `Automatización de iluminación` - 16 edges
@@ -107,11 +122,11 @@
 ## Import Cycles
 - None detected.
 
-## Communities (74 total, 15 thin omitted)
+## Communities (85 total, 16 thin omitted)
 
 ### Community 0 - "Bell & Weaver: Farm Operations Chapters"
-Cohesion: 0.06
-Nodes (50): Automatización intensiva (>90%), Escala objetivo de largo plazo (5,000 aves), Estrategia comercial (venta directa, suscripciones), NidoSmart, Primera unidad productiva (640 aves), Segunda unidad (1,280 aves), Techo de capacidad declarado por el proveedor (~11,520 aves), Concepto del negocio (+42 more)
+Cohesion: 0.17
+Nodes (17): Principio: la cotización de FamTECH cubre solo el equipo listado línea por línea, 5 Pendientes de Ventilación con FamTECH, Hilo de correo — FamTECH, Presupuesto Consolidado de Inversión Inicial, Cotización FamTECH v1 (CIF Puebla, USD 17,747), Cotización FamTECH v3 (DAP Puebla + Control Ambiental, USD 24,095), Decisión de Alcance: Jaula + Automatización (control ambiental en pausa), Duda de Escalabilidad: 90 Grupos/120m vs. 5 Sets/17m (+9 more)
 
 ### Community 1 - "NidoSmart Business Overview"
 Cohesion: 0.06
@@ -122,32 +137,32 @@ Cohesion: 0.06
 Nodes (48): Ahemeral 28-Hour Lighting Program (14 Hours Light, 14 Hours Dark) for Egg Strains, Chapter 10: Fundamentals of Managing Light for Poultry, Chapter 11: Waste Management, Chapter 12: External Parasites, Insects, and Rodents, Chapter 17: Feeding Egg-Type Replacement Pullets, Chapter 18: Feeding Commercial Egg-Type Layers, Chapter 20: Vitamins, Minerals, and Trace Ingredients, Chapter 22: Consumption and Quality of Water (+40 more)
 
 ### Community 3 - "Project Structure & Indexes"
-Cohesion: 0.04
-Nodes (44): Comparación ponedoras vs pollo de engorda, Decisión: iniciar con gallinas ponedoras, Pollitas de prepostura (16-18 semanas), Decisiones candidatas no confirmadas (broilers; muda/reciclaje de parvada), DEC-001 — Nombre del proyecto: NidoSmart, DEC-002: Inicio con gallinas ponedoras y no con pollo de engorda, DEC-002 — Inicio con gallinas ponedoras y no con pollo de engorda, DEC-003 — Inicio controlado con una operación piloto de aproximadamente 100 gallinas (+36 more)
+Cohesion: 0.08
+Nodes (25): Big Dutchman, Fideicomisos Instituidos en Relación con la Agricultura (FIRA), Fuentes técnicas de referencia, Hermes Agent (Nous Research), Hy-Line International, Instituto Nacional de Investigaciones Forestales, Agrícolas y Pecuarias (INIFAP), Lohmann Breeders, LUBING (+17 more)
 
 ### Community 4 - "Genetic Line Performance Standards"
-Cohesion: 0.07
-Nodes (40): Base de datos local de series de tiempo, Gateway industrial y Node-RED, Conectividad a internet permanente para datos e IA, Control crítico local sin internet, Arquitectura de comunicaciones, Conectividad a internet como requisito permanente, Starlink (enlace satelital de respaldo), Arquitectura propuesta (diagrama) (+32 more)
+Cohesion: 0.06
+Nodes (41): Base de datos local de series de tiempo, Gateway industrial y Node-RED, Conectividad a internet permanente para datos e IA, Control crítico local sin internet, Arquitectura de comunicaciones, Conectividad a internet como requisito permanente, Starlink (enlace satelital de respaldo), Arquitectura propuesta (diagrama) (+33 more)
 
 ### Community 5 - "Layer vs Broiler Decision & Vendors"
 Cohesion: 0.05
 Nodes (33): Inversión preliminar ($723,300-$1,174,300 MXN), 7.1.1 Layout funcional recomendado (dentro de la nave 17×4×4.2 m), 7.1 Módulo inicial, 7.2 Áreas generales del predio, 7.3 Flujo operativo, Condiciones climáticas del sitio, Densidad de jaula (pendiente de verificación con proveedor), Diseño físico preliminar (+25 more)
 
 ### Community 6 - "Hot-Climate Housing Science"
-Cohesion: 0.09
-Nodes (36): Pendiente de Conciliación Arquitectónica (Módulos Independientes vs. Nave Extendida), DEC-004: Crecimiento por Módulos Independientes, Techo declarado por el proveedor — 90 sets (~11,520 aves), Techo Declarado por FamTECH (90 Sets / ≈11,520 Aves), Bell & Weaver — cita rechazada de CO2 "arriba de 50 ppm" (capítulo de calidad de carne/procesamiento de pollo de engorda, no diseño de caseta de ponedoras; número inconsistente con CO2 atmosférico normal), Control ambiental, Diferimiento de Cooling Pads (Clima San Francisco Acatepec ≤29°C), Escalamiento de ventilación con el crecimiento (hoja de ruta real) (+28 more)
+Cohesion: 0.13
+Nodes (20): Techo declarado por el proveedor — 90 sets (~11,520 aves), Escalamiento de ventilación con el crecimiento (hoja de ruta real), Migración de ventilación transversal a modo túnel conforme la nave se alarga, Bell & Weaver, capítulo 50 (costo de capital, complejo de un millón de aves), FamTECH (cotización jaula automatizada tipo H), Flete final: almacén Puebla → sitio del proyecto (pendiente de cotizar), Interpretación: economía de escala de la automatización, DEC-004 — Arquitectura modular de crecimiento (+12 more)
 
 ### Community 7 - "FamTECH Cage Quotation Line Items"
-Cohesion: 0.10
-Nodes (27): Crecimiento modular, Principio de modularidad, Servicios principales compartidos, Aislamiento Térmico R-20 Techo / R-14 Paredes, Aislamiento térmico de la nave (vs. calefacción auxiliar), Requisito de Barrera de Vapor, Bell & Weaver - Commercial Chicken Meat and Egg Production, Cálculo de Δt para San Francisco Acatepec (+19 more)
+Cohesion: 0.17
+Nodes (18): Aislamiento Térmico R-20 Techo / R-14 Paredes, Aislamiento térmico de la nave (vs. calefacción auxiliar), Requisito de Barrera de Vapor, Bell & Weaver - Commercial Chicken Meat and Egg Production, Cálculo de Δt para San Francisco Acatepec, Condiciones climáticas del sitio (altiplano poblano), Condiciones Climáticas del Sitio (San Francisco Acatepec), Estudio Revisado por Pares — Nave Multi-Nivel de Ponedoras Sin Calefacción (+10 more)
 
 ### Community 8 - "640-Bird Scope Freeze & Investment"
 Cohesion: 0.16
 Nodes (21): Tragaluces en cubierta (decisión de diseño, 2026-09-17), Bell & Weaver, Commercial Chicken Meat and Egg Production, Control adaptativo por nivel (4 sensores de lux + PLC propio de NidoSmart), Especificación de intensidad y espectro lumínico (corregida, sep. 2026), Fotoperiodo objetivo 15–16 horas (Hy-Line W-80, corrige la cifra genérica de 14 h), Boletín técnico Hy-Line: "Entendiendo la Luz en la Avicultura", Guía de manejo Hy-Line W-80, Automatización de iluminación (+13 more)
 
 ### Community 9 - "Nave & Vehicle Open Specs"
-Cohesion: 0.10
-Nodes (21): Modelo de venta, Planes de suscripción familiar, Política de precios, Posicionamiento de marca, Bell & Weaver, capítulo 50 (costo de capital, complejo de un millón de aves), FamTECH (cotización jaula automatizada tipo H), Flete final: almacén Puebla → sitio del proyecto (pendiente de cotizar), Interpretación: economía de escala de la automatización (+13 more)
+Cohesion: 0.29
+Nodes (7): Modelo de venta, Planes de suscripción familiar, Política de precios, Posicionamiento de marca, Margen de contribución, Validación económica, Indicadores financieros
 
 ### Community 10 - "Egg Safety Regulation (NOM-159)"
 Cohesion: 0.10
@@ -158,8 +173,8 @@ Cohesion: 0.19
 Nodes (19): Bird Heat Loss Mechanisms (Sensible vs Latent, Fig. 5.1), Poultry Production in Hot Climates (2nd Edition), Cage-to-Ceiling Clearance Threshold (Less Than 1 m Impairs Natural Ventilation), Minimum 1.2 m Centre Aisle Width for 3-4 Tier Cage Houses, Chapter 4: Behavioural, Physiological, Neuroendocrine and Molecular Responses to Heat Stress, Chapter 5: Poultry Housing for Hot Climates, Chapter 6: Nutrient Requirements of Poultry at High Temperatures, Circulation Fan Layout for Naturally Ventilated Houses (+11 more)
 
 ### Community 12 - "Risk Management & AI Agents"
-Cohesion: 0.11
-Nodes (19): 10. Importación y logística, 11. Instalación y puesta en marcha, 12. Aves, 14. Almacenamiento y manejo de producto, 15. Vehículo de distribución, 16. Permisos y trámites, 17. Capital de trabajo inicial, 18. Contingencia (+11 more)
+Cohesion: 0.10
+Nodes (21): 10. Importación y logística, 11. Instalación y puesta en marcha, 12. Aves, 13. Bioseguridad, 14. Almacenamiento y manejo de producto, 15. Vehículo de distribución, 16. Permisos y trámites, 17. Capital de trabajo inicial (+13 more)
 
 ### Community 13 - "Technology-First Investment Strategy"
 Cohesion: 0.17
@@ -254,8 +269,8 @@ Cohesion: 0.29
 Nodes (6): data/experimental/, data/external/, Data, Separación entre datos crudos y su análisis derivado, Separación entre conocimiento de terceros (knowledge-base) y producido por NidoSmart (docs), models/
 
 ### Community 36 - "Technical KPIs"
-Cohesion: 0.29
-Nodes (5): DEC-013 — Presupuesto consolidado de inversión inicial, vehículo fuera del crédito, Estado de la Ficha Técnica, Ficha técnica — Nave avícola (unidad de 640 aves), Navegación, Parámetros técnicos
+Cohesion: 0.25
+Nodes (6): DEC-013 — Presupuesto consolidado de inversión inicial, vehículo fuera del crédito, Estado de la ficha técnica, Estado de la Ficha Técnica, Ficha técnica — Nave avícola (unidad de 640 aves), Navegación, Parámetros técnicos
 
 ### Community 37 - "Operations Role"
 Cohesion: 0.33
@@ -278,8 +293,8 @@ Cohesion: 0.33
 Nodes (5): 25.1 Elementos que no deben sacrificarse, 25.2 Elementos que pueden aplazarse, 25.3 Estrategia recomendada, Estrategia de inversión, Navegación
 
 ### Community 42 - "Optional Environmental Control Package"
-Cohesion: 0.40
-Nodes (5): Core working principle, Graphify, Graphify commands, NidoSmart Project, Project
+Cohesion: 0.22
+Nodes (8): Explain a concept, Find relationships, Graph maintenance, Graphify usage, Project, Query project memory, Source of truth, Working principle
 
 ### Community 43 - "Community 43"
 Cohesion: 0.53
@@ -325,6 +340,42 @@ Nodes (4): Catálogo, Knowledge Base, Por qué está dividido por tipo de autori
 Cohesion: 0.50
 Nodes (4): ABC Machinery (brand), FamTECH Poultry Cage Quotation Thread, ABC Machinery Logo Image, Generic Download Icon Image
 
+### Community 74 - "Community 74"
+Cohesion: 0.08
+Nodes (23): Comparación ponedoras vs pollo de engorda, Decisión: iniciar con gallinas ponedoras, Pollitas de prepostura (16-18 semanas), Decisiones candidatas no confirmadas (broilers; muda/reciclaje de parvada), DEC-001 — Nombre del proyecto: NidoSmart, DEC-001 — Nombre del proyecto: NidoSmart, DEC-002: Inicio con gallinas ponedoras y no con pollo de engorda, DEC-002 — Inicio con gallinas ponedoras y no con pollo de engorda (+15 more)
+
+### Community 75 - "Community 75"
+Cohesion: 0.17
+Nodes (16): Pendiente de Conciliación Arquitectónica (Módulos Independientes vs. Nave Extendida), DEC-004: Crecimiento por Módulos Independientes, Techo Declarado por FamTECH (90 Sets / ≈11,520 Aves), 8.1 Procesos que deben automatizarse desde el inicio, Alimentación, Control ambiental, Diferimiento de Cooling Pads (Clima San Francisco Acatepec ≤29°C), Estrategia Híbrida de Ventilación (Transversal + Entradas Motorizadas) (+8 more)
+
+### Community 76 - "Community 76"
+Cohesion: 0.15
+Nodes (13): Crecimiento modular, Estrategia comercial (venta directa, suscripciones), NidoSmart, Concepto del negocio, Producto inicial: huevo fresco, Productos secundarios, Propuesta de valor, Canales de oportunidad (+5 more)
+
+### Community 77 - "Community 77"
+Cohesion: 0.29
+Nodes (12): Primera unidad productiva (640 aves), Segunda unidad (1,280 aves), Áreas generales del predio, Densidad de jaula (pendiente de verificación), FamTECH, Flujo operativo (diagrama), Jaula automatizada tipo H (4 niveles, 5 sets), Layout Funcional de la Nave (17×4×4.2 m) (+4 more)
+
+### Community 78 - "Community 78"
+Cohesion: 0.27
+Nodes (12): Bell & Weaver — cita rechazada de CO2 "arriba de 50 ppm" (capítulo de calidad de carne/procesamiento de pollo de engorda, no diseño de caseta de ponedoras; número inconsistente con CO2 atmosférico normal), Reece & Lott (1980) — 12,000 ppm de CO2 asociado con reducción de peso corporal en pollos de engorda; hasta 10,000 ppm observado en casetas mal ventiladas durante precalentamiento (dato específico de pollo de engorda, no de ponedoras), Sensor de CO2, Sensores de lux por nivel (4, control adaptativo), Sensor de amoníaco (NH3), University of Georgia Cooperative Extension — "Importance of Adequate Ventilation on Air Quality During Cold Weather" (2003), Jerarquía de niveles tecnológicos, Principio fundamental (control crítico local) (+4 more)
+
+### Community 79 - "Community 79"
+Cohesion: 0.25
+Nodes (7): Commit workflow, Failure handling, Graphify artifacts, Graphify Maintainer, Graphify update, Primary responsibility, Source of truth
+
+### Community 80 - "Community 80"
+Cohesion: 0.29
+Nodes (7): Automatización intensiva (>90%), Escala objetivo de largo plazo (5,000 aves), Techo de capacidad declarado por el proveedor (~11,520 aves), Automatizar al menos 90% de tareas repetitivas, Objetivo general, Escala recomendada (tabla de etapas de crecimiento), Recolección de huevo
+
+### Community 81 - "Community 81"
+Cohesion: 0.33
+Nodes (6): Punto estratégico: escenarios conservador/base/optimista, Objetivo financiero y de validación del piloto, Validación comercial, Validación productiva, Validación tecnológica, DEC-005 — Cubrir OPEX directo en el piloto, sin exigir recuperación del CAPEX
+
+### Community 82 - "Community 82"
+Cohesion: 0.33
+Nodes (6): Decisión vigente (2026-07-22), Especificaciones técnicas base (v1/v2), Historial de versiones, Lo que NO especifica todavía el proveedor (pendiente real, no resuelto por este hilo), Pendientes con este proveedor, Registro de cotizaciones — Sistema de jaula tipo H
+
 ## Ambiguous Edges - Review These
 - `Table 22-8: Suggested Maximum Limits of Water Components for Chickens` → `Table 52-1: Recommended Minimum Space Allowances During Lay (Floor, Feeder, Waterer Space, 16 wk+)`  [AMBIGUOUS]
   knowledge-base/books/commercial-chicken-meat-and-egg-production.pdf · relation: conceptually_related_to
@@ -336,9 +387,9 @@ Nodes (4): ABC Machinery (brand), FamTECH Poultry Cage Quotation Thread, ABC Mac
   evidence/correspondence/mail_famtechpoultry.rtfd/unknown.png · relation: conceptually_related_to
 
 ## Knowledge Gaps
-- **352 isolated node(s):** `Graphify commands`, `Estructura del proyecto`, `Por dónde empezar`, `Data`, `Navegación` (+347 more)
+- **373 isolated node(s):** `Working principle`, `Query project memory`, `Explain a concept`, `Find relationships`, `Source of truth` (+368 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **15 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **16 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -351,9 +402,9 @@ _Questions this graph is uniquely positioned to answer:_
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
 - **What is the exact relationship between `FamTECH Poultry Cage Quotation Thread` and `Generic Download Icon Image`?**
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
-- **Why does `Tabla de 19 parámetros técnicos de la nave` connect `Bell & Weaver: Farm Operations Chapters` to `Technical KPIs`, `Layer vs Broiler Decision & Vendors`, `Hot-Climate Housing Science`, `FamTECH Cage Quotation Line Items`, `Financial Plan: Scale Economics`, `Pilot Validation Criteria`, `Installation Photo: Cage Interior`?**
-  _High betweenness centrality (0.093) - this node is a cross-community bridge._
-- **Why does `FamTECH / ABC Machinery / Anyang Best Complete Machinery Engineering Co., Ltd` connect `Bell & Weaver: Farm Operations Chapters` to `Layer vs Broiler Decision & Vendors`, `Hot-Climate Housing Science`, `FamTECH Cage Quotation Line Items`, `640-Bird Scope Freeze & Investment`, `Biosecurity & Org Roles`?**
-  _High betweenness centrality (0.079) - this node is a cross-community bridge._
-- **Why does `DEC-012 — Congelamiento del alcance de la inversión inicial en una unidad de 640 aves` connect `Financial Plan: Scale Economics` to `Bell & Weaver: Farm Operations Chapters`, `Project Structure & Indexes`, `Technical KPIs`, `Hot-Climate Housing Science`, `Nave & Vehicle Open Specs`, `Risk Management & AI Agents`, `Installation Photo: Egg Elevator`?**
-  _High betweenness centrality (0.069) - this node is a cross-community bridge._
+- **Why does `Tabla de 19 parámetros técnicos de la nave` connect `Community 77` to `Technical KPIs`, `Layer vs Broiler Decision & Vendors`, `FamTECH Cage Quotation Line Items`, `Community 75`, `Financial Plan: Scale Economics`, `Pilot Validation Criteria`, `Installation Photo: Cage Interior`?**
+  _High betweenness centrality (0.091) - this node is a cross-community bridge._
+- **Why does `FamTECH / ABC Machinery / Anyang Best Complete Machinery Engineering Co., Ltd` connect `Bell & Weaver: Farm Operations Chapters` to `Layer vs Broiler Decision & Vendors`, `Hot-Climate Housing Science`, `FamTECH Cage Quotation Line Items`, `640-Bird Scope Freeze & Investment`, `Community 75`, `Community 77`, `Biosecurity & Org Roles`?**
+  _High betweenness centrality (0.076) - this node is a cross-community bridge._
+- **Why does `DEC-012 — Congelamiento del alcance de la inversión inicial en una unidad de 640 aves` connect `Financial Plan: Scale Economics` to `Technical KPIs`, `Hot-Climate Housing Science`, `Community 74`, `Risk Management & AI Agents`, `Community 77`, `Community 81`, `Installation Photo: Egg Elevator`?**
+  _High betweenness centrality (0.068) - this node is a cross-community bridge._

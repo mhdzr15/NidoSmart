@@ -131,10 +131,32 @@ If relevant information is missing from Graphify, search the repository directly
 
 ## Graph maintenance
 
-Claude does not update Graphify.
+Claude uses Graphify only as a read-only project memory and retrieval layer.
 
-Graph maintenance and synchronization are handled separately by OpenCode according to `AGENTS.md`.
+Claude must not build, rebuild, or update the Graphify graph.
+
+Do not run:
+
+```bash
+/graphify .
+/graphify . --update
+graphify update .
+graphify hook install
+graphify hook uninstall
+```
+
+Claude may continue using:
+
+```bash
+graphify query "specific question"
+graphify explain "concept"
+graphify path "ElementA" "ElementB"
+```
 
 Claude may modify project source files normally.
 
-The updated project knowledge will be incorporated into Graphify during the repository commit workflow.
+If Graphify appears stale or does not contain recently modified information, inspect the repository source files directly and treat them as authoritative. Do not update Graphify from the Claude workflow.
+
+Graph maintenance and synchronization are handled separately by OpenCode through the `graphify-maintainer` commit workflow.
+
+Updated project knowledge is incorporated into Graphify before the corresponding repository commit.
