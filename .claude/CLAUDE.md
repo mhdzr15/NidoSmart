@@ -15,13 +15,13 @@ The repository contains:
 
 Because the project is large and continuously evolving, conversation context alone must not be treated as reliable project memory.
 
-Graphify is the project's persistent knowledge graph and should be used to recover relevant context from previous work.
+Graphify is the project's persistent knowledge graph and must be used to recover relevant context from previous work.
 
 Repository source files remain the authoritative source of truth. Graphify is a retrieval and context layer used to locate relevant knowledge, relationships, and prior decisions; it does not replace the underlying files.
 
 ---
 
-## Core working principle
+## Working principle
 
 For every substantial task:
 
@@ -33,10 +33,8 @@ For every substantial task:
 6. Perform the task.
 7. Validate the result against related decisions, documents, and dependencies.
 8. Update the repository when required.
-9. If project knowledge changed, update Graphify.
-10. Verify that the graph reflects the new project state before moving to the next substantial task.
 
-The expected workflow is:
+Expected workflow:
 
 ```text
 objective
@@ -47,55 +45,96 @@ objective
 → model
 → decision
 → document
-→ Graphify update
-→ next objective
-
 ```
+
+Do not rely solely on conversation memory when relevant project context may already exist in Graphify.
+
+Do not search the entire repository when Graphify can first narrow the relevant context.
+
+Avoid duplicating authoritative information across multiple files when a reference or link is sufficient.
 
 ---
 
-## Graphify commands
+## Graphify usage
 
-- **Build the graph initially**
-```bash
-/graphify .
-```
-Generates `graphify-out/graph.json`, `GRAPH_REPORT.md`, and the visualization.
+Graphify is read-only from Claude's workflow.
 
-- **Update only what has changed**
-```bash
-/graphify . --update
-```
-or from the terminal:
-```bash
-graphify update .
-```
+Claude may use Graphify to:
 
-- **Query the project memory**
+- retrieve prior project context,
+- recover previous decisions,
+- identify unresolved issues,
+- locate relevant documents,
+- understand relationships between project elements,
+- identify dependencies,
+- recover supporting evidence and bibliography.
+
+Claude must not rebuild or update the Graphify graph.
+
+### Query project memory
+
+Before starting substantial work, formulate one or more focused questions based on the current objective.
+
 ```bash
 graphify query "specific question"
 ```
+
 Example:
+
 ```bash
 graphify query "What unresolved issues remain in the poultry house specification?"
 ```
 
-- **Explain a node or concept**
+Queries must be specific to the current task.
+
+Prefer multiple focused queries over a generic project-wide query.
+
+### Explain a concept
+
 ```bash
 graphify explain "concept"
 ```
 
-- **Find the relationship between two elements**
+Use this when additional context about a specific graph element is needed.
+
+### Find relationships
+
 ```bash
 graphify path "ElementA" "ElementB"
 ```
 
-- **Keep the graph automatically updated for code**
-```bash
-graphify hook install
+Use this when the task requires understanding the relationship between project elements.
+
+---
+
+## Source of truth
+
+Graphify is a retrieval layer, not the authoritative project record.
+
+When Graphify returns relevant information:
+
+1. identify the underlying source file,
+2. inspect the source file when the information affects a decision or modification,
+3. use the repository file as authoritative.
+
+If Graphify and a source file disagree:
+
+```text
+repository source file > Graphify
 ```
-and check it with:
-```bash
-graphify hook status
-```
-Note: the post-commit hook updates code changes but **ignores docs/images**, so for NidoSmart you still need to run `/graphify . --update` when modifying documentation.
+
+Do not overwrite newer repository information based on stale graph content.
+
+If relevant information is missing from Graphify, search the repository directly rather than assuming that the topic has never been addressed.
+
+---
+
+## Graph maintenance
+
+Claude does not update Graphify.
+
+Graph maintenance and synchronization are handled separately by OpenCode according to `AGENTS.md`.
+
+Claude may modify project source files normally.
+
+The updated project knowledge will be incorporated into Graphify during the repository commit workflow.
