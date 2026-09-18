@@ -28,7 +28,9 @@ La nave aloja la unidad congelada de 640 aves ([DEC-012](../governance/registro-
 | Entradas y salidas de aire | Sin definir | **Pendiente** | La cotización v3 (control ambiental, USD $24,095) incluye "ventanas de entrada de aire" pero esa partida está en pausa (ver [decisión vigente](../../evidence/quotations/README.md#decisión-vigente-2026-07-22)); no hay diseño de aberturas si se construye sin ese paquete. |
 | Cubierta | Sin definir | **Pendiente** | Debe soportar granizo (ver clima del sitio) y alojar el aislamiento térmico anterior; no hay material ni calibre propuesto. |
 | Muros o cerramientos | Sin definir | **Pendiente** | Depende del tipo estructural; debe permitir bioseguridad (barrera física, control de fauna) y ventilación controlada simultáneamente. |
-| Drenaje | Sin definir | **Pendiente** | Solo existe el requisito general "buen drenaje pluvial" ([Diseño físico — Condiciones climáticas](../business-plan/07-diseno-fisico.md#condiciones-climáticas-del-sitio)); no hay pendientes, canaletas ni capacidad de desalojo calculadas. |
+| Drenaje pluvial | Sin definir | **Pendiente** | Requiere canaletas de techo y pendiente del predio calculadas; ver [Diseño físico — 7.2.1](../business-plan/07-diseno-fisico.md#721-drenaje-y-manejo-de-gallinaza-revisión-septiembre-2026). No hay estudio de sitio ni cálculo de capacidad. |
+| Drenaje sanitario (aguas residuales) | Sin definir | **Pendiente** | Debe ser un sistema separado del pluvial, con pre-tratamiento mínimo antes de su destino final (alcantarillado público o sistema propio); depende de si existe alcantarillado municipal en San Francisco Acatepec — ver [Regulación y cumplimiento — 18.1](../business-plan/19-regulacion-y-cumplimiento.md#181-trámites-específicos-para-san-francisco-acatepec-san-andrés-cholula-puebla). |
+| Manejo de gallinaza (salida y compostaje) | Conceptual | **Pendiente** | Salida por banda hacia contenedor cerrado y zona de compostaje separada ya definida conceptualmente ([Diseño físico — 7.1.1](../business-plan/07-diseno-fisico.md#711-layout-funcional-recomendado-dentro-de-la-nave-17×4×42-m)); faltan bordos contra escorrentía, separación real respecto a pozo/cuerpos de agua, y confirmar con FamTECH la capacidad real de la banda. Ver [Diseño físico — 7.2.1](../business-plan/07-diseno-fisico.md#721-drenaje-y-manejo-de-gallinaza-revisión-septiembre-2026). |
 | Resistencia a viento y clima local | Sin definir | **Pendiente** | Requiere memoria de cálculo estructural conforme al reglamento de construcción aplicable en San Andrés Cholula, Puebla, con cargas de viento y granizo del sitio. No existe todavía; se requiere un ingeniero civil o DRO local. |
 | Piso | Sin definir (se asume firme de concreto) | **Pendiente** | No hay espesor, resistencia ni acabado especificados; tampoco se ha confirmado la carga puntual de las patas de la jaula de 4 niveles sobre el firme. |
 | Integración con jaulas tipo H | Parcial | **Pendiente** | Las dimensiones de la nave coinciden con las de la cotización de jaula, pero no hay plano de anclajes, cargas puntuales de la estructura de jaula sobre el firme, ni interfaz mecánica/eléctrica entre ambos proveedores (jaula vs. obra civil). |
@@ -40,13 +42,13 @@ La nave aloja la unidad congelada de 640 aves ([DEC-012](../governance/registro-
 
 ## Estado de la ficha técnica
 
-De 19 parámetros: **2 confirmados**, **2 estimados** (a partir de estándares de industria, no de cotización), **15 pendientes** sin dato ni decisión.
+De 21 parámetros (revisión septiembre 2026: el parámetro "Drenaje" se desagregó en pluvial, sanitario y manejo de gallinaza — ver [Diseño físico — 7.2.1](../business-plan/07-diseno-fisico.md#721-drenaje-y-manejo-de-gallinaza-revisión-septiembre-2026)): **2 confirmados**, **2 estimados** (a partir de estándares de industria, no de cotización), **17 pendientes** sin dato ni decisión.
 
 **Conclusión:** la ficha técnica de la nave *no* está lo suficientemente estable para solicitar cotizaciones formales de obra civil comparables entre sí. Antes de cotizar, deben cerrarse al menos estos pendientes críticos:
 
 1. Definir tipo estructural y materiales (decisión propia de NidoSmart — no depende de terceros).
 2. Contratar o consultar a un ingeniero civil/DRO local para las cargas de viento, granizo y la memoria estructural conforme al reglamento de San Andrés Cholula.
-3. Levantar un estudio de sitio mínimo (orientación, vientos dominantes, drenaje pluvial) en el predio de San Francisco Acatepec.
+3. Levantar un estudio de sitio mínimo (orientación, vientos dominantes, drenaje pluvial, disponibilidad de alcantarillado sanitario, nivel freático) en el predio de San Francisco Acatepec.
 4. Confirmar con el proveedor de jaula (FamTECH) la altura libre útil requerida por el sistema de 4 niveles y las cargas puntuales de la estructura de jaula sobre el firme.
 5. Asignar metros cuadrados y ubicación relativa a los espacios de servicio ya listados conceptualmente (filtro sanitario, cuarto técnico, almacén, empaque).
 6. Realizar el estudio de carga eléctrica pendiente (ya señalado en el plan financiero) para poder especificar la instalación eléctrica de la nave, no solo el respaldo (UPS).

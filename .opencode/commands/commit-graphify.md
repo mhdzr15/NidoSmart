@@ -4,4 +4,4 @@ agent: graphify-maintainer
 subagent: true
 ---
 
-Review the current project changes, synchronize Graphify when required, and create the corresponding Git commit.
+Review the current project changes, incrementally update Graphify, and create the corresponding Git commit.

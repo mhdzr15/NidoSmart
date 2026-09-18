@@ -49,6 +49,14 @@ No incluye el UPS/respaldo energético (sección 8) ni el estudio de carga eléc
 
 Pendiente: análisis de calidad de agua del predio (pH, dureza, coliformes) señalado en el mismo documento — puede agregar costo de tratamiento no incluido en este rango si el agua no cumple los parámetros.
 
+## 5.1 Drenaje, aguas residuales y manejo de gallinaza
+
+| Concepto | Especificación | Fuente | Costo total (MXN) | Estado |
+|---|---|---|---|---|
+| Zona de compostaje con bordos, sistema de tratamiento de aguas residuales (fosa séptica o biodigestor si no hay alcantarillado municipal) y canaletas/cárcamo de drenaje pluvial | Ver [Diseño físico — 7.2.1](../business-plan/07-diseno-fisico.md#721-drenaje-y-manejo-de-gallinaza-revisión-septiembre-2026) | Sin cotización; orden de magnitud — no desglosado antes de esta revisión (estaba disuelto sin partida propia dentro de "obra civil", sección 2/3) | **$40,000–$90,000** | **Estimado (genérico)** |
+
+Este rango depende fuertemente de si existe alcantarillado sanitario municipal en San Francisco Acatepec (pendiente crítico, ver [Regulación y cumplimiento — 18.1](../business-plan/19-regulacion-y-cumplimiento.md#181-trámites-específicos-para-san-francisco-acatepec-san-andrés-cholula-puebla)): si no existe, el extremo alto del rango es más probable por el costo de un sistema de tratamiento propio.
+
 ## 6. Ventilación y control ambiental
 
 | Concepto | Especificación | Fuente | Costo total (MXN) | Estado |
@@ -152,9 +160,9 @@ Contingencia diferenciada y justificada por área de riesgo, en vez de un porcen
 | Área de riesgo | Base sobre la que aplica | % | Monto (MXN) |
 |---|---|---|---|
 | Importación y tipo de cambio (equipo + costos de importación, sección 1+10) | $388,800–$433,900 | 10% | $38,900–$43,400 |
-| Obra civil (sin cotización formal, sección 2/3 + resto de infraestructura) | $460,000–$996,000 | 15% | $69,000–$149,400 |
+| Obra civil (sin cotización formal, sección 2/3 + resto de infraestructura, incluye 5.1) | $500,000–$1,086,000 | 15% | $75,000–$162,900 |
 | Instalación y adecuaciones no previstas (logística restante + preoperativos + capital de trabajo) | $311,400–$577,200 | 10% | $31,100–$57,700 |
-| **Contingencia total** | | **≈12–13% del subtotal** | **$139,000–$250,500** |
+| **Contingencia total** | | **≈12–13% del subtotal** | **$145,000–$264,000** |
 
 El componente de tipo de cambio no se cuenta aparte: queda incorporado en el 10% de importación, ya que el riesgo cambiario recae principalmente sobre la parte de la inversión cotizada en USD.
 
@@ -163,12 +171,12 @@ El componente de tipo de cambio no se cuenta aparte: queda incorporado en el 10%
 | Bloque | Rango (MXN) | Incluye |
 |---|---:|---|
 | CAPEX productivo | $328,300 | Jaula + automatización (sección 1) |
-| CAPEX de infraestructura | $460,000–$996,000 | Nave/obra civil, eléctrica, hidráulica, iluminación, respaldo energético, sensores y control, bioseguridad (infraestructura), almacenamiento y manejo de producto (secciones 2–9, 13, 14) |
+| CAPEX de infraestructura | $500,000–$1,086,000 | Nave/obra civil, eléctrica, hidráulica, drenaje/aguas residuales/gallinaza, iluminación, respaldo energético, sensores y control, bioseguridad (infraestructura), almacenamiento y manejo de producto (secciones 2–9, 5.1, 13, 14) |
 | CAPEX logístico | $60,500–$105,600 | Aranceles, IVA, despacho aduanal (sección 10, sin equipo ni transporte final) |
 | Costos preoperativos | $185,400–$340,600 | Aves, alimento inicial, veterinario, medicamentos, empaques, personal inicial, servicios, inventarios mínimos, permisos (secciones 12, 16, 19) |
 | Capital de trabajo | $65,500–$131,000 | Colchón operativo 1–2 meses (sección 17) |
-| Contingencia | $139,000–$250,500 | Diferenciada por área de riesgo (sección 18) |
-| **Inversión total (estimada)** | **≈$1,239,000–$2,152,000** | |
+| Contingencia | $145,000–$264,000 | Diferenciada por área de riesgo (sección 18) |
+| **Inversión total (estimada)** | **≈$1,285,000–$2,256,000** | |
 
 **Explícitamente fuera de este total, por no tener cotización:**
 
@@ -202,10 +210,10 @@ De las partidas de este presupuesto:
 * **Confirmado** (cotización real): equipo de jaula y automatización, flete internacional a Puebla, seguro de transporte a Puebla — 3 partidas.
 * **Cotizado, en pausa** (existe cotización pero no está en el alcance actual): paquete de control ambiental automatizado — 1 partida.
 * **Decidido** (no requiere cotización porque se optó por no comprar): vehículo dedicado — 1 partida.
-* **Estimado** (cálculo con método explícito, sin cotización formal): la gran mayoría de las partidas de infraestructura, preoperativos y capital de trabajo — ≈18 partidas.
+* **Estimado** (cálculo con método explícito, sin cotización formal): la gran mayoría de las partidas de infraestructura, preoperativos y capital de trabajo — ≈19 partidas.
 * **Pendiente** (sin dato, no estimado): transporte final Puebla→sitio, instalación de la jaula en sitio, y todos los pendientes críticos de la [ficha técnica de la nave](./05-ficha-tecnica-nave.md#estado-de-la-ficha-técnica) que impiden cotizar formalmente la obra civil.
 
-**Lectura honesta del resultado:** este presupuesto todavía **no** cumple el estándar de "presupuesto trazable y técnicamente sustentado" que exige el objetivo, porque la partida más grande de infraestructura (nave + obra civil, hasta $421,000 MXN) sigue siendo una estimación por huella, no una cotización comparable, y dos partidas de importación (transporte final, instalación) siguen sin cotizar. El rango de $1.24M–$2.15M MXN debe tratarse como el **piso de trabajo actual**, no como el monto de crédito a solicitar.
+**Lectura honesta del resultado:** este presupuesto todavía **no** cumple el estándar de "presupuesto trazable y técnicamente sustentado" que exige el objetivo, porque la partida más grande de infraestructura (nave + obra civil, hasta $421,000 MXN) sigue siendo una estimación por huella, no una cotización comparable, y dos partidas de importación (transporte final, instalación) siguen sin cotizar. Lo mismo aplica a la partida de drenaje/aguas residuales/gallinaza (sección 5.1, agregada en la revisión de septiembre 2026), cuyo rango depende de un pendiente crítico aún sin resolver (disponibilidad de alcantarillado municipal). El rango de $1.29M–$2.26M MXN debe tratarse como el **piso de trabajo actual**, no como el monto de crédito a solicitar.
 
 ## Qué puede financiarse con crédito vs. capital propio
 

@@ -388,5 +388,400 @@
     "mtime": 1789759746.210488,
     "ast_hash": "990841e7a75f60b37a148b31e3807e09",
     "semantic_hash": ""
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/.opencode/package.json": {
+    "mtime": 1789761462.4923456,
+    "ast_hash": "f94937b0f3b84759b51b101818e57384",
+    "semantic_hash": "f94937b0f3b84759b51b101818e57384"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/.claude/CLAUDE.md": {
+    "mtime": 1789760700.7863176,
+    "ast_hash": "0107e5a3eda63d41fd51e9a744f629d1",
+    "semantic_hash": "0107e5a3eda63d41fd51e9a744f629d1"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/.opencode/agents/graphify-maintainer.md": {
+    "mtime": 1789760976.4535131,
+    "ast_hash": "2949c31d06693290fbf5785b2357a182",
+    "semantic_hash": "2949c31d06693290fbf5785b2357a182"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/.opencode/commands/commit-graphify.md": {
+    "mtime": 1789761365.1882172,
+    "ast_hash": "03f372ea466b8bff4ed33e2baba5b57b",
+    "semantic_hash": "03f372ea466b8bff4ed33e2baba5b57b"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/README.md": {
+    "mtime": 1789282234.2416,
+    "ast_hash": "21f60412c9af6c5f86d3c4fbd091ad77",
+    "semantic_hash": "21f60412c9af6c5f86d3c4fbd091ad77"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/data/README.md": {
+    "mtime": 1789282224.4666812,
+    "ast_hash": "faf826c364e976fc6a1003ccd23e9e94",
+    "semantic_hash": "faf826c364e976fc6a1003ccd23e9e94"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/business-plan/01-resumen-ejecutivo.md": {
+    "mtime": 1789414589.9715364,
+    "ast_hash": "9ce24a34039137c0c63433014719da72",
+    "semantic_hash": "9ce24a34039137c0c63433014719da72"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/business-plan/02-descripcion-del-negocio.md": {
+    "mtime": 1783905271.9041152,
+    "ast_hash": "6b44c3344fc60524ef8974a33c769a62",
+    "semantic_hash": "6b44c3344fc60524ef8974a33c769a62"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/business-plan/03-mercado-y-oportunidad.md": {
+    "mtime": 1789284173.6214855,
+    "ast_hash": "5f61884a471b5bec9d525383229d5f10",
+    "semantic_hash": "5f61884a471b5bec9d525383229d5f10"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/business-plan/04-modelo-productivo.md": {
+    "mtime": 1789281783.0598147,
+    "ast_hash": "aff32eb701ba2539fb9918c21f8d60c6",
+    "semantic_hash": "aff32eb701ba2539fb9918c21f8d60c6"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/business-plan/05-objetivos.md": {
+    "mtime": 1789284017.1389613,
+    "ast_hash": "04f6aab9e7f6a31254eb57720a8a2ba0",
+    "semantic_hash": "04f6aab9e7f6a31254eb57720a8a2ba0"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/business-plan/06-crecimiento-modular.md": {
+    "mtime": 1789665980.8956084,
+    "ast_hash": "6161f776ccf5a58b73136acc4abba154",
+    "semantic_hash": "6161f776ccf5a58b73136acc4abba154"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/business-plan/07-diseno-fisico.md": {
+    "mtime": 1789762736.7272716,
+    "ast_hash": "aeea3cf35d504f035dad51a6b47c4403",
+    "semantic_hash": "aeea3cf35d504f035dad51a6b47c4403"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/business-plan/08-automatizacion.md": {
+    "mtime": 1789762756.1231413,
+    "ast_hash": "234c4093c501a7b854a4ca23c4d2acf2",
+    "semantic_hash": "234c4093c501a7b854a4ca23c4d2acf2"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/business-plan/09-arquitectura-electrica-hidraulica-comunicaciones.md": {
+    "mtime": 1789762729.0721858,
+    "ast_hash": "65147dadfa1e4cd13e41a749690c9cec",
+    "semantic_hash": "65147dadfa1e4cd13e41a749690c9cec"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/business-plan/10-arquitectura-tecnologica.md": {
+    "mtime": 1789281783.0646565,
+    "ast_hash": "07b724a8577d686dc286ea7dd2d82764",
+    "semantic_hash": "07b724a8577d686dc286ea7dd2d82764"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/business-plan/11-hermes-agent-y-paperclip.md": {
+    "mtime": 1789284017.1619298,
+    "ast_hash": "087ec54c6caa61608fd61ca89d8a6f42",
+    "semantic_hash": "087ec54c6caa61608fd61ca89d8a6f42"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/business-plan/12-funciones-agente-inteligente.md": {
+    "mtime": 1783905271.9309793,
+    "ast_hash": "02de63fd54544cbee547ae1de42ca7a5",
+    "semantic_hash": "02de63fd54544cbee547ae1de42ca7a5"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/business-plan/13-seguridad-y-ciberseguridad.md": {
+    "mtime": 1783905271.843385,
+    "ast_hash": "6b5794c1a679397f5404f120f8839e67",
+    "semantic_hash": "6b5794c1a679397f5404f120f8839e67"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/business-plan/14-modelo-operativo.md": {
+    "mtime": 1783905271.8807628,
+    "ast_hash": "21ac0b7538dd9c0ec072f3a830ab78a5",
+    "semantic_hash": "21ac0b7538dd9c0ec072f3a830ab78a5"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/business-plan/15-estrategia-comercial.md": {
+    "mtime": 1783905271.8668852,
+    "ast_hash": "6cdb274eb32259b5caec5e9494f1deb0",
+    "semantic_hash": "6cdb274eb32259b5caec5e9494f1deb0"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/business-plan/16-produccion-y-capacidad-comercial.md": {
+    "mtime": 1789284017.167153,
+    "ast_hash": "6f9156fdf9c510bd7742726ec578f36b",
+    "semantic_hash": "6f9156fdf9c510bd7742726ec578f36b"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/business-plan/17-plan-financiero.md": {
+    "mtime": 1789413829.5467606,
+    "ast_hash": "6f29a883d78735df4f4b6190c098dea8",
+    "semantic_hash": "6f29a883d78735df4f4b6190c098dea8"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/business-plan/18-validacion-del-piloto.md": {
+    "mtime": 1789284017.1799328,
+    "ast_hash": "c2cffe8e309e0a69f168f5d7985e3e59",
+    "semantic_hash": "c2cffe8e309e0a69f168f5d7985e3e59"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/business-plan/19-regulacion-y-cumplimiento.md": {
+    "mtime": 1789762751.3476124,
+    "ast_hash": "2d31189b94c7f083dfa7547ccaabfb46",
+    "semantic_hash": "2d31189b94c7f083dfa7547ccaabfb46"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/business-plan/20-bioseguridad.md": {
+    "mtime": 1783905271.8468668,
+    "ast_hash": "d103e82fb966c622cfa5908cc8411cea",
+    "semantic_hash": "d103e82fb966c622cfa5908cc8411cea"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/business-plan/21-gestion-de-riesgos.md": {
+    "mtime": 1783905271.8719206,
+    "ast_hash": "efdcfdf8c5dd65587a0ff96754d762dd",
+    "semantic_hash": "efdcfdf8c5dd65587a0ff96754d762dd"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/business-plan/22-desarrollo-tecnologico.md": {
+    "mtime": 1789284017.186895,
+    "ast_hash": "8544c30f5c42a59c19afa61b5204d558",
+    "semantic_hash": "8544c30f5c42a59c19afa61b5204d558"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/business-plan/23-hoja-de-ruta.md": {
+    "mtime": 1789284017.192414,
+    "ast_hash": "e588193dc7111bd610cda8bf4ff225ad",
+    "semantic_hash": "e588193dc7111bd610cda8bf4ff225ad"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/business-plan/24-indicadores-clave.md": {
+    "mtime": 1783905271.9449508,
+    "ast_hash": "2b801ed415c015c3396639d1463bbe54",
+    "semantic_hash": "2b801ed415c015c3396639d1463bbe54"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/business-plan/25-organizacion-inicial.md": {
+    "mtime": 1789284017.1980298,
+    "ast_hash": "e80e779b2010f43d1f7f8319208a1c9f",
+    "semantic_hash": "e80e779b2010f43d1f7f8319208a1c9f"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/business-plan/26-estrategia-de-inversion.md": {
+    "mtime": 1783905271.8947027,
+    "ast_hash": "513ac50f2489fcbbad5b77f7ee626bbb",
+    "semantic_hash": "513ac50f2489fcbbad5b77f7ee626bbb"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/business-plan/27-conclusiones-y-decision.md": {
+    "mtime": 1789284017.2030802,
+    "ast_hash": "e4c76eef1a426cfaf3d304d47a84f4d9",
+    "semantic_hash": "e4c76eef1a426cfaf3d304d47a84f4d9"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/business-plan/README.md": {
+    "mtime": 1789284024.4792933,
+    "ast_hash": "19410ffcfea5be3f47f7115255e8cff1",
+    "semantic_hash": "19410ffcfea5be3f47f7115255e8cff1"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/governance/glosario.md": {
+    "mtime": 1789281770.2754495,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/governance/registro-de-decisiones.md": {
+    "mtime": 1789762801.4252682,
+    "ast_hash": "fa0f764dbf94531ebc2bcf20131f4a81",
+    "semantic_hash": "fa0f764dbf94531ebc2bcf20131f4a81"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/governance/trazabilidad.md": {
+    "mtime": 1789281770.2760124,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/innovation/01-estrategia-id.md": {
+    "mtime": 1789281770.26977,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/innovation/02-estado-del-arte.md": {
+    "mtime": 1789281770.2698996,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/innovation/03-lineas-de-investigacion.md": {
+    "mtime": 1789281770.2700386,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/innovation/04-plan-experimental.md": {
+    "mtime": 1789281770.2702403,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/innovation/05-propiedad-intelectual.md": {
+    "mtime": 1789281770.2703943,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/innovation/06-transferencia-tecnologica.md": {
+    "mtime": 1789281770.2705152,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/innovation/07-roadmap-tecnologico.md": {
+    "mtime": 1789281770.2706804,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/innovation/README.md": {
+    "mtime": 1789282211.8997257,
+    "ast_hash": "f2119cf361f3ac51480495822867f236",
+    "semantic_hash": "f2119cf361f3ac51480495822867f236"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/investment-project/01-proyecto-de-inversion.md": {
+    "mtime": 1789762798.2446048,
+    "ast_hash": "16ec6b7f13ae10b7fb01502765afaac4",
+    "semantic_hash": "16ec6b7f13ae10b7fb01502765afaac4"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/investment-project/02-estructura-financiera.md": {
+    "mtime": 1789281770.2653503,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/investment-project/03-viabilidad-financiera.md": {
+    "mtime": 1789281770.265445,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/investment-project/04-impacto-y-expediente-financiamiento.md": {
+    "mtime": 1789281770.26554,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/investment-project/05-ficha-tecnica-nave.md": {
+    "mtime": 1789762746.5814323,
+    "ast_hash": "b4157fa0980dc62ee6802a73393ed4c2",
+    "semantic_hash": "b4157fa0980dc62ee6802a73393ed4c2"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/investment-project/06-vehiculo-de-distribucion.md": {
+    "mtime": 1789420550.3579395,
+    "ast_hash": "a1782ef05b9aa48d70cbfdeeea5a9c13",
+    "semantic_hash": "a1782ef05b9aa48d70cbfdeeea5a9c13"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/investment-project/07-presupuesto-consolidado-inversion-inicial.md": {
+    "mtime": 1789762789.66674,
+    "ast_hash": "2a6d30420ba59f071cb24ce20a6d29bc",
+    "semantic_hash": "2a6d30420ba59f071cb24ce20a6d29bc"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/docs/investment-project/README.md": {
+    "mtime": 1789420743.1629033,
+    "ast_hash": "86ef2887a6ff6f2e20d8da6d69ffb3d7",
+    "semantic_hash": "86ef2887a6ff6f2e20d8da6d69ffb3d7"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/evidence/quotations/README.md": {
+    "mtime": 1789762764.1362472,
+    "ast_hash": "b42f9fd7cfda3321b6c20374c182fa9a",
+    "semantic_hash": "b42f9fd7cfda3321b6c20374c182fa9a"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/knowledge-base/README.md": {
+    "mtime": 1789282190.8150854,
+    "ast_hash": "cb9d977e8a67dbef1144c4000fe3055d",
+    "semantic_hash": "cb9d977e8a67dbef1144c4000fe3055d"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/knowledge-base/bibliography.md": {
+    "mtime": 1789284219.5376728,
+    "ast_hash": "b442e6c05dd0007c4884d6a4d1168774",
+    "semantic_hash": "b442e6c05dd0007c4884d6a4d1168774"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/research/README.md": {
+    "mtime": 1789282202.301146,
+    "ast_hash": "898d541e6e403bbfba5ce31ca35c2b08",
+    "semantic_hash": "898d541e6e403bbfba5ce31ca35c2b08"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/research/state-of-the-art/01-plf.md": {
+    "mtime": 1789281770.2804873,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/research/state-of-the-art/02-computer-vision.md": {
+    "mtime": 1789281770.280609,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/research/state-of-the-art/03-audio-analysis.md": {
+    "mtime": 1789281770.2807171,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/research/state-of-the-art/04-environmental-sensing.md": {
+    "mtime": 1789281770.2808368,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/research/state-of-the-art/05-anomaly-detection.md": {
+    "mtime": 1789281770.2809446,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/research/state-of-the-art/06-existing-commercial-solutions.md": {
+    "mtime": 1789281770.2810762,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/evidence/quotations/2026-07-21_FamTECH_v1_Jaula-Automatizacion_CIF-Puebla_USD17747.pdf": {
+    "mtime": 1784648348.75463,
+    "ast_hash": "4474c193727ffc4c27d19f9819c14d51",
+    "semantic_hash": "4474c193727ffc4c27d19f9819c14d51"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/evidence/quotations/2026-07-21_FamTECH_v2_Jaula-Automatizacion_DAP-Puebla_USD17747.pdf": {
+    "mtime": 1784698450.547805,
+    "ast_hash": "704b2cea2923aeba0e8dd10db881dce1",
+    "semantic_hash": "704b2cea2923aeba0e8dd10db881dce1"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/evidence/quotations/2026-07-22_FamTECH_v3_Jaula-Automatizacion-ControlAmbiental_DAP-Puebla_USD24095.pdf": {
+    "mtime": 1784735007.285014,
+    "ast_hash": "1dbc2d503c110473ba334c8be2654487",
+    "semantic_hash": "1dbc2d503c110473ba334c8be2654487"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/knowledge-base/books/commercial-chicken-meat-and-egg-production.pdf": {
+    "mtime": 1783897869.0631716,
+    "ast_hash": "f7ac6e5129affee454ca611c4b985702",
+    "semantic_hash": "f7ac6e5129affee454ca611c4b985702"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/knowledge-base/books/farm-management.pdf": {
+    "mtime": 1783885679.5666044,
+    "ast_hash": "b1444406dae8a242fac546237df6bcf2",
+    "semantic_hash": "b1444406dae8a242fac546237df6bcf2"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/knowledge-base/books/poultry-production-in-hot-climates.pdf": {
+    "mtime": 1783884639.3512418,
+    "ast_hash": "623c3f6aa1dec442ba807fcaa0c7be21",
+    "semantic_hash": "623c3f6aa1dec442ba807fcaa0c7be21"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/knowledge-base/genetics/hy-line-w80.pdf": {
+    "mtime": 1783884049.3936436,
+    "ast_hash": "636cceb72f945bca96f5ef2067560e6b",
+    "semantic_hash": "636cceb72f945bca96f5ef2067560e6b"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/knowledge-base/genetics/ross-308-broiler-performance.pdf": {
+    "mtime": 1783884492.373911,
+    "ast_hash": "a6ff35493f597879f215a71872fc085b",
+    "semantic_hash": "a6ff35493f597879f215a71872fc085b"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/knowledge-base/regulations/buenas-practicas-huevo.pdf": {
+    "mtime": 1783884774.3956242,
+    "ast_hash": "efb260f5246bb6bcb0bd4f82c9d839d1",
+    "semantic_hash": "efb260f5246bb6bcb0bd4f82c9d839d1"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/knowledge-base/regulations/nom-159-ssa1-2016.pdf": {
+    "mtime": 1783884834.275249,
+    "ast_hash": "93aa23c6f0ee35b9fbc1142a8b71b4dd",
+    "semantic_hash": "93aa23c6f0ee35b9fbc1142a8b71b4dd"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/evidence/correspondence/mail_famtechpoultry.rtfd/1__#$!@%!#__unknown.jpg": {
+    "mtime": 1789413032.043048,
+    "ast_hash": "9a8b8d6f4233e5ce6868698211b82e5d",
+    "semantic_hash": "9a8b8d6f4233e5ce6868698211b82e5d"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/evidence/correspondence/mail_famtechpoultry.rtfd/2__#$!@%!#__unknown.jpg": {
+    "mtime": 1789413032.043313,
+    "ast_hash": "2c63433f2941e05a4c1295c4be6d9e9c",
+    "semantic_hash": "2c63433f2941e05a4c1295c4be6d9e9c"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/evidence/correspondence/mail_famtechpoultry.rtfd/3__#$!@%!#__unknown.jpg": {
+    "mtime": 1789413032.046448,
+    "ast_hash": "5963c58f92db45b5bf2a93ddb7905c11",
+    "semantic_hash": "5963c58f92db45b5bf2a93ddb7905c11"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/evidence/correspondence/mail_famtechpoultry.rtfd/4__#$!@%!#__unknown.jpg": {
+    "mtime": 1789413032.985828,
+    "ast_hash": "75bef208192cec5649b53975aeb9cb91",
+    "semantic_hash": "75bef208192cec5649b53975aeb9cb91"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/evidence/correspondence/mail_famtechpoultry.rtfd/unknown.jpg": {
+    "mtime": 1789413032.042623,
+    "ast_hash": "8b0002f2b6852d99b177ba9d46c86e99",
+    "semantic_hash": "8b0002f2b6852d99b177ba9d46c86e99"
+  },
+  "/Users/miguelhernandezrosas/Documents/Code/NidoSmart/evidence/correspondence/mail_famtechpoultry.rtfd/unknown.png": {
+    "mtime": 1789413032.676052,
+    "ast_hash": "fa3648b3a25aa38be93fbce8a493f6a8",
+    "semantic_hash": "fa3648b3a25aa38be93fbce8a493f6a8"
   }
 }

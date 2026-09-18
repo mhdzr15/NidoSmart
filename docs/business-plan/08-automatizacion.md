@@ -180,9 +180,11 @@ El módulo deberá integrar:
 * Banda o sistema mecanizado.
 * Operación programada.
 * Sensor de motor.
-* Contenedor cerrado.
+* Contenedor cerrado, techado/protegido de lluvia directa.
 * Traslado a zona separada de compostaje.
 * Registro de cada retiro.
+
+**Objetivo de humedad y parámetros de compostaje (revisión septiembre 2026, Bell & Weaver, cap. 11):** la gallinaza fresca sale con 75–80% de humedad; el objetivo en almacenamiento es reducirla a **menos de 35%** para minimizar la reproducción de moscas (se logra con aireación de la pila, altura controlada y volteo — el contenedor cerrado por sí solo no es suficiente). Para el compostaje: relación carbono:nitrógeno de **20–25:1** (agregar material rico en carbono, p. ej. viruta o paja, si la gallinaza pura no la alcanza), humedad de la pila entre **35 y 50%**, con aireación por volteo periódico y monitoreo de temperatura. Antes de transportar la gallinaza fuera del predio se requiere tratamiento térmico de fermentación de al menos 48 h a ≥56°C, avalado por escrito por un MVZ (Manual de Buenas Prácticas Pecuarias, §8.4, cita NOM-024-ZOO-1995) — ver también [Diseño físico — 7.2.1](./07-diseno-fisico.md#721-drenaje-y-manejo-de-gallinaza-revisión-septiembre-2026).
 
 ## 8.2 Procesos que pueden permanecer manuales inicialmente
 

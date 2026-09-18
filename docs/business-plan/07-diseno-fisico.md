@@ -149,6 +149,16 @@ El predio deberá considerar:
 * Espacio reservado para expansión.
 * Barrera física y control de fauna.
 
+### 7.2.1 Drenaje y manejo de gallinaza (revisión septiembre 2026)
+
+**Dos sistemas de drenaje separados, no uno solo:** el requisito genérico de "buen drenaje pluvial" no cubre el agua de lavado/desinfección de la nave, que por normativa (Manual de Buenas Prácticas Pecuarias en la Producción de Huevo para Plato, §8.5) no puede mezclarse con el pluvial ni descargarse a canales, ríos o arroyos — debe dirigirse a alcantarillado público con pre-tratamiento mínimo, o a un sistema de tratamiento propio si no hay alcantarillado disponible en el predio (ver pendiente en [Regulación y cumplimiento — 18.1](./19-regulacion-y-cumplimiento.md#181-trámites-específicos-para-san-francisco-acatepec-san-andrés-cholula-puebla)).
+
+* **Drenaje pluvial:** canaletas de techo y pendiente del predio hacia fuera de las áreas de producción; sin cálculo de capacidad todavía (pendiente de ingeniero civil/DRO, ver [Ficha técnica](../../docs/investment-project/05-ficha-tecnica-nave.md)).
+* **Drenaje sanitario (aguas residuales):** agua de lavado de caseta, tinacos, módulo sanitario y lavandería, con pre-tratamiento mínimo antes de su destino final; prohibida su descarga a cuerpos de agua superficiales.
+* **Zona de gallinaza/compostaje:** debe protegerse con bordos (*berms*) que impidan que la lluvia arrastre lixiviados fuera del área, y la pila debe protegerse de la lluvia directa (Bell & Weaver, cap. 11-H).
+* **Separaciones mínimas (pendientes de verificar contra el predio real, ver [Regulación y cumplimiento](./19-regulacion-y-cumplimiento.md)):** pozo de agua ↔ zona de gallinaza/compostaje ≥30 m (Bell & Weaver, tabla 43-15); cualquier fosa (p. ej. de mortalidad) ↔ cuerpo de agua superficial ≥20 m, y piso de la fosa ≥1.5 m sobre el nivel freático (Manual de Buenas Prácticas Pecuarias, §8.2).
+* **Producción y manejo de gallinaza (cálculo propio a partir de Bell & Weaver, cap. 11-B):** ≈65–125 kg/día de gallinaza fresca para 640 aves (75–80% de humedad al salir de la nave). Objetivo de humedad en almacenamiento: <35% para minimizar reproducción de moscas. Antes de transportarse fuera del predio requiere tratamiento térmico de fermentación de al menos 48 h a ≥56°C, avalado por escrito por un MVZ (Manual de Buenas Prácticas Pecuarias, §8.4, cita NOM-024-ZOO-1995).
+
 ## 7.3 Flujo operativo
 
 ```mermaid
