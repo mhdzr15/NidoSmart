@@ -3,8 +3,8 @@ title: "Presupuesto consolidado de inversión inicial — unidad de 640 aves"
 project: "NidoSmart"
 document_type: "investment-project"
 status: "draft"
-version: "1.0"
-last_updated: "2026-09-14"
+version: "1.1"
+last_updated: "2026-09-21"
 ---
 
 # Presupuesto consolidado de inversión inicial — unidad de 640 aves
@@ -20,6 +20,8 @@ Tipo de cambio de referencia: **$18.50 MXN/USD** — supuesto de trabajo, no una
 | Concepto | Especificación | Proveedor/Fuente | Cantidad | Costo unitario | Costo total | Estado |
 |---|---|---|---|---|---|---|
 | Jaula automatizada tipo H + alimentación + bebederos + recolección de huevo + retiro de gallinaza | 5 sets, 4 niveles, 640 aves, entregado en almacén de ciudad de Puebla (CIP) | FamTECH, cotización v1/v2 (2026-07-21), No. BS04H072226 | 1 sistema | USD $17,747 | **$328,300 MXN** | **Confirmado** |
+
+**Actualización (2026-09-21):** FamTECH emitió una nueva cotización v4 (No. BS04H092126) que reemplaza a v1/v2 como referencia de costo vigente — mismo alcance de jaula/automatización + **sistema de iluminación de pasillo, ahora incluido** (ver [sección 7](#7-iluminación)) + **flete cotizado directo al sitio del proyecto** en término DDU (ver [sección 10](#10-importación-y-logística)), en vez de solo hasta la ciudad de Puebla. El monto del equipo base (jaula/automatización, sin iluminación) no cambió: $10,217.56 USD EXW en ambas cotizaciones. Ver [registro de cotizaciones](../../evidence/quotations/README.md) para el detalle completo.
 
 El desglose del costo puesto en sitio (flete, seguro, aranceles, IVA, despacho, transporte final) se reconstruye en la [sección 10](#10-importación-y-logística), no aquí, para no duplicar el monto del equipo.
 
@@ -68,7 +70,8 @@ Este rango depende fuertemente de si existe alcantarillado sanitario municipal e
 
 | Concepto | Especificación | Fuente | Costo total (MXN) | Estado |
 |---|---|---|---|---|
-| Luminarias para sistema de 4 niveles, con intensidad mínima garantizada en nivel inferior | Ver [Automatización — Iluminación](../business-plan/08-automatizacion.md#iluminación); diseño de luminarias aún no confirmado por el proveedor de jaula | Sin cotización; orden de magnitud para 68 m² | **$15,000–$35,000** | **Estimado** |
+| Sistema de iluminación de pasillo: 14 focos DC48V-7W-3000K regulables, 134 m de cable impermeable, 1 controlador de dimming | 2 focos por punto de suspensión cada 2.5 m, cubriendo los 4 niveles — ver [Automatización — Iluminación](../business-plan/08-automatizacion.md#iluminación) | FamTECH, cotización v4 (2026-09-21), No. BS04H092126 | USD $945.65 × $18.50 ≈ **$17,495 MXN** | **Confirmado** — dentro del rango antes estimado ($15,000–$35,000), no requiere ajustar el total consolidado |
+| Tira LED complementaria por nivel (condicional) | Solo si el comisionamiento revela déficit de lux en algún nivel — ver nota en Automatización | Sin cotización; dependiente del déficit real medido, no estimable todavía | **$0 (contingente)** | **Pendiente condicional** — no se presupuesta hasta tener el dato de comisionamiento |
 
 ## 8. Respaldo energético
 
@@ -96,10 +99,18 @@ Reconstrucción del costo total puesto en sitio del sistema de jaulas (equipo de
 | Arancel de importación | 0–10% sobre valor CIF, sin clasificación arancelaria formal | $0–$32,800 | **Estimado (genérico)** — pendiente consultar agente aduanal para la fracción arancelaria real |
 | IVA de importación (16%) | 16% sobre (CIF + arancel) | $52,500–$57,800 | **Estimado** — depende del arancel real |
 | Despacho aduanal | Honorarios típicos de agente aduanal para un embarque de este valor | $8,000–$15,000 | **Estimado (genérico)** — sin cotización de agente aduanal |
-| Transporte final: almacén Puebla → sitio del proyecto (San Francisco Acatepec) | Aclarado por el proveedor el 2026-08-03 que no está incluido en el precio | Sin cotizar | **Pendiente** |
+| ~~Transporte final: almacén Puebla → sitio del proyecto (San Francisco Acatepec)~~ | Aclarado por el proveedor el 2026-08-03 que no estaba incluido en el precio v1/v2 | Sin cotizar | **Ver actualización 2026-09-21 abajo** |
 | **Subtotal puesto en sitio (excluye transporte final, ya contado el equipo en sección 1)** | | **$60,500–$105,600** *(sin equipo)* | Mixto |
 
-**Importante:** el subtotal de esta sección ($60,500–$105,600 MXN) es el monto **adicional** a los $328,300 MXN del equipo — no se suma dos veces en el consolidado. El transporte final Puebla→sitio queda fuera de todos los totales de este documento por no tener cotización.
+**Importante:** el subtotal de esta sección ($60,500–$105,600 MXN) es el monto **adicional** a los $328,300 MXN del equipo — no se suma dos veces en el consolidado.
+
+**Actualización (2026-09-21) — transporte final ahora cotizado, pero no limpiamente desglosado:** la cotización v4 (No. BS04H092126, ver [registro de cotizaciones](../../evidence/quotations/README.md)) es la primera en cotizar en término **DDU directo a San Francisco Acatepec** en vez de solo hasta la ciudad de Puebla. Comparando el renglón de flete entre v1/v2 y v4 (ambos "Qingdao Port, China →" destino final):
+
+| | v1/v2 (destino: Puebla) | v4 (destino: San Francisco Acatepec) | Diferencia |
+|---|---|---|---|
+| Sea freight & inland freight (& port charges en v4) | USD $6,330 | USD $10,281 | **+USD $3,951 (+$73,094 MXN)** |
+
+Este incremento de USD $3,951 es la mejor referencia disponible hoy del costo de extender la entrega hasta el sitio real — pero **el proveedor no desglosó** cuánto de esa diferencia es el tramo Puebla→sitio y cuánto son "port charges" que la v4 empezó a itemizar por separado (posiblemente ya incluidos antes dentro de "sea freight" en v1/v2, sin nombrarse). Se registra como **estimado por diferencia, no como cotización formal desglosada** del tramo final — no se incorpora todavía a la tabla consolidada de abajo hasta poder confirmar con el proveedor qué compone este incremento. El IVA/arancel de importación (DDU no los incluye) sigue sin cambios frente a lo ya estimado arriba.
 
 ## 11. Instalación y puesta en marcha
 
@@ -178,9 +189,9 @@ El componente de tipo de cambio no se cuenta aparte: queda incorporado en el 10%
 | Contingencia | $145,000–$264,000 | Diferenciada por área de riesgo (sección 18) |
 | **Inversión total (estimada)** | **≈$1,285,000–$2,256,000** | |
 
-**Explícitamente fuera de este total, por no tener cotización:**
+**Explícitamente fuera de este total, por no tener cotización desglosada:**
 
-* Transporte final almacén Puebla → sitio del proyecto (sección 10).
+* Transporte final almacén Puebla → sitio del proyecto (sección 10) — **parcialmente referenciado** desde 2026-09-21 (+USD $3,951 / +$73,094 MXN observado por diferencia entre v1/v2 y v4), pero no incorporado al total por no venir desglosado del resto del incremento de flete (ver sección 10).
 * Instalación de la jaula/automatización en sitio, si tiene costo aparte (sección 11).
 * Paquete de control ambiental automatizado, en pausa (sección 6): +$117,400 MXN si se reactiva.
 * Vehículo dedicado, si se reconsidera la recomendación de la sección 15: +$180,000–$350,000 MXN.
@@ -207,11 +218,14 @@ Detalle de las partidas de arranque que no son activos fijos (ver [sección 12](
 
 De las partidas de este presupuesto:
 
-* **Confirmado** (cotización real): equipo de jaula y automatización, flete internacional a Puebla, seguro de transporte a Puebla — 3 partidas.
+* **Confirmado** (cotización real): equipo de jaula y automatización, flete internacional a Puebla, seguro de transporte a Puebla, **sistema de iluminación (nuevo, 2026-09-21, sección 7)** — 4 partidas.
 * **Cotizado, en pausa** (existe cotización pero no está en el alcance actual): paquete de control ambiental automatizado — 1 partida.
 * **Decidido** (no requiere cotización porque se optó por no comprar): vehículo dedicado — 1 partida.
-* **Estimado** (cálculo con método explícito, sin cotización formal): la gran mayoría de las partidas de infraestructura, preoperativos y capital de trabajo — ≈19 partidas.
-* **Pendiente** (sin dato, no estimado): transporte final Puebla→sitio, instalación de la jaula en sitio, y todos los pendientes críticos de la [ficha técnica de la nave](./05-ficha-tecnica-nave.md#estado-de-la-ficha-técnica) que impiden cotizar formalmente la obra civil.
+* **Estimado** (cálculo con método explícito, sin cotización formal): la gran mayoría de las partidas de infraestructura, preoperativos y capital de trabajo — ≈18 partidas.
+* **Pendiente** (sin dato, no estimado): instalación de la jaula en sitio, y todos los pendientes críticos de la [ficha técnica de la nave](./05-ficha-tecnica-nave.md#estado-de-la-ficha-técnica) que impiden cotizar formalmente la obra civil.
+* **Estimado por diferencia** (referencia indirecta, no cotización formal desglosada): transporte final Puebla→sitio (ver sección 10) — dejó de ser "sin dato" pero tampoco es una cifra confirmada.
+
+**Nota sobre el total consolidado (2026-09-21):** la partida de iluminación pasó de Estimado ($15,000–$35,000 MXN) a Confirmado ($17,495 MXN) — el monto real cae dentro del rango ya estimado, así que el rango de "Inversión total" de la tabla consolidada no se recalculó (el ajuste sería de ≈$2,500 a -$17,500 MXN, menos del 1% del total, despreciable frente a la precisión del resto de las partidas). El transporte final estimado por diferencia (~$73,094 MXN) tampoco se incorporó al total, para no mezclar una cifra confirmada con una inferida sin desglose del proveedor.
 
 **Lectura honesta del resultado:** este presupuesto todavía **no** cumple el estándar de "presupuesto trazable y técnicamente sustentado" que exige el objetivo, porque la partida más grande de infraestructura (nave + obra civil, hasta $421,000 MXN) sigue siendo una estimación por huella, no una cotización comparable, y dos partidas de importación (transporte final, instalación) siguen sin cotizar. Lo mismo aplica a la partida de drenaje/aguas residuales/gallinaza (sección 5.1, agregada en la revisión de septiembre 2026), cuyo rango depende de un pendiente crítico aún sin resolver (disponibilidad de alcantarillado municipal). El rango de $1.29M–$2.26M MXN debe tratarse como el **piso de trabajo actual**, no como el monto de crédito a solicitar.
 

@@ -3,8 +3,8 @@ title: "Diseño físico preliminar"
 project: "NidoSmart"
 document_type: "business-plan"
 status: "draft"
-version: "1.2"
-last_updated: "2026-09-14"
+version: "1.3"
+last_updated: "2026-09-20"
 ---
 
 # Diseño físico preliminar
@@ -129,7 +129,9 @@ pared │ 0.2m │ jaula 4 niv. │  pasillo central  │ jaula 4 niv. │ 0.2m 
 
 ### Densidad de jaula (pendiente de verificación con proveedor)
 
-Los estándares de la industria para gallinas ponedoras en jaula (Bell & Weaver, tabla 52-2) sitúan el espacio mínimo recomendado entre **60 y 70 pulgadas² por ave (387–452 cm²)**, con un rango mundial de 48–72 in² (310–465 cm²) y el estándar europeo en 70 in² (450 cm²). La cotización vigente del proveedor (FamTECH, ver [registro de cotizaciones](../../evidence/quotations/README.md)) confirma la nave completa (17×4×4.2 m, 5 sets tipo H, 4 niveles, 640 aves) pero no incluye las dimensiones exactas de cada jaula individual (ancho, fondo y alto por nivel). NidoSmart redactó estas preguntas específicas el 2026-07-25, pero — según el hilo de correo completo revisado — no llegaron a enviarse al proveedor. **Pendiente real, aún sin resolver:** enviar al proveedor (FamTECH) las preguntas sobre dimensiones internas por jaula, espacio de comedero por ave, relación aves/níple, diseño de luminarias para 4 niveles y aislamiento térmico de la nave, para confirmar que la densidad cumple con el mínimo de 387 cm²/ave antes de confirmar la compra.
+Los estándares de la industria para gallinas ponedoras en jaula (Bell & Weaver, tabla 52-2) sitúan el espacio mínimo recomendado entre **60 y 70 pulgadas² por ave (387–452 cm²)**, con un rango mundial de 48–72 in² (310–465 cm²) y el estándar europeo en 70 in² (450 cm²). La cotización vigente del proveedor (FamTECH, ver [registro de cotizaciones](../../evidence/quotations/README.md)) confirma la nave completa (17×4×4.2 m, 5 sets tipo H, 4 niveles, 640 aves) pero no incluye las dimensiones exactas de cada jaula individual (ancho, fondo y alto por nivel). NidoSmart redactó estas preguntas específicas el 2026-07-25, pero — según el hilo de correo completo revisado — no llegaron a enviarse al proveedor.
+
+**Resuelto (2026-09-20) — respuesta directa de FamTECH:** dimensiones por nivel **1.2 m × 1.2 m** (1.44 m² de huella por nivel), **32 aves por nivel** (consistente con 128 aves/set ÷ 4 niveles ya confirmado), y espacio de **450 cm² por ave** — calculado por FamTECH como 14,400 cm² ÷ 32 aves = 450 cm²/ave, cifra que coincide exactamente con el cálculo propio a partir de las dimensiones dadas. **450 cm²/ave cumple el estándar europeo (70 in²) y está en el extremo superior del rango de industria (387–452 cm²)** — la densidad de jaula queda confirmada como adecuada, sin necesidad de renegociar el diseño. Sigue **pendiente**: la altura por nivel (dato no incluido en esta respuesta, necesario junto con el stack completo para verificar el margen de techo de [7.1.1](#711-layout-funcional-recomendado-dentro-de-la-nave-17×4×42-m)), el espacio lineal de comedero por ave, y el aislamiento térmico de la nave.
 
 ## 7.2 Áreas generales del predio
 

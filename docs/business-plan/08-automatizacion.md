@@ -3,8 +3,8 @@ title: "Sistema de automatización"
 project: "NidoSmart"
 document_type: "business-plan"
 status: "draft"
-version: "1.1"
-last_updated: "2026-09-13"
+version: "1.2"
+last_updated: "2026-09-21"
 ---
 
 # Sistema de automatización
@@ -42,6 +42,8 @@ El sistema deberá incluir:
 
 **Especificación objetivo (revisión julio 2026):** la industria recomienda entre **6 y 8 aves por níple** según línea genética (Bell & Weaver, tabla 52-1). Pendiente confirmar con el proveedor el ratio de níples por ave de su sistema de bebederos automáticos. Los parámetros de calidad del agua a verificar en el predio se detallan en [Arquitectura eléctrica, hidráulica y de comunicaciones — Sistema hidráulico](./09-arquitectura-electrica-hidraulica-comunicaciones.md#92-sistema-hidráulico).
 
+**Resuelto (2026-09-20) — respuesta directa de FamTECH:** 4 níples por nivel de 32 aves = **8 aves por níple**. Está en el extremo superior del rango recomendado por Bell & Weaver (6–8), no en el punto medio — aceptable, pero sin margen adicional; si se observa cola en el bebedero durante el comisionamiento, no hay forma de aumentar la densidad de níples sin modificar la jaula ya cotizada.
+
 ### Iluminación
 
 El sistema deberá permitir:
@@ -69,25 +71,47 @@ El sistema deberá permitir:
 | Techo (evitar superar) | 50 lux (5 fc) — riesgo de nerviosismo/picaje | Hy-Line, boletín técnico |
 | Espectro | Cálido, rico en rojo, 2700–3000 K | Hy-Line |
 
-*Ubicación de luminarias — resuelto por el propio diseño de jaula tipo H:* tira LED montada en el marco de la jaula, **una por cada uno de los 4 niveles**, corriendo a lo largo de la fila. Es el diseño estándar de la industria para jaula tipo H (confirmado en el sistema de FamTECH y en documentación pública de otros fabricantes del mismo tipo de jaula) y resuelve por diseño estructural la variación de 4–5 veces entre nivel superior e inferior que documenta Bell & Weaver para sistemas sin tira por nivel — no requiere un arreglo adicional de luminarias en el pasillo.
+*Ubicación de luminarias — CORREGIDO Y RESUELTO (2026-09-20/21, respuesta directa de FamTECH en dos rondas, reemplaza la conclusión de la revisión de septiembre 2026 anterior):* el proveedor confirmó que su diseño real es un arreglo de luminarias en el **pasillo central**, **no** una tira LED integrada por nivel en el marco de la jaula — contradice la conclusión previa de este documento, que asumía (a partir de documentación pública de *otros* fabricantes de jaula tipo H, no de una confirmación directa de FamTECH) que la tira por nivel ya estaba resuelta por el diseño estructural del proveedor.
 
-*Tragaluces y cortina de blackout (complemento de ahorro energético, materiales locales — no corrige uniformidad, eso ya lo resuelve la tira por nivel):* lámina traslúcida corrugada de fibra de vidrio o policarbonato (producto estándar de proveedores de materiales para naves industriales/agrícolas en México) en 2–5% del área de techo, distribuida a lo largo de los 17 m — estimación de práctica general de diseño, a validar. Cortina interior opaca tipo invernadero (lona/tela blackout), operada con motorreductor + torno del mismo tipo ya cotizado por FamTECH para las ventanas de entrada de aire. Blackout total obligatorio durante las horas oscuras del fotoperiodo, sincronizado con el mismo controlador — un "brown-out" mal sellado sigue siendo influenciado por luz exterior y arriesga el programa de fotoperiodo (Bell & Weaver).
+Al preguntar directamente por la justificación y por el riesgo de atenuación entre niveles, FamTECH consultó con su equipo de ingeniería y respondió con el razonamiento completo (correo [`2026-09-21_FamTECH_email_cotizacion-iluminacion-y-explicacion.rtfd`](../../evidence/correspondence/2026-09-21_FamTECH_email_cotizacion-iluminacion-y-explicacion.rtfd/)):
 
-*Control adaptativo por nivel (decisión de diseño, 2026-09-17):* 4 sensores de lux (uno por nivel, medidos sobre el canal de alimento), con la lógica de control en el **PLC/controlador propio de NidoSmart** (consistente con DEC-007 — control crítico local y autónomo, no depende de revivir el paquete ambiental pausado de FamTECH). Cada sensor mide lux total (natural + LED combinado); si la lectura ya alcanza el objetivo solo con luz natural del tragaluz, el LED de ese nivel se apaga o atenúa; si cae por debajo del mínimo, el LED se enciende o sube hasta compensar. La cortina permanece abierta en horas de luz (salvo cierre parcial si el sensor del nivel superior detecta >50 lux, protegiendo contra nerviosismo/picaje y ganancia solar) y cerrada por completo en horas oscuras. Este control es adaptativo (responde a días nublados o muy soleados), no una regla fija por nivel.
+* Iluminación *dentro* de la jaula (tira LED) es propia de jaulas "furnished/welfare", no del sistema tipo H de alta densidad que se cotizó — la jaula tipo H prioriza densidad/costo, con estructura compacta y poca altura libre, sin espacio para luminaria interna.
+* Riesgos de instalarla dentro de la jaula: picaje de las aves por aburrimiento contra la luminaria, y riesgo de conducción eléctrica si hay fuga de la línea de níples cerca de un componente eléctrico — un riesgo real dado el diseño hidráulico de níples ya definido en [9.2](./09-arquitectura-electrica-hidraulica-comunicaciones.md#92-sistema-hidráulico).
+* Instalación en pasillo facilita mantenimiento e inspección.
+* **Mitigación de la atenuación top/bottom (sí fue considerada por el proveedor, no ignorada):** arreglo de **2 lámparas por punto de suspensión** ("hanger rod" común), espaciados cada ~2.5 m a lo largo del pasillo — Lámpara 1 a **20 cm sobre la red superior** (cubre nivel 1) y Lámpara 2 colgando **1.2–1.5 m por debajo de la red superior**, ajustable (cubre los niveles inferiores). Diagrama del proveedor: [`2026-09-21_FamTECH_diagrama-altura-lamparas.jpeg`](../../evidence/quotations/2026-09-21_FamTECH_diagrama-altura-lamparas.jpeg).
+* **Especificación del foco:** DC48V, 7W, 3000K, regulable (dimming).
+
+**Cotización formal recibida (2026-09-21, v4):** 14 focos regulables + 134 m de cable impermeable + 1 controlador de dimming = **$945.65 USD EXW**, ya incluida en el precio total de la nave (ver [registro de cotizaciones](../../evidence/quotations/README.md)). 14 focos ÷ 2 por punto = 7 puntos, consistente con ~17 m de pasillo a 2.5 m de espaciamiento. El estimado previo del presupuesto ([sección 7](../../docs/investment-project/07-presupuesto-consolidado-inversion-inicial.md#7-iluminación), $15,000–$35,000 MXN) resultó razonable frente a este precio real.
+
+**Lo que esto cambia respecto a la corrección del 2026-09-20:** ya no se trata de un vacío total que NidoSmart debe resolver desde cero — FamTECH sí diseñó una mitigación específica para el riesgo de atenuación entre niveles, y la cotiza como parte del equipo. **Lo que sigue sin verificarse** es si esa mitigación *alcanza* los objetivos de intensidad de este documento (30 lux en canal de alimento, mínimo 15–20 lux en el punto peor iluminado): el proveedor no dio flujo luminoso (lúmenes) del foco de 7W, solo potencia y temperatura de color. Sin ese dato no puede confirmarse por cálculo que el nivel inferior reciba suficiente luz — solo puede confirmarse por medición directa en el protocolo de comisionamiento (ver abajo), que ya estaba planeado independientemente de esta respuesta.
+
+*Tragaluces y cortina de blackout (complemento de ahorro energético, materiales locales):* lámina traslúcida corrugada de fibra de vidrio o policarbonato (producto estándar de proveedores de materiales para naves industriales/agrícolas en México) en 2–5% del área de techo, distribuida a lo largo de los 17 m — estimación de práctica general de diseño, a validar. Cortina interior opaca tipo invernadero (lona/tela blackout), operada con motorreductor + torno del mismo tipo ya cotizado por FamTECH para las ventanas de entrada de aire. Blackout total obligatorio durante las horas oscuras del fotoperiodo, sincronizado con el mismo controlador — un "brown-out" mal sellado sigue siendo influenciado por luz exterior y arriesga el programa de fotoperiodo (Bell & Weaver).
+
+*Control y monitoreo de iluminación (decisión de diseño, 2026-09-17; replanteada 2026-09-21 a la luz de la respuesta de FamTECH):* con el sistema de pasillo de FamTECH ya cotizado como base, el rol de NidoSmart se separa en dos capas:
+
+1. **Monitoreo (siempre, bajo costo):** 4 sensores de lux (uno por nivel, medidos sobre el canal de alimento), conectados al **PLC/controlador propio de NidoSmart** (consistente con DEC-007 — control crítico local y autónomo). Sirven para el protocolo de comisionamiento (ver abajo) y para verificación continua de que cada nivel se mantiene dentro del rango objetivo, con alarma si un nivel cae por debajo del mínimo o supera el techo de 50 lux.
+2. **Control activo condicional (fallback, solo si el comisionamiento lo exige):** FamTECH cotiza **1 set de controlador de dimming para las 14 luminarias**, sin especificar el número de canales ni si permite zonificar (ver [registro de cotizaciones](../../evidence/quotations/README.md)); por ahora **no puede darse por confirmada** la compensación independiente de un nivel. Si el comisionamiento revela que el nivel inferior no alcanza el mínimo de 15–20 lux con el arreglo de FamTECH, la mitigación pasa a ser una tira LED complementaria solo en el/los niveles deficientes (no las 20 tiras completas asumidas en la corrección anterior), dimensionada con el dato real de déficit medido — evita sobre-construir una solución completa sin saber todavía si se necesita.
+
+Este enfoque evita tanto el error original (asumir que la tira por nivel ya venía resuelta) como el sobrecorrección del 2026-09-20 (asumir que había que comprar y montar 20 tiras completas sin haber verificado primero si el sistema de FamTECH, ya con su propia mitigación de 2 lámparas por punto, es suficiente).
 
 *Protocolo de verificación (comisionamiento):* medir lux sobre el canal de alimento cada 25 cm entre luminarias, en cada uno de los 4 niveles (30–100 lecturas totales) — protocolo de Hy-Line, boletín técnico.
 
-*Tipo de LED:* categoría agrícola general (no la línea específica para avicultura, difícil de conseguir localmente — ver preferencia de materiales locales), regulable con driver compatible, espectro cálido 2700–3000K, material no vidrio (lavable/desinfectable), clasificado para operación continua de 16h/día.
+*Tipo de LED (solo aplica a la tira complementaria condicional, ver arriba — el sistema base de pasillo ya viene especificado por FamTECH: DC48V, 7W, 3000K, regulable):* si el comisionamiento exige una tira LED complementaria por nivel, esta debe ser categoría agrícola general (no la línea específica para avicultura, difícil de conseguir localmente — ver preferencia de materiales locales), regulable con driver compatible, espectro cálido 2700–3000K (para no crear una mezcla de tonalidades con el foco de FamTECH, ya en 3000K), material no vidrio (lavable/desinfectable), clasificado para operación continua de 16h/día.
 
-*Respaldo eléctrico (hallazgo — gap identificado):* el presupuesto de UPS (ítem 8, `07-presupuesto-consolidado-inversion-inicial.md`) no incluye explícitamente iluminación entre sus cargas críticas. Pendiente decidir si el circuito de iluminación entra al respaldo; en cualquier caso el controlador requiere reloj de tiempo real (RTC) con respaldo de batería local, independiente de un corte de energía general.
+*Respaldo eléctrico (hallazgo — gap identificado):* el presupuesto de UPS (ítem 8, `07-presupuesto-consolidado-inversion-inicial.md`) no incluye explícitamente iluminación entre sus cargas críticas. Pendiente decidir si el circuito de iluminación entra al respaldo; en cualquier caso el controlador requiere reloj de tiempo real (RTC) con respaldo de batería local, independiente de un corte de energía general. **Nota (2026-09-21):** con la potencia real ya conocida (14 × 7W = 98W, alimentados a DC48V por el controlador de dimming), el circuito de iluminación es una carga eléctricamente trivial para la UPS — la decisión pendiente ya no es de capacidad, sino de si vale la pena el punto adicional de cableado a la UPS para una carga tan pequeña.
 
-**Pendientes que requiere confirmar FamTECH (reducidos — ya no se pregunta lo que es estándar de industria):**
+**Pendientes que requería confirmar FamTECH — resueltos (2026-09-20/21):**
 
-1. Si la estructura de jaula de nuestro pedido incluye el riel/soporte para tira LED en cada uno de los 4 niveles.
-2. Si la tira LED en sí está incluida en el precio del ítem "cage" (III.3) o es partida aparte — no aparece en ninguna versión de la cotización.
-3. Especificación eléctrica del riel/conector (voltaje, tipo de conexión) para poder comprar tiras LED compatibles localmente.
+1. ~~Si la estructura de jaula de nuestro pedido incluye el riel/soporte para tira LED en cada uno de los 4 niveles.~~ — **Resuelto:** no lo incluye; el diseño de FamTECH usa luminarias de pasillo, no tira por nivel.
+2. ~~Si la tira LED en sí está incluida en el precio del ítem "cage" (III.3) o es partida aparte.~~ — **Resuelto:** no está incluida bajo ningún ítem; no forma parte del diseño del proveedor.
+3. ~~Especificación eléctrica del riel/conector.~~ — **Sin objeto:** no existe ese riel en el diseño de FamTECH.
+4. ~~Espaciamiento y altura de montaje de las luminarias de pasillo.~~ — **Resuelto (2026-09-21):** 2 focos por punto de suspensión, cada 2.5 m — Lámpara 1 a 20 cm sobre la red superior, Lámpara 2 ajustable 1.2–1.5 m por debajo de la red superior (ver diagrama citado arriba).
 
-**Nuevos proveedores a buscar (locales, no FamTECH):** lámina traslúcida para naves industriales/agrícolas; cortina térmica/blackout de invernadero con motorreductor; tiras LED agrícolas genéricas (2700–3000K, regulables); 4 sensores de lux compatibles con el PLC del proyecto.
+**Pendiente abierto (2026-09-21):** flujo luminoso (lúmenes) del foco DC48V-7W-3000K, y si el controlador de dimming cotizado (1 set) permite zonificar por tramo o programar el perfil de fotoperiodo de forma autónoma — ver [registro de cotizaciones](../../evidence/quotations/README.md) para el detalle completo de esta pregunta.
+
+**Referencia de mercado, no confirmada por FamTECH (búsqueda web, 2026-09-22):** no se encontró el código "DC48V-7W-3000K" como número de parte específico — es notación propia de FamTECH (voltaje-potencia-temperatura de color), no un identificador de catálogo público. Sin embargo, el foco DC48V/3000K de bajo voltaje para jaula/pasillo avícola sí es una categoría de producto real y común en proveedores chinos de equipo avícola (ej. sistemas IP67, regulables, sin parpadeo, de fabricantes como qingdaoejoy.com, ydj-lighting.com, rainmin2020), consistente con lo cotizado. Una cifra de eficacia genérica encontrada para este tipo de producto (≈170 lm/W) daría **≈1,190 lúmenes** para un foco de 7W — **cifra de referencia de mercado, no del fabricante real, y no debe usarse como sustituto del dato que debe confirmar FamTECH.**
+
+**Proveedores locales a buscar (condicional — solo si el comisionamiento revela déficit de lux en algún nivel):** tiras LED agrícolas genéricas (2700–3000K, regulables) y su riel/soporte de montaje sobre el marco de jaula, dimensionadas al déficit real medido, no a las 20 tiras completas. Los proveedores de lámina traslúcida, cortina térmica/blackout con motorreductor y sensores de lux compatibles con el PLC siguen siendo necesarios sin condición (no dependen de este hallazgo).
 
 ### Control ambiental
 

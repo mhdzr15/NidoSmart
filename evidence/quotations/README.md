@@ -9,18 +9,19 @@ Seguimiento de cotizaciones recibidas para el sistema de jaula automatizada tipo
 | `2026-07-21_FamTECH_v1_Jaula-Automatizacion_CIF-Puebla_USD17747.pdf` | 2026-07-21 | BS04H072126 | Jaula + alimentación + bebederos + recolección de huevo (5 sets, 640 aves) | CIF "Puebla port" (error: Puebla no tiene puerto, aclarado en v2) | $17,747 |
 | `2026-07-21_FamTECH_v2_Jaula-Automatizacion_DAP-Puebla_USD17747.pdf` | 2026-07-21 | BS04H072226 | Igual que v1 (solo se corrigió el término de precio) | DAP Puebla (no incluye aranceles ni IVA) | $17,747 |
 | `2026-07-22_FamTECH_v3_Jaula-Automatizacion-ControlAmbiental_DAP-Puebla_USD24095.pdf` | 2026-07-22 | BS04H072226 | v2 + equipo de control ambiental (ventiladores, cooling pads, ventanas de entrada de aire, controlador, sensores temp/humedad) | DAP Puebla (no incluye aranceles ni IVA) | $24,095 |
+| `2026-09-21_FamTECH_v4_Jaula-Automatizacion-Iluminacion_DDU-SanFranciscoAcatepec_USD22644.21.pdf` | 2026-09-21 | BS04H092126 | v1/v2 (jaula + alimentación + bebederos + recolección de huevo) + **sistema de iluminación de pasillo** (nuevo, ver detalle abajo). **No incluye control ambiental** (ese alcance sigue solo en v3, en pausa). | **DDU San Francisco Acatepec, Puebla** — primera cotización con destino final al sitio del proyecto, no solo a la ciudad de Puebla (no incluye aranceles ni IVA de importación) | $22,644.21 |
 
-## Decisión vigente (2026-07-22)
+## Decisión vigente (2026-07-22, base de costo actualizada 2026-09-21)
 
-Se continúa **solo con el alcance de jaula + automatización** (v1/v2, $17,747) — el control ambiental (sensores y actuadores) queda en pausa hasta definir el diseño de la nave.
+Se continúa **con el alcance de jaula + automatización + iluminación** (v4, $22,644.21, DDU sitio) — el control ambiental (sensores y actuadores de ventilación/cooling pads) queda en pausa hasta definir el diseño de la nave, aunque ver la nota en [Automatización — Control ambiental](../../docs/business-plan/08-automatizacion.md#control-ambiental) sobre qué partes de ese paquete sí son necesarias.
 
 ## Pendientes con este proveedor
 
-- Cotización DDP (con aranceles + IVA incluidos) para el alcance de jaula + automatización.
+- ~~Cotización DDP (con aranceles + IVA incluidos) para el alcance de jaula + automatización.~~ — **Parcialmente resuelto (2026-09-21):** v4 cotiza en término **DDU** (Delivered Duty Unpaid) directamente al sitio del proyecto — resuelve el transporte físico hasta San Francisco Acatepec, pero **sigue sin incluir aranceles ni IVA de importación** (ver nota de reconciliación de cifras abajo). Sigue pendiente una cotización DDP completa si se quiere el desglose de aranceles/IVA por parte del proveedor en vez de estimarlo internamente (ver [presupuesto — sección 10](../../docs/investment-project/07-presupuesto-consolidado-inversion-inicial.md#10-importación-y-logística)).
 - ~~Confirmar si "grupo de jaula" equivale a un "set" de la cotización~~ — **Resuelto (2026-07-23):** confirmado por escrito, un "grupo de jaula" equivale a un "set" completo de 128 aves (ver hilo de correo [`mail_famtechpoultry.rtfd`](../correspondence/mail_famtechpoultry.rtfd/)).
 - **Nuevo pendiente:** el proveedor indicó que el sistema admite "hasta 90 grupos en una nave de 120 m" (≈11,520 aves) compartiendo alimentación y recolección de huevo, agregando sólo jaula y bebederos por grupo adicional. Esa proporción (120 m/90 grupos ≈ 1.33 m/grupo) no coincide con la de nuestra nave (17 m/5 sets = 3.4 m/set), por lo que no puede asumirse como el techo real de expansión de nuestra configuración específica. Pendiente: preguntar directamente cuántos sets adicionales admite la MISMA unidad de arrastre de alimentación y de recolección de huevo de nuestro pedido (5 sets, 640 aves) antes de requerir un segundo sistema compartido completo.
 - **Nuevo pendiente (2026-09-14):** confirmar si el precio cotizado incluye instalación en sitio del equipo (jaula, automatización) o si es una partida aparte — no se especifica en la cotización ni en el hilo de correo revisado. Necesario para el [presupuesto consolidado de inversión inicial](../../docs/investment-project/07-presupuesto-consolidado-inversion-inicial.md#11-instalación-y-puesta-en-marcha).
-- **Importante — aclarar alcance de entrega ($17,747):** el 3 de agosto de 2026 el proveedor aclaró que el precio de $17,747 (nombrado "DAP Puebla" en la v1/v2) en realidad corresponde a término **CIP entregado en la ciudad de Puebla**, no en el sitio del proyecto en San Francisco Acatepec. El tramo final (ciudad de Puebla → San Francisco Acatepec) no está incluido y aún no se ha cotizado. Esto afecta el CAPEX usado en el plan financiero y el proyecto de inversión — pendiente de decisión sobre si corregir esas cifras.
+- ~~Aclarar alcance de entrega ($17,747)~~ — **Resuelto (2026-09-21):** el 3 de agosto de 2026 el proveedor había aclarado que el precio de $17,747 (v1/v2) correspondía a término CIP entregado solo en la ciudad de Puebla, sin el tramo final al sitio. La nueva cotización v4 (2026-09-21) ya cotiza **DDU directo a San Francisco Acatepec** ($22,644.21, ver tabla arriba), cerrando ese vacío. **Nota de reconciliación (no resuelta con precisión):** el salto de v1/v2 a v4 combina tres cosas a la vez — el sistema de iluminación nuevo (+$945.65 EXW, aislable con precisión), y un incremento de "Sea freight & Inland freight" de $6,330 a $10,281 (+$3,951) que mezcla el tramo Puebla→sitio (antes no cotizado) con "Port charges" ahora desglosados aparte — el proveedor no separó cuánto de ese incremento es cada concepto. Ver [presupuesto — sección 10](../../docs/investment-project/07-presupuesto-consolidado-inversion-inicial.md#10-importación-y-logística) para cómo se trata esta ambigüedad en el CAPEX.
 
 ## Especificaciones técnicas base (v1/v2)
 
@@ -35,13 +36,13 @@ Se continúa **solo con el alcance de jaula + automatización** (v1/v2, $17,747)
 
 ## Lo que NO especifica todavía el proveedor (pendiente real, no resuelto por este hilo)
 
-- Dimensiones internas por jaula individual (ancho × fondo × alto por nivel) — necesarias para verificar cm²/ave contra el estándar de industria (ver [Diseño físico — Densidad de jaula](../../docs/business-plan/07-diseno-fisico.md#densidad-de-jaula-pendiente-de-verificación-con-proveedor)).
-- Espacio lineal de comedero por ave (cm/ave).
-- Relación de aves por níple bebedero.
-- Diseño de luminarias para el sistema de 4 niveles (garantizar intensidad mínima en el nivel inferior).
-- Especificación de aislamiento térmico (valor R o equivalente) para techo y paredes de la nave de 17×4×4.2 m.
+- ~~Dimensiones internas por jaula individual (ancho × fondo × alto por nivel)~~ — **Resuelto parcialmente (2026-09-20):** FamTECH confirmó 1.2m × 1.2m por nivel (ancho × fondo); **sigue pendiente la altura por nivel**.
+- Espacio lineal de comedero por ave (cm/ave) — sigue sin respuesta.
+- ~~Relación de aves por níple bebedero.~~ — **Resuelto (2026-09-20):** FamTECH confirmó 32 aves y 4 níples por nivel = 8 aves/níple (extremo superior del rango recomendado, ver [Automatización — Agua](../../docs/business-plan/08-automatizacion.md#agua)).
+- ~~Diseño de luminarias para el sistema de 4 niveles~~ — **Resuelto (2026-09-20/21):** FamTECH confirmó luminarias de pasillo, espaciadas aproximadamente 2.5 m, y cotizó el sistema con dos alturas de montaje — **no** hay tira LED integrada por nivel. El sistema de pasillo es la solución base; NidoSmart solo deberá abastecer iluminación complementaria si las mediciones de comisionamiento revelan déficit de lux en algún nivel. Los sensores de lux siguen siendo necesarios para verificarlo. Ver [Automatización — Iluminación](../../docs/business-plan/08-automatizacion.md#iluminación) y el detalle de las dos rondas de respuesta abajo.
+- Especificación de aislamiento térmico (valor R o equivalente) para techo y paredes de la nave de 17×4×4.2 m — sigue sin respuesta.
 
-Estas cinco preguntas fueron redactadas por NidoSmart el 2026-07-25 pero, según el hilo de correo revisado, no llegaron a enviarse al proveedor (quedaron en un correo dirigido a una cuenta propia) — siguen sin respuesta del proveedor.
+Estas cinco preguntas fueron redactadas por NidoSmart el 2026-07-25 pero, según el hilo de correo revisado, no llegaron a enviarse al proveedor (quedaron en un correo dirigido a una cuenta propia). Tres de las cinco (dimensiones, níples, luminarias) fueron respondidas de todos modos el 2026-09-20, aparentemente a través de una consulta posterior — quedan pendientes espacio de comedero y aislamiento térmico.
 
 **Nuevos pendientes de layout (2026-09-16, identificados al resolver las especificaciones de layout de la nave — ver [Diseño físico — 7.1.1](../../docs/business-plan/07-diseno-fisico.md#711-layout-funcional-recomendado-dentro-de-la-nave-17×4×42-m)):**
 
@@ -49,13 +50,28 @@ Estas cinco preguntas fueron redactadas por NidoSmart el 2026-07-25 pero, según
 - Footprint longitudinal real de cada uno de los 5 sets, incluyendo "front-end components" y "backend components and driver system", para confirmar que caben en los 17 m con espacio de circulación en ambas cabeceras.
 - Footprint transversal (profundidad de jaula + pasillo central) del arreglo "double-sided" de 4 niveles, para confirmar que los 4 m de ancho son suficientes.
 
-**Nuevos pendientes de iluminación (2026-09-17, identificados al definir la especificación de iluminación — ver [Automatización — Iluminación](../../docs/business-plan/08-automatizacion.md#iluminación); reducidos respecto al análisis inicial aplicando el criterio de revisar primero documentación de industria ya publicada por otros fabricantes de jaula tipo H antes de generar preguntas a FamTECH):**
+**Pendientes de iluminación (2026-09-17) — resueltos por FamTECH en dos rondas (2026-09-20 y 2026-09-21):**
 
-- Si la estructura de jaula de nuestro pedido incluye el riel/soporte para tira LED en cada uno de los 4 niveles.
-- Si la tira LED en sí está incluida en el precio del ítem "cage" (III.3) o es partida aparte — no aparece en ninguna versión de la cotización.
-- Especificación eléctrica del riel/conector (voltaje, tipo de conexión) para poder comprar tiras LED compatibles localmente.
+- ~~Si la estructura de jaula de nuestro pedido incluye el riel/soporte para tira LED en cada uno de los 4 niveles.~~ — **No.**
+- ~~Si la tira LED en sí está incluida en el precio del ítem "cage" (III.3) o es partida aparte.~~ — **No está incluida bajo ningún ítem.**
+- ~~Especificación eléctrica del riel/conector.~~ — **Sin objeto**, no existe ese riel en el diseño de FamTECH.
 
-(Luminarias, tragaluces, cortinas de blackout y sensores de lux son partidas de otros proveedores, no de FamTECH — su cotización solo cubre el equipo listado línea por línea.)
+**Ronda 1 (2026-09-20, WhatsApp):** "Lights are located in the aisles, spaced 2.5 meters apart" — el sistema de FamTECH ilumina desde el pasillo, no con tira por nivel. Esto revierte la conclusión previa de este proyecto (basada en documentación pública de *otros* fabricantes de jaula tipo H, no en una confirmación directa de FamTECH) de que la tira LED por nivel ya venía resuelta por el diseño de la jaula.
+
+**Ronda 2 (2026-09-21, WhatsApp + correo [`2026-09-21_FamTECH_email_cotizacion-iluminacion-y-explicacion.rtfd`](../correspondence/2026-09-21_FamTECH_email_cotizacion-iluminacion-y-explicacion.rtfd/)) — respuesta completa del ingeniero de FamTECH y cotización formal:**
+
+1. **Justificación técnica de por qué solo hay luz en el pasillo** (consultada por FamTECH con su propio ingeniero, cita textual del proveedor):
+   - Iluminación dentro de la jaula (tira LED) es específica de jaulas "furnished/welfare", no del sistema tipo H de alta densidad que NidoSmart cotizó.
+   - Jaula tipo H prioriza densidad/costo sobre bienestar: estructura compacta, poca altura libre, sin espacio para luminaria interna.
+   - Riesgos si se instalara dentro de la jaula: picaje de las aves por aburrimiento contra la luminaria, y riesgo de conducción eléctrica si hay fuga de la línea de níples cerca de un componente eléctrico.
+   - Instalación en pasillo facilita mantenimiento e inspección.
+2. **Diseño de mitigación de la variación top/bottom** (la preocupación por la atenuación de 4–5× entre nivel superior e inferior, documentada en Bell & Weaver, **sí fue considerada por FamTECH**): arreglo de 2 lámparas por punto en un mismo tubo/barra de suspensión ("hanger rod"), espaciados cada ~2.5 m a lo largo del pasillo — Lámpara 1 a **20 cm sobre la red superior** (nivel 1) y Lámpara 2 colgando **1.2–1.5 m por debajo de la red superior** (ajustable, cubriendo los niveles inferiores). Diagrama del proveedor: [`2026-09-21_FamTECH_diagrama-altura-lamparas.jpeg`](./2026-09-21_FamTECH_diagrama-altura-lamparas.jpeg).
+3. **Especificación del foco:** **DC48V, 7W, 3000K, regulable (dimming)**.
+4. **Cotización formal recibida** (v4, ver tabla de versiones arriba): 14 focos regulables ($62.58), 134 m de cable impermeable ($203.68), 1 controlador de dimming ($679.39) — subtotal **$945.65 USD EXW**, dentro del rango ya estimado en el presupuesto ([sección 7](../../docs/investment-project/07-presupuesto-consolidado-inversion-inicial.md#7-iluminación), $15,000–$35,000 MXN ≈ $811–$1,892 USD) — el estimado previo resultó razonable. 14 focos ÷ 2 por punto = 7 puntos de suspensión, consistente con ~17 m de pasillo a 2.5 m de espaciamiento.
+
+**Nuevo pendiente (2026-09-21):** el controlador de dimming cotizado es **1 solo set** para las 14 luminarias — falta confirmar si es un único canal (dimming uniforme para todo el pasillo) o si permite zonificar/programar por tramo, y si soporta el perfil de fotoperiodo ya definido (arranque ~10h, incremento gradual a 15–16h) de forma autónoma o requiere el PLC propio de NidoSmart para programarlo. También falta el dato de flujo luminoso (lúmenes) del foco de 7W para verificar contra los objetivos de intensidad de [Automatización — Iluminación](../../docs/business-plan/08-automatizacion.md#iluminación) (30 lux en canal de alimento, mínimo 15–20 lux en el punto peor iluminado).
+
+(Las luminarias de pasillo, su cableado y el controlador de dimming están incluidos en la cotización v4 de FamTECH. Tragaluces, cortinas de blackout, sensores de lux y cualquier iluminación complementaria condicional son partidas de otros proveedores — la cotización de FamTECH solo cubre el equipo listado línea por línea.)
 
 **Nuevos pendientes de ventilación y control ambiental (2026-09-16, identificados al definir la estrategia de ventilación — ver [Automatización — Control ambiental](../../docs/business-plan/08-automatizacion.md#control-ambiental)):**
 
@@ -75,3 +91,13 @@ Estas cinco preguntas fueron redactadas por NidoSmart el 2026-07-25 pero, según
 - Presión de operación recomendada por el fabricante de níples que use FamTECH (no identificado en la cotización) — sin esto no puede seleccionarse el regulador de presión con precisión.
 - Diámetro y material de tubería recomendado por FamTECH para su línea de bebederos — necesario para la compatibilidad con el manifold de NidoSmart.
 - Si la instalación en sitio de la banda de gallinaza (tramo banda → contenedor externo → zona de compostaje) está incluida en el precio cotizado o es responsabilidad de la obra civil de NidoSmart (relacionado con el pendiente ya abierto de instalación en sitio, ver "Pendientes con este proveedor" arriba).
+
+**Nuevos pendientes eléctricos (2026-09-18, identificados al definir la arquitectura eléctrica preliminar — ver [Arquitectura eléctrica, hidráulica y de comunicaciones — 9.1.1](../../docs/business-plan/09-arquitectura-electrica-hidraulica-comunicaciones.md#911-arquitectura-eléctrica-preliminar-revisión-septiembre-2026)):**
+
+1. Potencia (kW/HP), voltaje y tipo de motor (trifásico/monofásico) del motor de la banda de retiro de gallinaza (ítem III.2/III.4) — no especificado en ninguna versión de la cotización.
+2. Corriente nominal (A) y corriente de arranque (rotor bloqueado/LRA) de cada motor cotizado: motorreductor del feeder (0.75 kW), motor de la banda de huevo (0.55 kW), ventiladores (1.1 kW c/u).
+3. Confirmación por escrito (no solo por correo informal) de compatibilidad de todos los motores con la red mexicana de 60 Hz sin costo adicional, y qué motores activarían el "extra cost of special motors" si el servicio eléctrico del predio no es trifásico 380V/50Hz ni monofásico 220V/50Hz.
+4. Especificación eléctrica (voltaje, corriente, tipo de conexión) de los 2 actuadores lineales eléctricos de las entradas de aire CJ01 y de sus 2 controladores de entrada de aire (v3, ítems V.4–V.5).
+5. Consumo eléctrico (W) del controlador YB (7″) y de los sensores DMR de temperatura/humedad (v3, bloque "Electrical Control System").
+6. Si el motorreductor + torno de la cortina de blackout es el mismo actuador CJ01 ya cotizado para las entradas de aire, o una unidad eléctrica aparte.
+7. Si existe un diagrama unifilar o ficha eléctrica de referencia del fabricante para una instalación tipo de 5 sets/640 aves.
