@@ -45,14 +45,14 @@
     "semantic_hash": "c178401a5ca925c2cea436d1efad8a79"
   },
   "docs/business-plan/08-automatizacion.md": {
-    "mtime": 1790058601.5229745,
-    "ast_hash": "7acf438cee4c7bf3877b19d3bdea2c64",
-    "semantic_hash": "7acf438cee4c7bf3877b19d3bdea2c64"
+    "mtime": 1790222220.0459247,
+    "ast_hash": "f87d2c17952b941c7c3ebdfbcc3bce77",
+    "semantic_hash": "f87d2c17952b941c7c3ebdfbcc3bce77"
   },
   "docs/business-plan/09-arquitectura-electrica-hidraulica-comunicaciones.md": {
-    "mtime": 1790053367.4582684,
-    "ast_hash": "b7e572a00bfb5e7b9a70068ef76168f8",
-    "semantic_hash": "b7e572a00bfb5e7b9a70068ef76168f8"
+    "mtime": 1790143575.454048,
+    "ast_hash": "d1a6a947c12bdfbbac42eeab03f1d0a9",
+    "semantic_hash": "d1a6a947c12bdfbbac42eeab03f1d0a9"
   },
   "docs/business-plan/10-arquitectura-tecnologica.md": {
     "mtime": 1789281783.0646565,
@@ -245,9 +245,9 @@
     "semantic_hash": "86ef2887a6ff6f2e20d8da6d69ffb3d7"
   },
   "evidence/quotations/README.md": {
-    "mtime": 1790058601.5210974,
-    "ast_hash": "bd4c150c754c4f4cfebcdd9627f38cdd",
-    "semantic_hash": "bd4c150c754c4f4cfebcdd9627f38cdd"
+    "mtime": 1790220768.8796217,
+    "ast_hash": "c36e0ced22f13725933d6c1db8be98c6",
+    "semantic_hash": "c36e0ced22f13725933d6c1db8be98c6"
   },
   "knowledge-base/README.md": {
     "mtime": 1789282190.8150854,

@@ -3,8 +3,8 @@ title: "Arquitectura eléctrica, hidráulica y de comunicaciones"
 project: "NidoSmart"
 document_type: "business-plan"
 status: "draft"
-version: "1.2"
-last_updated: "2026-09-21"
+version: "1.3"
+last_updated: "2026-09-22"
 ---
 
 # Arquitectura eléctrica, hidráulica y de comunicaciones
@@ -101,7 +101,7 @@ Separación propuesta, siguiendo el listado ya definido en 9.1 y el mapeo de car
 7. Controladores: PLC propio, controlador YB, gateway.
 8. Comunicaciones: switch/router, equipo de enlace satelital de respaldo.
 9. Alarmas: smart alarm, sensores NH₃/CO₂/lux.
-10. Iluminación básica: sistema de pasillo FamTECH (14 focos DC48V-7W + controlador de dimming, 98W) — requiere circuito dedicado a 48V DC desde el driver del controlador, no 120/220V AC directo a las luminarias.
+10. Iluminación básica: sistema de pasillo FamTECH (14 focos DC48V-7W + controlador de dimming, 98W) — requiere circuito dedicado a 48V DC desde el driver del controlador, no 120/220V AC directo a las luminarias. **Confirmado (2026-09-22):** el controlador acepta enlace a PLC externo por terminales **0–10V** — esto agrega un conductor de señal analógica de baja tensión entre el PLC/controlador propio de NidoSmart y el controlador de dimming, a tender junto con la canalización de señal/control (ver "Canalizaciones" abajo), no con la de potencia.
 
 Cada motor debe llevar su propio circuito derivado con protección independiente (ver "Protecciones"), consistente con "circuitos separados para cargas críticas" ya establecido en 9.1.
 

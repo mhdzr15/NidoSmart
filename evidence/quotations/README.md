@@ -15,6 +15,8 @@ Seguimiento de cotizaciones recibidas para el sistema de jaula automatizada tipo
 
 Se continúa **con el alcance de jaula + automatización + iluminación** (v4, $22,644.21, DDU sitio) — el control ambiental (sensores y actuadores de ventilación/cooling pads) queda en pausa hasta definir el diseño de la nave, aunque ver la nota en [Automatización — Control ambiental](../../docs/business-plan/08-automatizacion.md#control-ambiental) sobre qué partes de ese paquete sí son necesarias.
 
+**⚠️ Vigencia de precios (advertencia de FamTECH, 2026-09-23):** el precio de v4 ($22,644.21 USD) tiene un periodo de validez y es de referencia, no garantizado. FamTECH indicó explícitamente que si el pedido se coloca en 2027 (o más adelante), **actualizarán la cotización antes de la orden de compra**. Todos los montos de este documento y del [presupuesto consolidado](../../docs/investment-project/07-presupuesto-consolidado-inversion-inicial.md) basados en v4 son el **piso de referencia vigente para 2026** — se requiere una cotización actualizada de FamTECH inmediatamente antes de confirmar cualquier compra, sin importar cuánto tiempo haya transcurrido desde esta ronda.
+
 ## Pendientes con este proveedor
 
 - ~~Cotización DDP (con aranceles + IVA incluidos) para el alcance de jaula + automatización.~~ — **Parcialmente resuelto (2026-09-21):** v4 cotiza en término **DDU** (Delivered Duty Unpaid) directamente al sitio del proyecto — resuelve el transporte físico hasta San Francisco Acatepec, pero **sigue sin incluir aranceles ni IVA de importación** (ver nota de reconciliación de cifras abajo). Sigue pendiente una cotización DDP completa si se quiere el desglose de aranceles/IVA por parte del proveedor en vez de estimarlo internamente (ver [presupuesto — sección 10](../../docs/investment-project/07-presupuesto-consolidado-inversion-inicial.md#10-importación-y-logística)).
@@ -69,7 +71,15 @@ Estas cinco preguntas fueron redactadas por NidoSmart el 2026-07-25 pero, según
 3. **Especificación del foco:** **DC48V, 7W, 3000K, regulable (dimming)**.
 4. **Cotización formal recibida** (v4, ver tabla de versiones arriba): 14 focos regulables ($62.58), 134 m de cable impermeable ($203.68), 1 controlador de dimming ($679.39) — subtotal **$945.65 USD EXW**, dentro del rango ya estimado en el presupuesto ([sección 7](../../docs/investment-project/07-presupuesto-consolidado-inversion-inicial.md#7-iluminación), $15,000–$35,000 MXN ≈ $811–$1,892 USD) — el estimado previo resultó razonable. 14 focos ÷ 2 por punto = 7 puntos de suspensión, consistente con ~17 m de pasillo a 2.5 m de espaciamiento.
 
-**Nuevo pendiente (2026-09-21):** el controlador de dimming cotizado es **1 solo set** para las 14 luminarias — falta confirmar si es un único canal (dimming uniforme para todo el pasillo) o si permite zonificar/programar por tramo, y si soporta el perfil de fotoperiodo ya definido (arranque ~10h, incremento gradual a 15–16h) de forma autónoma o requiere el PLC propio de NidoSmart para programarlo. También falta el dato de flujo luminoso (lúmenes) del foco de 7W para verificar contra los objetivos de intensidad de [Automatización — Iluminación](../../docs/business-plan/08-automatizacion.md#iluminación) (30 lux en canal de alimento, mínimo 15–20 lux en el punto peor iluminado).
+**Pendiente del 2026-09-21 — resuelto (2026-09-22, respuesta final de FamTECH):**
+
+* **Flujo luminoso:** "Luminous flux: 7W × 120LM" = 120 lm/W ⇒ ≈840 lm/foco, ≈11,760 lm totales (14 focos). Detalle y sanity check de intensidad en [Automatización — Iluminación](../../docs/business-plan/08-automatizacion.md#iluminación).
+* **Zonificación/canales del controlador:** sí permite zona independiente o enlace a PLC externo, con programación por horario y control individual; integrable a un sistema de control ambiental centralizado.
+* **Integración con PLC:** sí, por terminales **0–10V** — el fotoperiodo puede programarse desde el PLC propio de NidoSmart, no depende del panel de fábrica de FamTECH.
+
+**Resuelto (2026-09-23):** el precio del controlador **no cambia** en modo PLC-linked (0–10V) — sigue siendo el mismo $679.39 USD ya cotizado en v4. FamTECH aclaró que solo es necesario que el sistema de control ambiental propio de NidoSmart incorpore esta señal PLC (0–10V), sin costo adicional del lado del controlador de dimming.
+
+(Ver advertencia de vigencia de precios de FamTECH en ["Decisión vigente"](#decisión-vigente-2026-07-22-base-de-costo-actualizada-2026-09-21) arriba — aplica a toda la cotización v4, incluido este controlador.)
 
 (Las luminarias de pasillo, su cableado y el controlador de dimming están incluidos en la cotización v4 de FamTECH. Tragaluces, cortinas de blackout, sensores de lux y cualquier iluminación complementaria condicional son partidas de otros proveedores — la cotización de FamTECH solo cubre el equipo listado línea por línea.)
 
