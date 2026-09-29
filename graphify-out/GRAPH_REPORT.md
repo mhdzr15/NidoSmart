@@ -1,138 +1,117 @@
-# Graph Report - .  (2026-09-23)
+# Graph Report - .  (2026-09-28)
 
 ## Corpus Check
-- 83 files · ~455,166 words
+- 87 files · ~463,368 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 903 nodes · 1015 edges · 111 communities (80 shown, 31 thin omitted)
-- Extraction: 89% EXTRACTED · 10% INFERRED · 0% AMBIGUOUS · INFERRED: 102 edges (avg confidence: 0.8)
-- Token cost: 0 input · 0 output
+- 782 nodes · 875 edges · 90 communities (71 shown, 19 thin omitted)
+- Extraction: 88% EXTRACTED · 11% INFERRED · 0% AMBIGUOUS · INFERRED: 100 edges (avg confidence: 0.81)
+- Token cost: 280,157 input · 13,928 output
 
 ## Community Hubs (Navigation)
-- [[_COMMUNITY_Graphify Project Memory|Graphify Project Memory]]
-- [[_COMMUNITY_Graphify Maintenance Workflow|Graphify Maintenance Workflow]]
-- [[_COMMUNITY_Project Repository Guide|Project Repository Guide]]
-- [[_COMMUNITY_Executive Summary|Executive Summary]]
-- [[_COMMUNITY_Business Description|Business Description]]
-- [[_COMMUNITY_Market Opportunity Analysis|Market Opportunity Analysis]]
-- [[_COMMUNITY_Production Model Selection|Production Model Selection]]
-- [[_COMMUNITY_Project Objectives|Project Objectives]]
-- [[_COMMUNITY_Modular Growth Model|Modular Growth Model]]
-- [[_COMMUNITY_Farm Technology Architecture|Farm Technology Architecture]]
-- [[_COMMUNITY_Agent Platform Evaluation|Agent Platform Evaluation]]
+- [[_COMMUNITY_Poultry Production Standards|Poultry Production Standards]]
+- [[_COMMUNITY_Commercial Poultry Handbook|Commercial Poultry Handbook]]
 - [[_COMMUNITY_Smart Farm Technology Architecture|Smart Farm Technology Architecture]]
-- [[_COMMUNITY_Functional Cybersecurity Controls|Functional Cybersecurity Controls]]
-- [[_COMMUNITY_Operating Routines|Operating Routines]]
-- [[_COMMUNITY_Commercial Strategy|Commercial Strategy]]
-- [[_COMMUNITY_Production Capacity References|Production Capacity References]]
-- [[_COMMUNITY_Preliminary Financial Plan|Preliminary Financial Plan]]
-- [[_COMMUNITY_Pilot Validation Criteria|Pilot Validation Criteria]]
-- [[_COMMUNITY_Local Regulatory Compliance|Local Regulatory Compliance]]
-- [[_COMMUNITY_Farm Biosecurity|Farm Biosecurity]]
-- [[_COMMUNITY_Risk Management|Risk Management]]
-- [[_COMMUNITY_Technology Development Roadmap|Technology Development Roadmap]]
-- [[_COMMUNITY_Farm Expansion Roadmap|Farm Expansion Roadmap]]
-- [[_COMMUNITY_Performance Indicator Framework|Performance Indicator Framework]]
-- [[_COMMUNITY_Initial Organization Roles|Initial Organization Roles]]
-- [[_COMMUNITY_Investment Strategy|Investment Strategy]]
-- [[_COMMUNITY_Final Business Recommendation|Final Business Recommendation]]
-- [[_COMMUNITY_Technology and Operational Risks|Technology and Operational Risks]]
-- [[_COMMUNITY_Project Knowledge Structure|Project Knowledge Structure]]
-- [[_COMMUNITY_Business Plan Documentation|Business Plan Documentation]]
-- [[_COMMUNITY_Layer Production Selection|Layer Production Selection]]
-- [[_COMMUNITY_Innovation Strategy Documents|Innovation Strategy Documents]]
-- [[_COMMUNITY_Precision Livestock Research|Precision Livestock Research]]
 - [[_COMMUNITY_640 Bird Investment Project|640 Bird Investment Project]]
-- [[_COMMUNITY_Distribution Vehicle Planning|Distribution Vehicle Planning]]
-- [[_COMMUNITY_Investment Project Guide|Investment Project Guide]]
+- [[_COMMUNITY_Preliminary Financial Plan|Preliminary Financial Plan]]
+- [[_COMMUNITY_Initial Investment Budget|Initial Investment Budget]]
 - [[_COMMUNITY_Production Model References|Production Model References]]
-- [[_COMMUNITY_Research Workflow Documents|Research Workflow Documents]]
+- [[_COMMUNITY_Critical Electrical Resilience|Critical Electrical Resilience]]
+- [[_COMMUNITY_Technology Development Roadmap|Technology Development Roadmap]]
+- [[_COMMUNITY_Hot Climate Poultry Housing|Hot Climate Poultry Housing]]
+- [[_COMMUNITY_Precision Livestock Research|Precision Livestock Research]]
+- [[_COMMUNITY_Graphify Maintenance Workflow|Graphify Maintenance Workflow]]
 - [[_COMMUNITY_NidoSmart Business Model|NidoSmart Business Model]]
-- [[_COMMUNITY_Mexican Poultry Market|Mexican Poultry Market]]
+- [[_COMMUNITY_640 Bird Investment Project|640 Bird Investment Project]]
+- [[_COMMUNITY_Pilot Validation Criteria|Pilot Validation Criteria]]
+- [[_COMMUNITY_Farm Expansion Roadmap|Farm Expansion Roadmap]]
+- [[_COMMUNITY_Investment Compliance Planning|Investment Compliance Planning]]
+- [[_COMMUNITY_Egg Product Safety Regulations|Egg Product Safety Regulations]]
+- [[_COMMUNITY_Investment Compliance Planning|Investment Compliance Planning]]
+- [[_COMMUNITY_Environmental Monitoring Controls|Environmental Monitoring Controls]]
+- [[_COMMUNITY_Business Plan Documentation|Business Plan Documentation]]
+- [[_COMMUNITY_Innovation Strategy Documents|Innovation Strategy Documents]]
+- [[_COMMUNITY_Distribution Vehicle Planning|Distribution Vehicle Planning]]
+- [[_COMMUNITY_Farm Financial Analysis|Farm Financial Analysis]]
+- [[_COMMUNITY_Project Repository Guide|Project Repository Guide]]
+- [[_COMMUNITY_Famtech Cage Imagery|Famtech Cage Imagery]]
+- [[_COMMUNITY_Biosecurity and Site Compliance|Biosecurity and Site Compliance]]
+- [[_COMMUNITY_Technology and Operational Risks|Technology and Operational Risks]]
 - [[_COMMUNITY_MVP Investment Priorities|MVP Investment Priorities]]
+- [[_COMMUNITY_Graphify Project Memory|Graphify Project Memory]]
+- [[_COMMUNITY_Farm Technology Architecture|Farm Technology Architecture]]
+- [[_COMMUNITY_Performance Indicator Framework|Performance Indicator Framework]]
+- [[_COMMUNITY_FamTECH Quotation Documentation|FamTECH Quotation Documentation]]
+- [[_COMMUNITY_Modular Growth Model|Modular Growth Model]]
+- [[_COMMUNITY_MVP Investment Priorities|MVP Investment Priorities]]
+- [[_COMMUNITY_Agent Platform Evaluation|Agent Platform Evaluation]]
+- [[_COMMUNITY_Functional Cybersecurity Controls|Functional Cybersecurity Controls]]
+- [[_COMMUNITY_Commercial Strategy|Commercial Strategy]]
 - [[_COMMUNITY_Pricing and Economic Validation|Pricing and Economic Validation]]
 - [[_COMMUNITY_Production Operations Planning|Production Operations Planning]]
-- [[_COMMUNITY_Farm Logistics Costs|Farm Logistics Costs]]
 - [[_COMMUNITY_Pilot Validation Dimensions|Pilot Validation Dimensions]]
-- [[_COMMUNITY_Agricultural Regulatory Requirements|Agricultural Regulatory Requirements]]
-- [[_COMMUNITY_Egg Product Safety Standard|Egg Product Safety Standard]]
-- [[_COMMUNITY_Egg Grading Standard|Egg Grading Standard]]
-- [[_COMMUNITY_Environmental Performance Indicators|Environmental Performance Indicators]]
-- [[_COMMUNITY_Commercial Performance Indicators|Commercial Performance Indicators]]
-- [[_COMMUNITY_Technical Performance Indicators|Technical Performance Indicators]]
-- [[_COMMUNITY_Farm Operations Role|Farm Operations Role]]
-- [[_COMMUNITY_External Veterinarian Role|External Veterinarian Role]]
-- [[_COMMUNITY_Optional Environmental Control|Optional Environmental Control]]
-- [[_COMMUNITY_Building and Vehicle Costs|Building and Vehicle Costs]]
-- [[_COMMUNITY_Distribution Route Energy|Distribution Route Energy]]
-- [[_COMMUNITY_Automation Coverage Decision|Automation Coverage Decision]]
-- [[_COMMUNITY_Poultry Genetics References|Poultry Genetics References]]
-- [[_COMMUNITY_FamTECH Supplier Correspondence|FamTECH Supplier Correspondence]]
-- [[_COMMUNITY_Poultry Production Standards|Poultry Production Standards]]
-- [[_COMMUNITY_Egg Product Safety Regulations|Egg Product Safety Regulations]]
-- [[_COMMUNITY_Commercial Poultry Handbook|Commercial Poultry Handbook]]
-- [[_COMMUNITY_Farm Financial Analysis|Farm Financial Analysis]]
-- [[_COMMUNITY_Hot Climate Poultry Housing|Hot Climate Poultry Housing]]
-- [[_COMMUNITY_Famtech Cage Imagery|Famtech Cage Imagery]]
-- [[_COMMUNITY_Cage System Imagery|Cage System Imagery]]
+- [[_COMMUNITY_Initial Organization Roles|Initial Organization Roles]]
+- [[_COMMUNITY_FamTECH Technical Questions|FamTECH Technical Questions]]
+- [[_COMMUNITY_Project Repository Guide|Project Repository Guide]]
+- [[_COMMUNITY_Research Workflow Documents|Research Workflow Documents]]
+- [[_COMMUNITY_Business Description|Business Description]]
+- [[_COMMUNITY_Market Opportunity Analysis|Market Opportunity Analysis]]
+- [[_COMMUNITY_Operating Routines|Operating Routines]]
+- [[_COMMUNITY_Farm Logistics Costs|Farm Logistics Costs]]
+- [[_COMMUNITY_Farm Biosecurity|Farm Biosecurity]]
+- [[_COMMUNITY_Investment Strategy|Investment Strategy]]
 - [[_COMMUNITY_Famtech Installation Imagery|Famtech Installation Imagery]]
+- [[_COMMUNITY_Production Model Selection|Production Model Selection]]
+- [[_COMMUNITY_Project Objectives|Project Objectives]]
+- [[_COMMUNITY_Final Business Recommendation|Final Business Recommendation]]
+- [[_COMMUNITY_Investment Project Guide|Investment Project Guide]]
+- [[_COMMUNITY_Cage System Imagery|Cage System Imagery]]
+- [[_COMMUNITY_MVP Investment Priorities|MVP Investment Priorities]]
+- [[_COMMUNITY_Local Regulatory Compliance|Local Regulatory Compliance]]
+- [[_COMMUNITY_Project Knowledge Structure|Project Knowledge Structure]]
 - [[_COMMUNITY_Supplier Email Imagery|Supplier Email Imagery]]
-- [[_COMMUNITY_NidoSmart Graphify Memory|NidoSmart Graphify Memory]]
-- [[_COMMUNITY_Graphify Update Workflow|Graphify Update Workflow]]
-- [[_COMMUNITY_OpenCode Plugin Package|OpenCode Plugin Package]]
-- [[_COMMUNITY_Site Permits and Compliance|Site Permits and Compliance]]
-- [[_COMMUNITY_Investment Compliance Planning|Investment Compliance Planning]]
-- [[_COMMUNITY_Farm Infrastructure Design|Farm Infrastructure Design]]
-- [[_COMMUNITY_Initial Investment Budget|Initial Investment Budget]]
-- [[_COMMUNITY_Facility Design Decisions|Facility Design Decisions]]
-- [[_COMMUNITY_Skylight and Blackout Design|Skylight and Blackout Design]]
-- [[_COMMUNITY_Farm Material Flows|Farm Material Flows]]
-- [[_COMMUNITY_Cage Automation Base Cost|Cage Automation Base Cost]]
-- [[_COMMUNITY_Site Delivery Cost|Site Delivery Cost]]
-- [[_COMMUNITY_Energy Backup Estimate|Energy Backup Estimate]]
-- [[_COMMUNITY_Lamp Height Schematic|Lamp Height Schematic]]
-- [[_COMMUNITY_ABC Machinery Branding|ABC Machinery Branding]]
-- [[_COMMUNITY_Core Farm Automation|Core Farm Automation]]
+- [[_COMMUNITY_ABC Machinery Brand Imagery|ABC Machinery Brand Imagery]]
+- [[_COMMUNITY_Executive Summary|Executive Summary]]
+- [[_COMMUNITY_Layer Production Selection|Layer Production Selection]]
 - [[_COMMUNITY_Electrical and Utility Architecture|Electrical and Utility Architecture]]
-- [[_COMMUNITY_Lighting Electrical Requirements|Lighting Electrical Requirements]]
-- [[_COMMUNITY_FamTECH Lighting Specifications|FamTECH Lighting Specifications]]
-- [[_COMMUNITY_Expansion Governance Decisions|Expansion Governance Decisions]]
-- [[_COMMUNITY_Environmental Monitoring Controls|Environmental Monitoring Controls]]
-- [[_COMMUNITY_Gas Alarm Thresholds|Gas Alarm Thresholds]]
-- [[_COMMUNITY_Manure Treatment Compliance|Manure Treatment Compliance]]
-- [[_COMMUNITY_Water Utility Architecture|Water Utility Architecture]]
-- [[_COMMUNITY_Critical Electrical Resilience|Critical Electrical Resilience]]
-- [[_COMMUNITY_Expandable Utility Infrastructure|Expandable Utility Infrastructure]]
-- [[_COMMUNITY_Electrical Protection|Electrical Protection]]
-- [[_COMMUNITY_Communications and Control Network|Communications and Control Network]]
-- [[_COMMUNITY_Water Quality and Storage|Water Quality and Storage]]
-- [[_COMMUNITY_Local Data and Agents|Local Data and Agents]]
-- [[_COMMUNITY_Motor Frequency Compatibility|Motor Frequency Compatibility]]
-- [[_COMMUNITY_Commercial Terms|Commercial Terms]]
-- [[_COMMUNITY_Pending Tier Clearance|Pending Tier Clearance]]
-- [[_COMMUNITY_Pending Feeder Space|Pending Feeder Space]]
-- [[_COMMUNITY_FamTECH Lighting Evidence|FamTECH Lighting Evidence]]
-- [[_COMMUNITY_Pending Thermal Insulation|Pending Thermal Insulation]]
-- [[_COMMUNITY_Expandable Structural Design|Expandable Structural Design]]
+- [[_COMMUNITY_Risk Management|Risk Management]]
+- [[_COMMUNITY_Project Knowledge Structure|Project Knowledge Structure]]
+- [[_COMMUNITY_OpenCode Plugin Dependencies|OpenCode Plugin Dependencies]]
+- [[_COMMUNITY_NidoSmart Business Model|NidoSmart Business Model]]
+- [[_COMMUNITY_Market and Site Context|Market and Site Context]]
+- [[_COMMUNITY_Automation Strategy|Automation Strategy]]
+- [[_COMMUNITY_Graphify Project Mapping|Graphify Project Mapping]]
+- [[_COMMUNITY_Distribution Route Assumptions|Distribution Route Assumptions]]
+- [[_COMMUNITY_ABC Machinery Logo|ABC Machinery Logo]]
+- [[_COMMUNITY_Layer Cage Density|Layer Cage Density]]
+- [[_COMMUNITY_Environmental Indicators|Environmental Indicators]]
+- [[_COMMUNITY_Commercial Indicators|Commercial Indicators]]
+- [[_COMMUNITY_Technical Indicators|Technical Indicators]]
+- [[_COMMUNITY_Operations Role|Operations Role]]
+- [[_COMMUNITY_Veterinary Oversight|Veterinary Oversight]]
+- [[_COMMUNITY_Graphify Project Workflow|Graphify Project Workflow]]
+- [[_COMMUNITY_FamTECH Correspondence|FamTECH Correspondence]]
+- [[_COMMUNITY_Environmental Control Option|Environmental Control Option]]
+- [[_COMMUNITY_Investment Compliance Planning|Investment Compliance Planning]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `Presupuesto consolidado de inversión inicial — unidad de 640 aves` - 29 edges
-2. `Registro de decisiones` - 18 edges
-3. `Chapter 52: Cage Management for Layers` - 18 edges
+1. `Presupuesto consolidado de inversión inicial — unidad de 640 aves` - 27 edges
+2. `Chapter 52: Cage Management for Layers` - 18 edges
+3. `Registro de decisiones` - 18 edges
 4. `Manual de Buenas Practicas Pecuarias en la Produccion de Huevo para Plato (SENASICA, 3a Ed. 2019)` - 17 edges
 5. `Hermes Agent` - 16 edges
-6. `Proyecto de inversión` - 14 edges
-7. `Índice general del plan de negocios` - 14 edges
-8. `DEC-012 — Congelamiento del alcance de la inversión inicial en una unidad de 640 aves` - 14 edges
-9. `Chapter 5: Poultry Housing for Hot Climates` - 14 edges
-10. `Vehículo de distribución — unidad de 640 aves` - 13 edges
+6. `Chapter 5: Poultry Housing for Hot Climates` - 14 edges
+7. `Proyecto de inversión` - 13 edges
+8. `9.1.1 Arquitectura eléctrica preliminar (revisión septiembre 2026)` - 13 edges
+9. `Graphify Maintainer` - 12 edges
+10. `NidoSmart` - 12 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `Installation terms: optional 2-3 technicians, about 20-30 days, USD 100/person/day plus buyer expenses` --conceptually_related_to--> `Estimated initial investment: MXN 1.285-2.256 million, incomplete financing baseline`  [AMBIGUOUS]
-  evidence/quotations/2026-09-21_FamTECH_v4_Jaula-Automatizacion-Iluminacion_DDU-SanFranciscoAcatepec_USD22644.21.pdf → docs/investment-project/07-presupuesto-consolidado-inversion-inicial.md
 - `Clasificación Adoptar / Adaptar / Investigar` --semantically_similar_to--> `Clasificación de fuentes por tipo de autoridad`  [INFERRED] [semantically similar]
   research/README.md → knowledge-base/README.md
+- `Instalación asistida por técnicos FamTECH` --conceptually_related_to--> `Presupuesto inicial de $1.285M–$2.256M MXN`  [INFERRED]
+  evidence/quotations/2026-09-28_FamTECH_v4-anotado_partes-compartidas-vs-repetibles.pdf → docs/investment-project/07-presupuesto-consolidado-inversion-inicial.md
 - `docs/innovation contiene conclusiones propias, no es biblioteca de referencias` --semantically_similar_to--> `Separación entre conocimiento de terceros (knowledge-base) y producido por NidoSmart (docs)`  [INFERRED] [semantically similar]
   docs/innovation/README.md → knowledge-base/README.md
 - `Separación entre datos crudos y su análisis derivado` --semantically_similar_to--> `Separación entre conocimiento de terceros (knowledge-base) y producido por NidoSmart (docs)`  [INFERRED] [semantically similar]
@@ -144,310 +123,271 @@
 - None detected.
 
 ## Hyperedges (group relationships)
-- **Financiable 640-bird Unit Definition** — governance_registro_de_decisiones_dec_012, business_plan_07_diseno_fisico_initial_640_bird_unit, quotations_readme_h_cage_quotation, investment_project_01_proyecto_de_inversion_investment_project [EXTRACTED 1.00]
-- **Local Autonomous Critical Control** — governance_registro_de_decisiones_dec_007, business_plan_08_automatizacion_local_critical_plc, business_plan_09_arquitectura_electrica_hidraulica_comunicaciones_autonomous_control_network, business_plan_09_arquitectura_electrica_hidraulica_comunicaciones_critical_electrical_loads [EXTRACTED 1.00]
-- **Traceable Investment Baseline** — governance_registro_de_decisiones_dec_013, investment_project_05_ficha_tecnica_nave_unstable_specification_gate, investment_project_07_presupuesto_consolidado_inversion_inicial_consolidated_budget, investment_project_07_presupuesto_consolidado_inversion_inicial_certainty_classification [EXTRACTED 1.00]
-- **Iluminacion local autonoma y verificable** — business_plan_08_automatizacion_iluminacion_de_pasillo_famtech, business_plan_08_automatizacion_monitoreo_de_lux, business_plan_08_automatizacion_control_de_iluminacion_por_plc, business_plan_08_automatizacion_comisionamiento_de_iluminacion, business_plan_08_automatizacion_tira_led_complementaria_condicional [EXTRACTED 1.00]
-- **Continuidad de cargas criticas** — business_plan_09_arquitectura_electrica_hidraulica_comunicaciones_cargas_criticas, business_plan_09_arquitectura_electrica_hidraulica_comunicaciones_ups, business_plan_09_arquitectura_electrica_hidraulica_comunicaciones_generador, business_plan_09_arquitectura_electrica_hidraulica_comunicaciones_transferencia_automatica_ats, business_plan_09_arquitectura_electrica_hidraulica_comunicaciones_operacion_local_autonoma [EXTRACTED 1.00]
-- **Expansion y migracion de ventilacion** — business_plan_08_automatizacion_expansion_lineal_de_la_nave, business_plan_08_automatizacion_ventilacion_transversal, business_plan_08_automatizacion_ventilacion_tipo_tunel, business_plan_08_automatizacion_umbral_de_migracion_a_tunel, quotations_readme_recorrido_maximo_del_feeder [EXTRACTED 1.00]
+- **Expansión lineal con equipo compartido** — business_plan_06_crecimiento_modular_expansion_lineal, governance_registro_de_decisiones_dec_014, 2026_09_28_famtech_email_respuesta_lote1_expansion_layout_rtfd_txt_componentes_compartidos_repetibles, quotations_readme_clasificacion_partes [EXTRACTED 1.00]
+- **Diseño integrado de la primera unidad** — business_plan_06_crecimiento_modular_unidad_640_aves, business_plan_07_diseno_fisico_nave_17x4x4_2, investment_project_05_ficha_tecnica_nave_ficha_tecnica_nave, quotations_2026_09_28_famtech_v4_anotado_partes_compartidas_vs_repetibles_sistema_jaula_640 [EXTRACTED 1.00]
+- **Infraestructura crítica autónoma** — business_plan_08_automatizacion_automatizacion_intensiva, business_plan_09_arquitectura_electrica_hidraulica_comunicaciones_control_critico_local, business_plan_09_arquitectura_electrica_hidraulica_comunicaciones_cargas_criticas, governance_registro_de_decisiones_dec_007 [EXTRACTED 1.00]
 
-## Communities (111 total, 31 thin omitted)
-
-### Community 33 - "Graphify Project Memory"
-Cohesion: 0.22
-Nodes (8): Project, Working principle, Graphify usage, Query project memory, Explain a concept, Find relationships, Source of truth, Graph maintenance
-
-### Community 14 - "Graphify Maintenance Workflow"
-Cohesion: 0.13
-Nodes (15): Graphify Maintainer, Primary responsibility, Graphify update, Commit workflow, Graphify artifacts, Source of truth, Failure handling, @opencode-ai/plugin 1.18.31 (+7 more)
-
-### Community 28 - "Project Repository Guide"
-Cohesion: 0.22
-Nodes (8): NidoSmart, Estructura del proyecto, Por dónde empezar, Data, evidence/, models/, data/external/, data/experimental/
-
-### Community 48 - "Business Description"
-Cohesion: 0.33
-Nodes (5): Descripción del negocio, 2.1 Concepto, 2.2 Producto inicial, 2.3 Propuesta de valor, Navegación
-
-### Community 49 - "Market Opportunity Analysis"
-Cohesion: 0.33
-Nodes (5): Justificación de la oportunidad, 3.1 Mercado mexicano, 3.2 Competencia, 3.3 Canales de oportunidad, Navegación
-
-### Community 57 - "Production Model Selection"
-Cohesion: 0.40
-Nodes (4): Selección del modelo productivo, 4.1 Comparación entre ponedoras y pollo de engorda, 4.2 Decisión, Navegación
-
-### Community 58 - "Project Objectives"
-Cohesion: 0.40
-Nodes (4): Objetivos del proyecto, 5.1 Objetivo general, 5.2 Objetivos específicos, Navegación
-
-### Community 50 - "Modular Growth Model"
-Cohesion: 0.33
-Nodes (5): Modelo modular de crecimiento, 6.1 Principio de modularidad, 6.2 Escala recomendada, 6.3 Criterios para agregar un módulo, Navegación
-
-### Community 36 - "Farm Technology Architecture"
-Cohesion: 0.25
-Nodes (7): Arquitectura tecnológica, 10.1 Principio fundamental, 10.2 Arquitectura propuesta, 10.3 Componentes de software posibles, 10.4 Nota metodológica: Precision Livestock Farming (PLF), 10.5 Grafana: panel operativo, Navegación
-
-### Community 42 - "Agent Platform Evaluation"
-Cohesion: 0.29
-Nodes (6): Evaluación técnica de Hermes Agent y Paperclip, 11.1 Hermes Agent, 11.2 Paperclip, 11.3 Comparación, 11.4 Decisión tecnológica, Navegación
-
-### Community 3 - "Smart Farm Technology Architecture"
-Cohesion: 0.07
-Nodes (38): Funciones del agente inteligente, 12.1 Supervisión productiva, 12.2 Monitoreo ambiental, 12.3 Inventario y compras, 12.4 Mantenimiento, 12.6 Gestión documental, Navegación, Gateway industrial y Node-RED (+30 more)
-
-### Community 43 - "Functional Cybersecurity Controls"
-Cohesion: 0.29
-Nodes (6): Seguridad funcional y ciberseguridad, 13.1 Regla de acceso, 13.2 Acciones permitidas, 13.3 Acciones restringidas, 13.4 Controles requeridos, Navegación
-
-### Community 52 - "Operating Routines"
-Cohesion: 0.33
-Nodes (5): Modelo operativo, 14.1 Rutina diaria, 14.2 Rutina semanal, 14.3 Rutina mensual, Navegación
-
-### Community 44 - "Commercial Strategy"
-Cohesion: 0.29
-Nodes (6): Estrategia comercial, 15.1 Posicionamiento, 15.2 Modelo de venta, 15.3 Suscripciones, 15.4 Política de precios, Navegación
-
-### Community 59 - "Production Capacity References"
-Cohesion: 0.40
-Nodes (4): Producción y capacidad comercial, Navegación, knowledge-base/books/, Bell, D.D. y Weaver, W.D. — Commercial Chicken Meat and Egg Production (5ª ed., 2002)
-
-### Community 20 - "Preliminary Financial Plan"
-Cohesion: 0.17
-Nodes (11): Plan financiero preliminar, 17.1 Inversión inicial, 17.2 Supuestos preliminares, 17.3 Proyección preliminar — primera unidad (640 aves), 17.4 Interpretación, 17.5 Punto estratégico, Conservador, Base (+3 more)
-
-### Community 16 - "Pilot Validation Criteria"
-Cohesion: 0.14
-Nodes (13): Validación del piloto, 17.6.1 Razonamiento, 17.6.2 Qué debe cubrir el módulo inicial, 17.6.3 Qué no se exige en la primera etapa, 17.6.4 Qué significa validar el modelo, 17.6.5 Métrica clave: margen de contribución, 17.6.6 Objetivo recomendado para el piloto, 17.6.7 Criterios de éxito antes de crecer (+5 more)
-
-### Community 65 - "Local Regulatory Compliance"
-Cohesion: 0.50
-Nodes (3): Regulación y cumplimiento, 18.1 Trámites específicos para San Francisco Acatepec, San Andrés Cholula, Puebla, Navegación
-
-### Community 60 - "Farm Biosecurity"
-Cohesion: 0.40
-Nodes (4): Bioseguridad, 19.1 Medidas mínimas, 19.2 Respuesta ante anomalías, Navegación
-
-### Community 9 - "Technology Development Roadmap"
-Cohesion: 0.10
-Nodes (19): Estrategia de desarrollo tecnológico, 21.1 Enfoque: technology-first, business-validated, 21.2 La tecnología es una dependencia crítica, pero no es todo el negocio, 21.3 Tecnología que debe desarrollarse antes de recibir las aves, Control crítico, Plataforma de datos, Integración básica, 21.4 Tecnología que debe aplazarse hasta contar con datos reales (+11 more)
-
-### Community 18 - "Farm Expansion Roadmap"
-Cohesion: 0.19
-Nodes (12): Hoja de ruta, Fase 0. Prefactibilidad, Fase 1. Infraestructura base, Fase 2. Validación productiva y comercial, Fase 3. Expansión a una segunda unidad (1,280 aves), Fase 4. Expansión a 1,920–2,560 aves (3–4 unidades), Fase 5. Expansión a 2,560–5,120 aves (4–8 unidades), Próximos pasos inmediatos (+4 more)
-
-### Community 38 - "Performance Indicator Framework"
-Cohesion: 0.25
-Nodes (7): Indicadores clave, 23.1 Productivos, 23.2 Ambientales, 23.3 Comerciales, 23.4 Financieros, 23.5 Técnicos, Navegación
-
-### Community 46 - "Initial Organization Roles"
-Cohesion: 0.29
-Nodes (6): Organización inicial, Dirección, Operación, Veterinario externo, Soporte técnico, Navegación
-
-### Community 54 - "Investment Strategy"
-Cohesion: 0.33
-Nodes (5): Estrategia de inversión, 25.1 Elementos que no deben sacrificarse, 25.2 Elementos que pueden aplazarse, 25.3 Estrategia recomendada, Navegación
-
-### Community 61 - "Final Business Recommendation"
-Cohesion: 0.40
-Nodes (4): Conclusiones y decisión recomendada, Decisión recomendada, Conclusión, Navegación
-
-### Community 32 - "Technology and Operational Risks"
-Cohesion: 0.31
-Nodes (9): Factores críticos de éxito, Tabla de riesgos, impactos y mitigaciones, Riesgo: influenza aviar, Riesgo: falla de conectividad a internet, Riesgo: error del agente de IA, Hermes Agent, Paperclip, Decisión recomendada (doce condiciones) (+1 more)
-
-### Community 15 - "Project Knowledge Structure"
-Cohesion: 0.13
-Nodes (13): Knowledge Base, Por qué está dividido por tipo de autoridad, Catálogo, Uso esperado, docs/governance/, knowledge-base/regulations/, knowledge-base/financing/, knowledge-base/vendors/ (+5 more)
-
-### Community 25 - "Business Plan Documentation"
-Cohesion: 0.18
-Nodes (11): NidoSmart — Plan de negocios, Propósito de esta documentación modular, Estado del documento, Orden recomendado de lectura, Documentos relacionados fuera de este directorio, Descripción breve de cada documento, Convenciones para actualizar el plan, Instrucciones para agregar nuevos documentos (+3 more)
-
-### Community 5 - "Layer Production Selection"
-Cohesion: 0.09
-Nodes (25): Registro de decisiones, DEC-002 — Inicio con gallinas ponedoras y no con pollo de engorda, DEC-003 — Inicio controlado con una operación piloto de aproximadamente 100 gallinas, DEC-005 — Objetivo de cubrir el OPEX directo durante la validación del piloto, sin exigir recuperación del CAPEX, DEC-006 — Automatización intensiva de al menos 90% de las tareas repetitivas, DEC-007 — Uso de un PLC o controlador avícola como núcleo del control crítico, DEC-008 — Uso de agentes de IA como asistentes, no como controladores críticos, DEC-009 — Elección entre Hermes Agent y Paperclip (+17 more)
-
-### Community 22 - "Innovation Strategy Documents"
-Cohesion: 0.18
-Nodes (6): NidoSmart — Innovación, Documentos, Relación con el resto del proyecto, docs/innovation contiene conclusiones propias, no es biblioteca de referencias, Separación entre datos crudos y su análisis derivado, Separación entre conocimiento de terceros (knowledge-base) y producido por NidoSmart (docs)
-
-### Community 12 - "Precision Livestock Research"
-Cohesion: 0.15
-Nodes (10): research/state-of-the-art/, research/literature-notes/, Clasificación Adoptar / Adaptar / Investigar, knowledge-base/papers/, knowledge-base/papers/anomaly-detection/, knowledge-base/papers/plf/, knowledge-base/papers/computer-vision/, knowledge-base/papers/audio/ (+2 more)
-
-### Community 11 - "640 Bird Investment Project"
-Cohesion: 0.14
-Nodes (16): Proyecto de inversión, 1. Alcance congelado, 2. Por qué 640 y no 100, 3. Inversión inicial (CAPEX), 4. Lo que el crédito NO cubre, 5. Operación esperada de la unidad congelada, 6. Pendientes antes de formalizar el expediente, Navegación (+8 more)
-
-### Community 19 - "Distribution Vehicle Planning"
-Cohesion: 0.15
-Nodes (12): Vehículo de distribución — unidad de 640 aves, 1. Volumen a distribuir, 2. Número de rutas y distancia, 3. Capacidad de carga requerida, 4. Tipo de vehículo recomendado, 5. Adaptación o equipamiento interior, 6. Combustible o energía, 7. Seguros y mantenimiento (+4 more)
-
-### Community 62 - "Investment Project Guide"
-Cohesion: 0.40
-Nodes (4): NidoSmart — Proyecto de inversión, Documentos, Fuentes que consume este documento, Nota
-
-### Community 13 - "Production Model References"
-Cohesion: 0.11
-Nodes (17): Fuentes técnicas de referencia, Navegación, Servicio Nacional de Sanidad, Inocuidad y Calidad Agroalimentaria (SENASICA), Secretaría de Agricultura y Desarrollo Rural (SADER), Sistema Nacional de Información e Integración de Mercados (SNIIM), Unión Nacional de Avicultores (UNA), Universidad Nacional Autónoma de México (UNAM), Instituto Nacional de Investigaciones Forestales, Agrícolas y Pecuarias (INIFAP) (+9 more)
-
-### Community 47 - "Research Workflow Documents"
-Cohesion: 0.29
-Nodes (6): Research, Estructura, Flujo de trabajo, Plantilla para documentos de `state-of-the-art/`, research/hypotheses/, research/experiments/
-
-### Community 7 - "NidoSmart Business Model"
-Cohesion: 0.10
-Nodes (21): NidoSmart, Primera unidad productiva (640 aves), Segunda unidad (1,280 aves), Escala objetivo de largo plazo (5,000 aves), Techo de capacidad declarado por el proveedor (~11,520 aves), Automatización intensiva (>90%), Crecimiento modular, Estrategia comercial (venta directa, suscripciones) (+13 more)
-
-### Community 21 - "MVP Investment Priorities"
-Cohesion: 0.17
-Nodes (12): Principio fundamental (control crítico local), Jerarquía de niveles tecnológicos, DEC-007, DEC-008, Enfoque technology-first, business-validated, NidoSmart Core (MVP tecnológico), Secuencia de desarrollo tecnológico (5 etapas), Rol: Soporte técnico (+4 more)
-
-### Community 45 - "Pricing and Economic Validation"
-Cohesion: 0.29
-Nodes (7): Posicionamiento de marca, Modelo de venta, Planes de suscripción familiar, Política de precios, Validación económica, Margen de contribución, Indicadores financieros
-
-### Community 17 - "Production Operations Planning"
-Cohesion: 0.17
-Nodes (13): Curva de producción operativa, Estimación de producción — primera unidad de 640 aves, Bell & Weaver, capítulo 55 (curva de postura de referencia), Cartera comercial inicial, Inversión inicial — primera unidad 640 aves, Proyección financiera preliminar — primera unidad (640 aves), Bell & Weaver, capítulo 18 (consumo de alimento y conversión alimenticia), Respuesta ante anomalías (+5 more)
-
-### Community 53 - "Farm Logistics Costs"
-Cohesion: 0.33
-Nodes (6): FamTECH (cotización jaula automatizada tipo H), Flete final: almacén Puebla → sitio del proyecto (pendiente de cotizar), Alcance congelado: unidad productiva de 640 aves, Tabla de inversión inicial (CAPEX), Flete final Puebla → sitio del proyecto (pendiente), Headroom de infraestructura compartida (hasta ~11,520 aves)
-
-### Community 37 - "Pilot Validation Dimensions"
-Cohesion: 0.25
-Nodes (8): Interpretación: economía de escala de la automatización, Bell & Weaver, capítulo 50 (costo de capital, complejo de un millón de aves), Punto estratégico: escenarios conservador/base/optimista, Objetivo financiero y de validación del piloto, Validación productiva, Validación tecnológica, Validación comercial, DEC-005 — Cubrir OPEX directo en el piloto, sin exigir recuperación del CAPEX
-
-### Community 66 - "Agricultural Regulatory Requirements"
-Cohesion: 0.50
-Nodes (4): SENASICA (registro de unidad de producción), Ley Federal de Sanidad Animal, CONAGUA (aguas nacionales), Trámites específicos para San Francisco Acatepec, San Andrés Cholula, Puebla
-
-### Community 23 - "Building and Vehicle Costs"
-Cohesion: 0.17
-Nodes (11): Tabla de 19 parámetros técnicos de la nave, Tipo estructural de la nave (pendiente), Materiales de muros y marco (pendiente), Altura libre bajo estructura (pendiente), Resistencia a viento y clima local (pendiente), Estado de la ficha técnica de la nave, Volumen a distribuir (~32 kg/día), Tipo de vehículo recomendado (compacto, sin refrigeración) (+3 more)
-
-### Community 67 - "Poultry Genetics References"
-Cohesion: 0.50
-Nodes (4): knowledge-base/genetics/, Hy-Line W-80, Ross 308, Hy-Line International
+## Communities (90 total, 19 thin omitted)
 
 ### Community 0 - "Poultry Production Standards"
 Cohesion: 0.06
-Nodes (50): FamTECH Quotation v1 (CIF Puebla, USD17,747), Skip Hoist Feeder (galvanized steel hopper, CNC, 100m travel, USD1,498), Nipple Drinking System (dosing pump, waterline, nipples; subtotal USD903.8), Layer Cage System (front/back end, 4-tier cages, manure belt, manger; subtotal USD4,253.16), Automatic Egg Collecting Machine (soft-shell separator, PP belt, drive unit; subtotal USD3,272.6), Chicken Coop Spec (17m x 4m x 4.2m, 640 birds, quoted x5 sets), Quote v1 Commercial Terms (CIF Puebla; 40-day delivery; 30/70 payment; 13-month warranty), FamTECH (supplier, via ABC Machinery / Anyang Best Complete Machinery) (+42 more)
-
-### Community 24 - "Egg Product Safety Regulations"
-Cohesion: 0.21
-Nodes (12): NOM-159-SSA1-2016 (Egg products, sanitary specifications), Salmonella microbiological limit (absence in 25g, n=5 c=0), Mesophile limit (m=5x10^4 UFC/g, M=10^6 UFC/g), Total coliforms limit (<3 NMP/mL), Pasteurization requirements (whole egg 60C/3.5min; egg white 57C/3.5min; yolk 61C/3.5min), Egg washing requirements (potable water 32-45C, sanitizer, no packaging reuse), HACCP system requirement for egg product establishments (point 6.1.23), Refrigeration requirement (max 7C for refrigerated egg products) (+4 more)
+Nodes (50): Body weight curve (1212-1269g at 17wk; 1646-1783g at 100wk), Hy-Line W-80 Commercial Layers Performance Guide (April 2026), Egg size distribution (avg 64.9g at 100wk; 66.3% grande), Lighting program (ascending to 15-16h at peak, stimulate at 1180-1230g body weight), Nutritional recommendations (energy 2900-3100 kcal/kg initiation; calcium up to 4.60g/day at 86+wk), Performance standard summary (peak 94.4-98.2%; eggs 471.9-491.2 at 100wk; egg mass 30.3kg; FCR 1.94-2.01), Production space recommendations (490 cm2/bird, conventional cages, 20-80wk), Water quality standards (nitrate max 25ppm, pH 5-7, coliforms 0 CFU/mL) (+42 more)
 
 ### Community 1 - "Commercial Poultry Handbook"
 Cohesion: 0.06
-Nodes (48): Chapter 9: Fundamentals of Ventilation, Chapter 10: Fundamentals of Managing Light for Poultry, Chapter 18: Feeding Commercial Egg-Type Layers, Chapter 22: Consumption and Quality of Water, Chapter 50: A Model One Million Hen In-Line Egg Production Complex, Chapter 51: Cage Management for Raising Replacement Pullets, Chapter 52: Cage Management for Layers, Chapter 55: Egg Production and Egg Weight Standards for Table-Egg Layers (+40 more)
+Nodes (48): Ahemeral 28-Hour Lighting Program (14 Hours Light, 14 Hours Dark) for Egg Strains, Chapter 10: Fundamentals of Managing Light for Poultry, Chapter 11: Waste Management, Chapter 12: External Parasites, Insects, and Rodents, Chapter 17: Feeding Egg-Type Replacement Pullets, Chapter 18: Feeding Commercial Egg-Type Layers, Chapter 20: Vitamins, Minerals, and Trace Ingredients, Chapter 22: Consumption and Quality of Water (+40 more)
 
-### Community 26 - "Farm Financial Analysis"
-Cohesion: 0.29
-Nodes (10): Whole-Farm Planning, Linear Programming (Farm Planning), Shadow Prices and Reduced Costs, Whole-Farm Budget, Liquidity Analysis (Whole-Farm), Sensitivity Analysis, Partial Budgeting, Opportunity Cost in Budgeting (+2 more)
-
-### Community 10 - "Hot Climate Poultry Housing"
-Cohesion: 0.19
-Nodes (19): Poultry Production in Hot Climates (2nd Edition), Chapter 5: Poultry Housing for Hot Climates, Chapter 4: Behavioural, Physiological, Neuroendocrine and Molecular Responses to Heat Stress, Chapter 6: Nutrient Requirements of Poultry at High Temperatures, Layer House Cage System Ventilation (2- to 4-Deck), Minimum 1.2 m Centre Aisle Width for 3-4 Tier Cage Houses, Cage-to-Ceiling Clearance Threshold (Less Than 1 m Impairs Natural Ventilation), 12 m Maximum House Width for Natural Ventilation (+11 more)
-
-### Community 29 - "Famtech Cage Imagery"
-Cohesion: 0.27
-Nodes (10): Layer Cage House Interior Photo, Multi-Tier Battery Cage Rows, Layer Cage Automation System (Equipment Shown), FamTECH (Supplier), Photo: FamTECH Layer Cage Row Interior, FamTECH Battery Layer Cage System, Automated Feed Trough (Layer Cage), Manure Removal Belt System (+2 more)
-
-### Community 63 - "Cage System Imagery"
-Cohesion: 0.60
-Nodes (5): Photo: Battery Cage System with Egg Collection Elevator Tower, Multi-Tier Layer Battery Cage Row, Vertical Egg Collection Elevator Tower, Local Push-Button Control Panel on Elevator Tower, FamTECH (Poultry Cage Equipment Supplier)
-
-### Community 55 - "Famtech Installation Imagery"
-Cohesion: 0.53
-Nodes (6): Photo: Installing Belt Roll on Layer Cage System, Tiered Battery Cage Rack System, White Plastic Belt/Sheeting Roll, On-Site Installation Crew (Four Workers), "nbc Machinery" Branded Shirt, Poultry Shed / Barn Structure
-
-### Community 68 - "Supplier Email Imagery"
-Cohesion: 0.50
-Nodes (4): ABC Machinery Logo Image, ABC Machinery (brand), FamTECH Poultry Cage Quotation Thread, Generic Download Icon Image
-
-### Community 74 - "Site Permits and Compliance"
-Cohesion: 0.67
-Nodes (3): NidoSmart Regulatory Compliance, San Francisco Acatepec Permits, Farm Wastewater Compliance
-
-### Community 8 - "Investment Compliance Planning"
-Cohesion: 0.10
-Nodes (20): DEC-014 Linear Poultry House Expansion, Initial CAPEX Range, 640-bird Poultry House Technical Specification, Design thermal envelope: R-20 roof / R-14 walls, Interior warm-side vapor barrier: perm below 0.5, Separate stormwater and sanitary drainage; protected composting area, Estimated initial investment: MXN 1.285-2.256 million, incomplete financing baseline, Budget certainty: confirmed, quoted/paused, estimated, pending and estimated-by-difference (+12 more)
-
-### Community 27 - "Farm Infrastructure Design"
-Cohesion: 0.20
-Nodes (9): Diseño físico preliminar, 7.1 Módulo inicial, Condiciones climáticas del sitio, 7.1.1 Layout funcional recomendado (dentro de la nave 17×4×4.2 m), Densidad de jaula (pendiente de verificación con proveedor), 7.2 Áreas generales del predio, 7.2.1 Drenaje y manejo de gallinaza (revisión septiembre 2026), 7.3 Flujo operativo (+1 more)
-
-### Community 6 - "Initial Investment Budget"
-Cohesion: 0.09
-Nodes (23): Presupuesto consolidado de inversión inicial — unidad de 640 aves, 1. Jaulas y automatización, 2. Nave avícola / 3. Obra civil, 4. Infraestructura eléctrica, 5. Infraestructura hidráulica, 5.1 Drenaje, aguas residuales y manejo de gallinaza, 6. Ventilación y control ambiental, 7. Iluminación (+15 more)
-
-### Community 70 - "Facility Design Decisions"
-Cohesion: 0.67
-Nodes (3): Initial production unit: 640 birds, 5 H-cage sets, 4 tiers, 17 x 4 x 4.2 m, Functional layout: equipment at both ends; detailed footprints and usable height pending, Supplier-reported cage density: 1.2 x 1.2 m, 32 birds/tier, 450 cm2/bird
-
-### Community 30 - "Core Farm Automation"
-Cohesion: 0.22
-Nodes (9): Sistema de automatizacion, Procesos automatizados desde el inicio, Alimentacion automatizada, Requisitos de alimentacion, Sistema automatizado de agua, Requisitos de agua, Procesos manuales iniciales, Inspeccion humana diaria pese a la automatizacion (+1 more)
-
-### Community 2 - "Electrical and Utility Architecture"
-Cohesion: 0.05
-Nodes (42): Espacio de comedero de 10 cm por ave, Confirmacion pendiente del espacio de comedero FamTECH, Ratio objetivo de 6 a 8 aves por niple, Ratio FamTECH de 8 aves por niple, Fotoperiodo controlado de 10 a 15-16 horas, Especificacion de lux y espectro calido, Incertidumbre fotometrica del nivel inferior, Tragaluces controlados y cortina blackout (+34 more)
-
-### Community 39 - "Lighting Electrical Requirements"
-Cohesion: 0.29
-Nodes (7): Sistema de iluminacion, Requisitos funcionales de iluminacion, Alcance linea por linea de FamTECH, Cargas pendientes sin potencia de proveedor, Tipo y capacidad de servicio CFE pendiente, Datos requeridos para el calculo electrico definitivo, Flujo luminoso de 11760 lumenes resuelto
-
-### Community 40 - "FamTECH Lighting Specifications"
-Cohesion: 0.29
-Nodes (7): Iluminacion de pasillo FamTECH, Correo FamTECH de cotizacion y explicacion de iluminacion, Mitigacion de atenuacion entre niveles, Diagrama FamTECH de altura de lamparas, Foco DC48V 7W 3000K regulable, Flujo luminoso FamTECH de 11760 lumenes, Referencia de mercado de luminarias avicolas
-
-### Community 4 - "Expansion Governance Decisions"
+### Community 2 - "Smart Farm Technology Architecture"
 Cohesion: 0.07
-Nodes (35): Cotizacion formal de iluminacion FamTECH v4, Control de iluminacion por PLC 0-10V, Decision pendiente sobre respaldo de iluminacion, Controlador PLC-linked sin sobrecosto, Verificacion pendiente del presupuesto de sensores, Pendientes de ventilacion con FamTECH, Presupuesto consolidado de inversion inicial, Arquitectura electrica preliminar (+27 more)
+Nodes (37): Base de datos local de series de tiempo, Gateway industrial y Node-RED, Conectividad a internet permanente para datos e IA, Control crítico local sin internet, Arquitectura propuesta (diagrama), ERP (ERPNext / Odoo), Grafana (panel operativo), Broker MQTT (+29 more)
 
-### Community 34 - "Environmental Monitoring Controls"
-Cohesion: 0.25
-Nodes (8): Monitoreo con cuatro sensores de lux, Control ambiental, Variables ambientales minimas, Actuadores de control ambiental, Sensores obligatorios de NH3 y CO2, DEC-007 Control critico local y autonomo, Datos electricos pendientes de FamTECH, Pendientes de ventilacion y control ambiental
+### Community 3 - "640 Bird Investment Project"
+Cohesion: 0.06
+Nodes (30): DEC-001 — Nombre del proyecto: NidoSmart, DEC-002 — Inicio con gallinas ponedoras y no con pollo de engorda, DEC-003 — Inicio controlado con una operación piloto de aproximadamente 100 gallinas, DEC-004 — Arquitectura modular de crecimiento, DEC-005 — Objetivo de cubrir el OPEX directo durante la validación del piloto, sin exigir recuperación del CAPEX, DEC-006 — Automatización intensiva de al menos 90% de las tareas repetitivas, DEC-007 — Uso de un PLC o controlador avícola como núcleo del control crítico, DEC-008 — Uso de agentes de IA como asistentes, no como controladores críticos (+22 more)
 
-### Community 64 - "Gas Alarm Thresholds"
-Cohesion: 0.50
-Nodes (4): Alarma recomendada de CO2 entre 3000 y 5000 ppm, Alarma objetivo de NH3 a 25 ppm, University of Georgia Cooperative Extension, Reece & Lott 1980
+### Community 4 - "Preliminary Financial Plan"
+Cohesion: 0.07
+Nodes (25): Inversión preliminar ($723,300-$1,174,300 MXN), 7.1.1 Layout funcional recomendado (dentro de la nave 17×4×4.2 m), 7.1 Módulo inicial, 7.2.1 Dimensionamiento preliminar de espacios de servicio (septiembre 2026), 7.2.2 Drenaje y manejo de gallinaza (revisión septiembre 2026), 7.2 Áreas generales del predio, 7.3 Flujo operativo, Condiciones climáticas del sitio (+17 more)
 
-### Community 71 - "Manure Treatment Compliance"
-Cohesion: 0.67
-Nodes (3): Tratamiento termico de gallinaza antes del transporte, Manual de Buenas Practicas Pecuarias para Huevo, NOM-024-ZOO-1995
+### Community 5 - "Initial Investment Budget"
+Cohesion: 0.07
+Nodes (27): Forma de adquisición del vehículo: capital propio, sin compra dedicada, Tipo de vehículo recomendado (compacto, sin refrigeración), Volumen a distribuir (~32 kg/día), 10. Importación y logística, 11. Instalación y puesta en marcha, 12. Aves, 13. Bioseguridad, 14. Almacenamiento y manejo de producto (+19 more)
 
-### Community 41 - "Water Utility Architecture"
-Cohesion: 0.29
-Nodes (7): Arquitectura electrica, hidraulica y de comunicaciones, Sistema hidraulico, Requisitos del sistema hidraulico, Redundancia de fuentes de agua, Pendientes de layout del sistema instalado, Pendientes de agua y gallinaza, Diseno fisico preliminar
+### Community 6 - "Production Model References"
+Cohesion: 0.08
+Nodes (25): Big Dutchman, Fideicomisos Instituidos en Relación con la Agricultura (FIRA), Fuentes técnicas de referencia, Hermes Agent (Nous Research), Hy-Line International, Instituto Nacional de Investigaciones Forestales, Agrícolas y Pecuarias (INIFAP), Lohmann Breeders, LUBING (+17 more)
 
-### Community 31 - "Critical Electrical Resilience"
-Cohesion: 0.25
-Nodes (9): Sistema electrico, Requisitos generales de la instalacion electrica, Cargas electricas criticas, Circuitos normales sin respaldo, Circuitos de cargas criticas con respaldo, UPS para controladores comunicaciones y sensores, Generador para ventilacion y bombeo, Transferencia automatica ATS (+1 more)
+### Community 7 - "Critical Electrical Resilience"
+Cohesion: 0.10
+Nodes (19): 9.1.1 Arquitectura eléctrica preliminar (revisión septiembre 2026), 9.1 Sistema eléctrico, 9.2 Sistema hidráulico, 9.3.1 Conectividad a internet como requisito permanente, 9.3 Comunicaciones, Arquitectura eléctrica, hidráulica y de comunicaciones, Canalizaciones, Cargas conocidas (potencia confirmada por cotización) (+11 more)
 
-### Community 73 - "Expandable Utility Infrastructure"
-Cohesion: 0.67
-Nodes (3): Subtablero con reserva para expansion, DEC-010 Servicios compartidos con margen, DEC-014 Expansion lineal de la nave
+### Community 8 - "Technology Development Roadmap"
+Cohesion: 0.10
+Nodes (19): 21.1 Enfoque: technology-first, business-validated, 21.2 La tecnología es una dependencia crítica, pero no es todo el negocio, 21.3 Tecnología que debe desarrollarse antes de recibir las aves, 21.4 Tecnología que debe aplazarse hasta contar con datos reales, 21.5 Producto mínimo tecnológico: NidoSmart Core, 21.6 Secuencia de desarrollo tecnológico, 21.7 Desarrollo comercial en paralelo, 21.8 Regla de desarrollo y meta del MVP (+11 more)
 
-### Community 35 - "Communications and Control Network"
-Cohesion: 0.25
-Nodes (8): Canalizaciones separadas de potencia y control, Arquitectura de comunicaciones, Protocolos y segmentacion de red, Conectividad a internet como requisito permanente, Enlace primario y respaldo satelital, Starlink, Operacion local autonoma del control critico, Arquitectura tecnologica
+### Community 9 - "Hot Climate Poultry Housing"
+Cohesion: 0.19
+Nodes (19): Bird Heat Loss Mechanisms (Sensible vs Latent, Fig. 5.1), Poultry Production in Hot Climates (2nd Edition), Cage-to-Ceiling Clearance Threshold (Less Than 1 m Impairs Natural Ventilation), Minimum 1.2 m Centre Aisle Width for 3-4 Tier Cage Houses, Chapter 4: Behavioural, Physiological, Neuroendocrine and Molecular Responses to Heat Stress, Chapter 5: Poultry Housing for Hot Climates, Chapter 6: Nutrient Requirements of Poultry at High Temperatures, Circulation Fan Layout for Naturally Ventilated Houses (+11 more)
 
-### Community 51 - "Water Quality and Storage"
-Cohesion: 0.33
-Nodes (6): Tanque pulmon de al menos 500 litros utiles, Criterios de calidad del agua, Analisis y tratamiento de agua pendientes, NOM-127-SSA1-1994, Manual de Buenas Practicas Pecuarias para Huevo, Bell & Weaver
+### Community 10 - "Precision Livestock Research"
+Cohesion: 0.16
+Nodes (9): knowledge-base/papers/, knowledge-base/papers/anomaly-detection/, knowledge-base/papers/audio/, knowledge-base/papers/computer-vision/, knowledge-base/papers/optimization/, knowledge-base/papers/plf/, research/literature-notes/, Clasificación Adoptar / Adaptar / Investigar (+1 more)
 
-### Community 72 - "Local Data and Agents"
-Cohesion: 0.67
-Nodes (3): Buffer local de datos, Hermes Agent, Paperclip
+### Community 11 - "Graphify Maintenance Workflow"
+Cohesion: 0.13
+Nodes (15): Commit workflow, Failure handling, Graphify artifacts, Graphify Maintainer, Graphify update, Incremental Graphify Commit Workflow, Primary responsibility, Shared Graphify Artifacts (+7 more)
 
-### Community 56 - "FamTECH Lighting Evidence"
+### Community 12 - "NidoSmart Business Model"
+Cohesion: 0.15
+Nodes (15): Automatización intensiva (>90%), Crecimiento modular, Estrategia comercial (venta directa, suscripciones), NidoSmart, Primera unidad productiva (640 aves), Segunda unidad (1,280 aves), Concepto del negocio, Producto inicial: huevo fresco (+7 more)
+
+### Community 13 - "640 Bird Investment Project"
+Cohesion: 0.16
+Nodes (15): Criterios para autorizar expansión, Modelo modular de crecimiento, Unidad productiva de 640 aves, Espacios de servicio de 20–30 m², Nave avícola de 17 × 4 × 4.2 m, Tanque pulmón de al menos 1,000 L, Lotes de preguntas técnicas a FamTECH, DEC-012 Alcance congelado en 640 aves (+7 more)
+
+### Community 14 - "Pilot Validation Criteria"
+Cohesion: 0.15
+Nodes (12): Cubrir OPEX y validar modelo sin exigir CAPEX en el piloto, 17.6.1 Razonamiento, 17.6.2 Qué debe cubrir el módulo inicial, 17.6.3 Qué no se exige en la primera etapa, 17.6.4 Qué significa validar el modelo, 17.6.5 Métrica clave: margen de contribución, 17.6.6 Objetivo recomendado para el piloto, 17.6.7 Criterios de éxito antes de crecer (+4 more)
+
+### Community 15 - "Farm Expansion Roadmap"
+Cohesion: 0.19
+Nodes (12): Criterios de éxito antes de crecer, Fase 0. Prefactibilidad, Fase 1. Infraestructura base, Fase 2. Validación productiva y comercial, Fase 3. Expansión a una segunda unidad (1,280 aves), Fase 4. Expansión a 1,920–2,560 aves, Fase 4. Expansión a 1,920–2,560 aves (3–4 unidades), Fase 5. Expansión a 2,560–5,120 aves (+4 more)
+
+### Community 16 - "Investment Compliance Planning"
+Cohesion: 0.26
+Nodes (12): Componentes compartidos y repetibles, Límite efectivo de feeder de 100 m, Respuesta FamTECH sobre expansión y layout, Expansión lineal de la misma nave, Techo declarado de 90 sets, Layout con Cabecera A fija y Cabecera B móvil, Filtro sanitario de tres zonas, Lote 1: expansión y layout (+4 more)
+
+### Community 17 - "Egg Product Safety Regulations"
 Cohesion: 0.21
-Nodes (8): Diseno de luminarias de pasillo resuelto, Respuesta WhatsApp FamTECH sobre iluminacion, Correo FamTECH de iluminacion del 2026-09-21, Justificacion tecnica de iluminacion de pasillo, Mitigacion top-bottom con dos lamparas por punto, Diagrama FamTECH de altura de lamparas, Betty Han supplier email, 2026-09-21: updated quote includes lighting; bulb DC48V-7W-3000K, Supplier engineering rationale: compact H-cage favors staggered aisle bulbs about 2.5 m apart
+Nodes (12): Alpha-amylase test method (Apendice A Normativo, verifies pasteurization adequacy), Total coliforms limit (<3 NMP/mL), NOM-159-SSA1-2016 (Egg products, sanitary specifications), Egg washing requirements (potable water 32-45C, sanitizer, no packaging reuse), Freezing requirement (freeze below -18C, store below -5C, no re-freezing), HACCP system requirement for egg product establishments (point 6.1.23), Dehydrated egg product humidity limit (<8%), Labeling requirements (lot, expiration/consume-preferably date, treatment applied) (+4 more)
+
+### Community 18 - "Investment Compliance Planning"
+Cohesion: 0.18
+Nodes (11): Supplier engineering rationale: compact H-cage favors staggered aisle bulbs about 2.5 m apart, Betty Han supplier email, 2026-09-21: updated quote includes lighting; bulb DC48V-7W-3000K, Four-tier lamp-height schematic: two aisle lamps on common hanger rod, Five four-tier double-sided cages with front/back equipment and 1.0 x 1130 mm manure belt, Commercial terms: about 40 days after deposit, 30/70 payment, 13-month guarantee; PDF uses 50 Hz motor baseline, Egg collection: 163.2 m of 92 mm PP belt and 0.55 kW Wanxin drive, Skip-hoist feeder: stated travel up to 100 m, 12 m traveling tube, 0.75 kW 380 V Wanxin drive, Installation terms: optional 2-3 technicians, about 20-30 days, USD 100/person/day plus buyer expenses (+3 more)
+
+### Community 19 - "Environmental Monitoring Controls"
+Cohesion: 0.18
+Nodes (10): 8.1 Procesos que deben automatizarse desde el inicio, 8.2 Procesos que pueden permanecer manuales inicialmente, Agua, Alimentación, Control ambiental, Iluminación, Navegación, Recolección de huevo (+2 more)
+
+### Community 20 - "Business Plan Documentation"
+Cohesion: 0.18
+Nodes (11): Convenciones para actualizar el plan, Descripción breve de cada documento, Documentos relacionados fuera de este directorio, Estado del documento, Fecha de reorganización, Instrucciones para agregar nuevos documentos, Navegación, NidoSmart — Plan de negocios (+3 more)
+
+### Community 21 - "Innovation Strategy Documents"
+Cohesion: 0.20
+Nodes (4): docs/innovation contiene conclusiones propias, no es biblioteca de referencias, Documentos, NidoSmart — Innovación, Relación con el resto del proyecto
+
+### Community 22 - "Distribution Vehicle Planning"
+Cohesion: 0.18
+Nodes (10): 1. Volumen a distribuir, 2. Número de rutas y distancia, 3. Capacidad de carga requerida, 4. Tipo de vehículo recomendado, 5. Adaptación o equipamiento interior, 6. Combustible o energía, 7. Seguros y mantenimiento, 8. Forma de adquisición (+2 more)
+
+### Community 23 - "Farm Financial Analysis"
+Cohesion: 0.29
+Nodes (10): Break-Even Price/Yield Analysis, Cash Flow Budgeting, Linear Programming (Farm Planning), Liquidity Analysis (Whole-Farm), Opportunity Cost in Budgeting, Partial Budgeting, Sensitivity Analysis, Shadow Prices and Reduced Costs (+2 more)
+
+### Community 24 - "Project Repository Guide"
+Cohesion: 0.24
+Nodes (7): docs/governance/, evidence/, Clasificación de fuentes por tipo de autoridad, knowledge-base/vendors/, Estructura del proyecto, NidoSmart, Por dónde empezar
+
+### Community 25 - "Famtech Cage Imagery"
+Cohesion: 0.27
+Nodes (10): Automated Feed Trough (Layer Cage), FamTECH Battery Layer Cage System, Manure Removal Belt System, Multi-Tier Stacked Cage Configuration, FamTECH (Poultry Cage Equipment Supplier), FamTECH (Supplier), Layer Cage House Interior Photo, Layer Cage Automation System (Equipment Shown) (+2 more)
+
+### Community 26 - "Biosecurity and Site Compliance"
+Cohesion: 0.25
+Nodes (9): Aislamiento R-20 techo / R-14 paredes, Drenaje pluvial y sanitario separados, Banda de gallinaza objetivo 1,000 kg/día, Aislamiento sanitario mínimo de 3 km, Tratamiento de aguas residuales, Viabilidad regulatoria del predio, Bioseguridad constructiva, Zona protegida de gallinaza y compostaje (+1 more)
+
+### Community 27 - "Technology and Operational Risks"
+Cohesion: 0.31
+Nodes (9): Riesgo: error del agente de IA, Riesgo: falla de conectividad a internet, Riesgo: influenza aviar, Tabla de riesgos, impactos y mitigaciones, Hermes Agent, Paperclip, Conclusión general del plan, Decisión recomendada (doce condiciones) (+1 more)
+
+### Community 28 - "MVP Investment Priorities"
+Cohesion: 0.25
+Nodes (9): Enfoque technology-first, business-validated, NidoSmart Core (MVP tecnológico), Indicadores productivos, Rol: Dirección, Elementos que pueden aplazarse, Elementos que no deben sacrificarse, Estrategia de priorización de la automatización por riesgo, Índice general del plan de negocios (+1 more)
+
+### Community 29 - "Graphify Project Memory"
+Cohesion: 0.22
+Nodes (8): Explain a concept, Find relationships, Graph maintenance, Graphify usage, Project, Query project memory, Source of truth, Working principle
+
+### Community 30 - "Farm Technology Architecture"
+Cohesion: 0.25
+Nodes (7): 10.1 Principio fundamental, 10.2 Arquitectura propuesta, 10.3 Componentes de software posibles, 10.4 Nota metodológica: Precision Livestock Farming (PLF), 10.5 Grafana: panel operativo, Arquitectura tecnológica, Navegación
+
+### Community 31 - "Performance Indicator Framework"
+Cohesion: 0.25
+Nodes (7): 23.1 Productivos, 23.2 Ambientales, 23.3 Comerciales, 23.4 Financieros, 23.5 Técnicos, Indicadores clave, Navegación
+
+### Community 32 - "FamTECH Quotation Documentation"
+Cohesion: 0.25
+Nodes (7): Decisión vigente (2026-07-22, base de costo actualizada 2026-09-21), Especificaciones técnicas base (v1/v2), Historial de versiones, Lo que NO especifica todavía el proveedor (pendiente real, no resuelto por este hilo), Pendientes con este proveedor, Qué se compra una sola vez por fila vs. qué se repite por set (aclarado 2026-09-28), Registro de cotizaciones — Sistema de jaula tipo H
+
+### Community 33 - "Modular Growth Model"
+Cohesion: 0.29
+Nodes (6): 6.1 Principio de modularidad, 6.2 Escala recomendada, 6.3 Criterios para agregar un módulo, 6.4 Requisitos de diseño de la primera nave para preservar la expansión (septiembre 2026), Modelo modular de crecimiento, Navegación
+
+### Community 34 - "MVP Investment Priorities"
+Cohesion: 0.29
+Nodes (7): Control de iluminación por PLC 0–10V, Iluminación regulable de pasillo, Control crítico local y autónomo, Redes separadas de control y administración, Internet primario con respaldo satelital, DEC-007 PLC como núcleo del control crítico, Cotización FamTECH v4 BS04H092126
+
+### Community 35 - "Agent Platform Evaluation"
+Cohesion: 0.29
+Nodes (6): 11.1 Hermes Agent, 11.2 Paperclip, 11.3 Comparación, 11.4 Decisión tecnológica, Evaluación técnica de Hermes Agent y Paperclip, Navegación
+
+### Community 36 - "Functional Cybersecurity Controls"
+Cohesion: 0.29
+Nodes (6): 13.1 Regla de acceso, 13.2 Acciones permitidas, 13.3 Acciones restringidas, 13.4 Controles requeridos, Navegación, Seguridad funcional y ciberseguridad
+
+### Community 37 - "Commercial Strategy"
+Cohesion: 0.29
+Nodes (6): 15.1 Posicionamiento, 15.2 Modelo de venta, 15.3 Suscripciones, 15.4 Política de precios, Estrategia comercial, Navegación
+
+### Community 38 - "Pricing and Economic Validation"
+Cohesion: 0.29
+Nodes (7): Modelo de venta, Planes de suscripción familiar, Política de precios, Posicionamiento de marca, Margen de contribución, Validación económica, Indicadores financieros
+
+### Community 39 - "Production Operations Planning"
+Cohesion: 0.29
+Nodes (7): Bell & Weaver, capítulo 55 (curva de postura de referencia), Cartera comercial inicial, Curva de producción operativa, Estimación de producción — primera unidad de 640 aves, Bell & Weaver, capítulo 18 (consumo de alimento y conversión alimenticia), Inversión inicial — primera unidad 640 aves, Proyección financiera preliminar — primera unidad (640 aves)
+
+### Community 40 - "Pilot Validation Dimensions"
+Cohesion: 0.29
+Nodes (7): Bell & Weaver, capítulo 50 (costo de capital, complejo de un millón de aves), Interpretación: economía de escala de la automatización, Punto estratégico: escenarios conservador/base/optimista, Objetivo financiero y de validación del piloto, Validación comercial, Validación productiva, Validación tecnológica
+
+### Community 41 - "Initial Organization Roles"
+Cohesion: 0.29
+Nodes (6): Dirección, Navegación, Operación, Organización inicial, Soporte técnico, Veterinario externo
+
+### Community 42 - "FamTECH Technical Questions"
+Cohesion: 0.29
+Nodes (6): Borrador — preguntas pendientes para FamTECH (respaldo local), Lote 1 — Expansion & layout (enviar primero; bloquea la decisión de cimentación/obra civil), Lote 2 — Ventilation & environmental control, water & manure handling, Lote 3 — Electrical, Lote 4 — Insulation & commercial, Registro de envío y respuesta
+
+### Community 43 - "Project Repository Guide"
+Cohesion: 0.29
+Nodes (6): data/experimental/, data/external/, Data, Separación entre datos crudos y su análisis derivado, Separación entre conocimiento de terceros (knowledge-base) y producido por NidoSmart (docs), models/
+
+### Community 44 - "Research Workflow Documents"
+Cohesion: 0.29
+Nodes (6): research/experiments/, research/hypotheses/, Estructura, Flujo de trabajo, Plantilla para documentos de `state-of-the-art/`, Research
+
+### Community 45 - "Business Description"
+Cohesion: 0.33
+Nodes (5): 2.1 Concepto, 2.2 Producto inicial, 2.3 Propuesta de valor, Descripción del negocio, Navegación
+
+### Community 46 - "Market Opportunity Analysis"
+Cohesion: 0.33
+Nodes (5): 3.1 Mercado mexicano, 3.2 Competencia, 3.3 Canales de oportunidad, Justificación de la oportunidad, Navegación
+
+### Community 47 - "Operating Routines"
+Cohesion: 0.33
+Nodes (5): 14.1 Rutina diaria, 14.2 Rutina semanal, 14.3 Rutina mensual, Modelo operativo, Navegación
+
+### Community 48 - "Farm Logistics Costs"
+Cohesion: 0.33
+Nodes (6): FamTECH (cotización jaula automatizada tipo H), Flete final: almacén Puebla → sitio del proyecto (pendiente de cotizar), Tabla de inversión inicial (CAPEX), Flete final Puebla → sitio del proyecto (pendiente), Headroom de infraestructura compartida (hasta ~11,520 aves), Alcance congelado: unidad productiva de 640 aves
+
+### Community 49 - "Farm Biosecurity"
+Cohesion: 0.33
+Nodes (5): 19.1 Medidas mínimas, 19.2 Respuesta ante anomalías, 19.3 Requisitos constructivos de bioseguridad (especificación para proveedores), Bioseguridad, Navegación
+
+### Community 50 - "Investment Strategy"
+Cohesion: 0.33
+Nodes (5): 25.1 Elementos que no deben sacrificarse, 25.2 Elementos que pueden aplazarse, 25.3 Estrategia recomendada, Estrategia de inversión, Navegación
+
+### Community 51 - "Famtech Installation Imagery"
+Cohesion: 0.53
+Nodes (6): Tiered Battery Cage Rack System, White Plastic Belt/Sheeting Roll, Photo: Installing Belt Roll on Layer Cage System, On-Site Installation Crew (Four Workers), "nbc Machinery" Branded Shirt, Poultry Shed / Barn Structure
+
+### Community 52 - "Production Model Selection"
+Cohesion: 0.40
+Nodes (4): 4.1 Comparación entre ponedoras y pollo de engorda, 4.2 Decisión, Navegación, Selección del modelo productivo
+
+### Community 53 - "Project Objectives"
+Cohesion: 0.40
+Nodes (4): 5.1 Objetivo general, 5.2 Objetivos específicos, Navegación, Objetivos del proyecto
+
+### Community 54 - "Final Business Recommendation"
+Cohesion: 0.40
+Nodes (4): Conclusiones y decisión recomendada, Conclusión, Decisión recomendada, Navegación
+
+### Community 55 - "Investment Project Guide"
+Cohesion: 0.40
+Nodes (4): Documentos, Fuentes que consume este documento, NidoSmart — Proyecto de inversión, Nota
+
+### Community 56 - "Cage System Imagery"
+Cohesion: 0.60
+Nodes (5): Multi-Tier Layer Battery Cage Row, Local Push-Button Control Panel on Elevator Tower, Vertical Egg Collection Elevator Tower, FamTECH (Poultry Cage Equipment Supplier), Photo: Battery Cage System with Egg Collection Elevator Tower
+
+### Community 57 - "MVP Investment Priorities"
+Cohesion: 0.50
+Nodes (4): Jerarquía de niveles tecnológicos, Principio fundamental (control crítico local), Secuencia de desarrollo tecnológico (5 etapas), Rol: Soporte técnico
+
+### Community 58 - "Local Regulatory Compliance"
+Cohesion: 0.50
+Nodes (3): 18.1 Trámites específicos para San Francisco Acatepec, San Andrés Cholula, Puebla, Navegación, Regulación y cumplimiento
+
+### Community 59 - "Project Knowledge Structure"
+Cohesion: 0.50
+Nodes (4): Catálogo, Knowledge Base, Por qué está dividido por tipo de autoridad, Uso esperado
+
+### Community 60 - "Supplier Email Imagery"
+Cohesion: 0.50
+Nodes (4): ABC Machinery (brand), FamTECH Poultry Cage Quotation Thread, ABC Machinery Logo Image, Generic Download Icon Image
+
+### Community 61 - "ABC Machinery Brand Imagery"
+Cohesion: 1.00
+Nodes (3): ABC Machinery, Gear and Flame Emblem, Industrial Machinery
+
+### Community 63 - "Layer Production Selection"
+Cohesion: 0.67
+Nodes (3): Comparación ponedoras vs pollo de engorda, Decisión: iniciar con gallinas ponedoras, Pollitas de prepostura (16-18 semanas)
+
+### Community 64 - "Electrical and Utility Architecture"
+Cohesion: 0.67
+Nodes (3): Sensores obligatorios de NH₃ y CO₂, Ventilación híbrida transversal, Cargas eléctricas críticas
+
+### Community 66 - "Project Knowledge Structure"
+Cohesion: 0.67
+Nodes (3): knowledge-base/regulations/, Manual de Buenas Prácticas Pecuarias (BPP), NOM-159-SSA1-2016
 
 ## Ambiguous Edges - Review These
 - `Table 22-8: Suggested Maximum Limits of Water Components for Chickens` → `Table 52-1: Recommended Minimum Space Allowances During Lay (Floor, Feeder, Waterer Space, 16 wk+)`  [AMBIGUOUS]
@@ -458,13 +398,11 @@ Nodes (8): Diseno de luminarias de pasillo resuelto, Respuesta WhatsApp FamTECH 
   evidence/correspondence/mail_famtechpoultry.rtfd/4__#$!@%!#__unknown.jpg · relation: conceptually_related_to
 - `FamTECH Poultry Cage Quotation Thread` → `Generic Download Icon Image`  [AMBIGUOUS]
   evidence/correspondence/mail_famtechpoultry.rtfd/unknown.png · relation: conceptually_related_to
-- `Estimated initial investment: MXN 1.285-2.256 million, incomplete financing baseline` → `Installation terms: optional 2-3 technicians, about 20-30 days, USD 100/person/day plus buyer expenses`  [AMBIGUOUS]
-  evidence/quotations/2026-09-21_FamTECH_v4_Jaula-Automatizacion-Iluminacion_DDU-SanFranciscoAcatepec_USD22644.21.pdf · relation: conceptually_related_to
 
 ## Knowledge Gaps
-- **439 isolated node(s):** `Working principle`, `Query project memory`, `Explain a concept`, `Find relationships`, `Source of truth` (+434 more)
+- **413 isolated node(s):** `Working principle`, `Query project memory`, `Explain a concept`, `Find relationships`, `Source of truth` (+408 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **31 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **19 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
@@ -477,9 +415,15 @@ _Questions this graph is uniquely positioned to answer:_
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
 - **What is the exact relationship between `FamTECH Poultry Cage Quotation Thread` and `Generic Download Icon Image`?**
   _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
-- **What is the exact relationship between `Estimated initial investment: MXN 1.285-2.256 million, incomplete financing baseline` and `Installation terms: optional 2-3 technicians, about 20-30 days, USD 100/person/day plus buyer expenses`?**
-  _Edge tagged AMBIGUOUS (relation: conceptually_related_to) - confidence is low._
-- **Why does `Registro de decisiones` connect `Layer Production Selection` to `640 Bird Investment Project`, `MVP Investment Priorities`?**
-  _High betweenness centrality (0.173) - this node is a cross-community bridge._
-- **Why does `Estimated initial investment: MXN 1.285-2.256 million, incomplete financing baseline` connect `Investment Compliance Planning` to `Distribution Vehicle Planning`?**
-  _High betweenness centrality (0.141) - this node is a cross-community bridge._
+- **Why does `Registro de decisiones` connect `640 Bird Investment Project` to `Innovation Strategy Documents`?**
+  _High betweenness centrality (0.105) - this node is a cross-community bridge._
+- **Why does `Índice del proyecto de inversión` connect `640 Bird Investment Project` to `Initial Investment Budget`, `Distribution Vehicle Planning`?**
+  _High betweenness centrality (0.099) - this node is a cross-community bridge._
+- **Why does `DEC-012 Alcance congelado en 640 aves` connect `640 Bird Investment Project` to `Farm Logistics Costs`, `640 Bird Investment Project`, `Distribution Vehicle Planning`?**
+  _High betweenness centrality (0.096) - this node is a cross-community bridge._
+## Incremental Update Audit
+
+- Re-extracted 14 changed sources using host-delegated semantic chunks 01–02.
+- Preserved the prior supported RTF source explicitly because automatic detection omits RTF files.
+- Preserved 609 unchanged-source nodes and 702 unchanged-source edges; communities were recomputed.
+- Removed 15 unchanged-source incident edges whose prior endpoint was not reintroduced.

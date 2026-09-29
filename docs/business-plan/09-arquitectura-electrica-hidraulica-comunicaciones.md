@@ -3,8 +3,8 @@ title: "Arquitectura eléctrica, hidráulica y de comunicaciones"
 project: "NidoSmart"
 document_type: "business-plan"
 status: "draft"
-version: "1.3"
-last_updated: "2026-09-22"
+version: "1.4"
+last_updated: "2026-09-23"
 ---
 
 # Arquitectura eléctrica, hidráulica y de comunicaciones
@@ -183,7 +183,9 @@ Se deberá instalar:
 * Drenajes y purgas.
 * Sensor de presión.
 
-**Dimensionamiento de referencia (revisión septiembre 2026, cálculo propio a partir de Bell & Weaver, cap. 22, tablas 22-3/22-4 — Universidad de California, 1997, 167 parvadas):** el consumo de agua de gallinas ponedoras en el rango de temperatura interior esperado del sitio (19.7–28°C) es de **18.7–21.4 L/100 aves/día**, equivalente a **≈120–140 L/día para las 640 aves** de la unidad actual. Siguiendo la práctica de la industria de mantener al menos 2 días de reserva en sitio, el tanque pulmón debe cubrir como mínimo **≈250–280 L**; con margen de limpieza y redundancia se recomienda un piso de diseño de **≥500 L útiles**. Esta cifra es una estimación propia, no una cotización, y debe ajustarse cuando se confirme el ratio real de níples por ave con el proveedor.
+**Dimensionamiento de referencia (revisión septiembre 2026, cálculo propio a partir de Bell & Weaver, cap. 22, tablas 22-3/22-4 — Universidad de California, 1997, 167 parvadas):** el consumo de agua de gallinas ponedoras en el rango de temperatura interior esperado del sitio (19.7–28°C) es de **18.7–21.4 L/100 aves/día**, equivalente a **≈120–140 L/día para las 640 aves** de la unidad actual.
+
+**Redimensionado con margen para la segunda unidad (2026-09-23):** consistente con el mismo principio ya aplicado en el subtablero eléctrico ([9.1.1](#911-arquitectura-eléctrica-preliminar-revisión-septiembre-2026), que reserva espacio para 1,280 aves conforme a [DEC-010](../governance/registro-de-decisiones.md#dec-010--dimensionamiento-de-servicios-compartidos-para-300-aves-desde-el-módulo-piloto)), el tanque pulmón se dimensiona ahora para 1,280 aves, no solo para 640: **≈239–274 L/día** a 1,280 aves. Con al menos 2 días de reserva en sitio (práctica de la industria), el mínimo es **≈478–548 L**; con margen de limpieza y redundancia, el piso de diseño se actualiza a **≥1,000 L útiles** (antes ≥500 L, dimensionado solo para la unidad actual). El costo incremental de un tanque más grande es bajo frente al costo de sustituirlo o agregar un segundo tanque cuando se construya la segunda unidad. Esta cifra sigue siendo una estimación propia, no una cotización, y debe ajustarse cuando se confirme el ratio real de níples por ave con el proveedor.
 
 **Parámetros de calidad de agua a verificar (revisión julio 2026; reconciliado septiembre 2026):** antes de construir, el agua del predio (pozo o red municipal) debe analizarse. Existen dos referencias con valores distintos, que deben citarse ambas:
 

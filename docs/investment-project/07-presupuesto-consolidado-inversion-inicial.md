@@ -55,7 +55,7 @@ Pendiente: análisis de calidad de agua del predio (pH, dureza, coliformes) señ
 
 | Concepto | Especificación | Fuente | Costo total (MXN) | Estado |
 |---|---|---|---|---|
-| Zona de compostaje con bordos, sistema de tratamiento de aguas residuales (fosa séptica o biodigestor si no hay alcantarillado municipal) y canaletas/cárcamo de drenaje pluvial | Ver [Diseño físico — 7.2.1](../business-plan/07-diseno-fisico.md#721-drenaje-y-manejo-de-gallinaza-revisión-septiembre-2026) | Sin cotización; orden de magnitud — no desglosado antes de esta revisión (estaba disuelto sin partida propia dentro de "obra civil", sección 2/3) | **$40,000–$90,000** | **Estimado (genérico)** |
+| Zona de compostaje con bordos, sistema de tratamiento de aguas residuales (fosa séptica o biodigestor si no hay alcantarillado municipal) y canaletas/cárcamo de drenaje pluvial | Ver [Diseño físico — 7.2.2](../business-plan/07-diseno-fisico.md#722-drenaje-y-manejo-de-gallinaza-revisión-septiembre-2026) | Sin cotización; orden de magnitud — no desglosado antes de esta revisión (estaba disuelto sin partida propia dentro de "obra civil", sección 2/3) | **$40,000–$90,000** | **Estimado (genérico)** |
 
 Este rango depende fuertemente de si existe alcantarillado sanitario municipal en San Francisco Acatepec (pendiente crítico, ver [Regulación y cumplimiento — 18.1](../business-plan/19-regulacion-y-cumplimiento.md#181-trámites-específicos-para-san-francisco-acatepec-san-andrés-cholula-puebla)): si no existe, el extremo alto del rango es más probable por el costo de un sistema de tratamiento propio.
 

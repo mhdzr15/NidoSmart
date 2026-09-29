@@ -3,8 +3,8 @@ title: "Regulación y cumplimiento"
 project: "NidoSmart"
 document_type: "business-plan"
 status: "draft"
-version: "1.0"
-last_updated: "2026-07-12"
+version: "1.1"
+last_updated: "2026-09-23"
 ---
 
 # Regulación y cumplimiento
@@ -42,8 +42,9 @@ Con la ubicación ya definida, deberán gestionarse en particular:
 * Verificación de compatibilidad con el Programa de Desarrollo Urbano municipal vigente y con cualquier restricción aplicable por cercanía a zonas de valor patrimonial, dado que San Francisco Acatepec es reconocida por su patrimonio arquitectónico.
 * Registro de la unidad de producción ante la delegación estatal de SENASICA en Puebla.
 * Trámites de agua potable, alcantarillado y, en su caso, descarga de aguas residuales ante la autoridad estatal de agua de Puebla y, si aplica, ante CONAGUA cuando se utilicen aguas nacionales o se requiera permiso de descarga.
-* **Pendiente crítico (nuevo, septiembre 2026):** verificar si existe cobertura real de alcantarillado sanitario municipal en San Francisco Acatepec. El Manual de Buenas Prácticas Pecuarias en la Producción de Huevo para Plato (`knowledge-base/regulations/buenas-practicas-huevo.pdf`, §8.5) exige que el agua residual de la granja se dirija a alcantarillado público con pre-tratamiento mínimo, y **prohíbe su descarga a canales, ríos o arroyos**. Si el predio no cuenta con alcantarillado, se requiere diseñar e instalar un sistema de tratamiento propio (fosa séptica o biodigestor) antes de cualquier descarga — esto cambia de forma material el diseño de la nave y el presupuesto de obra civil (ver [Diseño físico — 7.2.1](./07-diseno-fisico.md#721-drenaje-y-manejo-de-gallinaza-revisión-septiembre-2026)).
+* **Pendiente crítico (nuevo, septiembre 2026):** verificar si existe cobertura real de alcantarillado sanitario municipal en San Francisco Acatepec. El Manual de Buenas Prácticas Pecuarias en la Producción de Huevo para Plato (`knowledge-base/regulations/buenas-practicas-huevo.pdf`, §8.5) exige que el agua residual de la granja se dirija a alcantarillado público con pre-tratamiento mínimo, y **prohíbe su descarga a canales, ríos o arroyos**. Si el predio no cuenta con alcantarillado, se requiere diseñar e instalar un sistema de tratamiento propio (fosa séptica o biodigestor) antes de cualquier descarga — esto cambia de forma material el diseño de la nave y el presupuesto de obra civil (ver [Diseño físico — 7.2.2](./07-diseno-fisico.md#722-drenaje-y-manejo-de-gallinaza-revisión-septiembre-2026)).
 * Confirmación de la disponibilidad y capacidad de suministro eléctrico de CFE en la zona específica del predio.
+* **Pendiente crítico (nuevo, septiembre 2026):** verificar la distancia real del predio a otras unidades de producción avícola, plantas de alimento, rastros, procesadoras de gallinaza/pollinaza, tiraderos de basura y asentamientos humanos. El Manual de Buenas Prácticas Pecuarias en la Producción de Huevo para Plato (`knowledge-base/regulations/buenas-practicas-huevo.pdf`, §1) exige un aislamiento sanitario mínimo de **3 km** respecto a cualquiera de estos, salvo que un análisis de riesgo (vientos dominantes, topografía) justifique una distancia menor. San Francisco Acatepec es una localidad poblada con valor patrimonial reconocido, por lo que este criterio no puede darse por cumplido sin medirlo contra la ubicación exacta del predio. Este pendiente no estaba documentado antes y debe cerrarse junto con el estudio de sitio ya pendiente en la [ficha técnica de la nave](../investment-project/05-ficha-tecnica-nave.md#estado-de-la-ficha-técnica) — ver también los [requisitos constructivos de bioseguridad](./20-bioseguridad.md#193-requisitos-constructivos-de-bioseguridad-especificación-para-proveedores).
 
 La viabilidad regulatoria del predio en San Francisco Acatepec deberá confirmarse formalmente antes de iniciar cualquier obra.
 

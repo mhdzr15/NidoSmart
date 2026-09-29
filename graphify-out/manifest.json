@@ -35,24 +35,24 @@
     "semantic_hash": "04f6aab9e7f6a31254eb57720a8a2ba0"
   },
   "docs/business-plan/06-crecimiento-modular.md": {
-    "mtime": 1789665980.8956084,
-    "ast_hash": "6161f776ccf5a58b73136acc4abba154",
-    "semantic_hash": "6161f776ccf5a58b73136acc4abba154"
+    "mtime": 1790656525.4872777,
+    "ast_hash": "96e0702e88a78abbd80eb2c3e8cac436",
+    "semantic_hash": "96e0702e88a78abbd80eb2c3e8cac436"
   },
   "docs/business-plan/07-diseno-fisico.md": {
-    "mtime": 1790053520.8746524,
-    "ast_hash": "c178401a5ca925c2cea436d1efad8a79",
-    "semantic_hash": "c178401a5ca925c2cea436d1efad8a79"
+    "mtime": 1790656453.9480283,
+    "ast_hash": "3df285bede159ddbe8021b4488b4c551",
+    "semantic_hash": "3df285bede159ddbe8021b4488b4c551"
   },
   "docs/business-plan/08-automatizacion.md": {
-    "mtime": 1790222220.0459247,
-    "ast_hash": "f87d2c17952b941c7c3ebdfbcc3bce77",
-    "semantic_hash": "f87d2c17952b941c7c3ebdfbcc3bce77"
+    "mtime": 1790656500.664868,
+    "ast_hash": "059b687bbadb7738e26aaad98dfe87bf",
+    "semantic_hash": "059b687bbadb7738e26aaad98dfe87bf"
   },
   "docs/business-plan/09-arquitectura-electrica-hidraulica-comunicaciones.md": {
-    "mtime": 1790143575.454048,
-    "ast_hash": "d1a6a947c12bdfbbac42eeab03f1d0a9",
-    "semantic_hash": "d1a6a947c12bdfbbac42eeab03f1d0a9"
+    "mtime": 1790229146.8494525,
+    "ast_hash": "f022c79e7dd44b0c75d515146a825a9d",
+    "semantic_hash": "f022c79e7dd44b0c75d515146a825a9d"
   },
   "docs/business-plan/10-arquitectura-tecnologica.md": {
     "mtime": 1789281783.0646565,
@@ -100,14 +100,14 @@
     "semantic_hash": "c2cffe8e309e0a69f168f5d7985e3e59"
   },
   "docs/business-plan/19-regulacion-y-cumplimiento.md": {
-    "mtime": 1789762751.3476124,
-    "ast_hash": "2d31189b94c7f083dfa7547ccaabfb46",
-    "semantic_hash": "2d31189b94c7f083dfa7547ccaabfb46"
+    "mtime": 1790229178.5023363,
+    "ast_hash": "df4869492f3e08f8221e097a8c2dd689",
+    "semantic_hash": "df4869492f3e08f8221e097a8c2dd689"
   },
   "docs/business-plan/20-bioseguridad.md": {
-    "mtime": 1783905271.8468668,
-    "ast_hash": "d103e82fb966c622cfa5908cc8411cea",
-    "semantic_hash": "d103e82fb966c622cfa5908cc8411cea"
+    "mtime": 1790229178.4968772,
+    "ast_hash": "3433d8188bec7dad226e004b2884c885",
+    "semantic_hash": "3433d8188bec7dad226e004b2884c885"
   },
   "docs/business-plan/21-gestion-de-riesgos.md": {
     "mtime": 1783905271.8719206,
@@ -155,9 +155,9 @@
     "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
   },
   "docs/governance/registro-de-decisiones.md": {
-    "mtime": 1789762801.4252682,
-    "ast_hash": "fa0f764dbf94531ebc2bcf20131f4a81",
-    "semantic_hash": "fa0f764dbf94531ebc2bcf20131f4a81"
+    "mtime": 1790656715.6162584,
+    "ast_hash": "ffc7aefac37ecabfa613cb8cce8ca612",
+    "semantic_hash": "ffc7aefac37ecabfa613cb8cce8ca612"
   },
   "docs/governance/trazabilidad.md": {
     "mtime": 1789281770.2760124,
@@ -225,9 +225,9 @@
     "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
   },
   "docs/investment-project/05-ficha-tecnica-nave.md": {
-    "mtime": 1789762746.5814323,
-    "ast_hash": "b4157fa0980dc62ee6802a73393ed4c2",
-    "semantic_hash": "b4157fa0980dc62ee6802a73393ed4c2"
+    "mtime": 1790656582.0645838,
+    "ast_hash": "473e8c3ee4f7f8b455a58abe01f65234",
+    "semantic_hash": "473e8c3ee4f7f8b455a58abe01f65234"
   },
   "docs/investment-project/06-vehiculo-de-distribucion.md": {
     "mtime": 1789420550.3579395,
@@ -235,9 +235,9 @@
     "semantic_hash": "a1782ef05b9aa48d70cbfdeeea5a9c13"
   },
   "docs/investment-project/07-presupuesto-consolidado-inversion-inicial.md": {
-    "mtime": 1790053506.8195431,
-    "ast_hash": "2b3503a81c0d6ac7d6962247e49aa055",
-    "semantic_hash": "2b3503a81c0d6ac7d6962247e49aa055"
+    "mtime": 1790229178.4908872,
+    "ast_hash": "32dc1960ae61c3ba4c2b7bd66d0762fd",
+    "semantic_hash": "32dc1960ae61c3ba4c2b7bd66d0762fd"
   },
   "docs/investment-project/README.md": {
     "mtime": 1789420743.1629033,
@@ -245,9 +245,9 @@
     "semantic_hash": "86ef2887a6ff6f2e20d8da6d69ffb3d7"
   },
   "evidence/quotations/README.md": {
-    "mtime": 1790220768.8796217,
-    "ast_hash": "c36e0ced22f13725933d6c1db8be98c6",
-    "semantic_hash": "c36e0ced22f13725933d6c1db8be98c6"
+    "mtime": 1790659564.3233094,
+    "ast_hash": "089114404d29f4ffee6c28970991d51a",
+    "semantic_hash": "089114404d29f4ffee6c28970991d51a"
   },
   "knowledge-base/README.md": {
     "mtime": 1789282190.8150854,
@@ -413,5 +413,25 @@
     "mtime": 1790052617.4323888,
     "ast_hash": "b4257feaba23aebe9bca20489e57b80b",
     "semantic_hash": "b4257feaba23aebe9bca20489e57b80b"
+  },
+  "evidence/correspondence/2026-09-27_NidoSmart_borrador-preguntas-famtech.md": {
+    "mtime": 1790656836.157994,
+    "ast_hash": "e2ff5e7c2fc3ded08694a3dcea2b81f8",
+    "semantic_hash": "e2ff5e7c2fc3ded08694a3dcea2b81f8"
+  },
+  "evidence/correspondence/2026-09-28_FamTECH_email_respuesta-lote1-expansion-layout.rtfd/TXT.rtf": {
+    "mtime": 1790656109.598357,
+    "ast_hash": "f44900bc282eb6520f138e79afa1a63b",
+    "semantic_hash": "f44900bc282eb6520f138e79afa1a63b"
+  },
+  "evidence/quotations/2026-09-28_FamTECH_v4-anotado_partes-compartidas-vs-repetibles.pdf": {
+    "mtime": 1790637466.25491,
+    "ast_hash": "c5161654237fdee0958c147560f74166",
+    "semantic_hash": "c5161654237fdee0958c147560f74166"
+  },
+  "evidence/correspondence/2026-09-28_FamTECH_email_respuesta-lote1-expansion-layout.rtfd/unknown.jpg": {
+    "mtime": 1790656109.570061,
+    "ast_hash": "75bef208192cec5649b53975aeb9cb91",
+    "semantic_hash": "75bef208192cec5649b53975aeb9cb91"
   }
 }
