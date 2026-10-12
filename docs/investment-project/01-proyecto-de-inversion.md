@@ -3,8 +3,8 @@ title: "Proyecto de inversión"
 project: "NidoSmart"
 document_type: "investment-project"
 status: "draft"
-version: "1.3"
-last_updated: "2026-09-14"
+version: "1.4"
+last_updated: "2026-10-12"
 ---
 
 # Proyecto de inversión
@@ -67,8 +67,8 @@ Terreno, vehículo, impuestos, permisos locales, estudios ambientales, obra mayo
 ## 6. Pendientes antes de formalizar el expediente
 
 * **Cotizar el flete final** de la ciudad de Puebla al sitio del proyecto en San Francisco Acatepec — no incluido en los $17,747 USD ya cotizados (aclarado por el proveedor el 2026-08-03).
-* **Confirmar con el proveedor si el precio cotizado incluye instalación en sitio** o si es una partida aparte (sin especificar en la cotización ni en el correo revisado).
-* **Cerrar los pendientes críticos de la [ficha técnica de la nave](./05-ficha-tecnica-nave.md#estado-de-la-ficha-técnica)** (tipo estructural, materiales, altura libre, orientación, resistencia a viento/granizo, estudio de sitio) antes de solicitar cotización formal de obra civil — hoy solo 2 de 19 parámetros están confirmados.
+* ~~Confirmar con el proveedor si el precio cotizado incluye instalación en sitio o si es una partida aparte.~~ — **Resuelto (2026-10-12):** FamTECH no instala el equipo — la instalación la hace NidoSmart con su propia mano de obra, con guía técnica opcional de FamTECH (2-3 técnicos, 20-30 días, USD $100/persona/día) a decidir — ver [presupuesto — sección 11](./07-presupuesto-consolidado-inversion-inicial.md#11-instalación-y-puesta-en-marcha).
+* **Cerrar los pendientes críticos de la [ficha técnica de la nave](./05-ficha-tecnica-nave.md#estado-de-la-ficha-técnica)** (tipo estructural, materiales, orientación, resistencia a viento/granizo, estudio de sitio) antes de solicitar cotización formal de obra civil — hoy 4 de 21 parámetros están confirmados (altura libre y techo de expansión ya resueltos).
 * Estudio de carga eléctrica para dimensionar UPS y respaldo energético.
 * Confirmación del tipo de cambio vigente al momento de contratar (se usó $18.50 MXN/USD como referencia de trabajo).
 * Definir si se incluye o no el paquete de control ambiental antes de solicitar el crédito.

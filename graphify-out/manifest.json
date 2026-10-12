@@ -155,9 +155,9 @@
     "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
   },
   "docs/governance/registro-de-decisiones.md": {
-    "mtime": 1791829272.8061671,
-    "ast_hash": "a68c482bd27ddbbde67d96be4adca2ac",
-    "semantic_hash": "a68c482bd27ddbbde67d96be4adca2ac"
+    "mtime": 1791832734.618599,
+    "ast_hash": "e4c816dd4a2517e67d981d3e5697ec4a",
+    "semantic_hash": "e4c816dd4a2517e67d981d3e5697ec4a"
   },
   "docs/governance/trazabilidad.md": {
     "mtime": 1789281770.2760124,
@@ -205,9 +205,9 @@
     "semantic_hash": "f2119cf361f3ac51480495822867f236"
   },
   "docs/investment-project/01-proyecto-de-inversion.md": {
-    "mtime": 1789762798.2446048,
-    "ast_hash": "16ec6b7f13ae10b7fb01502765afaac4",
-    "semantic_hash": "16ec6b7f13ae10b7fb01502765afaac4"
+    "mtime": 1791832723.0046122,
+    "ast_hash": "6270aa8f4f141fad93446eadbd7b8ad3",
+    "semantic_hash": "6270aa8f4f141fad93446eadbd7b8ad3"
   },
   "docs/investment-project/02-estructura-financiera.md": {
     "mtime": 1789281770.2653503,
@@ -235,9 +235,9 @@
     "semantic_hash": "a1782ef05b9aa48d70cbfdeeea5a9c13"
   },
   "docs/investment-project/07-presupuesto-consolidado-inversion-inicial.md": {
-    "mtime": 1790229178.4908872,
-    "ast_hash": "32dc1960ae61c3ba4c2b7bd66d0762fd",
-    "semantic_hash": "32dc1960ae61c3ba4c2b7bd66d0762fd"
+    "mtime": 1791832706.5466762,
+    "ast_hash": "af9db50049d7c6eb72386ffbc813955c",
+    "semantic_hash": "af9db50049d7c6eb72386ffbc813955c"
   },
   "docs/investment-project/README.md": {
     "mtime": 1789420743.1629033,
@@ -245,9 +245,9 @@
     "semantic_hash": "86ef2887a6ff6f2e20d8da6d69ffb3d7"
   },
   "evidence/quotations/README.md": {
-    "mtime": 1791831297.1637342,
-    "ast_hash": "73fd34f46914a9afa4f758ea3c145695",
-    "semantic_hash": "73fd34f46914a9afa4f758ea3c145695"
+    "mtime": 1791832669.4238403,
+    "ast_hash": "092c0351c2f3e2c6cc90a235b6f879e0",
+    "semantic_hash": "092c0351c2f3e2c6cc90a235b6f879e0"
   },
   "knowledge-base/README.md": {
     "mtime": 1789282190.8150854,
@@ -415,9 +415,9 @@
     "semantic_hash": "b4257feaba23aebe9bca20489e57b80b"
   },
   "evidence/correspondence/2026-09-27_NidoSmart_borrador-preguntas-famtech.md": {
-    "mtime": 1791829840.5615246,
-    "ast_hash": "9904b3ee0548087c8eb95790787668c0",
-    "semantic_hash": "9904b3ee0548087c8eb95790787668c0"
+    "mtime": 1791832752.54008,
+    "ast_hash": "8dae57aec4950ec4732c549357133a59",
+    "semantic_hash": "8dae57aec4950ec4732c549357133a59"
   },
   "evidence/correspondence/2026-09-28_FamTECH_email_respuesta-lote1-expansion-layout.rtfd/TXT.rtf": {
     "mtime": 1790656109.598357,

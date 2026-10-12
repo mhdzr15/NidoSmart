@@ -3,8 +3,8 @@ title: "Registro de decisiones"
 project: "NidoSmart"
 document_type: "business-plan-annex"
 status: "draft"
-version: "1.4"
-last_updated: "2026-10-11"
+version: "1.5"
+last_updated: "2026-10-12"
 ---
 
 # Registro de decisiones
@@ -188,7 +188,7 @@ Este registro centraliza las decisiones estratégicas explícitas identificadas 
 
 - La inversión total estimada para la unidad de 640 aves, sin vehículo dedicado, sin transporte final Puebla→sitio (sin cotizar) y sin instalación de la jaula en sitio (alcance no confirmado con el proveedor), es de **≈$1,285,000–$2,256,000 MXN** (cifra actualizada en septiembre 2026 al agregar la partida de drenaje/aguas residuales/gallinaza) — ver [Presupuesto consolidado de inversión inicial](../investment-project/07-presupuesto-consolidado-inversion-inicial.md).
 - No deben solicitarse cotizaciones formales de obra civil hasta cerrar los pendientes críticos de la ficha técnica de la nave (decisión de tipo estructural, estudio estructural local, estudio de sitio, altura libre confirmada con el proveedor de jaula, distribución de espacios de servicio, estudio de carga eléctrica).
-- Se agrega un nuevo pendiente al [registro de cotizaciones](../../evidence/quotations/README.md): confirmar con el proveedor si el precio cotizado incluye instalación en sitio o si es una partida aparte.
+- ~~Se agrega un nuevo pendiente al registro de cotizaciones: confirmar con el proveedor si el precio cotizado incluye instalación en sitio o si es una partida aparte.~~ — **Resuelto (2026-10-12):** FamTECH no instala el equipo; la instalación la hace NidoSmart con su propia mano de obra, con guía técnica opcional de FamTECH facturada aparte (USD $100/persona/día) — ver [registro de cotizaciones](../../evidence/quotations/README.md) y [presupuesto — sección 11](../investment-project/07-presupuesto-consolidado-inversion-inicial.md#11-instalación-y-puesta-en-marcha).
 - La decisión de no comprar vehículo se revisa cuando la [validación del piloto](../business-plan/18-validacion-del-piloto.md) confirme una cartera de clientes real con rutas y distancias conocidas.
 - Se identifica orientación preliminar (sujeta a confirmar con la institución financiera) sobre qué partidas califican para crédito refaccionario (CAPEX productivo y de infraestructura) frente a crédito de avío (preoperativos y capital de trabajo), y cuáles quedan fuera del crédito (vehículo, permisos, contingencia).
 

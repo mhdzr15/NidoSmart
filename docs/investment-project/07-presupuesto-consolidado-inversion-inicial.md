@@ -3,8 +3,8 @@ title: "Presupuesto consolidado de inversión inicial — unidad de 640 aves"
 project: "NidoSmart"
 document_type: "investment-project"
 status: "draft"
-version: "1.1"
-last_updated: "2026-09-21"
+version: "1.2"
+last_updated: "2026-10-12"
 ---
 
 # Presupuesto consolidado de inversión inicial — unidad de 640 aves
@@ -114,9 +114,15 @@ Este incremento de USD $3,951 es la mejor referencia disponible hoy del costo de
 
 ## 11. Instalación y puesta en marcha
 
+**Resuelto (2026-10-12):** la cotización anotada de FamTECH ([`2026-09-28_FamTECH_v4-anotado_partes-compartidas-vs-repetibles.pdf`](../../evidence/quotations/2026-09-28_FamTECH_v4-anotado_partes-compartidas-vs-repetibles.pdf), sección "6) Installation conditions") especifica el modelo: **NidoSmart instala con su propia mano de obra**; FamTECH no instala el equipo, solo ofrece de forma opcional enviar 2-3 técnicos a guiar/entrenar durante 20-30 días.
+
 | Concepto | Especificación | Fuente | Costo total (MXN) | Estado |
 |---|---|---|---|---|
-| Instalación de la jaula, automatización y sistemas asociados en sitio | No especificado en la cotización ni en el hilo de correo revisado si el precio incluye supervisión/instalación o si es un costo aparte | — | Sin cotizar | **Pendiente** — nuevo punto a aclarar con el proveedor (ver [registro de cotizaciones](../../evidence/quotations/README.md)) |
+| Mano de obra propia de instalación (varios trabajadores de NidoSmart) | A cargo de NidoSmart; FamTECH capacita a estos trabajadores durante la instalación | FamTECH, cotización anotada, "Installation conditions" ①| No es un costo adicional de CAPEX — ya forma parte de la mano de obra/contratistas locales a contratar, sin desglosar aquí | **Conceptual** — falta estimar como partida de mano de obra local |
+| Guía técnica de FamTECH en sitio (2-3 técnicos, 20-30 días, opcional) | USD $100/persona/día; +USD $50/persona/día extra si el retraso es por falta de preparación de NidoSmart | FamTECH, cotización anotada, "Installation conditions" ②③ | **USD $4,000–$9,000 ≈ $74,000–$166,500 MXN** (20 días×2 personas a 30 días×3 personas, $18.50 MXN/USD) | **Cotizado** — decisión pendiente de NidoSmart: contratar esta guía o prescindir de ella |
+| Vuelos redondos, visa y hospedaje/alimentación de los técnicos de FamTECH (si se contrata la guía) | A cargo de NidoSmart, según los mismos términos | FamTECH, cotización anotada, "Installation conditions" ② | Sin cotizar — nuevo costo no incluido antes en este presupuesto | **Pendiente** — cotizar vuelos China–México, trámite de visa y hospedaje local para 2-3 personas, 20-30 días |
+
+**Nota:** el rango de $74,000–$166,500 MXN de guía técnica es opcional, no obligatorio — FamTECH lo ofrece "if necessary". Dado que es un sistema automatizado nuevo para NidoSmart, se recomienda presupuestarlo salvo que se decida explícitamente prescindir de él. La [Tabla consolidada](#tabla-consolidada) todavía no incorpora esta cifra en el total — sigue listada ahí como partida excluida; actualizar cuando NidoSmart decida si contrata la guía técnica.
 
 ## 12. Aves
 
@@ -192,7 +198,7 @@ El componente de tipo de cambio no se cuenta aparte: queda incorporado en el 10%
 **Explícitamente fuera de este total, por no tener cotización desglosada:**
 
 * Transporte final almacén Puebla → sitio del proyecto (sección 10) — **parcialmente referenciado** desde 2026-09-21 (+USD $3,951 / +$73,094 MXN observado por diferencia entre v1/v2 y v4), pero no incorporado al total por no venir desglosado del resto del incremento de flete (ver sección 10).
-* Instalación de la jaula/automatización en sitio, si tiene costo aparte (sección 11).
+* Guía técnica opcional de FamTECH para la instalación (sección 11) — **USD $4,000–$9,000 ≈ $74,000–$166,500 MXN** (2-3 técnicos, 20-30 días, $100/persona/día) más vuelos/visa/hospedaje sin cotizar, si NidoSmart decide contratarla. La instalación en sí la hace NidoSmart con su propia mano de obra, sin costo de licencia o derecho de instalación de FamTECH.
 * Paquete de control ambiental automatizado, en pausa (sección 6): +$117,400 MXN si se reactiva.
 * Vehículo dedicado, si se reconsidera la recomendación de la sección 15: +$180,000–$350,000 MXN.
 * Terreno (no forma parte de este alcance en ningún escenario).

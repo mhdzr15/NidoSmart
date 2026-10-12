@@ -51,6 +51,8 @@ NidoSmart
 
 Dear FamTECH team,
 
+Thank you for your detailed reply on expansion and civil works — it was very helpful. The 120 m / 90-group ceiling and the foundation-phasing guidance (expansion joints every ~6 m, keeping foundations level between phases) unblock a decision we'd been stuck on for weeks. The single-row layout clarification (walkway on each side) was also very useful — it corrected an assumption we had about the internal layout and let us fix our design before going further.
+
 Continuing from our previous message, here is our second batch of questions, covering ventilation/environmental control and water/manure handling.
 
 **Ventilation & environmental control:**
@@ -65,7 +67,8 @@ Continuing from our previous message, here is our second batch of questions, cov
 5. Does the manure belt require water for cleaning? If so, please specify the flow/volume — this would be an additional wastewater source not currently in our hydraulic design.
 6. At what point and height does the manure belt discharge into the collection container? We need this to design the covered container and its rain protection.
 7. What operating pressure does your nipple-drinker system require? Please also confirm the pipe diameter and material you recommend for the drinker line.
-8. Is on-site installation of the manure belt (belt → external container → composting area) included in your quoted price, or the responsibility of our local civil works contractor?
+8. Since we understand our own workers will handle installation (with your optional technical guidance): does that guidance/training cover connecting the manure belt to the external container and composting area, or is that stretch considered our own civil-works interface, outside the scope of your technicians' guidance?
+9. You mentioned the manure belt's current cleaning capacity is matched to our current flock size (640 birds). Could you share the real throughput (kg/h) of the belt already quoted? Our target: it should be able to remove approximately 1,000 kg/day without buildup once we reach our medium-term target of ~5,120 birds. If the current belt can't support that, what would need to change (belt model, speed, additional sections)?
 
 Thank you again for your help.
 
@@ -92,6 +95,7 @@ Here is our third batch of questions, focused on the electrical specifications w
 5. Power consumption (W) of the YB controller (7″) and of the DMR temperature/humidity sensors.
 6. Is the blackout-curtain gear motor the same CJ01 actuator already quoted for the air inlets, or a separate unit with its own specification?
 7. Do you have a single-line electrical diagram or reference data sheet for a typical 5-set / 640-bird installation, for us to cross-check our own design?
+8. Lighting layout question: now that we understand the cage system is double-sided (back-to-back, with a walkway on each side), does the 14-bulb/7-point lighting arrangement already quoted cover only one face of the block? If so, we'd need a matching second set for the opposite face (~28 bulbs, 14 points total) — can you confirm, and let us know whether the dimming controller already quoted can run both faces as separate zones, or whether a second controller would be needed?
 
 Thank you again for your help.
 
@@ -109,11 +113,10 @@ NidoSmart
 
 Dear FamTECH team,
 
-Here is our last batch of questions, on insulation and a couple of commercial points.
+Here is our last batch of questions, on insulation and a commercial point.
 
 1. Although we plan to source the civil works locally, do you have a recommended thermal insulation value (R-value or equivalent) for the roof and walls of a 17×4×4.2 m house for this system, based on installations you've supplied in similar climates?
-2. Please confirm whether the quoted price (v4, DDU San Francisco Acatepec) includes on-site installation of the equipment, or if that is a separate line item.
-3. If useful, could you provide a DDP quotation (duties and Mexican VAT included) as an alternative to the current DDU term, for comparison purposes?
+2. If useful, could you provide a DDP quotation (duties and Mexican VAT included) as an alternative to the current DDU term, for comparison purposes?
 
 Thank you again for your continued support throughout this process.
 
