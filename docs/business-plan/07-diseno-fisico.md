@@ -3,8 +3,8 @@ title: "Diseño físico preliminar"
 project: "NidoSmart"
 document_type: "business-plan"
 status: "draft"
-version: "1.5"
-last_updated: "2026-09-28"
+version: "1.8"
+last_updated: "2026-10-12"
 ---
 
 # Diseño físico preliminar
@@ -80,14 +80,22 @@ Dado que el costo incremental de aislar de más es bajo frente al riesgo de sub-
 
 **Revisión septiembre 2026:** se revisó la cotización FamTECH completa (partida por partida) y el hilo de correo íntegro con el proveedor para verificar si contenían datos de layout no reflejados aún en este documento. La cotización confirma que el sistema tiene equipo de cabecera en **ambos extremos** de la nave — "Front-end components" (hopper y motorreductor del skip-hoist feeder) y "Backend components and driver system" (unidad motriz de la máquina recolectora de huevo y de la banda de gallinaza) — dato **confirmado por la cotización** que no estaba explícito en la sección 7.1. El resto del layout detallado (footprint por set, dimensiones internas de jaula) sigue sin especificarse por el proveedor.
 
-**Corte transversal (ancho, 4 m) — recomendación técnica, no confirmada por el proveedor:**
+**Corte transversal (ancho, 4 m) — confirmado por FamTECH (2026-10-11), corrige la versión anterior:**
+
+El arreglo "double-sided" es un bloque de jaula **espalda con espalda al centro** (las dos caras comparten una sola línea mecánica central: comedero, bebedero, banda de huevo, banda de gallinaza, riel del skip-hoist feeder), con **pasillos de circulación humana a los costados**, junto a cada pared — no un pasillo central entre dos bloques independientes como se dibujaba antes. FamTECH lo confirmó explícitamente ("If only one row is installed, with a walkway on each side, the total width is 4 m") y es consistente con una confirmación independiente anterior, de tres semanas antes y por un hilo distinto (iluminación): "Lights are located in **the aisles**, spaced 2.5 meters apart" (2026-09-20) — plural, lo que ya apuntaba a dos pasillos laterales, no uno central, aunque en su momento no se conectó con el layout. Ver [correspondencia](../../evidence/correspondence/2026-10-11_FamTECH_email_respuesta-civil-expansion-foundation.rtfd).
 
 ```
-pared │ 0.2m │ jaula 4 niv. │  pasillo central  │ jaula 4 niv. │ 0.2m │ pared
-      │      │  (~0.9–1.1m) │   (~1.2–1.6m)     │  (~0.9–1.1m) │      │
-      └──────┴──────────────┴───────────────────┴──────────────┴──────┘
-                              ≈ 4.0 m total
+pared │ pasillo │   jaula 4 niv. + jaula 4 niv.    │ pasillo │ pared
+      │ lateral │   (espalda con espalda, ~2.4m)   │ lateral │
+      │ (~0.6m) │  línea central: comedero/bebedero/│ (~0.6m) │
+      │         │  banda huevo/banda gallinaza/riel │         │
+      └─────────┴────────────────────────────────┴─────────┴──────┘
+                              ≈ 4.0 m total (3.6 m interior, descontando 2×0.2m pared)
 ```
+
+Por qué tiene sentido mecánicamente: el riel del skip-hoist feeder (una sola máquina, origen fijo, confirmado) corre derecho por el centro y alimenta ambas caras al mismo tiempo sin desviarse — imposible de explicar limpiamente si las jaulas estuvieran contra las paredes con un vacío al centro. Y si el centro está ocupado por esa línea mecánica compartida, ahí no puede caminar una persona — de ahí los pasillos laterales. El pasillo lateral puede ser más angosto que el pasillo central que se presupuestaba (≈0.6 m vs. ≥1.0–1.2 m) porque ya no es la vía principal de tránsito: alimentación, agua, huevo y gallinaza son automáticos y corren por el centro; el pasillo lateral solo es para tareas humanas periódicas (inspección, mortalidad, mantenimiento).
+
+**Por qué el diseño es "pasillo a cada lado" y no uno solo — expansión en filas paralelas:** FamTECH condicionó su respuesta a "if **only one row** is installed" (una sola fila) y, en la misma respuesta, habló de compartir equipo "between **the rows**" (entre las filas, plural) — es decir, el diseño está pensado para que, al crecer, se agregue una **fila paralela** junto a la existente, no solo para alargar la fila actual. Esto importa porque, si dos filas quedan una junto a otra, **el pasillo que las separa puede compartirse entre ambas** (una fila usa ese pasillo como su lado derecho, la vecina como su lado izquierdo) — con 4 pasillos independientes por cada fila nueva no sería así de eficiente en espacio. Esto es coherente con el criterio de "equipo compartido, consumible por fila" ya confirmado: cada fila nueva compra su propia cabecera (hopper, máquina de huevo) y jaula, pero la estructura civil (muros, pasillo) puede compartirse con la fila vecina. Para la escala objetivo del plan (≈5,120 aves ≈ 40 sets) esto no es urgente — cabe dentro de una sola fila (muy por debajo del límite de 90 sets/120 m) — pero es relevante para el trazo del predio a largo plazo: si en algún momento se agregan filas paralelas, conviene reservar el terreno contiguo a la nave actual (no solo el corredor longitudinal de Cabecera B) desde ahora.
 
 **Planta (largo, 17 m):**
 
@@ -109,6 +117,8 @@ pared │ 0.2m │ jaula 4 niv. │  pasillo central  │ jaula 4 niv. │ 0.2m 
 
 **Dirección de crecimiento — decidido (2026-09-23):** para preservar la expansión lineal de [DEC-014](../governance/registro-de-decisiones.md#dec-014--expansión-lineal-de-la-nave-con-equipo-de-alimentaciónrecolección-compartido-hasta-el-techo-declarado-por-el-proveedor) sin tener que reubicar infraestructura ya construida, **Cabecera A (alimentación) queda fija**: el filtro sanitario, el acceso principal y el cuarto técnico se sitúan de forma permanente en este extremo. El crecimiento futuro (segunda unidad de 1,280 aves, y hacia el techo declarado por el proveedor) se realiza agregando sets junto a **Cabecera B (huevo/gallinaza)**, que se desplaza hacia afuera conforme la nave se alarga. Esto es consistente con la operación física confirmada del skip-hoist feeder (recorrido desde un hopper de origen fijo, hasta 100 m — ver [registro de cotizaciones](../../evidence/quotations/README.md)). Consecuencia directa: la vialidad principal y el trazo del cerco perimetral deben dejar el corredor de crecimiento libre **del lado de Cabecera B**, no del lado de Cabecera A. Ver [Modelo modular de crecimiento — 6.4](./06-crecimiento-modular.md#64-requisitos-de-diseño-de-la-primera-nave-para-preservar-la-expansión-septiembre-2026).
 
+**Límite de longitud y requisitos de cimentación por fases — confirmado (2026-10-11):** FamTECH, ya con su ingeniero civil, fijó el techo práctico de esta nave en **120 m** ("We do not recommend a poultry-house length exceeding 120 m. If a longer length is required, an additional unit should be added accordingly") — más allá de ese punto, el crecimiento deja de ser "agregar sets a esta misma nave" y pasa a ser una unidad adicional completa. También confirmaron **juntas de expansión constructivas cada ≈6 m** (validar la cifra exacta con el ingeniero civil local) y que **la cimentación de cada fase debe quedar al mismo nivel** que las fases anteriores, para evitar diferencias de altura entre tramos que afecten la operación. Ver [correspondencia](../../evidence/correspondence/2026-10-11_FamTECH_email_respuesta-civil-expansion-foundation.rtfd).
+
 **Dimensiones mínimas estimadas (no confirmadas — recomendación técnica derivada de catálogo público del mismo proveedor y referencias de industria, no de la cotización específica de este pedido):**
 
 | Eje | Mínimo estimado | Base |
@@ -121,7 +131,7 @@ pared │ 0.2m │ jaula 4 niv. │  pasillo central  │ jaula 4 niv. │ 0.2m 
 
 **Recomendaciones dentro de la envolvente confirmada:**
 
-- Pasillo central ≥1.0–1.2 m (mejor que la referencia genérica de 0.8 m) para carrito, inspección de mortalidad y limpieza.
+- Pasillos laterales ≈0.6 m por lado (confirmados por FamTECH, no un pasillo central) — suficientes para tareas humanas periódicas (inspección, mortalidad, mantenimiento), ya que la operación diaria (alimentación, agua, huevo, gallinaza) es automática y corre por la línea central. Verificar en comisionamiento que 0.6 m es cómodo para cargar una carretilla de mortalidad o un carrito de limpieza; si resulta demasiado angosto, la única forma de ganarlo es reduciendo el fondo de jaula (no negociable, ya cotizado) o ampliando el ancho total de la nave más allá de 4 m.
 - **Espacio en cada cabecera:** FamTECH reserva 1 m por lado dentro de los 17 m — menos que la recomendación interna previa de ≥1.5 m. Decisión pendiente de NidoSmart: aceptar 1 m (ya confirmado y sin costo adicional) o solicitar construir la nave con un poco más de longitud para ganar circulación extra en las cabeceras.
 - Exigir al proveedor un margen de techo ≥0.5–0.8 m sobre el nivel superior de jaula antes de fijar tipo estructural y cubierta.
 
@@ -129,7 +139,7 @@ pared │ 0.2m │ jaula 4 niv. │  pasillo central  │ jaula 4 niv. │ 0.2m 
 
 1. ~~Altura libre real requerida por el sistema completo instalado.~~ — **Resuelto:** 4.2 m es la altura libre interior confirmada por FamTECH; su equipo técnico ya validó el diseño completo (stack + riel + máquina de huevo) contra esa altura.
 2. Footprint longitudinal real de cada set — **parcialmente resuelto:** el cuerpo de jaula (1.2×1.2 m) es el valor que se repite por set a lo largo de la fila, y el espacio de circulación en cada cabecera es de 1 m (confirmado). Sigue pendiente el footprint propio del equipo de cabecera (hopper/motorreductor en un extremo; máquina recolectora de huevo/unidad motriz en el otro) — FamTECH solo confirmó que es equipo único por fila, no sus dimensiones exactas.
-3. Footprint transversal del arreglo "double-sided" (profundidad de jaula + pasillo) para confirmar los 4 m de ancho — **sin respuesta directa.** Con el cuerpo de jaula ya confirmado en 1.2 m de fondo, la aritmética implica un pasillo central de ≈1.2 m (4 m − 2×(0.2 m pared + 1.2 m jaula)), consistente con el rango ya estimado (1.2–1.6 m), pero esto es una inferencia propia, no una confirmación explícita del proveedor.
+3. ~~Footprint transversal del arreglo "double-sided" (profundidad de jaula + pasillo) para confirmar los 4 m de ancho.~~ — **Resuelto (2026-10-11):** el arreglo es un bloque de jaula espalda con espalda al centro (línea mecánica compartida: comedero, bebedero, bandas, riel del feeder), con pasillos de circulación humana a los costados (≈0.6 m por lado) — no el pasillo central único que se dibujaba antes. Corrige el diagrama de corte transversal de arriba. Razonamiento y corroboración (confirmación independiente de "the aisles" en plural desde el hilo de iluminación, 2026-09-20) en el corte transversal arriba.
 
 ### Densidad de jaula (pendiente de verificación con proveedor)
 

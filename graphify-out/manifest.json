@@ -35,24 +35,24 @@
     "semantic_hash": "04f6aab9e7f6a31254eb57720a8a2ba0"
   },
   "docs/business-plan/06-crecimiento-modular.md": {
-    "mtime": 1790656525.4872777,
-    "ast_hash": "96e0702e88a78abbd80eb2c3e8cac436",
-    "semantic_hash": "96e0702e88a78abbd80eb2c3e8cac436"
+    "mtime": 1791830423.9668026,
+    "ast_hash": "fd7d0d3c23f186a3be87fb7c8e6f6d47",
+    "semantic_hash": "fd7d0d3c23f186a3be87fb7c8e6f6d47"
   },
   "docs/business-plan/07-diseno-fisico.md": {
-    "mtime": 1790656453.9480283,
-    "ast_hash": "3df285bede159ddbe8021b4488b4c551",
-    "semantic_hash": "3df285bede159ddbe8021b4488b4c551"
+    "mtime": 1791830419.8048213,
+    "ast_hash": "aa6af4f7c4097c357a8fb3ca60e76233",
+    "semantic_hash": "aa6af4f7c4097c357a8fb3ca60e76233"
   },
   "docs/business-plan/08-automatizacion.md": {
-    "mtime": 1790656500.664868,
-    "ast_hash": "059b687bbadb7738e26aaad98dfe87bf",
-    "semantic_hash": "059b687bbadb7738e26aaad98dfe87bf"
+    "mtime": 1791831301.9495444,
+    "ast_hash": "64132f5915dee7cd50fe29ea960da6ae",
+    "semantic_hash": "64132f5915dee7cd50fe29ea960da6ae"
   },
   "docs/business-plan/09-arquitectura-electrica-hidraulica-comunicaciones.md": {
-    "mtime": 1790229146.8494525,
-    "ast_hash": "f022c79e7dd44b0c75d515146a825a9d",
-    "semantic_hash": "f022c79e7dd44b0c75d515146a825a9d"
+    "mtime": 1791831320.152475,
+    "ast_hash": "25d7653d5bc4434295e72555b52c6a5e",
+    "semantic_hash": "25d7653d5bc4434295e72555b52c6a5e"
   },
   "docs/business-plan/10-arquitectura-tecnologica.md": {
     "mtime": 1789281783.0646565,
@@ -155,9 +155,9 @@
     "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
   },
   "docs/governance/registro-de-decisiones.md": {
-    "mtime": 1790656715.6162584,
-    "ast_hash": "ffc7aefac37ecabfa613cb8cce8ca612",
-    "semantic_hash": "ffc7aefac37ecabfa613cb8cce8ca612"
+    "mtime": 1791829272.8061671,
+    "ast_hash": "a68c482bd27ddbbde67d96be4adca2ac",
+    "semantic_hash": "a68c482bd27ddbbde67d96be4adca2ac"
   },
   "docs/governance/trazabilidad.md": {
     "mtime": 1789281770.2760124,
@@ -225,9 +225,9 @@
     "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
   },
   "docs/investment-project/05-ficha-tecnica-nave.md": {
-    "mtime": 1790656582.0645838,
-    "ast_hash": "473e8c3ee4f7f8b455a58abe01f65234",
-    "semantic_hash": "473e8c3ee4f7f8b455a58abe01f65234"
+    "mtime": 1791829324.384476,
+    "ast_hash": "d01ffbc501aed28422f76b9c34b6657b",
+    "semantic_hash": "d01ffbc501aed28422f76b9c34b6657b"
   },
   "docs/investment-project/06-vehiculo-de-distribucion.md": {
     "mtime": 1789420550.3579395,
@@ -245,9 +245,9 @@
     "semantic_hash": "86ef2887a6ff6f2e20d8da6d69ffb3d7"
   },
   "evidence/quotations/README.md": {
-    "mtime": 1790659564.3233094,
-    "ast_hash": "089114404d29f4ffee6c28970991d51a",
-    "semantic_hash": "089114404d29f4ffee6c28970991d51a"
+    "mtime": 1791831297.1637342,
+    "ast_hash": "73fd34f46914a9afa4f758ea3c145695",
+    "semantic_hash": "73fd34f46914a9afa4f758ea3c145695"
   },
   "knowledge-base/README.md": {
     "mtime": 1789282190.8150854,
@@ -415,9 +415,9 @@
     "semantic_hash": "b4257feaba23aebe9bca20489e57b80b"
   },
   "evidence/correspondence/2026-09-27_NidoSmart_borrador-preguntas-famtech.md": {
-    "mtime": 1790656836.157994,
-    "ast_hash": "e2ff5e7c2fc3ded08694a3dcea2b81f8",
-    "semantic_hash": "e2ff5e7c2fc3ded08694a3dcea2b81f8"
+    "mtime": 1791829840.5615246,
+    "ast_hash": "9904b3ee0548087c8eb95790787668c0",
+    "semantic_hash": "9904b3ee0548087c8eb95790787668c0"
   },
   "evidence/correspondence/2026-09-28_FamTECH_email_respuesta-lote1-expansion-layout.rtfd/TXT.rtf": {
     "mtime": 1790656109.598357,
@@ -431,6 +431,16 @@
   },
   "evidence/correspondence/2026-09-28_FamTECH_email_respuesta-lote1-expansion-layout.rtfd/unknown.jpg": {
     "mtime": 1790656109.570061,
+    "ast_hash": "75bef208192cec5649b53975aeb9cb91",
+    "semantic_hash": "75bef208192cec5649b53975aeb9cb91"
+  },
+  "evidence/correspondence/2026-10-11_FamTECH_email_respuesta-civil-expansion-foundation.rtfd/TXT.rtf": {
+    "mtime": 1791828951.77768,
+    "ast_hash": "a1ca0d6444434e100a5a671702e49466",
+    "semantic_hash": "a1ca0d6444434e100a5a671702e49466"
+  },
+  "evidence/correspondence/2026-10-11_FamTECH_email_respuesta-civil-expansion-foundation.rtfd/unknown.jpg": {
+    "mtime": 1791828951.749727,
     "ast_hash": "75bef208192cec5649b53975aeb9cb91",
     "semantic_hash": "75bef208192cec5649b53975aeb9cb91"
   }

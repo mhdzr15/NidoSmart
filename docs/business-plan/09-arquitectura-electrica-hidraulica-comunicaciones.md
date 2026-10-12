@@ -3,8 +3,8 @@ title: "Arquitectura eléctrica, hidráulica y de comunicaciones"
 project: "NidoSmart"
 document_type: "business-plan"
 status: "draft"
-version: "1.4"
-last_updated: "2026-09-23"
+version: "1.5"
+last_updated: "2026-10-12"
 ---
 
 # Arquitectura eléctrica, hidráulica y de comunicaciones
@@ -48,7 +48,7 @@ Las cargas críticas son:
 | Motor de la banda recolectora de huevo | **0.55 kW** (motor Wanxin) | Igual que arriba, sin confirmar fase específica | FamTECH v1/v2, ítem IV.4 "drive unit" | Normal (no crítico) |
 | Ventiladores/extractores (ventilación transversal) | **1.1 kW cada uno × 2 = 2.2 kW** ("50″ fan, domestic special power") | Sin especificar en la cotización | FamTECH v3, ítem V.1 "Fan" | **Crítico** (ventilación mínima) |
 | Bombas sumergibles del sistema de cooling pad | 0.55 kW cada una × 2 | Sin especificar | FamTECH v3, ítem V.7 "Submersible pump" | **No aplica** — cooling pads descartados para este sitio (ver [Automatización — Control ambiental](./08-automatizacion.md#control-ambiental), "Cooling pads — no se justifican") |
-| Sistema de iluminación de pasillo (14 focos DC48V-7W-3000K regulables, 1 controlador de dimming) | **14 × 7W = 98W** en el lado DC48V; consumo real del lado de red (AC) depende de la eficiencia del driver del controlador de dimming, **no especificada** | DC48V (requiere driver/fuente AC→DC48V, presumiblemente integrado en el controlador de dimming) | FamTECH v4 (2026-09-21), ítem V "Lighting system" — ver [Automatización — Iluminación](./08-automatizacion.md#iluminación) | **Crítico** (iluminación básica) |
+| Sistema de iluminación de pasillo (14 focos DC48V-7W-3000K regulables, 1 controlador de dimming) | **14 × 7W = 98W** en el lado DC48V; consumo real del lado de red (AC) depende de la eficiencia del driver del controlador de dimming, **no especificada**. **Hipótesis de trabajo (2026-10-12, ver [Automatización — Iluminación](./08-automatizacion.md#iluminación)):** el arreglo cotizado probablemente cubre solo una cara del bloque "double-sided" — si se confirma que hace falta duplicarlo (28 focos), la carga DC sube a ≈196W, sigue siendo trivial frente a los motores (no cambia el orden de magnitud del cálculo de abajo). | DC48V (requiere driver/fuente AC→DC48V, presumiblemente integrado en el controlador de dimming) | FamTECH v4 (2026-09-21), ítem V "Lighting system" — ver [Automatización — Iluminación](./08-automatizacion.md#iluminación) | **Crítico** (iluminación básica) |
 
 **Suma de potencia nominal conocida y necesaria para el alcance actual (excluye cooling pads, ya descartados): ≈3.6 kW** (0.75 + 0.55 + 2.2 + 0.098 kW). Esta cifra es la suma de placas de motor/equipo, **no** una demanda máxima calculada (no incluye factores de simultaneidad, arranque ni las cargas aún sin potencia — ver "Cargas pendientes" abajo); no debe usarse todavía para dimensionar el servicio de CFE, el generador ni el calibre de conductores. La iluminación (98W) es una carga eléctricamente trivial frente a los motores — no cambia el orden de magnitud del cálculo, pero sí introduce un requisito de diseño nuevo: un circuito a 48V DC (no 120/220V AC directo) para las luminarias, alimentado desde el controlador de dimming.
 

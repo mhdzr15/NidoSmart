@@ -1,6 +1,6 @@
 # Borrador — preguntas pendientes para FamTECH (respaldo local)
 
-**Estado:** borrador, aún no enviado. Se envía por partes (ver lotes abajo) porque el total (26 preguntas) es demasiado para un solo correo.
+**Estado:** Lote 1 enviado y cerrado en lo sustantivo (ver tabla de registro abajo). Lotes 2-4 siguen como borrador, pendientes de enviar.
 **Origen:** consolidación de todos los pendientes abiertos con FamTECH dispersos en [`evidence/quotations/README.md`](../quotations/README.md), redactada el 2026-09-23/24.
 **Destinatario:** FamTECH / Anyang Best Complete Machinery Engineering Co., Ltd (bh@gcmec.com / bh@famtechpoultry.com).
 **Idioma:** inglés — toda la correspondencia previa con este proveedor (cotizaciones, respuestas de ingeniería) ha sido en inglés.
@@ -127,7 +127,7 @@ NidoSmart
 
 | Lote | Tema | Enviado | Respondido | Notas |
 |---|---|---|---|---|
-| 1 | Expansión y layout | 2026-09-28 | 2026-09-28 | 5/8 resueltas o parcialmente resueltas (#2 altura, #5→#2 100m, #6→#8 comedero confirmados; #1 y #6 metodología corregida, cifra exacta pendiente; #3 cimentación y #4/#7 throughput/footprint transversal remitidos al ingeniero civil de FamTECH). FamTECH también adjuntó una cotización v4 anotada mostrando qué partes se compran una sola vez por fila vs. cuáles se repiten por set (ver `evidence/quotations/2026-09-28_FamTECH_v4-anotado_partes-compartidas-vs-repetibles.pdf`). Ver [respuesta completa](2026-09-28_FamTECH_email_respuesta-lote1-expansion-layout.rtfd/) e integración en `evidence/quotations/README.md` y docs de diseño. |
+| 1 | Expansión y layout | 2026-09-28 | 2026-09-28, seguimiento 2026-10-11 | **Cerrado en lo sustantivo.** Ronda 1 (2026-09-28): #2 altura, #5→#2 100m, #6→#8 comedero confirmados; #1/#6 metodología corregida. Ronda 2 (2026-10-11, tras seguimiento de NidoSmart): #1 — techo de 120 m/90 grupos confirmado como máximo recomendado por nave; #3 — cimentación extensible por fases, juntas cada ≈6 m, mismo nivel entre fases; #4 — banda de gallinaza confirmada "dimensionada solo para 640 aves hoy" (sin kg/h exacto); #7 — **resuelto**: el arreglo es espalda con espalda al centro con pasillos laterales (no el pasillo central que asumía nuestro diagrama original) — corregido en `docs/business-plan/07-diseno-fisico.md` §7.1.1, corroborado por "the aisles" (plural) del hilo de iluminación de 2026-09-20. FamTECH también adjuntó una cotización v4 anotada mostrando qué partes se compran una sola vez por fila vs. cuáles se repiten por set (ver `evidence/quotations/2026-09-28_FamTECH_v4-anotado_partes-compartidas-vs-repetibles.pdf`, reenviada idéntica el 2026-10-11). Ver [respuesta 2026-09-28](2026-09-28_FamTECH_email_respuesta-lote1-expansion-layout.rtfd/), [respuesta 2026-10-11](2026-10-11_FamTECH_email_respuesta-civil-expansion-foundation.rtfd/) e integración en `evidence/quotations/README.md` y docs de diseño. |
 | 2 | Ventilación y agua/gallinaza | — | — | |
 | 3 | Eléctrico | — | — | |
 | 4 | Aislamiento y comercial | — | — | |
