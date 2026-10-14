@@ -3,8 +3,8 @@ title: "Diseño físico preliminar"
 project: "NidoSmart"
 document_type: "business-plan"
 status: "draft"
-version: "1.8"
-last_updated: "2026-10-12"
+version: "1.9"
+last_updated: "2026-10-13"
 ---
 
 # Diseño físico preliminar
@@ -202,6 +202,19 @@ El predio deberá considerar:
 * **Zona de gallinaza/compostaje:** debe protegerse con bordos (*berms*) que impidan que la lluvia arrastre lixiviados fuera del área, y la pila debe protegerse de la lluvia directa (Bell & Weaver, cap. 11-H).
 * **Separaciones mínimas (pendientes de verificar contra el predio real, ver [Regulación y cumplimiento](./19-regulacion-y-cumplimiento.md)):** pozo de agua ↔ zona de gallinaza/compostaje ≥30 m (Bell & Weaver, tabla 43-15); cualquier fosa (p. ej. de mortalidad) ↔ cuerpo de agua superficial ≥20 m, y piso de la fosa ≥1.5 m sobre el nivel freático (Manual de Buenas Prácticas Pecuarias, §8.2).
 * **Producción y manejo de gallinaza (cálculo propio a partir de Bell & Weaver, cap. 11-B):** ≈65–125 kg/día de gallinaza fresca para 640 aves (75–80% de humedad al salir de la nave). Objetivo de humedad en almacenamiento: <35% para minimizar reproducción de moscas. Antes de transportarse fuera del predio requiere tratamiento térmico de fermentación de al menos 48 h a ≥56°C, avalado por escrito por un MVZ (Manual de Buenas Prácticas Pecuarias, §8.4, cita NOM-024-ZOO-1995).
+
+**Fosa de banda de gallinaza y elevador de descarga — nuevo requisito de obra civil (2026-10-13):** al preguntarle a FamTECH el punto y altura de descarga de la banda (para diseñar el contenedor cerrado), su ingeniero envió un plano de detalle que revela un requisito de piso no contemplado hasta ahora — no es un contenedor a nivel de piso, sino una estructura de dos partes:
+
+1. **Fosa longitudinal bajo la banda:** construida de tabique, ≈750 mm de profundidad, corriendo bajo la banda de gallinaza a todo lo largo de la nave. El piso interior se inclina **0.6% hacia el centro desde ambos lados** (dirigiendo cualquier escurrimiento hacia la fosa) y el fondo de la fosa se inclina **0.5% hacia el extremo de descarga**.
+2. **Elevador inclinado externo:** en el extremo de descarga (cabecera de gallinaza/huevo, fuera de la nave, a través de una puerta con dintel a 1.5 m), la banda sube por un elevador inclinado a **≈25°**, alcanzando **≈3 m de altura** en el punto de descarga al contenedor — sobre zapatas de concreto prefabricadas (≈1.2 m de base, ≈375 mm de profundidad).
+
+Ver los planos de FamTECH: [corte de la fosa](../../evidence/quotations/2026-10-13_FamTECH_dibujo-descarga-gallinaza_1-corte-fosa.png), [corte longitudinal de la nave](../../evidence/quotations/2026-10-13_FamTECH_dibujo-descarga-gallinaza_2-corte-nave.png), [elevador inclinado](../../evidence/quotations/2026-10-13_FamTECH_dibujo-descarga-gallinaza_3-elevador-inclinado.png).
+
+**Implicaciones:**
+
+* El piso de la nave **no es plano** — es un requisito de diseño estructural (excavación, impermeabilización, muro de tabique) que debe incorporarse desde la cimentación, no agregarse después. Afecta directamente la partida de obra civil ([Presupuesto consolidado — 5.1](../../investment-project/07-presupuesto-consolidado-inversion-inicial.md#51-drenaje-aguas-residuales-y-manejo-de-gallinaza)), hoy estimada de forma genérica sin este detalle.
+* El elevador inclinado y su cimentación de zapatas prefabricadas ocupan espacio **fuera** del footprint de 17×4 m de la nave, en el extremo de la cabecera de huevo/gallinaza — debe reservarse en el trazo del predio junto con el contenedor cerrado y la zona de compostaje (ver [§7.1.1](#711-layout-funcional-recomendado-dentro-de-la-nave-17×4×42-m)).
+* Esta fosa de 750 mm es independiente de las pendientes de drenaje pluvial/sanitario ya descritas arriba — es un elemento estructural propio del sistema de gallinaza FamTECH, no parte del drenaje general del predio.
 
 ## 7.3 Flujo operativo
 

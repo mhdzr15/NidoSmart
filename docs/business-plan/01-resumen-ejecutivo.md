@@ -3,8 +3,8 @@ title: "Resumen ejecutivo"
 project: "NidoSmart"
 document_type: "business-plan"
 status: "draft"
-version: "1.3"
-last_updated: "2026-09-14"
+version: "1.4"
+last_updated: "2026-10-13"
 ---
 
 # Resumen ejecutivo
@@ -36,7 +36,7 @@ La estrategia comercial no debe basarse en competir con productores industriales
 * Tiendas especializadas.
 * Diferenciación por frescura, trazabilidad y producción local.
 
-La inversión preliminar para la primera unidad automatizada de 640 aves se estima entre **$723,300 y $1,174,300 MXN**, sin considerar terreno *(cifra recalculada julio–septiembre 2026 a partir de la cotización real de jaula y automatización; ver el desglose completo en [Plan financiero — 17.1 Inversión inicial](./17-plan-financiero.md#171-inversión-inicial))*. El rango depende principalmente del nivel de automatización, condiciones climáticas, obra civil, respaldo energético, conectividad a internet (incluyendo respaldo satelital) y origen de los equipos.
+La inversión preliminar para la primera unidad automatizada de 640 aves se estima entre **$814,300 y $1,265,300 MXN**, sin considerar terreno *(cifra recalculada julio–octubre 2026 a partir de la cotización real de jaula, automatización e iluminación, ya con el flete al sitio del proyecto confirmado; ver el desglose completo en [Plan financiero — 17.1 Inversión inicial](./17-plan-financiero.md#171-inversión-inicial))*. El rango depende principalmente del nivel de automatización, condiciones climáticas, obra civil, respaldo energético, conectividad a internet (incluyendo respaldo satelital) y origen de los equipos.
 
 Una instalación altamente automatizada no tendrá una recuperación rápida si permanece indefinidamente en 640 gallinas. El primer módulo debe entenderse como una fase de validación que genera:
 

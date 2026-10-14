@@ -3,8 +3,8 @@ title: "Ficha técnica — Nave avícola (unidad de 640 aves)"
 project: "NidoSmart"
 document_type: "investment-project"
 status: "draft"
-version: "1.3"
-last_updated: "2026-10-11"
+version: "1.4"
+last_updated: "2026-10-13"
 ---
 
 # Ficha técnica — Nave avícola (unidad de 640 aves)
@@ -30,7 +30,7 @@ La nave aloja la unidad congelada de 640 aves ([DEC-012](../governance/registro-
 | Muros o cerramientos | Sin definir | **Pendiente** | Depende del tipo estructural; debe permitir bioseguridad (barrera física, control de fauna) y ventilación controlada simultáneamente. |
 | Drenaje pluvial | Sin definir | **Pendiente** | Requiere canaletas de techo y pendiente del predio calculadas; ver [Diseño físico — 7.2.2](../business-plan/07-diseno-fisico.md#722-drenaje-y-manejo-de-gallinaza-revisión-septiembre-2026). No hay estudio de sitio ni cálculo de capacidad. |
 | Drenaje sanitario (aguas residuales) | Sin definir | **Pendiente** | Debe ser un sistema separado del pluvial, con pre-tratamiento mínimo antes de su destino final (alcantarillado público o sistema propio); depende de si existe alcantarillado municipal en San Francisco Acatepec — ver [Regulación y cumplimiento — 18.1](../business-plan/19-regulacion-y-cumplimiento.md#181-trámites-específicos-para-san-francisco-acatepec-san-andrés-cholula-puebla). |
-| Manejo de gallinaza (salida y compostaje) | Conceptual | **Pendiente** | Salida por banda hacia contenedor cerrado y zona de compostaje separada ya definida conceptualmente ([Diseño físico — 7.1.1](../business-plan/07-diseno-fisico.md#711-layout-funcional-recomendado-dentro-de-la-nave-17×4×42-m)); faltan bordos contra escorrentía, separación real respecto a pozo/cuerpos de agua, y confirmar con FamTECH la capacidad real de la banda. Ver [Diseño físico — 7.2.2](../business-plan/07-diseno-fisico.md#722-drenaje-y-manejo-de-gallinaza-revisión-septiembre-2026). |
+| Manejo de gallinaza (salida y compostaje) | Conceptual, con requisito nuevo de piso confirmado (2026-10-13): fosa bajo la banda (tabique, ≈750 mm) + elevador inclinado externo | **Pendiente** | Salida por banda hacia contenedor cerrado y zona de compostaje separada ya definida conceptualmente ([Diseño físico — 7.1.1](../business-plan/07-diseno-fisico.md#711-layout-funcional-recomendado-dentro-de-la-nave-17×4×42-m)); faltan bordos contra escorrentía, separación real respecto a pozo/cuerpos de agua, y cotización local de la fosa/elevador. Capacidad de la banda ya confirmada por FamTECH (suficiente hasta ~50,000 aves/nave). Ver [Diseño físico — 7.2.2](../business-plan/07-diseno-fisico.md#722-drenaje-y-manejo-de-gallinaza-revisión-septiembre-2026). |
 | Resistencia a viento y clima local | Sin definir | **Pendiente** | Requiere memoria de cálculo estructural conforme al reglamento de construcción aplicable en San Andrés Cholula, Puebla, con cargas de viento y granizo del sitio. No existe todavía; se requiere un ingeniero civil o DRO local. |
 | Piso | Sin definir (se asume firme de concreto) | **Pendiente** | No hay espesor, resistencia ni acabado especificados; tampoco se ha confirmado la carga puntual de las patas de la jaula de 4 niveles sobre el firme. |
 | Integración con jaulas tipo H | Parcial | **Pendiente** | Las dimensiones de la nave coinciden con las de la cotización de jaula, pero no hay plano de anclajes, cargas puntuales de la estructura de jaula sobre el firme, ni interfaz mecánica/eléctrica entre ambos proveedores (jaula vs. obra civil). |

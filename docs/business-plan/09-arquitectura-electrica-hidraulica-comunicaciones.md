@@ -3,8 +3,8 @@ title: "Arquitectura eléctrica, hidráulica y de comunicaciones"
 project: "NidoSmart"
 document_type: "business-plan"
 status: "draft"
-version: "1.5"
-last_updated: "2026-10-12"
+version: "1.6"
+last_updated: "2026-10-13"
 ---
 
 # Arquitectura eléctrica, hidráulica y de comunicaciones
@@ -193,6 +193,16 @@ Se deberá instalar:
 * **Bell & Weaver, capítulo 22** (objetivo de desempeño productivo, más estricto que el piso legal en varios parámetros): pH 6.5–8.0 (ideal 7.0–7.2), dureza máxima 100 ppm, hierro y manganeso máximo 0.3 ppm cada uno, nitratos máximo 20 ppm, sodio máximo 20 ppm, y **0 UFC/mL de bacterias coliformes** (cualquier presencia indica contaminación fecal y riesgo sanitario).
 
 Las dos fuentes coinciden en hierro y en exigir ausencia de coliformes, pero difieren de forma importante en dureza (100 vs. 500 ppm), sodio (20 vs. 200 ppm) y en la base de medición de nitratos (NOM-127 mide como N). NOM-127 es el requisito legal aplicable; los valores de Bell & Weaver son un objetivo de calidad productiva (dureza y sodio afectan la incrustación de los níples y el desempeño de las aves, no solo la inocuidad), y se adoptan como meta de diseño cuando sea alcanzable, sin sustituir el cumplimiento de NOM-127. Pendiente: realizar un análisis de agua del predio y definir tratamiento si no cumple estos parámetros.
+
+**Especificación del sistema de bebederos — resuelto por FamTECH (2026-10-13):**
+
+* **Línea de bebederos:** tubería cuadrada de PVC, **22 × 22 mm**.
+* **Presión de suministro a la caseta:** **0.25 MPa**.
+* **Presión de operación recomendada por edad del ave** (ficha de FamTECH, en terminología de pollo de engorda — adaptar a las etapas de recría/postura de la ponedora, no copiar literalmente las edades): 1–7 días: 8–12 cm columna de agua; 8–14 días: 12–18 cm; 15–28 días: 18–25 cm; 29–42 días: 25–32 cm (máx. ~35 cm). Para la etapa de postura (ave adulta), usar el extremo alto de este rango como referencia de partida hasta tener una recomendación específica para ponedora.
+
+Esto cierra el pendiente de selección precisa del regulador de presión (antes sin dato del fabricante de níples de FamTECH). Ver [registro de cotizaciones](../../evidence/quotations/README.md) y [correspondencia](../../evidence/correspondence/2026-10-13_FamTECH_email_respuesta-lote2-ventilacion-agua-gallinaza.rtfd/).
+
+**Limpieza de la banda de gallinaza — no es una fuente de aguas residuales continua (resuelto 2026-10-13):** FamTECH confirmó que la limpieza normal de la banda no usa agua; el agua solo se usa para lavar el equipo **una vez por ciclo de parvada** (evento puntual, no continuo). No se agrega al dimensionamiento del tanque pulmón ni de la bomba (demanda diaria), pero sí debe considerarse como un evento de descarga puntual al diseñar el drenaje sanitario (ver [Diseño físico — 7.2.2](./07-diseno-fisico.md#722-drenaje-y-manejo-de-gallinaza-revisión-septiembre-2026)).
 
 ## 9.3 Comunicaciones
 

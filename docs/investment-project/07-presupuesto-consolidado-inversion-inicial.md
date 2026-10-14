@@ -3,8 +3,8 @@ title: "Presupuesto consolidado de inversión inicial — unidad de 640 aves"
 project: "NidoSmart"
 document_type: "investment-project"
 status: "draft"
-version: "1.2"
-last_updated: "2026-10-12"
+version: "1.3"
+last_updated: "2026-10-13"
 ---
 
 # Presupuesto consolidado de inversión inicial — unidad de 640 aves
@@ -19,9 +19,12 @@ Tipo de cambio de referencia: **$18.50 MXN/USD** — supuesto de trabajo, no una
 
 | Concepto | Especificación | Proveedor/Fuente | Cantidad | Costo unitario | Costo total | Estado |
 |---|---|---|---|---|---|---|
-| Jaula automatizada tipo H + alimentación + bebederos + recolección de huevo + retiro de gallinaza | 5 sets, 4 niveles, 640 aves, entregado en almacén de ciudad de Puebla (CIP) | FamTECH, cotización v1/v2 (2026-07-21), No. BS04H072226 | 1 sistema | USD $17,747 | **$328,300 MXN** | **Confirmado** |
+| ~~Jaula automatizada tipo H + alimentación + bebederos + recolección de huevo + retiro de gallinaza~~ | ~~5 sets, 4 niveles, 640 aves, entregado en almacén de ciudad de Puebla (CIP)~~ | FamTECH, cotización v1/v2 (2026-07-21), No. BS04H072226 | 1 sistema | USD $17,747 | ~~$328,300 MXN~~ | **Superado** — v1/v2 solo entregaba hasta la ciudad de Puebla; ver fila siguiente para el costo real puesto en el sitio del proyecto |
+| Jaula + alimentación + bebederos + recolección de huevo + retiro de gallinaza + iluminación de pasillo | 5 sets, 4 niveles, 640 aves, **entregado en San Francisco Acatepec (CIP sitio)**, sin control ambiental | FamTECH, cotización v4 (2026-09-21) + v5 (2026-10-13), No. BS04H092126 / BS04H101326 | 1 sistema | USD $22,664.21 | **$419,288 MXN** | **Confirmado** — mismo monto (±$0.20) confirmado por dos cotizaciones independientes con tres semanas de diferencia, ver nota abajo |
 
 **Actualización (2026-09-21):** FamTECH emitió una nueva cotización v4 (No. BS04H092126) que reemplaza a v1/v2 como referencia de costo vigente — mismo alcance de jaula/automatización + **sistema de iluminación de pasillo, ahora incluido** (ver [sección 7](#7-iluminación)) + **flete cotizado directo al sitio del proyecto** en término DDU (ver [sección 10](#10-importación-y-logística)), en vez de solo hasta la ciudad de Puebla. El monto del equipo base (jaula/automatización, sin iluminación) no cambió: $10,217.56 USD EXW en ambas cotizaciones. Ver [registro de cotizaciones](../../evidence/quotations/README.md) para el detalle completo.
+
+**Actualización (2026-10-13) — flete al sitio confirmado por segunda vía independiente:** FamTECH emitió una nueva cotización v5 (No. BS04H101326) que consolida todo el alcance técnico en un solo documento (jaula/automatización/iluminación de v4 + control ambiental re-itemizado sin cooling pads) y desglosa limpiamente el flete por primera vez: EXW $16,882 + FOB handling $1,220 + flete marítimo/terrestre/portuario $10,281 (etiquetado explícitamente "Qingdao Port, China to **San Francisco Acatepec**, Puebla, Mexico") = **$28,046 CIP sitio** (incluye control ambiental). Restando el control ambiental ($5,719.6 EXW) de v5 y recalculando con el mismo flete da **$22,664.21** para el alcance actualmente vigente (jaula + automatización + iluminación, sin control ambiental) — prácticamente idéntico a los $22,644.21 de v4 (diferencia de $0.20). Dos cotizaciones independientes, tres semanas de diferencia, confirman el mismo número: **el flete al sitio real (no solo a la ciudad de Puebla) se considera cerrado**, no solo estimado por diferencia como se trataba hasta la versión anterior de este documento. Ver [sección 10](#10-importación-y-logística) para el desglose completo y [registro de cotizaciones](../../evidence/quotations/README.md).
 
 El desglose del costo puesto en sitio (flete, seguro, aranceles, IVA, despacho, transporte final) se reconstruye en la [sección 10](#10-importación-y-logística), no aquí, para no duplicar el monto del equipo.
 
@@ -56,15 +59,17 @@ Pendiente: análisis de calidad de agua del predio (pH, dureza, coliformes) señ
 | Concepto | Especificación | Fuente | Costo total (MXN) | Estado |
 |---|---|---|---|---|
 | Zona de compostaje con bordos, sistema de tratamiento de aguas residuales (fosa séptica o biodigestor si no hay alcantarillado municipal) y canaletas/cárcamo de drenaje pluvial | Ver [Diseño físico — 7.2.2](../business-plan/07-diseno-fisico.md#722-drenaje-y-manejo-de-gallinaza-revisión-septiembre-2026) | Sin cotización; orden de magnitud — no desglosado antes de esta revisión (estaba disuelto sin partida propia dentro de "obra civil", sección 2/3) | **$40,000–$90,000** | **Estimado (genérico)** |
+| Fosa longitudinal bajo la banda de gallinaza (tabique, ≈750 mm de profundidad, a todo lo largo de la nave) + elevador inclinado externo (~25°, ~3 m de altura) sobre zapatas de concreto prefabricadas | Requisito revelado por el plano de detalle de FamTECH, no contemplado en el rango genérico de arriba — ver [Diseño físico — 7.2.2](../business-plan/07-diseno-fisico.md#722-drenaje-y-manejo-de-gallinaza-revisión-septiembre-2026) | Sin cotización; es un elemento estructural específico (excavación + muro de tabique + zapatas), no genérico | **Sin cotizar — nuevo, no incluido en el rango de arriba** | **Pendiente** |
 
-Este rango depende fuertemente de si existe alcantarillado sanitario municipal en San Francisco Acatepec (pendiente crítico, ver [Regulación y cumplimiento — 18.1](../business-plan/19-regulacion-y-cumplimiento.md#181-trámites-específicos-para-san-francisco-acatepec-san-andrés-cholula-puebla)): si no existe, el extremo alto del rango es más probable por el costo de un sistema de tratamiento propio.
+Este rango depende fuertemente de si existe alcantarillado sanitario municipal en San Francisco Acatepec (pendiente crítico, ver [Regulación y cumplimiento — 18.1](../business-plan/19-regulacion-y-cumplimiento.md#181-trámites-específicos-para-san-francisco-acatepec-san-andrés-cholula-puebla)): si no existe, el extremo alto del rango es más probable por el costo de un sistema de tratamiento propio. **La fosa/elevador de la banda de gallinaza (fila nueva arriba, 2026-10-13) es adicional a este rango** — al ser un requisito concreto recién descubierto (no genérico), es probable que el rango completo de esta sección deba revisarse al alza una vez que se tenga una cotización local de obra civil para la excavación, impermeabilización y muro de tabique de la fosa.
 
 ## 6. Ventilación y control ambiental
 
 | Concepto | Especificación | Fuente | Costo total (MXN) | Estado |
 |---|---|---|---|---|
 | Ventilación básica (entradas/salidas de aire pasivas, integradas a la nave) | Sin diseño de aberturas todavía — ver [ficha técnica](./05-ficha-tecnica-nave.md) | Incluido conceptualmente en la partida de obra civil (sección 2/3), sin desglose propio | Incluido arriba | **Pendiente** (sin diseño) |
-| Paquete de control ambiental automatizado (ventiladores, cooling pads, ventanas motorizadas, controlador, sensores temp/humedad) | Adicional sobre la jaula base | FamTECH, cotización v3 (2026-07-22), No. BS04H072226 | USD $6,348 adicionales ≈ **$117,400 MXN** | **Cotizado, en pausa** — no incluido en el total (ver [decisión vigente](../../evidence/quotations/README.md#decisión-vigente-2026-07-22)) |
+| Paquete de control ambiental automatizado (ventiladores, cooling pads, ventanas motorizadas, controlador, sensores temp/humedad) | Adicional sobre la jaula base | FamTECH, cotización v3 (2026-07-22), No. BS04H072226 | USD $6,348 adicionales ≈ **$117,400 MXN** | **Cotizado (superado por v5, fila siguiente), en pausa** |
+| Paquete de control ambiental re-itemizado **sin cooling pads** (ventiladores $574 + entradas de aire CJ01 $985.6 + controlador/sistema eléctrico $4,160) | Mismo alcance funcional que v3 menos los cooling pads (no requeridos en el sitio, ver justificación climática en [Automatización — Control ambiental](../business-plan/08-automatizacion.md#control-ambiental)) | FamTECH, cotización v5 (2026-10-13), No. BS04H101326 | USD $5,719.6 adicionales ≈ **$105,813 MXN** | **Cotizado, en pausa** — no incluido en el total (ver [decisión vigente](../../evidence/quotations/README.md#decisión-vigente-2026-07-22-base-de-costo-actualizada-2026-10-13)) |
 
 ## 7. Iluminación
 
@@ -111,6 +116,17 @@ Reconstrucción del costo total puesto en sitio del sistema de jaulas (equipo de
 | Sea freight & inland freight (& port charges en v4) | USD $6,330 | USD $10,281 | **+USD $3,951 (+$73,094 MXN)** |
 
 Este incremento de USD $3,951 es la mejor referencia disponible hoy del costo de extender la entrega hasta el sitio real — pero **el proveedor no desglosó** cuánto de esa diferencia es el tramo Puebla→sitio y cuánto son "port charges" que la v4 empezó a itemizar por separado (posiblemente ya incluidos antes dentro de "sea freight" en v1/v2, sin nombrarse). Se registra como **estimado por diferencia, no como cotización formal desglosada** del tramo final — no se incorpora todavía a la tabla consolidada de abajo hasta poder confirmar con el proveedor qué compone este incremento. El IVA/arancel de importación (DDU no los incluye) sigue sin cambios frente a lo ya estimado arriba.
+
+**Resuelto (2026-10-13) — flete final confirmado, deja de ser una reconciliación por diferencia:** la cotización v5 (No. BS04H101326) reutiliza el **mismo monto exacto, USD $10,281**, pero esta vez lo etiqueta explícitamente como *"Sea freight & Inland freight & Port charges... From Qingdao Port, China to **San Francisco Acatepec, Puebla, Mexico**"* — es decir, el proveedor confirma por escrito que ese monto ya cubre el tramo completo hasta el sitio del proyecto (no solo hasta la ciudad de Puebla, y sin un tramo "Puebla→sitio" pendiente de cotizar aparte). Con esto:
+
+| Concepto | Monto (USD) | Monto (MXN, $18.50) |
+|---|---:|---:|
+| Equipo EXW (jaula + automatización + iluminación, alcance vigente) | $11,163.21 | $206,519 |
+| Inland freight y manejo (FOB) | $1,220 | $22,570 |
+| Flete marítimo + terrestre + portuario, Qingdao → San Francisco Acatepec | $10,281 | $190,199 |
+| **Total entregado en sitio (CIP San Francisco Acatepec), sin control ambiental** | **$22,664.21** | **≈$419,288** |
+
+Este total reemplaza, para el alcance de equipo vigente (sin control ambiental), la fila "Jaula automatizada..." de la [sección 1](#1-jaulas-y-automatización) ($328,300 MXN, basada en v1/v2 con destino solo a Puebla) — el monto correcto puesto en sitio con la cotización más reciente es **≈$419,288 MXN**, no $328,300 MXN. Ya incorporado en la [tabla consolidada](#tabla-consolidada) y en la contingencia de importación ([sección 18](#18-contingencia)). El arancel de importación, IVA y despacho aduanal (filas de arriba) siguen aplicando sobre este nuevo valor CIP, no sobre el antiguo EXW+flete-a-Puebla.
 
 ## 11. Instalación y puesta en marcha
 
@@ -176,10 +192,12 @@ Contingencia diferenciada y justificada por área de riesgo, en vez de un porcen
 
 | Área de riesgo | Base sobre la que aplica | % | Monto (MXN) |
 |---|---|---|---|
-| Importación y tipo de cambio (equipo + costos de importación, sección 1+10) | $388,800–$433,900 | 10% | $38,900–$43,400 |
+| Importación y tipo de cambio (equipo + costos de importación, sección 1+10) | $479,788–$524,888 | 10% | $48,000–$52,500 |
 | Obra civil (sin cotización formal, sección 2/3 + resto de infraestructura, incluye 5.1) | $500,000–$1,086,000 | 15% | $75,000–$162,900 |
 | Instalación y adecuaciones no previstas (logística restante + preoperativos + capital de trabajo) | $311,400–$577,200 | 10% | $31,100–$57,700 |
-| **Contingencia total** | | **≈12–13% del subtotal** | **$145,000–$264,000** |
+| **Contingencia total** | | **≈12–13% del subtotal** | **$154,100–$273,100** |
+
+**Actualización (2026-10-13):** la base de la fila "Importación y tipo de cambio" sube de $388,800–$433,900 a $479,788–$524,888 al incorporar el costo real confirmado de equipo puesto en sitio ($419,288 MXN, [sección 1](#1-jaulas-y-automatización)) en vez del monto antiguo basado en entrega solo a la ciudad de Puebla ($328,300 MXN).
 
 El componente de tipo de cambio no se cuenta aparte: queda incorporado en el 10% de importación, ya que el riesgo cambiario recae principalmente sobre la parte de la inversión cotizada en USD.
 
@@ -187,19 +205,21 @@ El componente de tipo de cambio no se cuenta aparte: queda incorporado en el 10%
 
 | Bloque | Rango (MXN) | Incluye |
 |---|---:|---|
-| CAPEX productivo | $328,300 | Jaula + automatización (sección 1) |
-| CAPEX de infraestructura | $500,000–$1,086,000 | Nave/obra civil, eléctrica, hidráulica, drenaje/aguas residuales/gallinaza, iluminación, respaldo energético, sensores y control, bioseguridad (infraestructura), almacenamiento y manejo de producto (secciones 2–9, 5.1, 13, 14) |
-| CAPEX logístico | $60,500–$105,600 | Aranceles, IVA, despacho aduanal (sección 10, sin equipo ni transporte final) |
+| CAPEX productivo | $419,288 | Jaula + automatización + iluminación, **entregado en sitio** (sección 1) |
+| CAPEX de infraestructura | $500,000–$1,086,000 | Nave/obra civil, eléctrica, hidráulica, drenaje/aguas residuales/gallinaza (incluye fosa/elevador de banda de gallinaza aún sin cotizar, ver 5.1), iluminación, respaldo energético, sensores y control, bioseguridad (infraestructura), almacenamiento y manejo de producto (secciones 2–9, 5.1, 13, 14) |
+| CAPEX logístico | $60,500–$105,600 | Aranceles, IVA, despacho aduanal (sección 10, sin equipo — el flete ya está incluido en el CAPEX productivo de arriba) |
 | Costos preoperativos | $185,400–$340,600 | Aves, alimento inicial, veterinario, medicamentos, empaques, personal inicial, servicios, inventarios mínimos, permisos (secciones 12, 16, 19) |
 | Capital de trabajo | $65,500–$131,000 | Colchón operativo 1–2 meses (sección 17) |
-| Contingencia | $145,000–$264,000 | Diferenciada por área de riesgo (sección 18) |
-| **Inversión total (estimada)** | **≈$1,285,000–$2,256,000** | |
+| Contingencia | $154,100–$273,100 | Diferenciada por área de riesgo (sección 18) |
+| **Inversión total (estimada)** | **≈$1,385,000–$2,356,000** | |
+
+**Actualización (2026-10-13):** el total sube de $1,285,000–$2,256,000 a $1,385,000–$2,356,000 (+$100,088 en ambos extremos) al resolverse el flete al sitio real (antes referenciado parcialmente, ver historial en [sección 10](#10-importación-y-logística)) — el CAPEX productivo pasa de $328,300 (equipo entregado solo hasta la ciudad de Puebla) a $419,288 (equipo + iluminación entregados en San Francisco Acatepec), con el ajuste correspondiente en la contingencia de importación.
 
 **Explícitamente fuera de este total, por no tener cotización desglosada:**
 
-* Transporte final almacén Puebla → sitio del proyecto (sección 10) — **parcialmente referenciado** desde 2026-09-21 (+USD $3,951 / +$73,094 MXN observado por diferencia entre v1/v2 y v4), pero no incorporado al total por no venir desglosado del resto del incremento de flete (ver sección 10).
+* Fosa longitudinal bajo la banda de gallinaza + elevador inclinado externo (sección 5.1) — nuevo requisito de obra civil revelado por el plano de detalle de FamTECH (2026-10-13), sin cotizar; el rango de $500,000–$1,086,000 de "CAPEX de infraestructura" **no lo incluye explícitamente**, solo de forma genérica dentro del rango de obra civil.
 * Guía técnica opcional de FamTECH para la instalación (sección 11) — **USD $4,000–$9,000 ≈ $74,000–$166,500 MXN** (2-3 técnicos, 20-30 días, $100/persona/día) más vuelos/visa/hospedaje sin cotizar, si NidoSmart decide contratarla. La instalación en sí la hace NidoSmart con su propia mano de obra, sin costo de licencia o derecho de instalación de FamTECH.
-* Paquete de control ambiental automatizado, en pausa (sección 6): +$117,400 MXN si se reactiva.
+* Paquete de control ambiental automatizado, en pausa (sección 6): +USD $5,719.6 ≈ +$105,813 MXN si se reactiva (re-cotizado 2026-10-13 sin cooling pads, antes $117,400 MXN con cooling pads).
 * Vehículo dedicado, si se reconsidera la recomendación de la sección 15: +$180,000–$350,000 MXN.
 * Terreno (no forma parte de este alcance en ningún escenario).
 

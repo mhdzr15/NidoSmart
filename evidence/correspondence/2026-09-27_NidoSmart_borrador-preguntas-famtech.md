@@ -1,6 +1,6 @@
 # Borrador — preguntas pendientes para FamTECH (respaldo local)
 
-**Estado:** Lote 1 enviado y cerrado en lo sustantivo (ver tabla de registro abajo). Lotes 2-4 siguen como borrador, pendientes de enviar.
+**Estado:** Lotes 1 y 2 enviados y cerrados en lo sustantivo (ver tabla de registro abajo). Lotes 3-4 siguen como borrador, pendientes de enviar.
 **Origen:** consolidación de todos los pendientes abiertos con FamTECH dispersos en [`evidence/quotations/README.md`](../quotations/README.md), redactada el 2026-09-23/24.
 **Destinatario:** FamTECH / Anyang Best Complete Machinery Engineering Co., Ltd (bh@gcmec.com / bh@famtechpoultry.com).
 **Idioma:** inglés — toda la correspondencia previa con este proveedor (cotizaciones, respuestas de ingeniería) ha sido en inglés.
@@ -45,7 +45,7 @@ NidoSmart
 
 ## Lote 2 — Ventilation & environmental control, water & manure handling
 
-**Estado:** pendiente de enviar
+**Estado:** enviado 2026-10-13 (nota: se envió una versión ligeramente distinta a la de este borrador — 8 preguntas, no 9; el ítem 8 realmente enviado fue el de throughput de la banda en kg/h, no la pregunta reformulada sobre alcance de la guía de instalación que se había editado aquí el 2026-10-12), respondido 2026-10-13 — ver [respuesta de FamTECH](2026-10-13_FamTECH_email_respuesta-lote2-ventilacion-agua-gallinaza.rtfd/) e integración en `evidence/quotations/README.md`, `docs/business-plan/08-automatizacion.md`, `docs/business-plan/09-arquitectura-electrica-hidraulica-comunicaciones.md`, `docs/business-plan/07-diseno-fisico.md` y el presupuesto consolidado. Las 8 preguntas quedaron resueltas: fan performance (parcial, solo "free air"), re-cotización EC sin cooling pads, área CJ01, ventilación escalonada, agua de limpieza de banda, punto/altura de descarga (con hallazgo nuevo de obra civil — fosa + elevador inclinado), presión/tubería de bebederos, y capacidad de banda confirmada por umbral (~50,000 aves/nave). La pregunta sobre si la guía de instalación de FamTECH cubre el tramo banda→contenedor (editada aquí pero no enviada) queda sin enviar — de baja prioridad, ver nota en el registro de cotizaciones.
 
 **Subject:** NidoSmart – Ventilation and water/manure handling questions (quotation BS04H092126)
 
@@ -131,7 +131,7 @@ NidoSmart
 | Lote | Tema | Enviado | Respondido | Notas |
 |---|---|---|---|---|
 | 1 | Expansión y layout | 2026-09-28 | 2026-09-28, seguimiento 2026-10-11 | **Cerrado en lo sustantivo.** Ronda 1 (2026-09-28): #2 altura, #5→#2 100m, #6→#8 comedero confirmados; #1/#6 metodología corregida. Ronda 2 (2026-10-11, tras seguimiento de NidoSmart): #1 — techo de 120 m/90 grupos confirmado como máximo recomendado por nave; #3 — cimentación extensible por fases, juntas cada ≈6 m, mismo nivel entre fases; #4 — banda de gallinaza confirmada "dimensionada solo para 640 aves hoy" (sin kg/h exacto); #7 — **resuelto**: el arreglo es espalda con espalda al centro con pasillos laterales (no el pasillo central que asumía nuestro diagrama original) — corregido en `docs/business-plan/07-diseno-fisico.md` §7.1.1, corroborado por "the aisles" (plural) del hilo de iluminación de 2026-09-20. FamTECH también adjuntó una cotización v4 anotada mostrando qué partes se compran una sola vez por fila vs. cuáles se repiten por set (ver `evidence/quotations/2026-09-28_FamTECH_v4-anotado_partes-compartidas-vs-repetibles.pdf`, reenviada idéntica el 2026-10-11). Ver [respuesta 2026-09-28](2026-09-28_FamTECH_email_respuesta-lote1-expansion-layout.rtfd/), [respuesta 2026-10-11](2026-10-11_FamTECH_email_respuesta-civil-expansion-foundation.rtfd/) e integración en `evidence/quotations/README.md` y docs de diseño. |
-| 2 | Ventilación y agua/gallinaza | — | — | |
+| 2 | Ventilación y agua/gallinaza | 2026-10-13 | 2026-10-13 | **Cerrado en lo sustantivo.** 8/8 preguntas resueltas (fan curve parcial, EC sin cooling pads, área CJ01, ventilación escalonada, agua de limpieza, descarga de banda, presión/tubería de bebederos, capacidad de banda). Hallazgo nuevo no previsto: la descarga de la banda requiere una fosa bajo el piso (tabique, ≈750 mm) + elevador inclinado externo — nuevo requisito de obra civil, ver [Diseño físico — 7.2.2](../../docs/business-plan/07-diseno-fisico.md#722-drenaje-y-manejo-de-gallinaza-revisión-septiembre-2026). FamTECH también adjuntó cotización v5 consolidada (jaula+automatización+iluminación+control ambiental sin cooling pads, CIP San Francisco Acatepec, No. BS04H101326) que de paso confirmó el flete final al sitio, cerrando un pendiente financiero separado. Ver [respuesta](2026-10-13_FamTECH_email_respuesta-lote2-ventilacion-agua-gallinaza.rtfd/). |
 | 3 | Eléctrico | — | — | |
 | 4 | Aislamiento y comercial | — | — | |
 

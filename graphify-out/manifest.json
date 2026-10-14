@@ -10,9 +10,9 @@
     "semantic_hash": "faf826c364e976fc6a1003ccd23e9e94"
   },
   "docs/business-plan/01-resumen-ejecutivo.md": {
-    "mtime": 1789414589.9715364,
-    "ast_hash": "9ce24a34039137c0c63433014719da72",
-    "semantic_hash": "9ce24a34039137c0c63433014719da72"
+    "mtime": 1791960852.22531,
+    "ast_hash": "815d00668bffb4b1dab1451e0f242227",
+    "semantic_hash": "815d00668bffb4b1dab1451e0f242227"
   },
   "docs/business-plan/02-descripcion-del-negocio.md": {
     "mtime": 1783905271.9041152,
@@ -40,19 +40,19 @@
     "semantic_hash": "fd7d0d3c23f186a3be87fb7c8e6f6d47"
   },
   "docs/business-plan/07-diseno-fisico.md": {
-    "mtime": 1791830419.8048213,
-    "ast_hash": "aa6af4f7c4097c357a8fb3ca60e76233",
-    "semantic_hash": "aa6af4f7c4097c357a8fb3ca60e76233"
+    "mtime": 1791960852.225379,
+    "ast_hash": "0f81321dbddf94a643abd26886d177c7",
+    "semantic_hash": "0f81321dbddf94a643abd26886d177c7"
   },
   "docs/business-plan/08-automatizacion.md": {
-    "mtime": 1791831301.9495444,
-    "ast_hash": "64132f5915dee7cd50fe29ea960da6ae",
-    "semantic_hash": "64132f5915dee7cd50fe29ea960da6ae"
+    "mtime": 1791960852.225444,
+    "ast_hash": "0b3ce81f1270fafa3d980601f62cd839",
+    "semantic_hash": "0b3ce81f1270fafa3d980601f62cd839"
   },
   "docs/business-plan/09-arquitectura-electrica-hidraulica-comunicaciones.md": {
-    "mtime": 1791831320.152475,
-    "ast_hash": "25d7653d5bc4434295e72555b52c6a5e",
-    "semantic_hash": "25d7653d5bc4434295e72555b52c6a5e"
+    "mtime": 1791960852.225486,
+    "ast_hash": "10695922e4af225af6c1c2c75324c648",
+    "semantic_hash": "10695922e4af225af6c1c2c75324c648"
   },
   "docs/business-plan/10-arquitectura-tecnologica.md": {
     "mtime": 1789281783.0646565,
@@ -90,9 +90,9 @@
     "semantic_hash": "6f9156fdf9c510bd7742726ec578f36b"
   },
   "docs/business-plan/17-plan-financiero.md": {
-    "mtime": 1789413829.5467606,
-    "ast_hash": "6f29a883d78735df4f4b6190c098dea8",
-    "semantic_hash": "6f29a883d78735df4f4b6190c098dea8"
+    "mtime": 1791960852.225539,
+    "ast_hash": "24a2e1ea4688986f6b3225e3250dffc0",
+    "semantic_hash": "24a2e1ea4688986f6b3225e3250dffc0"
   },
   "docs/business-plan/18-validacion-del-piloto.md": {
     "mtime": 1789284017.1799328,
@@ -155,9 +155,9 @@
     "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
   },
   "docs/governance/registro-de-decisiones.md": {
-    "mtime": 1791832734.618599,
-    "ast_hash": "e4c816dd4a2517e67d981d3e5697ec4a",
-    "semantic_hash": "e4c816dd4a2517e67d981d3e5697ec4a"
+    "mtime": 1791960852.225582,
+    "ast_hash": "33cd60e0e1433a79ef1fa0f7e3f27587",
+    "semantic_hash": "33cd60e0e1433a79ef1fa0f7e3f27587"
   },
   "docs/governance/trazabilidad.md": {
     "mtime": 1789281770.2760124,
@@ -205,9 +205,9 @@
     "semantic_hash": "f2119cf361f3ac51480495822867f236"
   },
   "docs/investment-project/01-proyecto-de-inversion.md": {
-    "mtime": 1791832723.0046122,
-    "ast_hash": "6270aa8f4f141fad93446eadbd7b8ad3",
-    "semantic_hash": "6270aa8f4f141fad93446eadbd7b8ad3"
+    "mtime": 1791960852.225623,
+    "ast_hash": "8eaf82c79fb90101c45a7683e35ae0d1",
+    "semantic_hash": "8eaf82c79fb90101c45a7683e35ae0d1"
   },
   "docs/investment-project/02-estructura-financiera.md": {
     "mtime": 1789281770.2653503,
@@ -225,9 +225,9 @@
     "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
   },
   "docs/investment-project/05-ficha-tecnica-nave.md": {
-    "mtime": 1791829324.384476,
-    "ast_hash": "d01ffbc501aed28422f76b9c34b6657b",
-    "semantic_hash": "d01ffbc501aed28422f76b9c34b6657b"
+    "mtime": 1791960852.225663,
+    "ast_hash": "a0d07b17d6f2a9c3402807822e8ce566",
+    "semantic_hash": "a0d07b17d6f2a9c3402807822e8ce566"
   },
   "docs/investment-project/06-vehiculo-de-distribucion.md": {
     "mtime": 1789420550.3579395,
@@ -235,9 +235,9 @@
     "semantic_hash": "a1782ef05b9aa48d70cbfdeeea5a9c13"
   },
   "docs/investment-project/07-presupuesto-consolidado-inversion-inicial.md": {
-    "mtime": 1791832706.5466762,
-    "ast_hash": "af9db50049d7c6eb72386ffbc813955c",
-    "semantic_hash": "af9db50049d7c6eb72386ffbc813955c"
+    "mtime": 1791960852.225704,
+    "ast_hash": "850346e4bb07dec4d2351f83ae3d4c15",
+    "semantic_hash": "850346e4bb07dec4d2351f83ae3d4c15"
   },
   "docs/investment-project/README.md": {
     "mtime": 1789420743.1629033,
@@ -245,9 +245,9 @@
     "semantic_hash": "86ef2887a6ff6f2e20d8da6d69ffb3d7"
   },
   "evidence/quotations/README.md": {
-    "mtime": 1791832669.4238403,
-    "ast_hash": "092c0351c2f3e2c6cc90a235b6f879e0",
-    "semantic_hash": "092c0351c2f3e2c6cc90a235b6f879e0"
+    "mtime": 1791960852.225786,
+    "ast_hash": "979a50fc97b56881530b8b06b9b17dd3",
+    "semantic_hash": "979a50fc97b56881530b8b06b9b17dd3"
   },
   "knowledge-base/README.md": {
     "mtime": 1789282190.8150854,
@@ -394,11 +394,6 @@
     "ast_hash": "f94937b0f3b84759b51b101818e57384",
     "semantic_hash": "f94937b0f3b84759b51b101818e57384"
   },
-  "evidence/correspondence/2026-09-21_FamTECH_email_cotizacion-iluminacion-y-explicacion.rtfd/TXT.rtf": {
-    "mtime": 1790052994.502733,
-    "ast_hash": "bba71fcbbe8eb36103e5acca7af1f2d1",
-    "semantic_hash": "bba71fcbbe8eb36103e5acca7af1f2d1"
-  },
   "evidence/quotations/2026-09-21_FamTECH_v4_Jaula-Automatizacion-Iluminacion_DDU-SanFranciscoAcatepec_USD22644.21.pdf": {
     "mtime": 1790052604.704841,
     "ast_hash": "050a92db1fded08cffd85f949b06aa59",
@@ -415,14 +410,9 @@
     "semantic_hash": "b4257feaba23aebe9bca20489e57b80b"
   },
   "evidence/correspondence/2026-09-27_NidoSmart_borrador-preguntas-famtech.md": {
-    "mtime": 1791832752.54008,
-    "ast_hash": "8dae57aec4950ec4732c549357133a59",
-    "semantic_hash": "8dae57aec4950ec4732c549357133a59"
-  },
-  "evidence/correspondence/2026-09-28_FamTECH_email_respuesta-lote1-expansion-layout.rtfd/TXT.rtf": {
-    "mtime": 1790656109.598357,
-    "ast_hash": "f44900bc282eb6520f138e79afa1a63b",
-    "semantic_hash": "f44900bc282eb6520f138e79afa1a63b"
+    "mtime": 1791960852.225745,
+    "ast_hash": "1aceca230379ce157974b3ddb72d75b0",
+    "semantic_hash": "1aceca230379ce157974b3ddb72d75b0"
   },
   "evidence/quotations/2026-09-28_FamTECH_v4-anotado_partes-compartidas-vs-repetibles.pdf": {
     "mtime": 1790637466.25491,
@@ -434,14 +424,34 @@
     "ast_hash": "75bef208192cec5649b53975aeb9cb91",
     "semantic_hash": "75bef208192cec5649b53975aeb9cb91"
   },
-  "evidence/correspondence/2026-10-11_FamTECH_email_respuesta-civil-expansion-foundation.rtfd/TXT.rtf": {
-    "mtime": 1791828951.77768,
-    "ast_hash": "a1ca0d6444434e100a5a671702e49466",
-    "semantic_hash": "a1ca0d6444434e100a5a671702e49466"
-  },
   "evidence/correspondence/2026-10-11_FamTECH_email_respuesta-civil-expansion-foundation.rtfd/unknown.jpg": {
     "mtime": 1791828951.749727,
     "ast_hash": "75bef208192cec5649b53975aeb9cb91",
     "semantic_hash": "75bef208192cec5649b53975aeb9cb91"
+  },
+  "evidence/quotations/2026-10-13_FamTECH_v5_Jaula-Automatizacion-ControlAmbiental-Iluminacion_CIP-SanFranciscoAcatepec_USD28046.pdf": {
+    "mtime": 1791956074.64131,
+    "ast_hash": "018a89fb039d171b96e756b0de562ca7",
+    "semantic_hash": "018a89fb039d171b96e756b0de562ca7"
+  },
+  "evidence/correspondence/2026-10-13_FamTECH_email_respuesta-lote2-ventilacion-agua-gallinaza.rtfd/unknown.jpg": {
+    "mtime": 1791959709.791033,
+    "ast_hash": "75bef208192cec5649b53975aeb9cb91",
+    "semantic_hash": "75bef208192cec5649b53975aeb9cb91"
+  },
+  "evidence/quotations/2026-10-13_FamTECH_dibujo-descarga-gallinaza_1-corte-fosa.png": {
+    "mtime": 1791956074.544806,
+    "ast_hash": "712012f479fdbd8501d2c07a3b3e3e16",
+    "semantic_hash": "712012f479fdbd8501d2c07a3b3e3e16"
+  },
+  "evidence/quotations/2026-10-13_FamTECH_dibujo-descarga-gallinaza_2-corte-nave.png": {
+    "mtime": 1791956074.549616,
+    "ast_hash": "eaaa3277c08c1504294a9006811ea7b9",
+    "semantic_hash": "eaaa3277c08c1504294a9006811ea7b9"
+  },
+  "evidence/quotations/2026-10-13_FamTECH_dibujo-descarga-gallinaza_3-elevador-inclinado.png": {
+    "mtime": 1791956074.593247,
+    "ast_hash": "6e6b6ffe98be478c53b1d356c636727f",
+    "semantic_hash": "6e6b6ffe98be478c53b1d356c636727f"
   }
 }

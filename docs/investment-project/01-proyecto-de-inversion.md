@@ -3,8 +3,8 @@ title: "Proyecto de inversión"
 project: "NidoSmart"
 document_type: "investment-project"
 status: "draft"
-version: "1.4"
-last_updated: "2026-10-12"
+version: "1.5"
+last_updated: "2026-10-13"
 ---
 
 # Proyecto de inversión
@@ -22,7 +22,7 @@ El alcance queda definido por la cotización vigente del proveedor de jaula auto
 
 Este es exactamente lo que se construirá con el crédito: una unidad completa, no una fracción ni un múltiplo hipotético.
 
-**Importante:** la cotización de $17,747 USD entrega el equipo hasta un almacén en la **ciudad de Puebla**, no hasta el sitio del proyecto en San Francisco Acatepec (aclarado por el proveedor el 2026-08-03; ver sección 3). El flete final aún no está cotizado.
+**Importante (superado, ver actualización abajo):** la cotización original de $17,747 USD (v1/v2) entregaba el equipo hasta un almacén en la **ciudad de Puebla**, no hasta el sitio del proyecto en San Francisco Acatepec (aclarado por el proveedor el 2026-08-03; ver sección 3). **Resuelto (2026-10-13):** las cotizaciones v4 (2026-09-21) y v5 (2026-10-13) ya entregan directo a San Francisco Acatepec — el flete final a sitio está confirmado, no pendiente.
 
 **La inversión inicial compra más capacidad de la que exige la meta del plan.** El plan de negocios fija como meta de largo plazo 5,000 aves (ver [Resumen ejecutivo](../business-plan/01-resumen-ejecutivo.md)). Según el proveedor, la infraestructura compartida de alimentación y recolección de huevo de esta misma cotización admite hasta **90 "grupos de jaula" (≈11,520 aves)** sin necesitar un segundo sistema compartido completo. Es decir: el crédito de esta primera unidad no sólo cubre el punto de partida (640 aves), sino que compra headroom de infraestructura compartida por encima de la meta completa de 5,000 aves — un argumento a favor de la eficiencia de esta inversión frente a un financiador. (Cifra declarada por el proveedor para una nave de referencia de 120 m; no verificada aún para nuestra nave específica de 17 m/5 sets — ver [Modelo modular de crecimiento — 6.2](../business-plan/06-crecimiento-modular.md#62-escala-recomendada) y el pendiente en el [registro de cotizaciones](../../evidence/quotations/README.md#pendientes-con-este-proveedor).)
 
@@ -34,23 +34,22 @@ La lógica original (empezar con una escala controlada, validar antes de crecer,
 
 ## 3. Inversión inicial (CAPEX)
 
-**Corrección (2026-09-14):** el proveedor aclaró el 2026-08-03 que los $17,747 USD entregan sólo hasta un almacén en la ciudad de Puebla, no hasta el sitio del proyecto. El flete final (Puebla → San Francisco Acatepec) es una partida aparte, todavía sin cotizar.
+**Corrección (2026-09-14, superada 2026-10-13):** el proveedor aclaró el 2026-08-03 que los $17,747 USD originales (v1/v2) entregaban sólo hasta un almacén en la ciudad de Puebla. **El flete final a San Francisco Acatepec ya está confirmado** (v4/v5, ver sección 3) — USD $22,664.21 ≈ $419,288 MXN es el costo real de equipo + iluminación entregado en sitio (sin control ambiental).
 
 | Concepto | Estado | Rango estimado MXN |
 | --- | --- | ---: |
-| Jaula automatizada tipo H (5 sets, 4 niveles) + alimentación + bebederos + recolección de huevo + retiro de gallinaza, entregado en ciudad de Puebla | Sustituido por cotización real (FamTECH v1/v2, USD $17,747) | $328,300 *(fijo)* |
-| Flete final: ciudad de Puebla → sitio del proyecto | Pendiente — no incluido en la cotización, sin cotizar | Sin cotizar |
-| Obra civil (nave 17×4×4.2 m) | Recalculado por huella de la nave; sin cotización formal | $227,000–$421,000 |
+| Jaula automatizada tipo H (5 sets, 4 niveles) + alimentación + bebederos + recolección de huevo + retiro de gallinaza + iluminación, **entregado en San Francisco Acatepec** | Confirmado por cotización real (FamTECH v4/v5, USD $22,664.21) | $419,288 *(fijo)* |
+| Obra civil (nave 17×4×4.2 m) | Recalculado por huella de la nave; sin cotización formal. Incluye nuevo requisito de fosa/elevador de banda de gallinaza, aún sin cotizar (ver [Presupuesto consolidado — 5.1](./07-presupuesto-consolidado-inversion-inicial.md#51-drenaje-aguas-residuales-y-manejo-de-gallinaza)) | $227,000–$421,000 |
 | Agua: tanque, tratamiento y medición adicional | Recalculado; sin cotización formal | $20,000–$45,000 |
 | Controlador, sensores y comunicaciones (capa NidoSmart) | Conservado — no escala con el número de aves | $25,000–$65,000 |
 | Conectividad a internet y respaldo satelital | Conservado — no depende de la escala de aves | $8,000–$25,000 |
 | UPS y respaldo energético | Recalculado por mayor carga eléctrica; sin estudio de carga formal | $90,000–$220,000 |
 | Bioseguridad y contingencias | Conservado, ajuste menor | $25,000–$70,000 |
-| **Total (piso; excluye flete final, aún sin cotizar)** | | **$723,300–$1,174,300 + flete final pendiente** |
+| **Total (piso; equipo ya incluye flete a sitio)** | | **$814,288–$1,265,288** |
 
 Desarrollo completo, metodología y tipo de cambio de referencia en [Plan financiero — 17.1 Inversión inicial](../business-plan/17-plan-financiero.md#171-inversión-inicial).
 
-**Presupuesto consolidado (2026-09-14):** esta tabla se desarrolla partida por partida —incluyendo nave, obra civil, infraestructura eléctrica/hidráulica, vehículo de distribución, aves, permisos, capital de trabajo y contingencia diferenciada— en el [Presupuesto consolidado de inversión inicial](./07-presupuesto-consolidado-inversion-inicial.md), con una inversión total estimada de **≈$1,285,000–$2,256,000 MXN** (sin transporte final Puebla→sitio ni instalación de la jaula, ambos sin cotizar; cifra actualizada en septiembre 2026 al agregar la partida de drenaje/aguas residuales/gallinaza, antes disuelta sin desglose dentro de obra civil — ver [Presupuesto consolidado — 5.1](./07-presupuesto-consolidado-inversion-inicial.md#51-drenaje-aguas-residuales-y-manejo-de-gallinaza)). La especificación técnica previa de la nave, requisito antes de cotizarla formalmente, se desarrolla en la [Ficha técnica — Nave avícola](./05-ficha-tecnica-nave.md). Ver [DEC-013](../governance/registro-de-decisiones.md#dec-013--presupuesto-consolidado-de-inversión-inicial-con-vehículo-de-distribución-fuera-del-crédito).
+**Presupuesto consolidado (2026-09-14, actualizado 2026-10-13):** esta tabla se desarrolla partida por partida —incluyendo nave, obra civil, infraestructura eléctrica/hidráulica, vehículo de distribución, aves, permisos, capital de trabajo y contingencia diferenciada— en el [Presupuesto consolidado de inversión inicial](./07-presupuesto-consolidado-inversion-inicial.md), con una inversión total estimada de **≈$1,385,000–$2,356,000 MXN**. El flete final a San Francisco Acatepec ya está incluido (confirmado 2026-10-13); la guía técnica opcional de instalación de FamTECH (USD $4,000–$9,000, resuelta 2026-10-12) sigue **fuera** de este total por ser una decisión pendiente de NidoSmart, igual que la fosa/elevador de la banda de gallinaza (nuevo requisito de obra civil, 2026-10-13, aún sin cotizar) — ver el detalle de partidas excluidas en el [Presupuesto consolidado — Tabla consolidada](./07-presupuesto-consolidado-inversion-inicial.md#tabla-consolidada). La especificación técnica previa de la nave, requisito antes de cotizarla formalmente, se desarrolla en la [Ficha técnica — Nave avícola](./05-ficha-tecnica-nave.md). Ver [DEC-013](../governance/registro-de-decisiones.md#dec-013--presupuesto-consolidado-de-inversión-inicial-con-vehículo-de-distribución-fuera-del-crédito).
 
 **Partida opcional en pausa:** control ambiental (ventiladores, cooling pads, sensores) — cotización FamTECH v3, USD $6,348 adicionales (≈$117,400 MXN) sobre la jaula base. Se decidió no incluirla hasta definir el diseño de la nave (ver [decisión vigente](../../evidence/quotations/README.md#decisión-vigente-2026-07-22)).
 
@@ -62,11 +61,11 @@ Terreno, vehículo, impuestos, permisos locales, estudios ambientales, obra mayo
 
 * Producción: ≈192,000–198,400 huevos/año (300–310 huevos/ave/año × 640 aves). Ver [Producción y capacidad comercial](../business-plan/16-produccion-y-capacidad-comercial.md).
 * Ingresos año 1 estimados: ≈$824,040 MXN. OPEX año 1 estimado: ≈$785,677 MXN. Flujo antes de CAPEX: ≈$38,363 MXN. Ver [Plan financiero — 17.3](../business-plan/17-plan-financiero.md#173-proyección-preliminar--primera-unidad-640-aves).
-* El flujo operativo de la primera unidad **no alcanza a cubrir el CAPEX de una segunda unidad** ($723,300–$1,174,300 MXN, sin contar el flete final). Una segunda unidad es, por diseño, una decisión de financiamiento separada y futura, no una expansión autofinanciada — este es precisamente el motivo de ser de este documento.
+* El flujo operativo de la primera unidad **no alcanza a cubrir el CAPEX de una segunda unidad** ($814,288–$1,265,288 MXN, ya con el flete a sitio incluido). Una segunda unidad es, por diseño, una decisión de financiamiento separada y futura, no una expansión autofinanciada — este es precisamente el motivo de ser de este documento.
 
 ## 6. Pendientes antes de formalizar el expediente
 
-* **Cotizar el flete final** de la ciudad de Puebla al sitio del proyecto en San Francisco Acatepec — no incluido en los $17,747 USD ya cotizados (aclarado por el proveedor el 2026-08-03).
+* ~~Cotizar el flete final de la ciudad de Puebla al sitio del proyecto en San Francisco Acatepec~~ — **Resuelto (2026-10-13):** v4 y v5 ya cotizan directo a San Francisco Acatepec (USD $10,281 de flete marítimo/terrestre/portuario, confirmado por dos cotizaciones independientes); ver [sección 3](#3-inversión-inicial-capex).
 * ~~Confirmar con el proveedor si el precio cotizado incluye instalación en sitio o si es una partida aparte.~~ — **Resuelto (2026-10-12):** FamTECH no instala el equipo — la instalación la hace NidoSmart con su propia mano de obra, con guía técnica opcional de FamTECH (2-3 técnicos, 20-30 días, USD $100/persona/día) a decidir — ver [presupuesto — sección 11](./07-presupuesto-consolidado-inversion-inicial.md#11-instalación-y-puesta-en-marcha).
 * **Cerrar los pendientes críticos de la [ficha técnica de la nave](./05-ficha-tecnica-nave.md#estado-de-la-ficha-técnica)** (tipo estructural, materiales, orientación, resistencia a viento/granizo, estudio de sitio) antes de solicitar cotización formal de obra civil — hoy 4 de 21 parámetros están confirmados (altura libre y techo de expansión ya resueltos).
 * Estudio de carga eléctrica para dimensionar UPS y respaldo energético.
