@@ -45,14 +45,14 @@
     "semantic_hash": "0f81321dbddf94a643abd26886d177c7"
   },
   "docs/business-plan/08-automatizacion.md": {
-    "mtime": 1791960852.225444,
-    "ast_hash": "0b3ce81f1270fafa3d980601f62cd839",
-    "semantic_hash": "0b3ce81f1270fafa3d980601f62cd839"
+    "mtime": 1792954765.2287982,
+    "ast_hash": "d0850fa687693c01904be4b10e063e93",
+    "semantic_hash": "d0850fa687693c01904be4b10e063e93"
   },
   "docs/business-plan/09-arquitectura-electrica-hidraulica-comunicaciones.md": {
-    "mtime": 1791960852.225486,
-    "ast_hash": "10695922e4af225af6c1c2c75324c648",
-    "semantic_hash": "10695922e4af225af6c1c2c75324c648"
+    "mtime": 1792954879.8593366,
+    "ast_hash": "73400ab21ed3ab24f726dd72d3023894",
+    "semantic_hash": "73400ab21ed3ab24f726dd72d3023894"
   },
   "docs/business-plan/10-arquitectura-tecnologica.md": {
     "mtime": 1789281783.0646565,
@@ -245,9 +245,9 @@
     "semantic_hash": "86ef2887a6ff6f2e20d8da6d69ffb3d7"
   },
   "evidence/quotations/README.md": {
-    "mtime": 1791960852.225786,
-    "ast_hash": "979a50fc97b56881530b8b06b9b17dd3",
-    "semantic_hash": "979a50fc97b56881530b8b06b9b17dd3"
+    "mtime": 1792954703.2781851,
+    "ast_hash": "676fac92a289cc6d745b71aebebf7b31",
+    "semantic_hash": "676fac92a289cc6d745b71aebebf7b31"
   },
   "knowledge-base/README.md": {
     "mtime": 1789282190.8150854,
@@ -410,9 +410,9 @@
     "semantic_hash": "b4257feaba23aebe9bca20489e57b80b"
   },
   "evidence/correspondence/2026-09-27_NidoSmart_borrador-preguntas-famtech.md": {
-    "mtime": 1791960852.225745,
-    "ast_hash": "1aceca230379ce157974b3ddb72d75b0",
-    "semantic_hash": "1aceca230379ce157974b3ddb72d75b0"
+    "mtime": 1792954906.8993537,
+    "ast_hash": "e71c586ec7f91be64db46e205025e2be",
+    "semantic_hash": "e71c586ec7f91be64db46e205025e2be"
   },
   "evidence/quotations/2026-09-28_FamTECH_v4-anotado_partes-compartidas-vs-repetibles.pdf": {
     "mtime": 1790637466.25491,
@@ -453,5 +453,15 @@
     "mtime": 1791956074.593247,
     "ast_hash": "6e6b6ffe98be478c53b1d356c636727f",
     "semantic_hash": "6e6b6ffe98be478c53b1d356c636727f"
+  },
+  "evidence/correspondence/2026-10-15_FamTECH_email_respuesta-lote3-electrico.rtfd/unknown.jpg": {
+    "mtime": 1792954594.5839405,
+    "ast_hash": "75bef208192cec5649b53975aeb9cb91",
+    "semantic_hash": "75bef208192cec5649b53975aeb9cb91"
+  },
+  "evidence/quotations/2026-10-15_FamTECH_dibujo-altura-lamparas-4niveles.jpg": {
+    "mtime": 1792954594.5897825,
+    "ast_hash": "b4257feaba23aebe9bca20489e57b80b",
+    "semantic_hash": "b4257feaba23aebe9bca20489e57b80b"
   }
 }

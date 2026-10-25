@@ -1,6 +1,6 @@
 # Borrador — preguntas pendientes para FamTECH (respaldo local)
 
-**Estado:** Lotes 1 y 2 enviados y cerrados en lo sustantivo (ver tabla de registro abajo). Lotes 3-4 siguen como borrador, pendientes de enviar.
+**Estado:** Lotes 1, 2 y 3 enviados y cerrados en lo sustantivo (ver tabla de registro abajo). Lote 4 sigue como borrador, pendiente de enviar.
 **Origen:** consolidación de todos los pendientes abiertos con FamTECH dispersos en [`evidence/quotations/README.md`](../quotations/README.md), redactada el 2026-09-23/24.
 **Destinatario:** FamTECH / Anyang Best Complete Machinery Engineering Co., Ltd (bh@gcmec.com / bh@famtechpoultry.com).
 **Idioma:** inglés — toda la correspondencia previa con este proveedor (cotizaciones, respuestas de ingeniería) ha sido en inglés.
@@ -80,24 +80,26 @@ NidoSmart
 
 ## Lote 3 — Electrical
 
-**Estado:** pendiente de enviar
+**Estado:** enviado 2026-10-15 (nota: se envió una versión ligeramente distinta a la de este borrador — 7 preguntas, no 8; se retiró antes de enviar el ítem sobre confirmación por escrito de compatibilidad 60Hz, que seguía como borrador en este archivo), respondido 2026-10-15 — ver [respuesta de FamTECH](2026-10-15_FamTECH_email_respuesta-lote3-electrico.rtfd/) e integración en `evidence/quotations/README.md`, `docs/business-plan/09-arquitectura-electrica-hidraulica-comunicaciones.md` y `docs/business-plan/08-automatizacion.md`. De las 7 preguntas enviadas: potencia/voltaje/tipo de motor de banda de gallinaza (resuelto), corriente nominal/LRA de todos los motores (resuelto), especificación eléctrica de actuadores CJ01 (resuelto), consumo del controlador YB y sensores DMR (parcial — solo DMR), motor de la cortina de blackout (resuelto, con corrección de supuesto: no es un ítem de FamTECH), diagrama unifilar (diferido hasta el anticipo, no resuelto), y duplicación de iluminación por layout de doble cara (respondido en sentido de "no hace falta duplicar", pero con una inconsistencia numérica frente a la explicación anterior del proveedor, sin cerrar del todo — ver nota en el registro de cotizaciones). La pregunta sobre confirmación escrita de compatibilidad 60Hz (editada aquí pero no enviada) sigue abierta — ver nota en el registro de cotizaciones.
 
 **Subject:** NidoSmart – Electrical specification questions (quotation BS04H092126)
 
 Dear FamTECH team,
 
-Here is our third batch of questions, focused on the electrical specifications we need to finalize our panel and wiring design.
+Thank you very much for your detailed reply on ventilation and water/manure handling. That closes the design work we needed on that side for now — the drawings in particular were a great help in finalizing some of our civil works planning.
 
-1. Power (kW/HP), voltage, and motor type (three-phase/single-phase) for the manure-removal belt motor (item III.2/III.4) — not specified in any version of the quotation so far.
-2. Rated current (A) and locked-rotor/starting current (LRA) for each quoted motor: feeder gearbox (0.75 kW), egg-belt motor (0.55 kW), and each of the two fans (1.1 kW).
-3. Written confirmation that all motors are compatible with the Mexican 60 Hz grid at no extra cost, and which specific motors would trigger the "extra cost of special motors" mentioned in your quotation if our site's electrical service is not three-phase 380V/50Hz or single-phase 220V/50Hz.
-4. Electrical specification (voltage, current, connection type) of the two CJ01 linear air-inlet actuators and their two inlet controllers (v3, items V.4–V.5).
-5. Power consumption (W) of the YB controller (7″) and of the DMR temperature/humidity sensors.
-6. Is the blackout-curtain gear motor the same CJ01 actuator already quoted for the air inlets, or a separate unit with its own specification?
-7. Do you have a single-line electrical diagram or reference data sheet for a typical 5-set / 640-bird installation, for us to cross-check our own design?
-8. Lighting layout question: now that we understand the cage system is double-sided (back-to-back, with a walkway on each side), does the 14-bulb/7-point lighting arrangement already quoted cover only one face of the block? If so, we'd need a matching second set for the opposite face (~28 bulbs, 14 points total) — can you confirm, and let us know whether the dimming controller already quoted can run both faces as separate zones, or whether a second controller would be needed?
+Here is our third batch of questions, focused on the electrical specifications we need to finalize our panel and wiring design. As before, we've added a short note on why we're asking each one.
 
-Thank you again for your help.
+1. Power (kW/HP), voltage, and motor type (three-phase/single-phase) for the manure-removal belt motor (item III.2/III.4). This is the one motor not specified in any version of the quotation so far, and we need it to size the breaker and wiring for that circuit.
+2. Rated current (A) and locked-rotor/starting current (LRA) for each quoted motor: feeder gearbox (0.75 kW), egg-belt motor (0.55 kW), and each of the two fans (1.1 kW). We need these values to size wire gauge, breakers, and contactors in our panel design.
+3. You confirmed by email on July 21, 2026 that motors and drives can be customized for Mexico's 60Hz grid at no extra cost. Could you put this in writing in the formal quotation document, and confirm it also covers the equipment added since then — the two environmental-control fans, the CJ01 air-inlet actuators, the manure-belt motor, and the YB controller? We'd like our electrical design to rely on a written spec rather than an informal confirmation from earlier in the process.
+4. Electrical specification (voltage, current, connection type) of the two CJ01 linear air-inlet actuators and their two inlet controllers (v3, items V.4–V.5). We need this to finish the wiring design for the air-inlet circuit.
+5. Power consumption (W) of the YB controller (7″) and of the DMR temperature/humidity sensors. We need this to size our backup power (UPS) capacity correctly.
+6. Is the blackout-curtain gear motor the same CJ01 actuator already quoted for the air inlets, or a separate unit with its own specification? This determines whether it shares a circuit and spare parts with the air-inlet actuators or needs its own.
+7. Do you have a single-line electrical diagram or reference data sheet for a typical 5-set / 640-bird installation? We'd like to cross-check our own panel design against it before finalizing.
+8. Lighting layout question: now that we understand the cage system is double-sided (back-to-back, with a walkway on each side), does the 14-bulb/7-point lighting arrangement already quoted cover only one face of the block? If so, we'd need a matching second set for the opposite face (~28 bulbs, 14 points total) — can you confirm, and let us know whether the dimming controller already quoted can run both faces as separate zones, or whether a second controller would be needed? We need this to finalize our fixture count and circuit sizing before ordering electrical materials.
+
+Thank you again for your continued support.
 
 Best regards,
 [tu nombre]
@@ -132,7 +134,7 @@ NidoSmart
 |---|---|---|---|---|
 | 1 | Expansión y layout | 2026-09-28 | 2026-09-28, seguimiento 2026-10-11 | **Cerrado en lo sustantivo.** Ronda 1 (2026-09-28): #2 altura, #5→#2 100m, #6→#8 comedero confirmados; #1/#6 metodología corregida. Ronda 2 (2026-10-11, tras seguimiento de NidoSmart): #1 — techo de 120 m/90 grupos confirmado como máximo recomendado por nave; #3 — cimentación extensible por fases, juntas cada ≈6 m, mismo nivel entre fases; #4 — banda de gallinaza confirmada "dimensionada solo para 640 aves hoy" (sin kg/h exacto); #7 — **resuelto**: el arreglo es espalda con espalda al centro con pasillos laterales (no el pasillo central que asumía nuestro diagrama original) — corregido en `docs/business-plan/07-diseno-fisico.md` §7.1.1, corroborado por "the aisles" (plural) del hilo de iluminación de 2026-09-20. FamTECH también adjuntó una cotización v4 anotada mostrando qué partes se compran una sola vez por fila vs. cuáles se repiten por set (ver `evidence/quotations/2026-09-28_FamTECH_v4-anotado_partes-compartidas-vs-repetibles.pdf`, reenviada idéntica el 2026-10-11). Ver [respuesta 2026-09-28](2026-09-28_FamTECH_email_respuesta-lote1-expansion-layout.rtfd/), [respuesta 2026-10-11](2026-10-11_FamTECH_email_respuesta-civil-expansion-foundation.rtfd/) e integración en `evidence/quotations/README.md` y docs de diseño. |
 | 2 | Ventilación y agua/gallinaza | 2026-10-13 | 2026-10-13 | **Cerrado en lo sustantivo.** 8/8 preguntas resueltas (fan curve parcial, EC sin cooling pads, área CJ01, ventilación escalonada, agua de limpieza, descarga de banda, presión/tubería de bebederos, capacidad de banda). Hallazgo nuevo no previsto: la descarga de la banda requiere una fosa bajo el piso (tabique, ≈750 mm) + elevador inclinado externo — nuevo requisito de obra civil, ver [Diseño físico — 7.2.2](../../docs/business-plan/07-diseno-fisico.md#722-drenaje-y-manejo-de-gallinaza-revisión-septiembre-2026). FamTECH también adjuntó cotización v5 consolidada (jaula+automatización+iluminación+control ambiental sin cooling pads, CIP San Francisco Acatepec, No. BS04H101326) que de paso confirmó el flete final al sitio, cerrando un pendiente financiero separado. Ver [respuesta](2026-10-13_FamTECH_email_respuesta-lote2-ventilacion-agua-gallinaza.rtfd/). |
-| 3 | Eléctrico | — | — | |
+| 3 | Eléctrico | 2026-10-15 | 2026-10-15 | **Cerrado en lo sustantivo, con un cabo suelto numérico.** 6/7 preguntas enviadas resueltas (motor de banda de gallinaza, corriente/LRA de todos los motores, especificación de actuadores CJ01, motor de cortina de blackout con corrección de supuesto). Parcial: consumo del controlador YB sigue sin dato (FamTECH lo confirmará aparte); diagrama unifilar diferido hasta el anticipo. La respuesta sobre duplicación de iluminación por doble cara no cuadra con la explicación previa del proveedor — pendiente aclarar antes de cerrar el presupuesto de iluminación, ver [registro de cotizaciones](../quotations/README.md#pendientes-con-este-proveedor). Hallazgo adicional: diagrama de altura de lámparas adjunto (`2026-10-15_FamTECH_dibujo-altura-lamparas-4niveles.jpg`). Ver [respuesta](2026-10-15_FamTECH_email_respuesta-lote3-electrico.rtfd/). |
 | 4 | Aislamiento y comercial | — | — | |
 
 Cuando cada lote se envíe y se responda, trasladar lo resuelto a [`evidence/quotations/README.md`](../quotations/README.md) siguiendo el mismo formato ya usado ahí (tachar la pregunta resuelta con `~~texto~~` y anotar la respuesta), y actualizar la tabla de arriba.
